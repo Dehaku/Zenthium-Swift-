@@ -23,13 +23,15 @@ Not directly upgradable. Gear and powers change them through shared tags (`modul
 - Every hero can always Kick (`modules.md`).
 
 ## Defiance (Will)
+Applies to every entity.
+
 - **Trigger:** incoming damage would take an entity to 0 HP or below. It is left at 1 HP instead.
 - **Proc chance:** 1% per 10 Will. Can exceed 100%.
-  - Example: at 200%, two procs are guaranteed and the remaining roll is 0%.
-- **Cost:** each proc removes 100 Will for the rest of the mission, which lowers the proc chance.
-- **Effect:** 5 seconds of invulnerability.
-- **Presentation:** time slows briefly and "I will not die here!" displays.
-- **HUD:** the Will percentage shows next to the health bar.
+  - Example: at 213%, two procs are guaranteed and the remaining roll is 13%.
+- **Cost:** each proc gives the entity a silent **Defiance Roll** debuff of 100 (lasts the mission, stacks per proc). It lowers the Will used for Defiance rolls by 100 each, so the proc chance drops. The Will stat itself is untouched, so nothing else that uses Will is affected.
 
-## Open
-- Does Defiance apply to every entity (enemies included) or only to heroes? The rule currently says "an entity".
+| | Player | Everyone else |
+|---|---|---|
+| Invulnerability | 5 s | 1 s |
+| Presentation | Time slows briefly and "I will not die here!" displays | "Defiance!" pops above the head and fades out over 1 s, with a quiet sound cue |
+| HUD | Will percentage next to the health bar | None |

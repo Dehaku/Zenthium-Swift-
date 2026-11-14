@@ -32,6 +32,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction units are descr
 | Kick | Base action | All heroes | `Melee` | Strength scaling, scaling knockback. Outside slots |
 | Speed Punch | Active | Hero | `Melee` | Attacks 3x faster than Kick, full Kick damage per hit, no knockback. No timescale cooldown tag. Pairs well with time powers |
 | Super Lucky | Passive | Hero | | Raises Luck so all random rolls favor the character (inspired by Domino) |
+| Deathly Rage | Passive | Any | `Buff` | On Defiance proc, grants the Deathly Rage buff: triples Strength and Toughness. Does not stack. Infinite duration |
 | Time Slow | Active | Hero | `Time` | Lowers timescale; player unaffected |
 | Time Stop | Active | Hero | `Time` | Freezes timescale; player unaffected |
 | Meat Slap | Active | Dr. Edd | `Ranged` | Ranged attack |
@@ -53,4 +54,5 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction units are descr
 | Super Stats | Passive | Chad | | Speed, durability, stat scaling |
 
 ## Open
+- Does Deathly Rage's tripled Toughness also scale current HP, or only max HP?
 - Speed Punch does full Kick damage at 3x the attack rate. If it outclasses Kick, give it a longer cooldown or lower damage per hit.
