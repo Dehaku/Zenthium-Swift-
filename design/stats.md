@@ -28,7 +28,8 @@ Applies to every entity.
 - **Trigger:** incoming damage would take an entity to 0 HP or below. It is left at 1 HP instead.
 - **Proc chance:** 1% per 10 Will. Can exceed 100%.
   - Example: at 213%, two procs are guaranteed and the remaining roll is 13%.
-- **Cost:** each proc gives the entity a silent **Defiance Roll** debuff of 100 (lasts the mission, stacks per proc). It lowers the Will used for Defiance rolls by 100 each, so the proc chance drops. The Will stat itself is untouched, so nothing else that uses Will is affected.
+- **Cost:** each proc gives the entity a silent **Defiance Roll** debuff of 100%. It removes 100% from the entity's Defiance proc chance, as if one guaranteed proc had been used up. Lasts the mission and stacks per proc. The Will stat itself is untouched, so nothing else that uses Will is affected.
+  - Example: at 213%, the first proc leaves 113%, the second leaves 13%, and a third is a 13% roll.
 
 | | Player | Everyone else |
 |---|---|---|
