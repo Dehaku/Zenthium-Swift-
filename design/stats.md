@@ -11,6 +11,7 @@ Upgradable and uncapped. Bought with Zenny in the HQ Training Room. Every entity
 | **F**inesse | Ranged damage; precision; passive dodge chance. Does not affect move speed |
 | **T**oughness | HP; resisting some debuffs, such as Infected and Broken Limb |
 
+- Percentage stat boosts multiply. Example: Chad's 10 Strength x3 (innate +200%, `factions.md`) x3 (Super Stats, `modules.md`) = 90.
 - These roles are general. Each module defines exactly how it uses stats (`modules.md`).
 - Which stat resists a debuff is set by a tag on the module that applies it (`combat.md`).
 
@@ -43,4 +44,4 @@ Applies to every entity.
 - The player's slowdown is a plain timescale change. Cooldowns always run in real seconds (`time.md`), so it needs no special rules.
 
 ## Open
-- Do percentage stat boosts add together or multiply? Example: Chad has +200% innate (`factions.md`) and +200% from Super Stats (`modules.md`). Adding gives +400% (5x); multiplying gives 3x then 3x (9x).
+- (none)
