@@ -65,7 +65,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Engulf | Active | Dr. Edd | | Grabs and holds the target |
 | Bone Spike | Active | Stalker | `Ranged` | Ranged attack |
 | Half-Invisible | Passive | Stalker | | 50% transparent. Uses Detectability rules |
-| Durability | Passive | Breaker | | Damage reduction |
+| Durability | Passive | Breaker | | 50% Damage Reduction |
 | Broken Limb | On hit | Breaker | `Debuff`, `Resist:Toughness` | Slowing debuff |
 | Infectious Bite | On hit | Zombie | `Debuff`, `Resist:Toughness` | "Infected" DoT debuff |
 | Turn on Death | Passive | Zombie | | An Infected target becomes a zombie when it dies, civilians included |
@@ -73,21 +73,19 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Cannons | Active | Tank | `Ranged` | Ranged attack |
 | Turrets | Active | Hacker | `Summon` | Summons turret entities |
 | Slot Disable | On hit | Hacker | `Debuff`, `Resist:Intelligence` | Disables a random gear slot for 5 s. Hits from the Hacker's turrets don't count |
-| Chrome Body | Passive | Kingping | | Durability and implant effects |
+| Chrome Body | Passive | Kingping | | 25% Damage Reduction |
 | Gold-Plated Chrome | Passive | Kingping | `Buff` | +5% Toughness and +1% Damage Reduction for each Valuable he holds. The extra HP from Toughness is added to current HP too. The Damage Reduction is one source that adds up per Valuable (30 Valuables = 30%) and multiplies with his other sources |
 | Machine Gun | Active | Mafioso | `Ranged` | Ranged attack |
 | Blade Arms | Active | Mafioso | `Melee` | Melee attack |
-| Super Stats | Passive | Chad | | Speed, durability, stat scaling |
+| Super Stats | Passive | Chad | | +200% to all SWIFT stats |
 | Tractor Beam | Active | GleebPeep | | Beam that pulls in every entity and prop in its path |
 | Tractor Pull | Active | Tractor Drone | | Pulls a hero or citizen toward the nearest Repo Agency crop circle (`factions.md`) |
 | Immovable | Passive | Shield Bearer, Strongman | `KnockbackResistant` | Can't be knocked back |
 | Energy Blaster | Active | Shield Bearer, Grey | `Ranged` | Ranged attack, Energy damage |
 | Spotlight | Active | The Ringmaster | `Buff` | A spotlight with a 20 m radius, centered on him. Circus entities inside get +50% to all stats |
 | Cannonball Launch | Active | Human Cannonball | `Melee` | Launches at a target for huge knockback |
-| Cream Pie | Active | Clown | `Ranged`, `Debuff`, `Resist:Will` | Thrown pie. On hit, applies "Pied": smears part of the player's screen for a few seconds |
+| Cream Pie | Active | Clown | `Ranged`, `Debuff`, `Resist:Will` | Thrown pie. On hit, applies "Pied": smears part of the player's screen, fading out over 3 s. Stacks: each pie adds another smear, so many pies can cover the screen quickly |
 | Summon Imps | Active | Summoner | `Summon` | Summons imp entities |
 | Fire Wand | Active | Acolyte | `Ranged` | Magic fire attack. Can set buildings and vehicles on fire |
 
 ## Open
-- Damage reduction numbers for Durability, Chrome Body and Super Stats (`combat.md`).
-- Pied's duration.
