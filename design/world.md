@@ -21,11 +21,11 @@
   - With no Leader, goons try to leave the map with their Valuables instead.
   - Once the Leader holds enough Valuables to fail the goal, the Leader tries to flee the map with them.
 - A Valuable counts as stolen once it's carried off the map.
-- Any entity carrying Valuables shows a small money bag icon under it, with the number held at the icon's bottom right. Hidden at 0.
+- Any entity carrying Valuables, civilians included, shows a small money bag icon under it, with the number held at the icon's bottom right. Hidden at 0.
 - A carrier drops all its Valuables when defeated.
 - **Carrying Treasure:** a debuff on goons holding Valuables. -5% move speed per Valuable, capped at -50%.
 - **Civilians:** each has a 10% chance to carry a Valuable. They drop it when Incapacitated, or while fleeing a goon that came within their fear range (`missions.md`). Incapacitated citizens start with theirs already dropped beside them.
 - Valuables do nothing on their own and don't affect mission rewards. Some factions use them (`factions.md`).
 
 ## Open
-- Does the money bag icon show over civilians carrying a Valuable, or is theirs a hidden surprise?
+- (none)
