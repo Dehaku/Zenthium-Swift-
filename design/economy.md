@@ -16,7 +16,7 @@
 ### Metallic sinks
 Keep Metallic useful after every slot and hero is unlocked:
 - **Cosmetics:** costumes, color palettes and alternate looks for heroes and Recruits.
-- **Melting down:** trade Metallic for Gem or Basic.
+- **Melting down:** 1 Metallic becomes 10 Basic or 4 Gem.
 - **Hiring Recruits:** the first Recruit is free; each extra one costs Metallic.
 
 ## Hero reward bonus
@@ -30,4 +30,4 @@ Keep Metallic useful after every slot and hero is unlocked:
 - Toggle: the bonus resets to 100% whenever the hero completes a mission.
 
 ## Open
-- Exchange rates for melting Metallic down into Gem and Basic.
+- (none)
