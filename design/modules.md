@@ -74,7 +74,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Turrets | Active | Hacker | `Summon` | Summons turret entities |
 | Slot Disable | On hit | Hacker | `Debuff`, `Resist:Intelligence` | Disables a random gear slot for 5 s. Hits from the Hacker's turrets don't count |
 | Chrome Body | Passive | Kingping | | Durability and implant effects |
-| Gold-Plated Chrome | Passive | Kingping | `Buff` | Gains Armor and HP for each Valuable he holds |
+| Gold-Plated Chrome | Passive | Kingping | `Buff` | +5% Toughness and +5% HP for each Valuable he holds |
 | Machine Gun | Active | Mafioso | `Ranged` | Ranged attack |
 | Blade Arms | Active | Mafioso | `Melee` | Melee attack |
 | Super Stats | Passive | Chad | | Speed, durability, stat scaling |
@@ -91,4 +91,4 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 ## Open
 - Damage reduction numbers for Durability, Chrome Body and Super Stats (`combat.md`).
 - Pied's duration.
-- Gold-Plated Chrome: Armor and HP per Valuable (after damage reduction is settled in `combat.md`).
+- Gold-Plated Chrome: is the +5% HP on top of the HP he already gets from the extra Toughness? Does it raise current HP as well as max HP?
