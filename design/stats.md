@@ -43,4 +43,4 @@ Applies to every entity.
 - The player's slowdown is a plain timescale change. Cooldowns always run in real seconds (`time.md`), so it needs no special rules.
 
 ## Open
-- Do percentage stat boosts add together (Chad: +200% innate + 200% Super Stats, `factions.md` and `modules.md` = +400%) or multiply (3x then 3x = 9x)?
+- Do percentage stat boosts add together or multiply? Example: Chad has +200% innate (`factions.md`) and +200% from Super Stats (`modules.md`). Adding gives +400% (5x); multiplying gives 3x then 3x (9x).
