@@ -10,12 +10,12 @@
 ## Hero reward bonus
 - Multiplies all mission rewards: Zenny, XP (if added), anything gained. Tracked per hero.
 - +10% for each mission played without that hero. No cap.
-- When the hero completes a mission, their bonus drops by 30%, to a floor of 100%. Example: 360% → 330%.
+- When the hero completes a mission, their bonus drops by 30 points, to a floor of 100%. Example: 360% → 330%.
 - A failed mission doesn't change any bonus.
 
 ## Dev options
-- Reward bonus drop amount (default 30%).
+- Reward bonus drop amount (default 30 points).
 - Toggle: the bonus resets to 100% whenever the hero completes a mission.
 
 ## Open
-- The drop is described as "30% of the current bonus", but the example (360% → 330%) is a drop of 30 points. 30% of 360% would leave 252%. Which one?
+- (none)

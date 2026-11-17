@@ -15,9 +15,9 @@
 |---|---|---|---|
 | Active power | 1 | 4 | Active modules |
 | Passive power | 1 | 4 | Passive modules |
-| Gear | 1 | 4 | Items, armor, weapons, spellcasting items, utility belt, iconic gear (a mighty hammer, a power ring) |
+| Gear | 1 | 4 | Items, armor, weapons, spellcasting items, utility belt, iconic gear (Thor's hammer, a power ring) |
 
-- More slots are unlocked with Zenny (`economy.md`).
+- Most slots start locked. They are unlocked with Zenny (`economy.md`).
 - Every module takes 1 slot. A hero can't equip two copies of the same module.
 - Kick, Drag and Sprint are always available outside the slots (`modules.md`).
 - Loadouts change only at HQ (`hq.md`).
@@ -26,4 +26,3 @@
 ## Open
 - Revisit the preset heroes, including the sixth archetype.
 - Saved loadout options for CAHs?
-- Is 4 the max for every slot type? The first notes said 2-4 active and 2-4 passive.

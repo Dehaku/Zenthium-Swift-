@@ -50,7 +50,7 @@
 - **Drag** citizens out by hand (`modules.md`).
 - **Extraction gear:** special equipment, such as a Metal Gear-style balloon or a teleportation device.
 - **Exits:** any map edge and/or a marked zone, such as an evac vehicle.
+- **Capture:** an Incapacitated enemy inside an exit zone is captured. How it got there doesn't matter (Drag, Power Throw, knockback).
 
 ## Open
 - Arson Riot rules. Draft: fires can't be put out, so the player stops as many buildings igniting as possible. Fail if a set % of buildings ignite (the % scales with difficulty). At very high difficulty, fire spreads to neighboring buildings.
-- How does capturing work? Drag the Incapacitated target to an exit?

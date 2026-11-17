@@ -42,8 +42,9 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction units are descr
 | Module | Category | Owner | Tags | Mechanics |
 |---|---|---|---|---|
 | Kick | Base action | All heroes | `Melee` | 10 damage, 3 s cooldown. Strength scaling, scaling knockback |
-| Drag | Base action | All heroes | | Grab a target and pull it behind you. Checks for citizens first, then Incapacitated (0 HP) enemies. Carries 1 target per 100 Strength (at least 1). You can fight while dragging and aren't slowed, except by Stubborn citizens (`missions.md`). Dragged targets can't be hurt |
+| Drag | Base action | All heroes | | Grab a target and pull it behind you. Checks for citizens first, then Incapacitated (0 HP) enemies. Carries 1 target, +1 per 100 Strength (150 Strength carries 2). You can fight while dragging and aren't slowed, except by Stubborn citizens (`missions.md`). Dragged targets can't be hurt |
 | Sprint | Base action | All heroes | | Toggle. +50% move speed, no stamina cost. Enemies and civilians don't sprint |
+| Uppercut | Active | Hero | `Melee` | Like Kick, with 5x knockback. Costs 50 Stamina |
 | Speed Punch | Active | Hero | `Melee` | Attacks 3x faster than Kick, full Kick damage per hit, no knockback. Meant to be stronger than Kick. Pairs well with time powers |
 | Power Throw | Active | Hero | | Uses Strength. Throw anything and anyone you're dragging |
 | Time Slow | Active | Hero | `Time` | See `time.md` |
@@ -54,7 +55,8 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction units are descr
 | High-Capacity Battery | Passive | Hero | `CannotBeDisabled` | Charge: high capacity, low regen |
 | Quick-Charge Battery | Passive | Hero | `CannotBeDisabled` | Charge: low capacity, high regen |
 | Reaper Battery | Passive | Hero | `CannotBeDisabled` | Charge: average capacity, no regen. Defeating a creature refills it to full |
-| Sprinter | Passive | Hero | | 100 Stamina, +10 Stamina/s. Sprint is 2x faster |
+| Sprinter | Passive | Hero | | 100 Stamina, +10 Stamina/s regen. Sprint is 2x faster. Sprinting never costs Stamina; Stamina is spent by other modules |
+| Weather the Storm | Passive | Hero | | When hit with at least 5 Stamina: no knockback, and 25% less damage from that hit |
 | Charming | Passive | Hero | | On approach: 50% chance to turn a Stubborn citizen Scared, 5% chance to convert a goon to your side. Each target rolls once; a hidden Charmed debuff marks it |
 | Hex | Active | Unassigned | `Debuff`, `Resist:Will` | Spell. Disables a random active power slot for 5 s |
 | Numbing Toxin | On hit | Unassigned | `Debuff`, `Resist:Toughness` | Poison. Disables a random passive power slot for 5 s |
@@ -78,5 +80,6 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction units are descr
 
 ## Open
 - Does Deathly Rage's tripled Toughness also scale current HP, or only max HP?
-- Sprinter: is +10/s Stamina regen? Does its 2x sprint drain Stamina, and is 2x on top of base Sprint's +50%?
+- Sprinter: is "2x faster" 2x base move speed, or 2x Sprint's +50% bonus?
+- Weather the Storm: does it spend Stamina when it triggers, or only need 5 on hand?
 - Numbers for the three Battery modules.
