@@ -27,7 +27,7 @@ Cyberpunk criminal organization with implants.
 
 | Rank | Entity | Description | Modules |
 |---|---|---|---|
-| Leader | Kingping | "King Ping": mafia don with a chrome body and experimental tech implants | Chrome Body |
+| Leader | Kingping | "King Ping": mafia don with a chrome body and experimental tech implants. Loots Valuables like a goon, and his goons bring theirs to him | Chrome Body, Paid Upgrades |
 | Champion | Tank | Tank treads for a lower body, cannons for arms | Treads, Cannons |
 | Champion | Hacker | Deploys turrets; each of its own hits disables a random gear slot | Turrets, Slot Disable |
 | Goon | Mafioso | Every Mafioso has both a machine gun and blade arms | Machine Gun, Blade Arms |
@@ -46,6 +46,7 @@ Alien bureaucrats repossessing Earth, one item at a time. A UFO in orbit (flavor
 
 - A citizen inside a crop circle is abducted: they disappear for good.
 - A hero pulled into a crop circle isn't abducted. It's only an annoyance.
+- A crop circle takes all Valuables (`world.md`) off any entity that enters it, the player included. They count as stolen.
 - Story Arcs: Relic Fever (`story.md`).
 
 | Rank | Entity | Description | Modules |

@@ -57,7 +57,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Reaper Battery | Passive | Hero | `CannotBeDisabled` | 100 Charge, no regen. Defeating a creature refills it to full |
 | Sprinter | Passive | Hero | | 100 Stamina, +10 Stamina/s regen. Doubles Sprint's bonus to +100% move speed. Sprinting never costs Stamina; Stamina is spent by other modules |
 | Weather the Storm | Passive | Hero | | When hit, spends 5 Stamina (if you have it) for no knockback and 25% less damage from that hit |
-| Charming | Passive | Hero | | On approach: 50% chance to turn a Stubborn citizen Scared, 5% chance to convert a goon to your side. Each target rolls once; a hidden Charmed debuff marks it |
+| Charming | Passive | Hero | | On approach: 50% chance to turn a Stubborn citizen Scared, 5% chance to convert a goon to your side. A converted goon hands you its Valuables. Each target rolls once; a hidden Charmed debuff marks it |
 | Hex | Active | Hexer | `Debuff`, `Resist:Will` | Spell. Disables a random active power slot for 5 s |
 | Numbing Toxin | On hit | Unassigned | `Debuff`, `Resist:Toughness` | Poison. Disables a random passive power slot for 5 s |
 | Meat Slap | Active | Dr. Edd | `Ranged` | Ranged attack |
@@ -74,6 +74,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Turrets | Active | Hacker | `Summon` | Summons turret entities |
 | Slot Disable | On hit | Hacker | `Debuff`, `Resist:Intelligence` | Disables a random gear slot for 5 s. Hits from the Hacker's turrets don't count |
 | Chrome Body | Passive | Kingping | | Durability and implant effects |
+| Paid Upgrades (placeholder name) | Passive | Kingping | `Buff` | Gains Armor and HP for each Valuable he holds |
 | Machine Gun | Active | Mafioso | `Ranged` | Ranged attack |
 | Blade Arms | Active | Mafioso | `Melee` | Melee attack |
 | Super Stats | Passive | Chad | | Speed, durability, stat scaling |
@@ -89,3 +90,4 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 
 ## Open
 - Pied's duration.
+- Paid Upgrades: final name, and Armor and HP per Valuable.

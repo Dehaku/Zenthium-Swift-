@@ -8,3 +8,5 @@ Ideas board. We won't build these now, and nothing else in the design depends on
 - **Mixed factions:** missions with several factions that also fight each other.
 - **Control rebinding:** including combos such as Shift+1 or Ctrl+RMB.
 - **Multiplayer.**
+- **Returning Valuables:** bring a civilian's dropped Valuable back to them for a small reward and a Meeting Room line such as "returned my wallet, a true hero".
+- **Loot fights:** goons from different factions fight each other over Valuables (with Mixed factions).
