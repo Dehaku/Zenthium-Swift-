@@ -25,7 +25,14 @@
 - Each mission shows its faction, difficulty, rewards and whether a Leader is present.
 - Any of these can be randomly hidden ("We couldn't gather this intel."). Hidden intel gives a reward bonus.
 - **Reveal intel:** spend Metallic Zenny to reveal a mission's hidden intel. The mission keeps its bonus.
-- **Call in a tip:** spend Metallic Zenny to make a mission of a chosen type or faction appear on the map.
+- **Call in a tip:** a mission creator (below).
+
+### Call in a tip
+- Opens a menu of mission fields. Each field you set costs Metallic Zenny; any field left untouched is random.
+- Fields: mission type, faction, difficulty, Leader present ("Most Wanted"), secondary goal.
+- The more fields you set, the more each costs.
+- A tip mission stays on the map longer before fading out.
+- It arrives with all intel revealed, so it never gets the hidden-intel bonus.
 
 ## Open
-- (none)
+- Metallic costs for each tip field, and how much they rise per field set.
