@@ -79,7 +79,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Blade Arms | Active | Mafioso | `Melee` | Melee attack |
 | Super Stats | Passive | Chad | | +200% to all SWIFT stats |
 | Super Speed | Passive | Chad | | +200% base move speed |
-| Lesser Super Stats (placeholder name) | Passive | Infinity Anarchous Champions | | +50% to all SWIFT stats |
+| Chad Adjacent | Passive | Infinity Anarchous Champions | | +50% to all SWIFT stats |
 | Tractor Beam | Active | GleebPeep | | Beam that pulls in every entity and prop in its path |
 | Tractor Pull | Active | Tractor Drone | | Pulls a hero or citizen toward the nearest Repo Agency crop circle (`factions.md`) |
 | Immovable | Passive | Shield Bearer, Strongman | `KnockbackResistant` | Can't be knocked back |
@@ -91,4 +91,4 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Fire Wand | Active | Acolyte | `Ranged` | Magic fire attack. Can set buildings and vehicles on fire |
 
 ## Open
-- Final name for Lesser Super Stats.
+- (none)

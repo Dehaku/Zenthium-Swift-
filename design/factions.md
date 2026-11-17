@@ -38,7 +38,7 @@ Rogues with random powers and gear who refuse to join any organization. Random m
 | Rank | Entity | Description | Modules |
 |---|---|---|---|
 | Leader | Chad | Superhuman "chill guy" who goes along with his crazed champion friends. Super stats, speed and durability | Super Stats, Super Speed |
-| Champion | (varies) | Random powers and gear, super stats | Lesser Super Stats, Random |
+| Champion | (varies) | Random powers and gear, super stats | Chad Adjacent, Random |
 | Goon | (varies) | One random power or piece of gear each | Random (1) |
 
 ## Galactic Repo Agency

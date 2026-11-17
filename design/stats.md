@@ -1,7 +1,7 @@
 # Stats
 
 ## Primary stats (SWIFT)
-Upgradable and uncapped. Bought with Zenny in the HQ Training Room. Designers set each preset hero's starting stats. Civilians have 10 in every stat.
+Upgradable and uncapped. Bought with Zenny in the HQ Training Room. Every entity starts at 10 in every stat, before modifications of any kind. Civilians stay at 10. Designers set each preset hero's starting stats on top of that.
 
 | Stat | Role |
 |---|---|
