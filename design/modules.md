@@ -33,7 +33,7 @@
 
 ## Buying, tiers and upgrades
 - Bought with Zenny at HQ: powers in the Zen Garden, gear in the Research Lab (`hq.md`).
-- Tiers are separate modules shown as one, with up and down arrows to cycle through the versions. Zenny colors can map to tiers, with metallic variants as an upgrade tier.
+- Tiers are separate modules shown as one, with up and down arrows to cycle through the versions. Higher tiers cost more Gem Zenny (`economy.md`).
 - Owned modules can be upgraded.
 
 ## Catalog

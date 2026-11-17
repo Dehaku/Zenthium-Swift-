@@ -10,8 +10,32 @@ Pure flavor only. Nothing here affects gameplay; mechanics live in the other fil
 - All the Zenny crystals in our world are leaking in from Zenthium.
 
 ## Zenny
-- All shiny.
-- Each color has its own lore.
+Crystals leaking in from Zenthium. All shiny.
+
+### Families
+- **Basic:** opaque, glowing, ember-like stones.
+- **Gem:** clear, glass-like structures that amplify light. Each is refined from a Basic color.
+- **Metallic:** reflective, shimmering structures that gleam beautifully.
+
+### Behavior
+- Zenny is lost when consumed or fired. When powered, it slowly drains away over rounds, minutes or hours, depending on the effect.
+- It melds with its own kind into larger crystals worth the sum of their parts. Breaking one back into pieces costs a shard, which dissipates.
+- Melding different colors is possible through experimentation, but liable to cause disastrous immediate effects.
+- Feeding Zenny electricity in different formations (Top, Bottom, Charm, Strange) changes what it does.
+
+### Colors
+| Color | Family | Theme | Lore |
+|---|---|---|---|
+| Red | Basic | Space | Lethal when consumed. High-velocity impacts make tiny ripples that pull in nearby matter. With steady electricity it pulls gravity in the direction it faces. Found in high-impact craters where dimensions are weak, near Titans and Fissures |
+| Crimson Ruby | Gem | Blood | Made from Red soaked in ritually spilled blood. Consuming it makes one immune to harm for a while, but every blocked wound returns slowly afterward, with intense pain |
+| Blue | Basic | Temperature and entropy | Lethal when consumed, by burning or freezing. Worn, it guards against the elements. With electricity it projects heat (Charm) or cold (Strange). Found in places of extreme temperature, near Titans and Fissures |
+| Sapphire | Gem | Time | Made from Blue accelerated over a long time. Consuming it unhinges one from spacetime to perceive before and after. Worn, it slows or halts aging; mixed badly, it speeds the wearer up while aging them. Fired as ammunition, it makes the victim endure the impact over and over in quick succession, with an oddly synthetic scream, and the shooter feels a deep sense of wrongness |
+| Purple | Basic | Mind | Consuming it grants forgotten knowledge of an ancient. With electricity it emits a stunning (Top), lethargic (Bottom), intoxicating (Charm) or maddening (Strange) pulse |
+| Amethyst | Gem | Soul | Refined from Purple. The inner soul takes control of the body, drawing on all its past existences. Consuming it causes astral projection. Wounds from Amethyst ammunition are permanent unless healed with White. With electricity it grants a soul aura where motion feels weightless and instinctual: SoulFire (Top, unarmed strikes), DiamondSoul (Bottom, defense), EsperSoul (Charm, conversation) or LostSoul (Strange, sprinting and gymnastics) |
+| White | Basic | Healing | Consuming it heals, without limits |
+| Diamond | Gem | Essence | Made from White. Mends lost essence |
+| Silver | Metallic | Essence | Made from White. Strengthens and expands essence |
+| Gold | Metallic | Unlimited growth | Consuming it lets one grow past their limits. Found only inside dead Titans |
 
 ## Galactic Repo Agency
 - Their UFO sits in orbit and beams things up through the crop circles (`factions.md`).

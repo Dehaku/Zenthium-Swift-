@@ -1,11 +1,17 @@
 # Economy
 
 ## Zenny
-- Crystals in many colors (red, blue, gold, sapphire, etc.), in crystal and metallic variants. Their lore is in `lore.md`.
-- Each color is a separate currency, earned in different ways.
-- Zenny buys stats, modules, slots and heroes. Each slot type and each hero costs different amounts of different colors.
-- Each mission type and faction rewards different colors, which encourages playing the less popular ones.
-- Example (not final): Silver is rare and is the main currency for slots. Red is common and cheap, and is used for stats.
+- Crystals in many colors. Their lore is in `lore.md`.
+- Three currencies, one per family. Colors within a family are looks only.
+
+| Family | Rarity | Colors | Buys |
+|---|---|---|---|
+| Basic | Common | Red, Blue, Purple, White | Stats (Training Room) |
+| Gem | Uncommon | Crimson Ruby, Sapphire, Amethyst, Diamond | Modules: buying and upgrading (Zen Garden, Research Lab). Higher tiers cost more |
+| Metallic | Rare | Gold, Silver | Slot unlocks and hero unlocks |
+
+- Each mission type rewards its own mix of families.
+- Bigger rewards drop as bigger crystals, since Zenny melds with its own kind.
 
 ## Hero reward bonus
 - Multiplies all mission rewards: Zenny, XP (if added), anything gained. Tracked per hero.
@@ -18,4 +24,4 @@
 - Toggle: the bonus resets to 100% whenever the hero completes a mission.
 
 ## Open
-- (none)
+- What to spend Metallic on once every slot and hero is unlocked.
