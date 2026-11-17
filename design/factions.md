@@ -1,9 +1,11 @@
 # Villain Factions
 
 Each faction has three ranks:
-- **Leader:** a powerful super villain.
-- **Champions:** strong entities with unique capabilities.
-- **Goons:** weak minions, easy to beat in small numbers.
+- **Leader:** a powerful super villain. Innate +200% to all SWIFT stats.
+- **Champions:** strong entities with unique capabilities. Innate +100% to all SWIFT stats.
+- **Goons:** weak minions, easy to beat in small numbers. No innate boost.
+
+Innate boosts apply before modules.
 
 Entity abilities are modules; mechanics live in `modules.md`. A faction can run any Story Arc it lists (`story.md`). Entities scale with mission difficulty (`missions.md`).
 
@@ -81,5 +83,6 @@ An overly enthusiastic magic cult that treats every crime as a ritual. Valuables
 | Goon | Acolyte | Carries a fire wand that can set things on fire | Fire Wand |
 
 ## Open
+- Do percentage stat boosts add together (Chad: +200% innate + 200% Super Stats = +400%) or multiply (3x then 3x = 9x)?
 - Attacks for Kingping, Chad and Vex.
 - More factions.
