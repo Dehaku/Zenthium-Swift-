@@ -46,6 +46,7 @@ Alien bureaucrats repossessing Earth, one item at a time. A UFO in orbit (flavor
 
 - A citizen inside a crop circle is abducted: they disappear for good.
 - A hero pulled into a crop circle isn't abducted. It's only an annoyance.
+- Story Arcs: Relic Fever (`story.md`).
 
 | Rank | Unit | Description | Modules |
 |---|---|---|---|

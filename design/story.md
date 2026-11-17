@@ -7,7 +7,7 @@
 ## Arcs
 
 ### Relic Fever
-A faction steals increasingly valuable magic items. Draft chain:
+A faction steals increasingly valuable magic items. Chain:
 1. A monkey's paw, from an antique shop.
 2. Pandora's box, from a museum.
 3. The Holy Grail, from a private collector's vault.
@@ -15,4 +15,3 @@ A faction steals increasingly valuable magic items. Draft chain:
 
 ## Open
 - How the story is told overall, and whether arcs build toward anything bigger.
-- Relic Fever: confirm the chain and where each mission happens.
