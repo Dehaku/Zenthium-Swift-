@@ -19,7 +19,7 @@ Status: design. No build plan yet.
 | `time.md` | Timescale and time powers |
 | `modules.md` | Module schema, tags, module info, full module catalog |
 | `missions.md` | Mission flow, difficulty, types, secondary goals, citizens, extraction |
-| `factions.md` | Villain factions, their units and weights |
+| `factions.md` | Villain factions, their entities and weights |
 | `world.md` | Destructible walls and doors |
 | `economy.md` | Zenny currencies, hero reward bonus, dev options |
 | `hq.md` | HQ between missions and its tabs |

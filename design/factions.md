@@ -2,10 +2,10 @@
 
 Each faction has three ranks:
 - **Leader:** a powerful super villain.
-- **Champions:** strong units with unique capabilities.
+- **Champions:** strong entities with unique capabilities.
 - **Goons:** weak minions, easy to beat in small numbers.
 
-Unit abilities are modules; mechanics live in `modules.md`. A faction can run any Story Arc it lists (`story.md`). Units scale with mission difficulty (`missions.md`).
+Entity abilities are modules; mechanics live in `modules.md`. A faction can run any Story Arc it lists (`story.md`). Entities scale with mission difficulty (`missions.md`).
 
 ## Weights
 - Any faction can run any mission type.
@@ -15,7 +15,7 @@ Unit abilities are modules; mechanics live in `modules.md`. A faction can run an
 ## Zombies
 Biological infestation.
 
-| Rank | Unit | Description | Modules |
+| Rank | Entity | Description | Modules |
 |---|---|---|---|
 | Leader | Dr. Edd | Tentacled bioweapon gone mad | Meat Slap, Regeneration, Engulf |
 | Champion | Stalker | Half invisible, ranged attacker. Bone Spike is unrelated to the invisibility | Half-Invisible, Bone Spike |
@@ -25,7 +25,7 @@ Biological infestation.
 ## Technomafia
 Cyberpunk criminal organization with implants.
 
-| Rank | Unit | Description | Modules |
+| Rank | Entity | Description | Modules |
 |---|---|---|---|
 | Leader | Kingping | "King Ping": mafia don with a chrome body and experimental tech implants | Chrome Body |
 | Champion | Tank | Tank treads for a lower body, cannons for arms | Treads, Cannons |
@@ -35,7 +35,7 @@ Cyberpunk criminal organization with implants.
 ## Infinity Anarchous
 Rogues with random powers and gear who refuse to join any organization. Random modules are drawn from every module, including other factions'.
 
-| Rank | Unit | Description | Modules |
+| Rank | Entity | Description | Modules |
 |---|---|---|---|
 | Leader | Chad | Superhuman "chill guy" who goes along with his crazed champion friends. Super stats, speed and durability | Super Stats |
 | Champion | (varies) | Random powers and gear, super stats | Random |
@@ -48,7 +48,7 @@ Alien bureaucrats repossessing Earth, one item at a time. A UFO in orbit (flavor
 - A hero pulled into a crop circle isn't abducted. It's only an annoyance.
 - Story Arcs: Relic Fever (`story.md`).
 
-| Rank | Unit | Description | Modules |
+| Rank | Entity | Description | Modules |
 |---|---|---|---|
 | Leader | GleebPeep | Tired repo officer with a clipboard and a ship's tractor beam | Tractor Beam |
 | Champion | Tractor Drone | Pulls heroes and citizens toward the crop circles | Tractor Pull |
@@ -58,7 +58,7 @@ Alien bureaucrats repossessing Earth, one item at a time. A UFO in orbit (flavor
 ## Circus of Calamity
 A traveling circus that's also a crime ring.
 
-| Rank | Unit | Description | Modules |
+| Rank | Entity | Description | Modules |
 |---|---|---|---|
 | Leader | The Ringmaster | Announces each wave like a show. His spotlight buffs every performer near him | Spotlight |
 | Champion | Strongman | Grabs citizens, props and goons and throws them at you | Immovable, Drag, Power Throw |
@@ -68,11 +68,11 @@ A traveling circus that's also a crime ring.
 ## Hexbound Coven
 An overly enthusiastic magic cult that treats every crime as a ritual. Valuables (`world.md`) count as magic items for the Coven.
 
-- While Vex holds Valuables, every Coven unit deals +5% damage per Valuable she holds.
+- While Vex holds Valuables, every Coven entity deals +5% damage per Valuable she holds.
 - With no Leader on the mission, there's no power-up. The bonus never carries past the mission.
 - Story Arcs: Relic Fever (`story.md`).
 
-| Rank | Unit | Description | Modules |
+| Rank | Entity | Description | Modules |
 |---|---|---|---|
 | Leader | Grand Librarian Vex | Steals magic items. Loots Valuables like a goon, and her goons bring theirs to her | TBD |
 | Champion | Hexer | Disables heroes' powers | Hex |

@@ -41,7 +41,7 @@
 ## Citizens
 | Type | Behavior |
 |---|---|
-| Scared | Panics and flees from threats |
+| Scared | Panics and flees from any goon inside their fear range |
 | Incapacitated | Cannot move on their own |
 | Stubborn | Won't move. Much slower to grab, and dragging one slows you by 25% |
 
@@ -54,4 +54,5 @@
 - **Capture:** an Incapacitated enemy inside an exit zone is captured. How it got there doesn't matter (Drag, Power Throw, knockback).
 
 ## Open
+- Fear range distance for citizens.
 - Arson Riot rules. Draft: fires can't be put out, so the player stops as many buildings igniting as possible. Fail if a set % of buildings ignite (the % scales with difficulty). At very high difficulty, fire spreads to neighboring buildings.

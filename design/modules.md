@@ -37,7 +37,7 @@
 - Owned modules can be upgraded.
 
 ## Catalog
-Defiance is a core Will rule, not a module (`stats.md`). Faction units are described in `factions.md`. "Unassigned" modules have no owner yet but are in the pool (for example, for Infinity Anarchous).
+Defiance is a core Will rule, not a module (`stats.md`). Faction entities are described in `factions.md`. "Unassigned" modules have no owner yet but are in the pool (for example, for Infinity Anarchous).
 
 | Module | Category | Owner | Tags | Mechanics |
 |---|---|---|---|---|
@@ -81,7 +81,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction units are descr
 | Tractor Pull | Active | Tractor Drone | | Pulls a hero or citizen toward the nearest Repo Agency crop circle (`factions.md`) |
 | Immovable | Passive | Shield Bearer, Strongman | `KnockbackResistant` | Can't be knocked back |
 | Energy Blaster | Active | Shield Bearer, Grey | `Ranged` | Ranged attack, Energy damage |
-| Spotlight | Active | The Ringmaster | `Buff` | A spotlight with a 20 m radius, centered on him. Circus units inside get +50% to all stats |
+| Spotlight | Active | The Ringmaster | `Buff` | A spotlight with a 20 m radius, centered on him. Circus entities inside get +50% to all stats |
 | Cannonball Launch | Active | Human Cannonball | `Melee` | Launches at a target for huge knockback |
 | Cream Pie | Active | Clown | `Ranged`, `Debuff`, `Resist:Will` | Thrown pie. On hit, applies "Pied": smears part of the player's screen for a few seconds |
 | Summon Imps | Active | Summoner | `Summon` | Summons imp entities |
