@@ -8,8 +8,12 @@
 
 ## Damage reduction
 Two forms:
-- **Armor (flat):** subtracts a fixed amount from every hit.
-- **Damage Reduction (%):** cuts every hit by a percentage. Comes from modules, such as Weather the Storm.
+- **Armor (flat):** subtracts a fixed amount from every hit. Toughness gives Armor equal to 50% of its value, so damage stats outweigh Toughness 2:1. Modules can add more.
+- **Damage Reduction (%):** cuts every hit by a percentage. Comes from modules, such as Weather the Storm. Multiple sources multiply, so they never reach 100% (two 50% sources give 75%).
+
+Order: Armor first, then Damage Reduction. Example: a 100 damage hit against 10 Armor and 30% reduction deals (100 - 10) x 0.7 = 63.
+
+Every hit deals at least 5% of its original damage.
 
 ## Knockback
 - Strength comes from the module (Kick scales with Strength).
@@ -27,5 +31,4 @@ Two forms:
 - Modules can use a cooldown, a resource, or both.
 
 ## Open
-- Damage reduction details: where Armor comes from, the order the two forms apply in, how percentages stack, and a minimum damage per hit.
 - Full list of status effects and their stacking rules (Infected, Broken Limb, Slot Disable, Hex, Numbing Toxin, Charmed, Defiance Roll, Deathly Rage). Revisit later.

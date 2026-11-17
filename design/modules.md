@@ -89,5 +89,6 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Fire Wand | Active | Acolyte | `Ranged` | Magic fire attack. Can set buildings and vehicles on fire |
 
 ## Open
+- Damage reduction numbers for Durability, Chrome Body and Super Stats (`combat.md`).
 - Pied's duration.
 - Gold-Plated Chrome: Armor and HP per Valuable (after damage reduction is settled in `combat.md`).
