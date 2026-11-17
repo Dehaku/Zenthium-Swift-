@@ -55,8 +55,8 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction units are descr
 | High-Capacity Battery | Passive | Hero | `CannotBeDisabled` | Charge: high capacity, low regen |
 | Quick-Charge Battery | Passive | Hero | `CannotBeDisabled` | Charge: low capacity, high regen |
 | Reaper Battery | Passive | Hero | `CannotBeDisabled` | Charge: average capacity, no regen. Defeating a creature refills it to full |
-| Sprinter | Passive | Hero | | 100 Stamina, +10 Stamina/s regen. Sprint is 2x faster. Sprinting never costs Stamina; Stamina is spent by other modules |
-| Weather the Storm | Passive | Hero | | When hit with at least 5 Stamina: no knockback, and 25% less damage from that hit |
+| Sprinter | Passive | Hero | | 100 Stamina, +10 Stamina/s regen. Doubles Sprint's bonus to +100% move speed. Sprinting never costs Stamina; Stamina is spent by other modules |
+| Weather the Storm | Passive | Hero | | When hit, spends 5 Stamina (if you have it) for no knockback and 25% less damage from that hit |
 | Charming | Passive | Hero | | On approach: 50% chance to turn a Stubborn citizen Scared, 5% chance to convert a goon to your side. Each target rolls once; a hidden Charmed debuff marks it |
 | Hex | Active | Unassigned | `Debuff`, `Resist:Will` | Spell. Disables a random active power slot for 5 s |
 | Numbing Toxin | On hit | Unassigned | `Debuff`, `Resist:Toughness` | Poison. Disables a random passive power slot for 5 s |
@@ -80,6 +80,4 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction units are descr
 
 ## Open
 - Does Deathly Rage's tripled Toughness also scale current HP, or only max HP?
-- Sprinter: is "2x faster" 2x base move speed, or 2x Sprint's +50% bonus?
-- Weather the Storm: does it spend Stamina when it triggers, or only need 5 on hand?
 - Numbers for the three Battery modules.
