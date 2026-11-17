@@ -52,8 +52,8 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction units are descr
 | Super Lucky | Passive | Hero | | Large Luck boost (`luck.md`). Inspired by Domino |
 | Deathly Rage | Passive | Any | `Buff` | On Defiance proc, grants the Deathly Rage buff: triples Strength and Toughness; the extra HP is added to current HP too. Does not stack. Lasts until the mission ends |
 | Soulful | Passive | Hero | `CannotBeDisabled` | +50% spell damage, 150 Mana, +5 Mana/s |
-| High-Capacity Battery | Passive | Hero | `CannotBeDisabled` | 200 Charge, low regen |
-| Quick-Charge Battery | Passive | Hero | `CannotBeDisabled` | 50 Charge, high regen |
+| High-Capacity Battery | Passive | Hero | `CannotBeDisabled` | 200 Charge, +5 Charge/s |
+| Quick-Charge Battery | Passive | Hero | `CannotBeDisabled` | 50 Charge, +20 Charge/s |
 | Reaper Battery | Passive | Hero | `CannotBeDisabled` | 100 Charge, no regen. Defeating a creature refills it to full |
 | Sprinter | Passive | Hero | | 100 Stamina, +10 Stamina/s regen. Doubles Sprint's bonus to +100% move speed. Sprinting never costs Stamina; Stamina is spent by other modules |
 | Weather the Storm | Passive | Hero | | When hit, spends 5 Stamina (if you have it) for no knockback and 25% less damage from that hit |
@@ -79,4 +79,4 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction units are descr
 | Super Stats | Passive | Chad | | Speed, durability, stat scaling |
 
 ## Open
-- Charge regen rates for High-Capacity and Quick-Charge Battery.
+- (none)
