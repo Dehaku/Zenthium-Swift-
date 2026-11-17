@@ -89,3 +89,4 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Fire Wand | Active | Acolyte | `Ranged` | Magic fire attack. Can set buildings and vehicles on fire |
 
 ## Open
+- (none)
