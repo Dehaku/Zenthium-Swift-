@@ -2,7 +2,13 @@
 
 Pure flavor only. Nothing here affects gameplay; mechanics live in the other files.
 
+## Zenthium
+- Another dimension, full of hostile, glowing crystalline titans and beings.
+- All the Zenny crystals in our world are leaking in from Zenthium.
+
 ## Megacorporations
+Background for now. They're meant to tie into the factions later.
+
 | Corporation | Specialization | Leadership | Ties |
 |---|---|---|---|
 | Antelligence Systems | Robotics and A.I./V.I. | CEO: Enzo Kingston | |
@@ -18,4 +24,3 @@ Pure flavor only. Nothing here affects gameplay; mechanics live in the other fil
 
 ## Open
 - Who or what are Tuhan Yang Jatuh, Mogok Mati and Letupan Beku?
-- What is Zenthium, and how does it relate to Zenny crystals?
