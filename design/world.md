@@ -16,7 +16,10 @@
 - Goons want them. Picking one up takes about 5 s.
 - A goon goes for Valuables only while the player is outside its attack range. Its attack range is the longest range among its attack modules, so melee goons often loot while ranged goons fight.
 - A goon carrying Valuables that sees no more Valuables takes them to its Leader and hands them over.
-- With no Leader on the mission, goons keep their normal behavior while carrying Valuables. Exception: during the "Prevent 50% of Valuables from being stolen" secondary goal (`missions.md`), they try to leave the map with them instead.
+- With no Leader on the mission, goons keep their normal behavior while carrying Valuables.
+- During the Valuables secondary goal (`missions.md`):
+  - With no Leader, goons try to leave the map with their Valuables instead.
+  - Once the Leader holds enough Valuables to fail the goal, the Leader tries to flee the map with them.
 - A Valuable counts as stolen once it's carried off the map.
 - Any unit carrying Valuables shows a small money bag icon under it, with the number held at the icon's bottom right. Hidden at 0.
 - A carrier drops all its Valuables when defeated.
