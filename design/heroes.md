@@ -7,7 +7,7 @@
 - Most are unlocked with Zenny. Some unlock through milestones, achievements or story beats.
 
 ## Create-a-Hero (CAH)
-- Players can make multiple CAHs. Story-wise they're all the same character; having several lets players try builds without resetting.
+- Each CAH is called a **Recruit**. Players can make multiple Recruits. Story-wise they're all the same character, one SWIFT recruit; having several lets players try builds without resetting.
 - CAH slots start empty and can take any module.
 
 ## Slots

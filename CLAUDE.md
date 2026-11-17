@@ -5,3 +5,4 @@
 - Delete superseded ideas instead of keeping history; git has the history.
 - Put unresolved questions in the owning file's `## Open` section.
 - Ideas parked for later go in `design/future.md`.
+- Pure flavor goes in `design/lore.md`; keep mechanics out of it.

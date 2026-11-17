@@ -24,6 +24,7 @@ Status: design. No build plan yet.
 | `economy.md` | Zenny currencies, hero reward bonus, dev options |
 | `hq.md` | HQ between missions and its tabs |
 | `story.md` | Story Arcs |
+| `lore.md` | Pure flavor: world lore, megacorporations |
 | `controls.md` | Default bindings |
 | `future.md` | Ideas board: features we won't build now |
 
