@@ -28,11 +28,11 @@
 - **Call in a tip:** a mission creator (below).
 
 ### Call in a tip
-- Opens a menu of mission fields. Each field you set costs Metallic Zenny; any field left untouched is random.
-- Fields: mission type, faction, difficulty, Leader present ("Most Wanted"), secondary goal.
-- The more fields you set, the more each costs.
+- Opens a menu of mission fields. Any field left untouched is random.
+- Fields: mission type, faction, location, difficulty, Leader present ("Most Wanted"), secondary goal.
+- Cost (rough): 10 Metallic Zenny for the custom mission, plus 10 per field set.
 - A tip mission stays on the map longer before fading out.
 - It arrives with all intel revealed, so it never gets the hidden-intel bonus.
 
 ## Open
-- Metallic costs for each tip field, and how much they rise per field set.
+- (none)

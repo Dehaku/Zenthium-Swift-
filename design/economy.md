@@ -17,6 +17,7 @@
 Keep Metallic useful after every slot and hero is unlocked:
 - **Cosmetics:** costumes, color palettes and alternate looks for heroes and Recruits.
 - **Melting down:** trade Metallic for Gem or Basic.
+- **Hiring Recruits:** the first Recruit is free; each extra one costs Metallic.
 
 ## Hero reward bonus
 - Multiplies all mission rewards: Zenny, XP (if added), anything gained. Tracked per hero.
