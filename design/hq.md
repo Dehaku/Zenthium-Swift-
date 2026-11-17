@@ -24,6 +24,8 @@
 - Missions fade in and out in real time. A mission can disappear before you pick it.
 - Each mission shows its faction, difficulty, rewards and whether a Leader is present.
 - Any of these can be randomly hidden ("We couldn't gather this intel."). Hidden intel gives a reward bonus.
+- **Reveal intel:** spend Metallic Zenny to reveal a mission's hidden intel. The mission keeps its bonus.
+- **Call in a tip:** spend Metallic Zenny to make a mission of a chosen type or faction appear on the map.
 
 ## Open
 - (none)

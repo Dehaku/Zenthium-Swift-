@@ -8,10 +8,15 @@
 |---|---|---|---|
 | Basic | Common | Red, Blue, Purple, White | Stats (Training Room) |
 | Gem | Uncommon | Crimson Ruby, Sapphire, Amethyst, Diamond | Modules: buying and upgrading (Zen Garden, Research Lab). Higher tiers cost more |
-| Metallic | Rare | Gold, Silver | Slot unlocks and hero unlocks |
+| Metallic | Rare | Gold, Silver | Slot unlocks and hero unlocks. Also cosmetics, melting down, and mission tips and intel reveals (`hq.md`) |
 
 - Each mission type rewards its own mix of families.
 - Bigger rewards drop as bigger crystals, since Zenny melds with its own kind.
+
+### Metallic sinks
+Keep Metallic useful after every slot and hero is unlocked:
+- **Cosmetics:** costumes, color palettes and alternate looks for heroes and Recruits.
+- **Melting down:** trade Metallic for Gem or Basic.
 
 ## Hero reward bonus
 - Multiplies all mission rewards: Zenny, XP (if added), anything gained. Tracked per hero.
@@ -24,4 +29,4 @@
 - Toggle: the bonus resets to 100% whenever the hero completes a mission.
 
 ## Open
-- What to spend Metallic on once every slot and hero is unlocked.
+- Exchange rates for melting Metallic down into Gem and Basic.
