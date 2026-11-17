@@ -5,7 +5,12 @@ Each faction has three ranks:
 - **Champions:** strong units with unique capabilities.
 - **Goons:** weak minions, easy to beat in small numbers.
 
-Unit abilities are modules; mechanics live in `modules.md`.
+Unit abilities are modules; mechanics live in `modules.md`. Units scale with mission difficulty (`missions.md`).
+
+## Weights
+- Any faction can run any mission type.
+- **Mission Weight:** how likely a faction is to cause each mission type.
+- **Location Weight:** how likely a faction is to hit each kind of location.
 
 ## Zombies
 Biological infestation.
@@ -22,13 +27,13 @@ Cyberpunk criminal organization with implants.
 
 | Rank | Unit | Description | Modules |
 |---|---|---|---|
-| Leader | Kingpin | Mafia don with a chrome body and experimental tech implants | Chrome Body |
+| Leader | Kingping | "King Ping": mafia don with a chrome body and experimental tech implants | Chrome Body |
 | Champion | Tank | Tank treads for a lower body, cannons for arms | Treads, Cannons |
-| Champion | Hacker | Deploys turrets; each hit disables a random equipment slot | Turrets, Slot Disable |
-| Goon | Mafioso | Machine guns and blade arms | Machine Gun, Blade Arms |
+| Champion | Hacker | Deploys turrets; each of its own hits disables a random gear slot | Turrets, Slot Disable |
+| Goon | Mafioso | Every Mafioso has both a machine gun and blade arms | Machine Gun, Blade Arms |
 
 ## Infinity Anarchous
-Rogues with random powers and gear who refuse to join any organization.
+Rogues with random powers and gear who refuse to join any organization. Random modules are drawn from every module, including other factions'.
 
 | Rank | Unit | Description | Modules |
 |---|---|---|---|
@@ -37,4 +42,5 @@ Rogues with random powers and gear who refuse to join any organization.
 | Goon | (varies) | One random power or piece of gear each | Random (1) |
 
 ## Open
-- (none)
+- Attacks for Kingping and Chad.
+- More factions.

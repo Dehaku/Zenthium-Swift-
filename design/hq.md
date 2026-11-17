@@ -1,26 +1,29 @@
 # HQ (Between Missions)
 
-- Unlocked heroes and the CAH wander the HQ, making quips in text or thought bubbles.
+- The HQ is a menu. Behind it, unlocked heroes and CAHs walk around on their own, making quips in text or thought bubbles.
+- All tabs are available from the start.
 
 ## Tabs
 | Tab | Purpose |
 |---|---|
-| Training Room | Stats (`stats.md`) |
-| Zen Garden | Powers (`modules.md`) |
-| Research Lab | Gear (`modules.md`) |
+| Training Room | Buy stats (`stats.md`) |
+| Zen Garden | Buy, upgrade and equip powers (`modules.md`) |
+| Research Lab | Buy, upgrade and equip gear (`modules.md`) |
 | Meeting Room | Relationship web (below) |
 | Missions | Large tab below the others. Mission map (below) |
 
 ## Meeting Room
 - Lines connect heroes, villains and noteworthy people.
-- Relationships are random, for fluff and silliness. No gameplay effect.
+- Mostly random, for fluff and silliness. Real events can sometimes create lines. No gameplay effect. Keep it shallow and simple.
 - Examples:
   - Blue line between two heroes: "ate dinner together, good times".
   - Red line between a hero and a named champion: "captured, rudely".
 
 ## Missions tab
 - A map with missions at random points.
-- Missions slowly fade in and out: new ones appear and old ones disappear in a cycle.
+- Missions fade in and out in real time. A mission can disappear before you pick it.
+- Each mission shows its faction, difficulty, rewards and whether a Leader is present.
+- Any of these can be randomly hidden ("We couldn't gather this intel."). Hidden intel gives a reward bonus.
 
 ## Open
 - (none)

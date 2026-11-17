@@ -1,22 +1,29 @@
 # Heroes and Create-a-Hero (CAH)
 
-- Players choose from multiple heroes. Each has their own powers and stats.
-- Preset heroes are built from the same modules the CAH uses (`modules.md`). The CAH can pick any module.
-- Loadouts change only at HQ: Zen Garden for powers, Research Lab for gear (`hq.md`).
+## Preset heroes
+- 6 preset heroes. Archetypes so far: speedster, telekinetic, gunslinger, mechanist (powered armor), goo person. The sixth is TBD.
+- Built from the same modules as the CAH (`modules.md`).
+- Designers set each preset's starting stats and slots. Their slots come pre-filled, and some stay locked until Zenny is spent.
+- Most are unlocked with Zenny. Some unlock through milestones, achievements or story beats.
 
-## Slots (per hero)
-| Slot | Count | Holds |
-|---|---|---|
-| Active power | 2-4 | Active modules |
-| Passive power | 2-4 | Passive modules |
-| Gear | 4 | Items, armor, weapons, spellcasting items, utility belt, iconic gear (Thor's hammer or Green Lantern's ring style) |
+## Create-a-Hero (CAH)
+- Players can make multiple CAHs. Story-wise they're all the same character; having several lets players try builds without resetting.
+- CAH slots start empty and can take any module.
 
-- All powers and gear are modular and swappable.
-- **Kick** is always available and sits outside the slots (`modules.md`).
+## Slots
+| Slot | Start | Max | Holds |
+|---|---|---|---|
+| Active power | 1 | 4 | Active modules |
+| Passive power | 1 | 4 | Passive modules |
+| Gear | 1 | 4 | Items, armor, weapons, spellcasting items, utility belt, iconic gear (a mighty hammer, a power ring) |
 
-## Reward balance
-- A hero gains +10% reward bonus for each mission played without them. No cap.
-- When a hero is played, their bonus drops by 30%, to a floor of 100%.
+- More slots are unlocked with Zenny (`economy.md`).
+- Every module takes 1 slot. A hero can't equip two copies of the same module.
+- Kick, Drag and Sprint are always available outside the slots (`modules.md`).
+- Loadouts change only at HQ (`hq.md`).
+- Stats, slots and upgrades are tracked per hero.
 
 ## Open
-- (none)
+- Revisit the preset heroes, including the sixth archetype.
+- Saved loadout options for CAHs?
+- Is 4 the max for every slot type? The first notes said 2-4 active and 2-4 passive.

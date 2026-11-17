@@ -4,3 +4,4 @@
 - State each fact once. Other files point to it by filename instead of repeating it.
 - Delete superseded ideas instead of keeping history; git has the history.
 - Put unresolved questions in the owning file's `## Open` section.
+- Ideas parked for later go in `design/future.md`.

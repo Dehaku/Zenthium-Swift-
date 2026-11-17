@@ -1,16 +1,14 @@
 # Time System
 
-- A global **timescale** affects movement, DoT ticks, timers, distance-based stats and cinematic cutscenes.
+- A global **timescale** affects movement, DoT ticks, timers, cinematic cutscenes, and anything that moves over time, such as projectiles.
 - **Only player heroes have time powers.** Enemies have none and cannot change the player's timescale.
-- Time powers: **Time Slow** and **Time Stop**. The player is unaffected by either (`modules.md`).
+- All cooldowns run in real seconds, never on the timescale.
 
-## Cooldown tags
-| Tag | Runs on |
+## Time powers
+| Power | Effect |
 |---|---|
-| `Cooldown:Fixed` | Real seconds |
-| `Cooldown:Scaled` | The timescale |
-
-- Rule: while a time power is active, player modules use fixed cooldowns.
+| Time Slow | The game runs at 50% for 10 real seconds (20 s of game time). The player is unaffected |
+| Time Stop | The game freezes. The player is unaffected. Damage to frozen entities lands immediately. Projectiles freeze and have no collision while frozen, so the player can walk through bullets. Countdown mission timers pause too (intended) |
 
 ## Open
-- Under the rule above, `Cooldown:Scaled` has no users outside cutscenes. Keep the tag only if a module needs it.
+- Time Stop duration and cooldown.
