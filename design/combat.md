@@ -6,6 +6,11 @@
 - Damage types: **Physical**, **Magic**, **Energy**.
 - Friendly fire is off by default. It is on only while the player holds the friendly fire button (`controls.md`).
 
+## Damage reduction
+Two forms:
+- **Armor (flat):** subtracts a fixed amount from every hit.
+- **Damage Reduction (%):** cuts every hit by a percentage. Comes from modules, such as Weather the Storm.
+
 ## Knockback
 - Strength comes from the module (Kick scales with Strength).
 - Knockback resistance is yes or no. It comes from modules with the `KnockbackResistant` tag.
@@ -22,4 +27,5 @@
 - Modules can use a cooldown, a resource, or both.
 
 ## Open
+- Damage reduction details: where Armor comes from, the order the two forms apply in, how percentages stack, and a minimum damage per hit.
 - Full list of status effects and their stacking rules (Infected, Broken Limb, Slot Disable, Hex, Numbing Toxin, Charmed, Defiance Roll, Deathly Rage). Revisit later.

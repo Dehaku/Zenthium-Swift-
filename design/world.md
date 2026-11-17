@@ -15,13 +15,14 @@
 Generic money bags. They do nothing on their own and don't affect mission rewards. Some factions use them (`factions.md`).
 
 ### Placement
-- Banks have a vault holding a lot of Valuables.
-- Stores have quite a few.
-- Every other building has a small chance to hold one.
+- Banks have a vault holding 20-40 Valuables.
+- Stores have 5-10.
+- Every other building has a 75% chance to hold 1.
 - Each civilian has a 10% chance to carry one (below).
 
 ### Picking up
-- Any entity can pick up Valuables, the player included. A pickup takes about 5 s, and any damage taken resets it.
+- The player picks up Valuables instantly with the Drag button (`modules.md`).
+- Other entities take about 5 s per pickup, and any damage taken resets it.
 - Goons go after Valuables they have line of sight to, but only while the player is outside their attack range. Attack range is the longest range among their attack modules, so melee goons often loot while ranged goons fight.
 - Every faction loots, Zombies included.
 
@@ -29,7 +30,7 @@ Generic money bags. They do nothing on their own and don't affect mission reward
 - **Carrying Treasure:** a debuff on every entity holding Valuables, the player included. -5% move speed per Valuable, capped at -50%.
 - A carrier shows a money bag icon under it, with the number held at the icon's bottom right. Hidden at 0. The icon grows 5% per Valuable, capped at +50%.
 - A carrier drops all its Valuables when defeated, with a "KA-CHING!" comic callout.
-- The player can press Kick to launch all their Valuables forward, dropping them.
+- The player can press Kick to launch all their Valuables forward instead of kicking. It deals no damage. Each bag flies like a knocked-back entity, with a small random spread in distance and direction so they scatter. Luck doesn't affect the spread.
 - Civilians drop theirs when Incapacitated, or while fleeing a goon that came within their fear range (`missions.md`). Incapacitated citizens start with theirs already dropped beside them.
 
 ### Goon behavior
@@ -44,6 +45,4 @@ See `missions.md` for the goal itself.
 - Once the Leader holds enough Valuables to fail the goal, the Leader tries to flee the map with them.
 
 ## Open
-- Pickup time for the player: also about 5 s?
-- Does Kick still deal damage while launching Valuables, or does it only launch them?
-- Numbers: Valuables per bank vault and per store, and the chance per other building.
+- Do Valuables the player carries count against Drag capacity?

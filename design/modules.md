@@ -42,7 +42,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Module | Category | Owner | Tags | Mechanics |
 |---|---|---|---|---|
 | Kick | Base action | All heroes | `Melee` | 10 damage, 3 s cooldown. Strength scaling, scaling knockback |
-| Drag | Base action | All heroes, Grey, Strongman | | Grab a target and pull it behind you. Checks for citizens first, then Incapacitated (0 HP) enemies. Carries 1 target, +1 per 100 Strength (150 Strength carries 2). You can fight while dragging and aren't slowed, except by Stubborn citizens (`missions.md`). Dragged targets can't be hurt |
+| Drag | Base action | All heroes, Grey, Strongman | | Grab a target and pull it behind you. Checks for citizens first, then Valuables (the player picks these up instantly; `world.md`), then Incapacitated (0 HP) enemies. Carries 1 target, +1 per 100 Strength (150 Strength carries 2). You can fight while dragging and aren't slowed, except by Stubborn citizens (`missions.md`). Dragged targets can't be hurt |
 | Sprint | Base action | All heroes | | Toggle. +50% move speed, no stamina cost. Enemies and civilians don't sprint |
 | Uppercut | Active | Hero | `Melee` | Like Kick, with 5x knockback. Costs 50 Stamina |
 | Speed Punch | Active | Hero | `Melee` | Attacks 3x faster than Kick, full Kick damage per hit, no knockback. Meant to be stronger than Kick. Pairs well with time powers |
@@ -74,7 +74,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Turrets | Active | Hacker | `Summon` | Summons turret entities |
 | Slot Disable | On hit | Hacker | `Debuff`, `Resist:Intelligence` | Disables a random gear slot for 5 s. Hits from the Hacker's turrets don't count |
 | Chrome Body | Passive | Kingping | | Durability and implant effects |
-| Paid Upgrades (placeholder name) | Passive | Kingping | `Buff` | Gains Armor and HP for each Valuable he holds |
+| Gold-Plated Chrome | Passive | Kingping | `Buff` | Gains Armor and HP for each Valuable he holds |
 | Machine Gun | Active | Mafioso | `Ranged` | Ranged attack |
 | Blade Arms | Active | Mafioso | `Melee` | Melee attack |
 | Super Stats | Passive | Chad | | Speed, durability, stat scaling |
@@ -90,4 +90,4 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 
 ## Open
 - Pied's duration.
-- Paid Upgrades: final name, and Armor and HP per Valuable.
+- Gold-Plated Chrome: Armor and HP per Valuable (after damage reduction is settled in `combat.md`).
