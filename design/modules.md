@@ -42,7 +42,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction units are descr
 | Module | Category | Owner | Tags | Mechanics |
 |---|---|---|---|---|
 | Kick | Base action | All heroes | `Melee` | 10 damage, 3 s cooldown. Strength scaling, scaling knockback |
-| Drag | Base action | All heroes | | Grab a target and pull it behind you. Checks for citizens first, then Incapacitated (0 HP) enemies. Carries 1 target, +1 per 100 Strength (150 Strength carries 2). You can fight while dragging and aren't slowed, except by Stubborn citizens (`missions.md`). Dragged targets can't be hurt |
+| Drag | Base action | All heroes, Grey, Strongman | | Grab a target and pull it behind you. Checks for citizens first, then Incapacitated (0 HP) enemies. Carries 1 target, +1 per 100 Strength (150 Strength carries 2). You can fight while dragging and aren't slowed, except by Stubborn citizens (`missions.md`). Dragged targets can't be hurt |
 | Sprint | Base action | All heroes | | Toggle. +50% move speed, no stamina cost. Enemies and civilians don't sprint |
 | Uppercut | Active | Hero | `Melee` | Like Kick, with 5x knockback. Costs 50 Stamina |
 | Speed Punch | Active | Hero | `Melee` | Attacks 3x faster than Kick, full Kick damage per hit, no knockback. Meant to be stronger than Kick. Pairs well with time powers |
@@ -58,7 +58,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction units are descr
 | Sprinter | Passive | Hero | | 100 Stamina, +10 Stamina/s regen. Doubles Sprint's bonus to +100% move speed. Sprinting never costs Stamina; Stamina is spent by other modules |
 | Weather the Storm | Passive | Hero | | When hit, spends 5 Stamina (if you have it) for no knockback and 25% less damage from that hit |
 | Charming | Passive | Hero | | On approach: 50% chance to turn a Stubborn citizen Scared, 5% chance to convert a goon to your side. Each target rolls once; a hidden Charmed debuff marks it |
-| Hex | Active | Unassigned | `Debuff`, `Resist:Will` | Spell. Disables a random active power slot for 5 s |
+| Hex | Active | Hexer | `Debuff`, `Resist:Will` | Spell. Disables a random active power slot for 5 s |
 | Numbing Toxin | On hit | Unassigned | `Debuff`, `Resist:Toughness` | Poison. Disables a random passive power slot for 5 s |
 | Meat Slap | Active | Dr. Edd | `Ranged` | Ranged attack |
 | Regeneration | Passive | Dr. Edd | | HP regen |
@@ -77,6 +77,15 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction units are descr
 | Machine Gun | Active | Mafioso | `Ranged` | Ranged attack |
 | Blade Arms | Active | Mafioso | `Melee` | Melee attack |
 | Super Stats | Passive | Chad | | Speed, durability, stat scaling |
+| Tractor Beam | Active | GleebPeep | | Beam that pulls in every entity and prop in its path |
+| Tractor Pull | Active | Tractor Drone | | Pulls a hero or citizen toward the nearest Repo Agency drop zone |
+| Immovable | Passive | Shield Bearer, Strongman | `KnockbackResistant` | Can't be knocked back |
+| Energy Blaster | Active | Shield Bearer, Grey | `Ranged` | Ranged attack, Energy damage |
+| Spotlight | Active | The Ringmaster | `Buff` | Puts one ally in the spotlight and buffs it |
+| Cannonball Launch | Active | Human Cannonball | `Melee` | Launches at a target for huge knockback |
+| Cream Pie | Active | Clown | `Ranged`, `Debuff`, `Resist:Finesse` | Thrown pie. On hit, applies "Pied": smears part of the player's screen for a few seconds |
+| Summon Imps | Active | Summoner | `Summon` | Summons imp entities |
+| Fire Wand | Active | Acolyte | `Ranged` | Magic fire attack. Can set buildings and vehicles on fire |
 
 ## Open
-- (none)
+- Numbers for Spotlight's buff and Pied's duration.

@@ -41,6 +41,38 @@ Rogues with random powers and gear who refuse to join any organization. Random m
 | Champion | (varies) | Random powers and gear, super stats | Random |
 | Goon | (varies) | One random power or piece of gear each | Random (1) |
 
+## Galactic Repo Agency
+Alien bureaucrats repossessing Earth, one item at a time. Greys Drag citizens to the Agency's own drop zones, so Rescue missions turn into a race.
+
+| Rank | Unit | Description | Modules |
+|---|---|---|---|
+| Leader | GleebPeep | Tired repo officer with a clipboard and a ship's tractor beam | Tractor Beam |
+| Champion | Tractor Drone | Pulls heroes and citizens toward the drop zones | Tractor Pull |
+| Champion | Shield Bearer | Armored; can't be knocked back | Immovable, Energy Blaster |
+| Goon | Grey | Energy blasters; drags citizens away | Energy Blaster, Drag |
+
+## Circus of Calamity
+A traveling circus that's also a crime ring.
+
+| Rank | Unit | Description | Modules |
+|---|---|---|---|
+| Leader | The Ringmaster | Announces each wave like a show and buffs whichever performer is in the spotlight | Spotlight |
+| Champion | Strongman | Grabs citizens, props and goons and throws them at you | Immovable, Drag, Power Throw |
+| Champion | Human Cannonball | Launches into you for huge knockback, often into walls | Cannonball Launch |
+| Goon | Clown | Throws cream pies | Cream Pie |
+
+## Hexbound Coven
+An overly enthusiastic magic cult that treats every crime as a ritual. Valuables (`world.md`) count as magic items for the Coven: each one a Coven unit steals during a mission makes the whole Coven's spells stronger.
+
+| Rank | Unit | Description | Modules |
+|---|---|---|---|
+| Leader | Grand Librarian Vex | Steals magic items. Loots Valuables like a goon | TBD |
+| Champion | Hexer | Disables heroes' powers | Hex |
+| Champion | Summoner | Summons imps | Summon Imps |
+| Goon | Acolyte | Carries a fire wand that can set things on fire | Fire Wand |
+
 ## Open
-- Attacks for Kingping and Chad.
+- Attacks for Kingping, Chad and Vex.
 - More factions.
+- Where are the Repo Agency's drop zones, and what happens to a citizen taken there?
+- How much stronger does each stolen Valuable make the Coven's spells?
