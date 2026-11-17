@@ -6,7 +6,7 @@ Status: design. No build plan yet.
 - Top-down 2D superhero game inspired by comic book, DCU and MCU universes. Mostly comedic tone.
 - Mission-based. Solo only.
 - Platforms: mouse and keyboard, and gamepad. No touch: the game needs 10+ buttons plus movement.
-- The hero organization is **SWIFT** (it matches the stat acronym; see `stats.md`).
+- The player runs the hero organization **SWIFT** (`lore.md`).
 - Missions reward Zenny (`economy.md`), spent at HQ (`hq.md`).
 
 ## Files

@@ -1,8 +1,8 @@
 # Economy
 
 ## Zenny
-- Crystals in many colors (red, blue, gold, sapphire, etc.), in crystal and metallic variants. All shiny.
-- Each color has its own lore. Mechanically, each color is a separate currency, earned in different ways.
+- Crystals in many colors (red, blue, gold, sapphire, etc.), in crystal and metallic variants. Their lore is in `lore.md`.
+- Each color is a separate currency, earned in different ways.
 - Zenny buys stats, modules, slots and heroes. Each slot type and each hero costs different amounts of different colors.
 - Each mission type and faction rewards different colors, which encourages playing the less popular ones.
 - Example (not final): Silver is rare and is the main currency for slots. Red is common and cheap, and is used for stats.

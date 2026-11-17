@@ -2,9 +2,19 @@
 
 Pure flavor only. Nothing here affects gameplay; mechanics live in the other files.
 
+## SWIFT
+- The hero organization the player runs. Its name matches the five stats: Strength, Will, Intelligence, Finesse, Toughness (`stats.md`).
+
 ## Zenthium
 - Another dimension, full of hostile, glowing crystalline titans and beings.
 - All the Zenny crystals in our world are leaking in from Zenthium.
+
+## Zenny
+- All shiny.
+- Each color has its own lore.
+
+## Galactic Repo Agency
+- Their UFO sits in orbit and beams things up through the crop circles (`factions.md`).
 
 ## Megacorporations
 Background for now. They're meant to tie into the factions later.
@@ -23,4 +33,5 @@ Background for now. They're meant to tie into the factions later.
 | Millenniumworks Energies | Warp, power and Zenthium | CEO: Gwen Linkovich | In cooperation with Letupan Beku |
 
 ## Open
+- The lore meaning of each Zenny color.
 - Who or what are Tuhan Yang Jatuh, Mogok Mati and Letupan Beku?

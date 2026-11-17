@@ -44,7 +44,7 @@ Rogues with random powers and gear who refuse to join any organization. Random m
 | Goon | (varies) | One random power or piece of gear each | Random (1) |
 
 ## Galactic Repo Agency
-Alien bureaucrats repossessing Earth, one item at a time. A UFO in orbit (flavor only) abducts from crop circles placed at random around the map. Greys Drag citizens into the crop circles, so Rescue missions turn into a race.
+Alien bureaucrats repossessing Earth, one item at a time. Crop circles are placed at random around the map (their source: `lore.md`). Greys Drag citizens into the crop circles, so Rescue missions turn into a race.
 
 - A citizen inside a crop circle is abducted: they disappear for good.
 - A hero pulled into a crop circle isn't abducted. It's only an annoyance.
