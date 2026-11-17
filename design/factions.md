@@ -83,6 +83,5 @@ An overly enthusiastic magic cult that treats every crime as a ritual. Valuables
 | Goon | Acolyte | Carries a fire wand that can set things on fire | Fire Wand |
 
 ## Open
-- Do percentage stat boosts add together (Chad: +200% innate + 200% Super Stats = +400%) or multiply (3x then 3x = 9x)?
 - Attacks for Kingping, Chad and Vex.
 - More factions.
