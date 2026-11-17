@@ -9,7 +9,7 @@
 - Same four materials and HP as walls.
 - Unlocked doors open when touched and close when you step away.
 - Locked doors must be broken, with modules or knockback.
-- Enemies pathfind as if doors weren't there. When one touches a locked door, it attacks the door until it breaks.
+- Enemies plan their paths as if doors weren't there. But locked doors are solid: an enemy collides with one and can't pass through it. It stops and attacks the door until it breaks, then walks on.
 
 ## Valuables
 - Generic money bags placed around the map.
