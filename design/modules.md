@@ -74,7 +74,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Turrets | Active | Hacker | `Summon` | Summons turret entities |
 | Slot Disable | On hit | Hacker | `Debuff`, `Resist:Intelligence` | Disables a random gear slot for 5 s. Hits from the Hacker's turrets don't count |
 | Chrome Body | Passive | Kingping | | 25% Damage Reduction |
-| Gold-Plated Chrome | Passive | Kingping | `Buff` | +5% Toughness and +1% Damage Reduction for each Valuable he holds. The extra HP from Toughness is added to current HP too. The Damage Reduction is one source that adds up per Valuable (30 Valuables = 30%) and multiplies with his other sources |
+| Gold-Plated Chrome | Passive | Kingping | `Buff` | +5% Toughness and +1% Damage Reduction for each Valuable he holds. Each bonus is one source that adds up per Valuable (40 Valuables = +200% Toughness and 40% Damage Reduction) and multiplies with his other sources. The extra HP from Toughness is added to current HP too |
 | Machine Gun | Active | Mafioso | `Ranged` | Ranged attack |
 | Blade Arms | Active | Mafioso | `Melee` | Melee attack |
 | Super Stats | Passive | Chad | | +200% to all SWIFT stats |
