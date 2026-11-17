@@ -23,6 +23,7 @@ Status: design. No build plan yet.
 | `world.md` | Destructible walls and doors |
 | `economy.md` | Zenny currencies, hero reward bonus, dev options |
 | `hq.md` | HQ between missions and its tabs |
+| `story.md` | Story Arcs |
 | `controls.md` | Default bindings |
 | `future.md` | Ideas board: features we won't build now |
 
@@ -30,4 +31,3 @@ Each file ends with an `## Open` section for its unresolved questions.
 
 ## Open
 - Final title. Working title is "Zenthium SWIFT Heroes".
-- Story. Running idea: **Story Arcs**. Over time, chains of Story Arc missions appear. They lightly change the mission map's look and nothing else. Several arcs can run at once, and each pops up a unique mission with some plot.

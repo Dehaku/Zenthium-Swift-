@@ -35,6 +35,7 @@
   - Show off for a news reporter (use a power or gear in front of them).
   - Defeat the Leader.
   - Capture the Leader, Champions or Goons.
+  - Prevent 50% of Valuables from being stolen (`world.md`).
 - Secondary goals reward, at random, extra Zenny or a percentage reward bonus (`economy.md`).
 
 ## Citizens

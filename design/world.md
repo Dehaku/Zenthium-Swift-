@@ -15,8 +15,12 @@
 - Generic money bags placed around the map.
 - Goons want them. Picking one up takes about 5 s.
 - A goon goes for Valuables only while the player is outside its attack range. Its attack range is the longest range among its attack modules, so melee goons often loot while ranged goons fight.
-- A goon carrying Valuables shows a small money bag icon under it, with the number stolen at the icon's bottom right. Hidden at 0.
-- Some factions use Valuables in their own way (`factions.md`).
+- A goon carrying Valuables that sees no more Valuables takes them to its Leader and hands them over.
+- With no Leader on the mission, goons keep their normal behavior while carrying Valuables. Exception: during the "Prevent 50% of Valuables from being stolen" secondary goal (`missions.md`), they try to leave the map with them instead.
+- A Valuable counts as stolen if it's carried off the map, or an enemy still holds it when the mission ends.
+- Any unit carrying Valuables shows a small money bag icon under it, with the number held at the icon's bottom right. Hidden at 0.
+- A carrier drops all its Valuables when defeated.
+- Valuables do nothing on their own and don't affect mission rewards. Some factions use them (`factions.md`).
 
 ## Open
-- What happens to stolen Valuables? Do they drop when the goon is defeated, can goons escape with them, and do they affect rewards or fail conditions?
+- (none)

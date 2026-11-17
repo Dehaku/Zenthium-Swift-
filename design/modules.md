@@ -78,14 +78,14 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction units are descr
 | Blade Arms | Active | Mafioso | `Melee` | Melee attack |
 | Super Stats | Passive | Chad | | Speed, durability, stat scaling |
 | Tractor Beam | Active | GleebPeep | | Beam that pulls in every entity and prop in its path |
-| Tractor Pull | Active | Tractor Drone | | Pulls a hero or citizen toward the nearest Repo Agency drop zone |
+| Tractor Pull | Active | Tractor Drone | | Pulls a hero or citizen toward the nearest Repo Agency crop circle (`factions.md`) |
 | Immovable | Passive | Shield Bearer, Strongman | `KnockbackResistant` | Can't be knocked back |
 | Energy Blaster | Active | Shield Bearer, Grey | `Ranged` | Ranged attack, Energy damage |
-| Spotlight | Active | The Ringmaster | `Buff` | Puts one ally in the spotlight and buffs it |
+| Spotlight | Active | The Ringmaster | `Buff` | A 20 m spotlight centered on him. Circus units inside get +50% to all stats |
 | Cannonball Launch | Active | Human Cannonball | `Melee` | Launches at a target for huge knockback |
-| Cream Pie | Active | Clown | `Ranged`, `Debuff`, `Resist:Finesse` | Thrown pie. On hit, applies "Pied": smears part of the player's screen for a few seconds |
+| Cream Pie | Active | Clown | `Ranged`, `Debuff`, `Resist:Intelligence` | Thrown pie. On hit, applies "Pied": smears part of the player's screen for a few seconds |
 | Summon Imps | Active | Summoner | `Summon` | Summons imp entities |
 | Fire Wand | Active | Acolyte | `Ranged` | Magic fire attack. Can set buildings and vehicles on fire |
 
 ## Open
-- Numbers for Spotlight's buff and Pied's duration.
+- Pied's duration.
