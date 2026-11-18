@@ -24,8 +24,8 @@ Biological infestation.
 | Champion | Breaker | Durable; hits slow the target | Durability, Broken Limb |
 | Goon | Zombie | Slow moving. Victims who die while Infected become zombies | Infectious Bite, Turn on Death |
 
-- **Arrival:** `Arrival:Sewer` (`spawns.md`).
-- **Champion share:** default (`spawns.md`).
+- **Arrival:** `Arrival:Sewer` (`enemies.md`).
+- **Champion share:** default (`enemies.md`).
 - **Higher-rank entities:** open (`difficulty.md`).
 
 ## Technomafia
@@ -38,8 +38,8 @@ Cyberpunk criminal organization with implants.
 | Champion | Hacker | Deploys turrets; each of its own hits disables a random gear slot. Takes over Heavy Turrets | Turrets, Slot Disable, Reprogram |
 | Goon | Mafioso | Every Mafioso has both a machine gun and blade arms | Machine Gun, Blade Arms |
 
-- **Arrival:** `Arrival:Van` (`spawns.md`).
-- **Champion share:** default (`spawns.md`).
+- **Arrival:** `Arrival:Van` (`enemies.md`).
+- **Champion share:** default (`enemies.md`).
 - **Higher-rank entities:** open (`difficulty.md`).
 
 ## Infinity Anarchous
@@ -51,8 +51,8 @@ Rogues with random powers and gear who refuse to join any organization. Random m
 | Champion | (varies) | Random powers and gear, super stats | Chad Adjacent, Random |
 | Goon | (varies) | One random power or piece of gear each | Random (1) |
 
-- **Arrival:** `Arrival:OnFoot` (`spawns.md`).
-- **Champion share:** default (`spawns.md`).
+- **Arrival:** `Arrival:OnFoot` (`enemies.md`).
+- **Champion share:** default (`enemies.md`).
 - **Higher-rank entities:** open (`difficulty.md`).
 
 ## Galactic Repo Agency
@@ -70,8 +70,8 @@ Alien bureaucrats repossessing Earth, one item at a time. Crop circles are place
 | Champion | Shield Bearer | Armored; can't be knocked back | Immovable, Energy Blaster |
 | Goon | Grey | Energy blasters; drags citizens away | Energy Blaster, Drag |
 
-- **Arrival:** `Arrival:Beam` (`spawns.md`).
-- **Champion share:** default (`spawns.md`).
+- **Arrival:** `Arrival:Beam` (`enemies.md`).
+- **Champion share:** default (`enemies.md`).
 - **Higher-rank entities:** open (`difficulty.md`).
 
 ## Circus of Calamity
@@ -84,8 +84,8 @@ A traveling circus that's also a crime ring.
 | Champion | Human Cannonball | Launches into you for huge knockback, often into walls | Cannonball Launch |
 | Goon | Clown | Throws cream pies | Cream Pie |
 
-- **Arrival:** `Arrival:ClownCar` (`spawns.md`).
-- **Champion share:** default (`spawns.md`).
+- **Arrival:** `Arrival:ClownCar` (`enemies.md`).
+- **Champion share:** default (`enemies.md`).
 - **Higher-rank entities:** open (`difficulty.md`).
 
 ## Hexbound Coven
@@ -102,8 +102,8 @@ An overly enthusiastic magic cult that treats every crime as a ritual. Valuables
 | Champion | Summoner | Summons imps | Summon Imps |
 | Goon | Acolyte | Carries a fire wand that can set things on fire | Fire Wand |
 
-- **Arrival:** `Arrival:Portal` (`spawns.md`).
-- **Champion share:** default (`spawns.md`).
+- **Arrival:** `Arrival:Portal` (`enemies.md`).
+- **Champion share:** default (`enemies.md`).
 - **Higher-rank entities:** open (`difficulty.md`).
 
 ## Zenthium (neutral)
