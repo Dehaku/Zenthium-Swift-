@@ -42,6 +42,15 @@
 
 - An explosion goes off 1 s after the vehicle is destroyed, with a red ring showing its radius. It hurts everyone, the player and civilians included.
 
+## Fire
+- **Buildings** burn as a whole. Each is unburned, burning or burned out.
+- **A burning building:** every 5 s, everyone inside gains a Burn (`statuses.md`), and a random wall or door of the building is instantly destroyed. After 60 s it's burned out: blackened, and no longer burning.
+- **Props** burn through the Burn status, which lasts 10x longer on them. A burning vehicle explodes only when its HP reaches 0, but Burn ignores Armor and Damage Reduction (`combat.md`), so it gets there fast.
+- **Starting fires:** modules with the `Ignites` tag set buildings and vehicles on fire when they hit them. Burn alone doesn't light buildings. An exploding vehicle sets the vehicles in its blast on fire, but not buildings.
+- **Putting fires out:** modules with the `Extinguish` tag put out burning buildings and props. Planned sources: water heroes, spells, magic and equipment.
+- **Spreading** (from rank A, `difficulty.md`): every 15 s, each burning building has a 25% chance to ignite each unburned building within 20 m.
+- **Damage type:** set by the source, like any module (Fire Wand and Fire Spell Tome deal Magic).
+
 ## Valuables
 Generic money bags. They do nothing on their own and don't affect mission rewards. Some factions use them (`factions.md`).
 
@@ -77,4 +86,6 @@ See `missions.md` for the goal itself.
 - Once the Leader holds enough Valuables to fail the goal, the Leader tries to flee the map with them.
 
 ## Open
-- (none)
+- Burn damage from burning buildings.
+- Does `Extinguish` also remove Burn from entities?
+- Which modules have `Extinguish`? None exist yet.

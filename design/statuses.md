@@ -25,7 +25,7 @@ Buffs, debuffs, hidden markers and states. Module durations and amounts live wit
 | Taunted | Crowd control | Must target the taunter | Refresh | Taunt |
 | Engulfed | Crowd control | Grabbed and held | Refresh | Engulf |
 | Marked | Debuff | Deals less damage, and takes more damage from whoever marked it | Refresh | Taunt |
-| Burn | DoT | Fire damage over time | Independent | Fire Spell Tome, Spectrum Bolt |
+| Burn | DoT | Fire damage over time. Lasts 10x longer on props | Independent | Fire Spell Tome, Spectrum Bolt, burning buildings, exploding vehicles (`world.md`) |
 | Infected | DoT | Damage over time. Any entity reduced to 0 HP while Infected rises as a zombie on the spot | Refresh | Infectious Bite |
 | Broken Limb | Slow | Slower movement | Refresh | Broken Limb |
 | Carrying Treasure | Slow | See `world.md` | Intensity (per Valuable) | Valuables |

@@ -20,7 +20,7 @@
 |---|---|---|
 | Rescue | Enter a location and extract citizens | Fewer than 25% of the target citizens rescued. The % rises with difficulty |
 | Countdown | Find and break a bomb or horror egg before it goes off or hatches. Difficulty sets the timer and how hard the target is to reach (locked doors, wall and door materials) | It goes off |
-| Arson Riot | Goons set buildings and vehicles on fire. Draft rules in Open | See Open |
+| Arson Riot | Goons set buildings and vehicles on fire (`world.md`). Defeat every enemy. Every goon gets an Ignite action: 5 s at a building, reset by any damage, used only while the player is outside its attack range | Too many buildings burning or burned out: 50% at D, 5% lower per rank, never below 20% |
 | Invasion | King of the hill. Enemies head for a location (armory, bank, hospital, lab, etc.) to take it. Defeat them all | The loss timer runs out. Each enemy inside the location's radius speeds it up; the player's presence doesn't block it |
 
 - Each Invasion location has random flavor text, such as "They're trying to steal the money!" or "They're trying to release a deadly pathogen!"
@@ -53,4 +53,3 @@
 - **Capture:** an Incapacitated enemy inside an exit zone is captured. How it got there doesn't matter (Drag, Power Throw, knockback).
 
 ## Open
-- Arson Riot rules. Draft: fires can't be put out, so the player stops as many buildings igniting as possible. Fail if a set % of buildings ignite (the % scales with difficulty). At very high difficulty, fire spreads to neighboring buildings.

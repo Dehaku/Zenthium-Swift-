@@ -11,7 +11,7 @@ D (lowest), C, B, A, S, then S2, S3, S4 and so on, forever.
 | D | The baseline. Mostly goons; Champions are rare. All mission intel is revealed | Small | Wood, Glass |
 | C | Champions appear regularly | Medium | Stone |
 | B | Reinforcement waves (`enemies.md`). Heavy Turrets in some buildings (`world.md`) | Medium | Stone |
-| A | Fire spreads between buildings | Large | Metal |
+| A | Fire spreads between buildings (`world.md`) | Large | Metal |
 | S | Leaders gain extra random modules (below) | Large | Crystalline |
 | S2 and up | Only the per-rank increases below | Large | Crystalline |
 

@@ -19,6 +19,8 @@ Order: Armor first, then Damage Reduction. Example: a 100 damage hit against 10 
 
 Every hit deals at least 5% of its original damage.
 
+Damage over time (DoT) ignores both Armor and Damage Reduction, so it stays dangerous.
+
 ## Knockback
 - Strength comes from the module (Kick scales with Strength).
 - Knockback resistance is yes or no. It comes from modules with the `KnockbackResistant` tag.
