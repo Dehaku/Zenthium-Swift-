@@ -21,7 +21,8 @@ Status: design. No build plan yet.
 | `modules.md` | Module schema, tags, module info, full module catalog |
 | `missions.md` | Mission flow, difficulty, types, secondary goals, citizens, extraction |
 | `factions.md` | Villain factions, their entities and weights |
-| `world.md` | Destructible walls and doors |
+| `maps.md` | Map generation, size, Blazithion's districts, sockets, fog of war |
+| `world.md` | Walls, doors, windows, props, Valuables |
 | `economy.md` | Zenny currencies, hero reward bonus, dev options |
 | `hq.md` | HQ between missions and its tabs |
 | `story.md` | Story Arcs |
