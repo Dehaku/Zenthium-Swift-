@@ -8,6 +8,7 @@ Pure flavor only. Nothing here affects gameplay; mechanics live in the other fil
 ## Zenthium
 - Another dimension, full of hostile, glowing crystalline titans and beings.
 - All the Zenny crystals in our world are leaking in from Zenthium.
+- Zenthium's residents love blood, and souls most of all.
 
 ## Zenny
 Crystals leaking in from Zenthium. All shiny.

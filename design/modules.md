@@ -63,6 +63,18 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Spectrum Bolt | Active | Prism | `Ranged`, `Debuff`, `Resist:Toughness`, `Resist:Will` | Magic bolt that costs Charge. Each cast cycles color: Red pulls nearby enemies toward the impact, Blue burns (DoT, resisted by Toughness), Purple may stun (resisted by Will) |
 | Card Throw | Active | Madame Tarot | `Ranged` | Homing cards that deal Magic damage. Each card has a random effect |
 | Mirage | Active | Madame Tarot | | Creates decoys that draw enemy attention, and lowers her Detectability while they last |
+| Dash | Active | Hero | | A quick burst of movement in your facing direction. Costs Stamina. Invulnerable during the dash |
+| Telekinetic Grab | Active | Hero | | Instant Drag at range: grabs a citizen, Valuable, prop or Incapacitated enemy from a distance |
+| Shockwave Stomp | Active | Hero | | Knocks back everything around you, sending enemies into walls |
+| Ooze Through | Passive | Hero | | Slip through locked doors as a puddle instead of breaking them (`world.md`) |
+| Evac Balloon | Gear (active) | Hero | | Attach to a citizen or Incapacitated enemy and it floats them away. Counts as rescued or captured |
+| Six-Shooter | Gear (active) | Hero | `Ranged` | Physical damage. Uses 6 Ammo, then reloads |
+| Padded Suit | Gear (passive) | Hero | | +30 Armor. A lot early on, not much later |
+| Force Spell Tome | Gear (passive) | Hero | | +15 Magic damage on your magic hits |
+| Fire Spell Tome | Gear (passive) | Hero | `Debuff`, `Resist:Toughness` | +10 Magic damage on your magic hits, plus a fire DoT of 12 damage over 4 s |
+| Electric Spell Tome | Gear (passive) | Hero | | +10 Magic damage on your magic hits, plus a chain that jumps to up to 5 more enemies for 5 damage each |
+| First Aid Spray | Gear (active) | Hero | | Heals you for 25% of max HP; 20 s cooldown. Used on an Incapacitated citizen, it costs nothing, has no cooldown, and gets them up as Scared |
+| Smoke Bomb | Gear (active) | Hero | `Debuff`, `Resist:Toughness` | A smoke cloud that blocks line of sight and resets nearby enemies' awareness bars. Enemies inside are stunned for as long as they stay in it |
 | Hex | Active | Hexer | `Debuff`, `Resist:Will` | Spell. Disables a random active power slot for 5 s |
 | Numbing Toxin | On hit | Unassigned | `Debuff`, `Resist:Toughness` | Poison. Disables a random passive power slot for 5 s |
 | Meat Slap | Active | Dr. Edd | `Ranged` | Ranged attack |
@@ -96,5 +108,6 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Fire Wand | Active | Acolyte | `Ranged` | Magic fire attack. Can set buildings and vehicles on fire |
 
 ## Open
+- Numbers for Dash (Stamina cost), Shockwave Stomp, Six-Shooter and Smoke Bomb.
 - Numbers for Ink Beast, Glyph Trap, Spectrum Bolt, Card Throw and Mirage.
 - Card Throw's list of random card effects.
