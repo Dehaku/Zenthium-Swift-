@@ -11,7 +11,7 @@
 | Metallic | Rare | Gold, Silver | Slot unlocks and hero unlocks. Also cosmetics, melting down, and mission tips and intel reveals (`hq.md`) |
 
 - Each mission type rewards its own mix of families.
-- Bigger rewards drop as bigger crystals, since Zenny melds with its own kind.
+- Zenny is awarded on the end-of-mission screen (`hud.md`). Bigger rewards show as bigger crystals, since Zenny melds with its own kind.
 
 ### Metallic sinks
 Keep Metallic useful after every slot and hero is unlocked:
