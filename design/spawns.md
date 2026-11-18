@@ -1,4 +1,4 @@
-# Enemy Spawns
+# Enemy Spawns and AI
 
 ## Threat budget
 - Each enemy entity has a budget cost. Example: goon 1, Champion 5.
@@ -45,5 +45,40 @@ Where each mission type spends its budget:
 - **Heavy Turrets:** from rank B, each building has a 15% chance to have one (`world.md`).
 - **Zenthium Fissure** (`difficulty.md`): the first spawn comes 60 s in: 3 Zen Creatures, 1 Zen Soldier and the Zen Commander together. After that, a Zen Creature every 20 s and a Zen Soldier every 60 s.
 
+## AI
+Applies to enemies, neutrals and the player's allies (converted goons, summons).
+
+### States
+Idle (patrol, `## Squads`), Combat, Searching, Looting (`world.md`), Objective (Invasion location, carrying Valuables, fleeing the map).
+
+### Using modules
+- Each entity has a designer-ordered module list. In combat it uses the first module that's off cooldown, can afford its cost and has a target in range.
+- This is how "Reprogram first" works: Reprogram sits at the top of the Hacker's list.
+
+### Targets
+- Enemies attack anyone not on their side, civilians included.
+- They attack the nearest valid target. Exceptions: Taunt overrides it, and an entity that just took damage turns on whoever hit it.
+- Enemies prefer the player and the player's allies. They fight neutrals only when attacked by them, or when nothing better is in view.
+- Neutral creatures (Zenthium) have no preference: they attack anything not on their own team. Heavy Turrets never attack civilians (`world.md`).
+
+### Becoming aware
+- An entity hit while unaware becomes aware instantly.
+- On becoming aware, a comic "!" pops over its head, and it waits 0.5 s before acting.
+- **Alert:** during that 0.5 s, a half-transparent grey circle shows a 10 m alert radius. When the 0.5 s ends, allies inside it become aware too. If the entity is defeated first, no alert goes out.
+
+### Losing the target
+- When line of sight breaks, the entity goes to the target's last known position and searches for about 10 s. Then its awareness drains and it returns to Idle.
+
+### Movement
+- Melee: chase and attack.
+- Ranged: move until the target is in range, stop and fire. Back off a little if the target gets very close.
+
+### Other rules
+- **Telegraphs:** modules with the `Telegraph` tag flash red for a moment before they hit.
+- **Champions and Leaders** use the same AI, with their own module lists. Leaders keep their special behaviors (entrance, looting, fleeing with Valuables).
+- **Friendly fire:** enemy attacks can hurt other enemies. Dev option: a toggle to turn this off.
+- **Cowardice:** entities with the `Coward` tag have a small chance to panic and run below 20% HP. Goons get it by default. Zombies, Zenthium creatures and summons don't.
+
 ## Open
 - Budget costs for every entity.
+- Cowardice: the chance to panic, and how long they run.

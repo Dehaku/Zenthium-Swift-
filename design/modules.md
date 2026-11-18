@@ -23,7 +23,7 @@
 - Every module takes 1 slot.
 - Gear can have actives, passives or both. Gear actives have their own buttons (`controls.md`).
 - Magic modules and items generally use Intelligence and Will; each module decides how.
-- **Tags (examples):** `Melee`, `Ranged`, `Time`, `Buff`, `Debuff`, `Summon`, `Resist:<Stat>`, `KnockbackResistant`, `CannotBeDisabled`, `Hackable`. Shared tags let modules change secondary stats without hard-coded pairings.
+- **Tags (examples):** `Melee`, `Ranged`, `Time`, `Buff`, `Debuff`, `Summon`, `Resist:<Stat>`, `KnockbackResistant`, `CannotBeDisabled`, `Hackable`, `Telegraph`, `Coward`. Shared tags let modules change secondary stats without hard-coded pairings.
 - **Triggers (examples):** always-on, on hit, on damage taken, on Defiance proc, on timer, on activation, on approach.
 - **Presentation:** every module needs an icon, a visual flash, a sound cue and optional comic callout text ("POW!").
 
@@ -83,13 +83,13 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Megaphone | Gear (active) | Hero | `Debuff`, `Resist:Toughness` | Turns nearby Stubborn citizens Scared, sends Scared citizens running for the nearest exit, and stuns enemies within 10 m |
 | Barrier Shield | Active | Hero | | A 180-degree crescent shield in front of you that blocks projectiles for a few seconds. Costs Mana. Enemies that touch it are knocked back with Kick's force |
 | Stealth Suit | Gear (passive) | Hero | | Lowers Detectability, plus a flat +10% dodge chance |
-| Taunt | Active | Hero | `Debuff`, `Resist:Will` | "COME AT ME!" Enemies within 15 m must target you for 4 s and are Marked: they deal 30% less damage and take 25% more damage from you. While taunting, you take 50% less damage, and every enemy that hits you is knocked back with Kick's force. Long cooldown |
+| Taunt | Active | Hero | `Debuff`, `Resist:Will` | "COME AT ME!" Every enemy that can see you must target you for 4 s and are Marked: they deal 30% less damage and take 25% more damage from you. While taunting, you take 50% less damage, and every enemy that hits you is knocked back with Kick's force. Long cooldown |
 | Second Wind | Passive | Hero | | When Defiance triggers, heals 25% of HP |
 | Hex | Active | Hexer | `Debuff`, `Resist:Will` | Spell. Disables a random active power slot for 5 s |
 | Numbing Toxin | On hit | Unassigned | `Debuff`, `Resist:Toughness` | Poison. Disables a random passive power slot for 5 s |
 | Meat Slap | Active | Dr. Edd | `Ranged` | Ranged attack |
 | Regeneration | Passive | Dr. Edd | | HP regen |
-| Engulf | Active | Dr. Edd | | Grabs and holds the target |
+| Engulf | Active | Dr. Edd | `Telegraph` | Grabs and holds the target |
 | Bone Spike | Active | Stalker | `Ranged` | Ranged attack |
 | Half-Invisible | Passive | Stalker | | 50% transparent. Uses Detectability rules |
 | Durability | Passive | Breaker | | 50% Damage Reduction |
@@ -97,7 +97,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Infectious Bite | On hit | Zombie | `Debuff`, `Resist:Toughness` | "Infected" DoT debuff |
 | Turn on Death | Passive | Zombie | | Any entity reduced to 0 HP while Infected rises as a zombie on the spot, civilians included (`statuses.md`) |
 | Treads | Passive | Tank | | Mobility |
-| Cannons | Active | Tank | `Ranged` | Ranged attack |
+| Cannons | Active | Tank | `Ranged`, `Telegraph` | Ranged attack |
 | Turrets | Active | Hacker | `Summon` | Summons turret entities |
 | Reprogram | Active | Hacker | `Resist:Intelligence` | Takes over a target with the `Hackable` tag, such as a Heavy Turret, which then fights for the Hacker's side. Any entity with Reprogram uses it first on a Hackable target in view |
 | Heavy Gun | Active | Heavy Turret | `Ranged` | Ranged attack |
@@ -114,7 +114,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Immovable | Passive | Shield Bearer, Strongman | `KnockbackResistant` | Can't be knocked back |
 | Energy Blaster | Active | Shield Bearer, Grey | `Ranged` | Ranged attack, Energy damage |
 | Spotlight | Active | The Ringmaster | `Buff` | A spotlight with a 20 m radius, centered on him. Circus entities inside get +50% to all stats |
-| Cannonball Launch | Active | Human Cannonball | `Melee` | Launches at a target for huge knockback |
+| Cannonball Launch | Active | Human Cannonball | `Melee`, `Telegraph` | Launches at a target for huge knockback |
 | Cream Pie | Active | Clown | `Ranged`, `Debuff`, `Resist:Will` | Thrown pie. On hit, applies "Pied": smears part of the player's screen, fading out over 3 s. Pies stack, so many can cover the screen quickly (`statuses.md`) |
 | Summon Imps | Active | Summoner | `Summon` | Summons imp entities |
 | Fire Wand | Active | Acolyte | `Ranged` | Magic fire attack. Can set buildings and vehicles on fire |

@@ -23,7 +23,7 @@ Status: design. No build plan yet.
 | `missions.md` | Mission flow, difficulty, types, secondary goals, citizens, extraction |
 | `factions.md` | Villain factions, their entities and weights |
 | `maps.md` | Map generation, size, Blazithion's districts, sockets, fog of war |
-| `spawns.md` | Threat budget, squads, reinforcements, arrival tags, population cap |
+| `spawns.md` | Enemy spawning (threat budget, squads, reinforcements, arrival tags, population cap) and AI |
 | `world.md` | Walls, doors, windows, props, Valuables |
 | `economy.md` | Zenny currencies, hero reward bonus, dev options |
 | `hq.md` | HQ between missions and its tabs |
