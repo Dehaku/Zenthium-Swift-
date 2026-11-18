@@ -83,6 +83,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Megaphone | Gear (active) | Hero | `Debuff`, `Resist:Toughness` | Turns nearby Stubborn citizens Scared, sends Scared citizens running for the nearest exit, and stuns enemies within 10 m |
 | Barrier Shield | Active | Hero | | A 180-degree crescent shield in front of you that blocks projectiles for a few seconds. Costs Mana. Enemies that touch it are knocked back with Kick's force |
 | Stealth Suit | Gear (passive) | Hero | | Lowers Detectability, plus a flat +10% dodge chance |
+| Taunt | Active | Hero | `Debuff`, `Resist:Will` | "COME AT ME!" Enemies within 15 m must target you for 4 s and are Marked: they deal 30% less damage and take 25% more damage from you. While taunting, you take 50% less damage, and every enemy that hits you is knocked back with Kick's force. Long cooldown |
 | Second Wind | Passive | Hero | | When Defiance triggers, heals 25% of HP |
 | Hex | Active | Hexer | `Debuff`, `Resist:Will` | Spell. Disables a random active power slot for 5 s |
 | Numbing Toxin | On hit | Unassigned | `Debuff`, `Resist:Toughness` | Poison. Disables a random passive power slot for 5 s |
@@ -117,6 +118,6 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Fire Wand | Active | Acolyte | `Ranged` | Magic fire attack. Can set buildings and vehicles on fire |
 
 ## Open
-- Numbers for Dash (Stamina cost), Shockwave Stomp, Six-Shooter, Smoke Bomb, Repulsor Blast, Bandolier, Breaching Charge (damage), Barrier Shield (duration, Mana) and Stealth Suit (Detectability).
+- Numbers for Dash (Stamina cost), Shockwave Stomp, Six-Shooter, Smoke Bomb, Repulsor Blast, Bandolier, Breaching Charge (damage), Barrier Shield (duration, Mana), Stealth Suit (Detectability) and Taunt (cooldown).
 - Numbers for Ink Beast, Glyph Trap, Spectrum Bolt, Card Throw and Mirage.
 - Card Throw's list of random card effects.
