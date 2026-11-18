@@ -13,7 +13,7 @@ Upgradable and uncapped. Bought with Zenny in the HQ Training Room. Every entity
 
 - Percentage stat boosts multiply. Example: Chad's 10 Strength x3 (innate +200%, `factions.md`) x3 (Super Stats, `modules.md`) = 90.
 - These roles are general. Each module defines exactly how it uses stats (`modules.md`).
-- Which stat resists a debuff is set by a tag on the module that applies it (`combat.md`).
+- Which stat resists a debuff is set by a tag on the module that applies it (`statuses.md`).
 
 ## Secondary stats
 Not directly upgradable. Modules change them through tags.

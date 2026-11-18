@@ -9,7 +9,7 @@
 |---|---|---|
 | Dodge chance | `stats.md` | TBD |
 | Defiance proc | `stats.md` | TBD |
-| Debuff resist | `combat.md` | TBD |
+| Debuff resist | `statuses.md` | TBD |
 | Charming conversions | `modules.md` | TBD |
 
 ## Open

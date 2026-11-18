@@ -20,9 +20,8 @@ Every hit deals at least 5% of its original damage.
 - Knockback resistance is yes or no. It comes from modules with the `KnockbackResistant` tag.
 - Entities knocked into a wall deal heavy damage to it (`world.md`).
 
-## Debuff resists
-- Every module that applies a debuff has a `Resist:<Stat>` tag naming the stat that resists it.
-- A successful resist ignores the debuff entirely.
+## Statuses
+Buffs, debuffs, crowd control and resists are in `statuses.md`.
 
 ## Resources
 - **Stamina**, **Mana**, **Charge** and **Ammo**.
@@ -31,4 +30,4 @@ Every hit deals at least 5% of its original damage.
 - Modules can use a cooldown, a resource, or both.
 
 ## Open
-- Full list of status effects and their stacking rules (Infected, Broken Limb, Slot Disable, Hex, Numbing Toxin, Charmed, Defiance Roll, Deathly Rage). Revisit later.
+- (none)

@@ -113,7 +113,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Energy Blaster | Active | Shield Bearer, Grey | `Ranged` | Ranged attack, Energy damage |
 | Spotlight | Active | The Ringmaster | `Buff` | A spotlight with a 20 m radius, centered on him. Circus entities inside get +50% to all stats |
 | Cannonball Launch | Active | Human Cannonball | `Melee` | Launches at a target for huge knockback |
-| Cream Pie | Active | Clown | `Ranged`, `Debuff`, `Resist:Will` | Thrown pie. On hit, applies "Pied": smears part of the player's screen, fading out over 3 s. Stacks: each pie adds another smear, so many pies can cover the screen quickly |
+| Cream Pie | Active | Clown | `Ranged`, `Debuff`, `Resist:Will` | Thrown pie. On hit, applies "Pied": smears part of the player's screen, fading out over 3 s. Pies stack, so many can cover the screen quickly (`statuses.md`) |
 | Summon Imps | Active | Summoner | `Summon` | Summons imp entities |
 | Fire Wand | Active | Acolyte | `Ranged` | Magic fire attack. Can set buildings and vehicles on fire |
 
