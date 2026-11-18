@@ -24,6 +24,8 @@ Biological infestation.
 | Champion | Breaker | Durable; hits slow the target | Durability, Broken Limb |
 | Goon | Zombie | Slow moving. Victims who die while Infected become zombies | Infectious Bite, Turn on Death |
 
+- **Higher-rank entities:** open (`difficulty.md`).
+
 ## Technomafia
 Cyberpunk criminal organization with implants.
 
@@ -34,6 +36,8 @@ Cyberpunk criminal organization with implants.
 | Champion | Hacker | Deploys turrets; each of its own hits disables a random gear slot. Takes over Heavy Turrets | Turrets, Slot Disable, Reprogram |
 | Goon | Mafioso | Every Mafioso has both a machine gun and blade arms | Machine Gun, Blade Arms |
 
+- **Higher-rank entities:** open (`difficulty.md`).
+
 ## Infinity Anarchous
 Rogues with random powers and gear who refuse to join any organization. Random modules are drawn from every module, including other factions'.
 
@@ -42,6 +46,8 @@ Rogues with random powers and gear who refuse to join any organization. Random m
 | Leader | Chad | Superhuman "chill guy" who goes along with his crazed champion friends. Super stats, speed and durability | Super Stats, Super Speed |
 | Champion | (varies) | Random powers and gear, super stats | Chad Adjacent, Random |
 | Goon | (varies) | One random power or piece of gear each | Random (1) |
+
+- **Higher-rank entities:** open (`difficulty.md`).
 
 ## Galactic Repo Agency
 Alien bureaucrats repossessing Earth, one item at a time. Crop circles are placed at random around the map (their source: `lore.md`). Greys Drag citizens into the crop circles, so Rescue missions turn into a race.
@@ -58,6 +64,8 @@ Alien bureaucrats repossessing Earth, one item at a time. Crop circles are place
 | Champion | Shield Bearer | Armored; can't be knocked back | Immovable, Energy Blaster |
 | Goon | Grey | Energy blasters; drags citizens away | Energy Blaster, Drag |
 
+- **Higher-rank entities:** open (`difficulty.md`).
+
 ## Circus of Calamity
 A traveling circus that's also a crime ring.
 
@@ -67,6 +75,8 @@ A traveling circus that's also a crime ring.
 | Champion | Strongman | Grabs citizens, props and goons and throws them at you | Immovable, Drag, Power Throw |
 | Champion | Human Cannonball | Launches into you for huge knockback, often into walls | Cannonball Launch |
 | Goon | Clown | Throws cream pies | Cream Pie |
+
+- **Higher-rank entities:** open (`difficulty.md`).
 
 ## Hexbound Coven
 An overly enthusiastic magic cult that treats every crime as a ritual. Valuables (`world.md`) count as magic items for the Coven.
@@ -82,6 +92,18 @@ An overly enthusiastic magic cult that treats every crime as a ritual. Valuables
 | Champion | Summoner | Summons imps | Summon Imps |
 | Goon | Acolyte | Carries a fire wand that can set things on fire | Fire Wand |
 
+- **Higher-rank entities:** open (`difficulty.md`).
+
+## Zenthium (neutral)
+Hostile creatures from Zenthium (`lore.md`) that come through a Zenthium Fissure (`difficulty.md`). They attack everyone.
+
+| Rank | Entity | Description | Modules |
+|---|---|---|---|
+| Leader | Zen Commander | TBD | TBD |
+| Champion | Zen Soldier | TBD | TBD |
+| Goon | Zen Creature | TBD | TBD |
+
 ## Open
+- Design pass on every faction, including its higher-rank entities.
 - Attacks for Kingping, Chad and Vex.
 - More factions.
