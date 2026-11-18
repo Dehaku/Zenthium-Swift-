@@ -5,6 +5,9 @@ Pure flavor only. Nothing here affects gameplay; mechanics live in the other fil
 ## SWIFT
 - The hero organization the player runs. Its name matches the five stats: Strength, Will, Intelligence, Finesse, Toughness (`stats.md`).
 
+## Blazithion
+- The city where the game takes place.
+
 ## Zenthium
 - Another dimension, full of hostile, glowing crystalline titans and beings.
 - All the Zenny crystals in our world are leaking in from Zenthium.

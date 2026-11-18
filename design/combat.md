@@ -6,6 +6,10 @@
 - Damage types: **Physical**, **Magic**, **Energy**.
 - Friendly fire is off by default. It is on only while the player holds the friendly fire button (`controls.md`).
 
+## Movement
+- Base move speed: 6 m/s. A starting value; expect lots of tuning.
+- Sprint and other speed bonuses are percentages of it (`modules.md`).
+
 ## Damage reduction
 Two forms:
 - **Armor (flat):** subtracts a fixed amount from every hit. Toughness gives Armor equal to 50% of its value, so damage stats outweigh Toughness 2:1. Modules can add more.

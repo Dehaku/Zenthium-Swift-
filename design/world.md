@@ -5,11 +5,20 @@
 - Entities knocked back into a wall deal heavy damage to it.
 - Buildings and props block line of sight (`stats.md`).
 
+- **Windows:** wall sections you can see through. They block movement.
+
 ## Doors
 - Same four materials and HP as walls.
 - Unlocked doors open when touched and close when you step away.
 - Locked doors must be broken, with modules or knockback.
 - Enemies plan their paths as if doors weren't there. But locked doors are solid: an enemy collides with one and can't pass through it. It stops and attacks the door until it breaks, then walks on.
+
+## Props
+- Cars, dumpsters, lampposts, trees, benches and so on.
+- Props block movement and line of sight.
+- Like walls, each prop has HP and a material.
+- Small and medium props can be Dragged and Power Thrown (`modules.md`).
+- Vehicles can catch fire and explode.
 
 ## Valuables
 Generic money bags. They do nothing on their own and don't affect mission rewards. Some factions use them (`factions.md`).
@@ -46,4 +55,6 @@ See `missions.md` for the goal itself.
 - Once the Leader holds enough Valuables to fail the goal, the Leader tries to flee the map with them.
 
 ## Open
-- (none)
+- Can windows be broken, and does breaking one let entities through?
+- Which props are small, medium and large?
+- How much damage does an exploding vehicle do, and over what radius?
