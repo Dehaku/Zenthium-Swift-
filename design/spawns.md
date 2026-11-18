@@ -4,8 +4,8 @@
 - Each enemy entity has a budget cost. Example: goon 1, Champion 5.
 - Each mission gets a budget from its map size: Small 30, Medium 60, Large 100. The budget doesn't grow with rank; enemy stats already do (`difficulty.md`).
 - The spawner spends the budget on entities the mission's faction can field at that rank (minimum ranks, `factions.md`).
-- Champions can use at most part of the budget: D 10%, C 30%, B 40%, A and up 50%.
-- Leaders are outside the budget. When the Leader roll succeeds, the Leader spawns on top.
+- Champions can use at most part of the budget. Each faction sets its own share (`factions.md`), so designers can tune it, for example tilting Zombies toward goons. Default for every faction for now: D 10%, C 30%, B 40%, A and up 50%.
+- Leaders are outside the budget. When the Leader roll succeeds, the Leader makes a dramatic entrance 30 s into the mission, using the faction's arrival tag (below).
 
 ## Squads
 - Enemies spawn in squads of 3-5 goons around a socket (`maps.md`), sometimes led by a Champion.

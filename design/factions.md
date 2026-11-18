@@ -25,6 +25,7 @@ Biological infestation.
 | Goon | Zombie | Slow moving. Victims who die while Infected become zombies | Infectious Bite, Turn on Death |
 
 - **Arrival:** `Arrival:Sewer` (`spawns.md`).
+- **Champion share:** default (`spawns.md`).
 - **Higher-rank entities:** open (`difficulty.md`).
 
 ## Technomafia
@@ -38,6 +39,7 @@ Cyberpunk criminal organization with implants.
 | Goon | Mafioso | Every Mafioso has both a machine gun and blade arms | Machine Gun, Blade Arms |
 
 - **Arrival:** `Arrival:Van` (`spawns.md`).
+- **Champion share:** default (`spawns.md`).
 - **Higher-rank entities:** open (`difficulty.md`).
 
 ## Infinity Anarchous
@@ -50,6 +52,7 @@ Rogues with random powers and gear who refuse to join any organization. Random m
 | Goon | (varies) | One random power or piece of gear each | Random (1) |
 
 - **Arrival:** `Arrival:OnFoot` (`spawns.md`).
+- **Champion share:** default (`spawns.md`).
 - **Higher-rank entities:** open (`difficulty.md`).
 
 ## Galactic Repo Agency
@@ -68,6 +71,7 @@ Alien bureaucrats repossessing Earth, one item at a time. Crop circles are place
 | Goon | Grey | Energy blasters; drags citizens away | Energy Blaster, Drag |
 
 - **Arrival:** `Arrival:Beam` (`spawns.md`).
+- **Champion share:** default (`spawns.md`).
 - **Higher-rank entities:** open (`difficulty.md`).
 
 ## Circus of Calamity
@@ -81,6 +85,7 @@ A traveling circus that's also a crime ring.
 | Goon | Clown | Throws cream pies | Cream Pie |
 
 - **Arrival:** `Arrival:ClownCar` (`spawns.md`).
+- **Champion share:** default (`spawns.md`).
 - **Higher-rank entities:** open (`difficulty.md`).
 
 ## Hexbound Coven
@@ -98,6 +103,7 @@ An overly enthusiastic magic cult that treats every crime as a ritual. Valuables
 | Goon | Acolyte | Carries a fire wand that can set things on fire | Fire Wand |
 
 - **Arrival:** `Arrival:Portal` (`spawns.md`).
+- **Champion share:** default (`spawns.md`).
 - **Higher-rank entities:** open (`difficulty.md`).
 
 ## Zenthium (neutral)
