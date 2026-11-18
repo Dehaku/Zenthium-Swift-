@@ -60,7 +60,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Charming | Passive | Hero | | On approach: 50% chance to turn a Stubborn citizen Scared, 5% chance to convert a goon to your side. A converted goon hands you its Valuables. Each target rolls once; a hidden Charmed debuff marks it |
 | Ink Beast | Active | Rune | `Summon` | Summons an ink beast that fights alongside him |
 | Glyph Trap | Active | Rune | `Debuff`, `Resist:Will` | Places a glyph. Enemies who step on it are rooted in place |
-| Spectrum Bolt | Active | Prism | `Ranged`, `Debuff`, `Resist:Toughness`, `Resist:Will` | Magic bolt that costs Charge. Each cast cycles color: Red pulls nearby enemies toward the impact, Blue burns (DoT, resisted by Toughness), Purple may stun (resisted by Will) |
+| Spectrum Bolt | Active | Prism | `Ranged`, `Debuff`, `Resist:Toughness`, `Resist:Will` | Magic bolt that costs Charge. Each cast cycles color: Red implodes, pulling nearby enemies toward the impact and then bursting outward to knock them back; Blue burns (DoT, resisted by Toughness), Purple may stun (resisted by Will) |
 | Card Throw | Active | Madame Tarot | `Ranged` | Homing cards that deal Magic damage. Each card has a random effect |
 | Mirage | Active | Madame Tarot | | Creates decoys that draw enemy attention, and lowers her Detectability while they last |
 | Dash | Active | Hero | | A quick burst of movement in your facing direction. Costs Stamina. Invulnerable during the dash |
@@ -72,9 +72,18 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Padded Suit | Gear (passive) | Hero | | +30 Armor. A lot early on, not much later |
 | Force Spell Tome | Gear (passive) | Hero | | +15 Magic damage on your magic hits |
 | Fire Spell Tome | Gear (passive) | Hero | `Debuff`, `Resist:Toughness` | +10 Magic damage on your magic hits, plus a fire DoT of 12 damage over 4 s |
-| Electric Spell Tome | Gear (passive) | Hero | | +10 Magic damage on your magic hits, plus a chain that jumps to up to 5 more enemies for 5 damage each |
+| Electric Spell Tome | Gear (passive) | Hero | | +10 Magic damage on your magic hits, plus a chain that jumps to up to 5 more enemies within 5 m for 5 damage each |
 | First Aid Spray | Gear (active) | Hero | | Heals you for 25% of max HP; 20 s cooldown. Used on an Incapacitated citizen, it costs nothing, has no cooldown, and gets them up as Scared |
 | Smoke Bomb | Gear (active) | Hero | `Debuff`, `Resist:Toughness` | A smoke cloud that blocks line of sight and resets nearby enemies' awareness bars. Enemies inside are stunned for as long as they stay in it |
+| Repulsor Blast | Gear (active) | Hero | `Ranged` | Energy beam that costs Charge, scales with Intelligence, and knocks targets back |
+| Grappling Hook | Gear (active) | Hero | | 30 m range. Zip to a wall, or yank an enemy to you |
+| Bandolier | Gear (passive) | Hero | | More Ammo capacity and faster reloads for every gun |
+| Breaching Charge | Gear (active) | Hero | | Place a charge. A red circle shows its 15 m blast radius and a small red number counts down from 5. Then it explodes for high damage in the area and blows open locked doors and walls |
+| Stasis Cuffs | Gear (active) | Hero | | Captures an Incapacitated enemy on the spot, no exit needed |
+| Megaphone | Gear (active) | Hero | `Debuff`, `Resist:Toughness` | Turns nearby Stubborn citizens Scared, sends Scared citizens running for the nearest exit, and stuns enemies within 10 m |
+| Barrier Shield | Active | Hero | | A 180-degree crescent shield in front of you that blocks projectiles for a few seconds. Costs Mana. Enemies that touch it are knocked back with Kick's force |
+| Stealth Suit | Gear (passive) | Hero | | Lowers Detectability, plus a flat +10% dodge chance |
+| Second Wind | Passive | Hero | | When Defiance triggers, heals 25% of HP |
 | Hex | Active | Hexer | `Debuff`, `Resist:Will` | Spell. Disables a random active power slot for 5 s |
 | Numbing Toxin | On hit | Unassigned | `Debuff`, `Resist:Toughness` | Poison. Disables a random passive power slot for 5 s |
 | Meat Slap | Active | Dr. Edd | `Ranged` | Ranged attack |
@@ -108,6 +117,6 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Fire Wand | Active | Acolyte | `Ranged` | Magic fire attack. Can set buildings and vehicles on fire |
 
 ## Open
-- Numbers for Dash (Stamina cost), Shockwave Stomp, Six-Shooter and Smoke Bomb.
+- Numbers for Dash (Stamina cost), Shockwave Stomp, Six-Shooter, Smoke Bomb, Repulsor Blast, Bandolier, Breaching Charge (damage), Barrier Shield (duration, Mana) and Stealth Suit (Detectability).
 - Numbers for Ink Beast, Glyph Trap, Spectrum Bolt, Card Throw and Mirage.
 - Card Throw's list of random card effects.
