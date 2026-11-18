@@ -64,7 +64,7 @@ Idle (patrol, `## Squads`), Combat, Searching, Looting (`world.md`), Objective (
 ### Becoming aware
 - An entity hit while unaware becomes aware instantly.
 - On becoming aware, a comic "!" pops over its head, and it waits 0.5 s before acting.
-- **Alert:** during that 0.5 s, a half-transparent grey circle shows a 10 m alert radius. When the 0.5 s ends, allies inside it become aware too, each starting its own 0.5 s delay. If the entity is defeated first, no alert goes out.
+- **Alert:** during that 0.5 s, a half-transparent grey circle shows a 10 m alert radius. When the 0.5 s ends, allies inside it become aware too, each starting its own 0.5 s delay and alert circle. Alerts chain, so a large group can wake up all at once. If the entity is defeated first, no alert goes out.
 
 ### Losing the target
 - When line of sight breaks, the entity goes to the target's last known position and searches for about 10 s. Then its awareness drains and it returns to Idle.
