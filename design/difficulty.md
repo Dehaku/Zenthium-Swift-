@@ -32,10 +32,10 @@ D (lowest), C, B, A, S, then S2, S3, S4 and so on, forever.
 - They're drawn from every module in the game, the same way Infinity Anarchous draw theirs.
 
 ## Mission modifiers
-- From rank C, every mission has a 50% chance to get a modifier. If it does, it rolls another 50% for a second one, and so on until a roll fails.
+- From rank C, every mission has a 50% chance to get a modifier. If it does, it rolls another 50% for a second one, and so on until a roll fails. Each modifier can appear only once; the rolls stop when none are left.
 - Modifiers show as intel in one "Hazards" field (`hq.md`).
 - **Night Time:** all vision ranges are halved, for everyone.
 - **Zenthium Fissure:** a fissure opens on the map and now and then spawns hostile neutral creatures from Zenthium (`factions.md`) that attack everyone.
 
 ## Open
-- Mission modifiers: can the same modifier roll twice? There are only two so far.
+- (none)
