@@ -95,7 +95,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Durability | Passive | Breaker | | 50% Damage Reduction |
 | Broken Limb | On hit | Breaker | `Debuff`, `Resist:Toughness` | Slowing debuff |
 | Infectious Bite | On hit | Zombie | `Debuff`, `Resist:Toughness` | "Infected" DoT debuff |
-| Turn on Death | Passive | Zombie | | An Infected target becomes a zombie when it dies, civilians included |
+| Turn on Death | Passive | Zombie | | Any entity reduced to 0 HP while Infected rises as a zombie on the spot, civilians included (`statuses.md`) |
 | Treads | Passive | Tank | | Mobility |
 | Cannons | Active | Tank | `Ranged` | Ranged attack |
 | Turrets | Active | Hacker | `Summon` | Summons turret entities |

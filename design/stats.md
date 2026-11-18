@@ -29,7 +29,7 @@ Not directly upgradable. Modules change them through tags.
 Applies to every entity.
 
 - **Trigger:** anything that would take an entity to 0 HP or below. It is left at 1 HP instead.
-- **Cleanse:** clears all DoTs and debuffs on the entity. An Infected entity saved this way does not turn into a zombie.
+- **Cleanse:** clears all DoTs and debuffs on the entity, except Carrying Treasure and hidden markers (`statuses.md`). An Infected entity saved this way does not turn into a zombie.
 - **Proc chance:** 1% per 10 Will. Can exceed 100%.
   - Example: at 213%, two procs are guaranteed and the remaining roll is 13%.
 - **Cost:** each proc gives the entity a silent **Defiance Roll** debuff of 100%. It removes 100% from the entity's Defiance proc chance, as if one guaranteed proc had been used up. Lasts the mission and stacks per proc. The Will stat itself is untouched, so nothing else that uses Will is affected.
