@@ -19,14 +19,21 @@
 - Like walls, each prop has HP and a material.
 - Any prop can be Dragged and Power Thrown (`modules.md`), if you're strong enough:
 
-| Size | Examples | Strength needed |
-|---|---|---|
-| Small | Trash cans, benches | Any |
-| Medium | Dumpsters, motorcycles | 50 |
-| Large | Cars, trucks, trees | 250 |
+| Size | Examples | Strength needed | HP | Thrown damage |
+|---|---|---|---|---|
+| Small | Trash cans, benches | Any | 1 (always breaks when thrown) | 1x Kick |
+| Medium | Dumpsters, motorcycles, light poles | 50 | 50 | 2x Kick |
+| Large | Cars, trucks, trees | 250 | 100 | 3x Kick |
 
-- Pressing Kick while dragging a prop throws it, the same way as launching Valuables. It deals a Kick's worth of damage, and takes the same amount of damage itself.
-- **Vehicles:** 100 HP, 20 Armor, 50% Damage Reduction. They're tough, but when they blow up they deal 500 damage in a 15 m radius.
+- Pressing Kick while dragging a prop throws it, the same way as launching Valuables. It takes the same damage it deals.
+- **Vehicles** have Armor and explode when destroyed:
+
+| Vehicle | Armor | Damage Reduction | Explosion |
+|---|---|---|---|
+| Car, truck | 20 | 50% | 500 damage, 15 m radius |
+| Motorcycle | 10 | 50% | 250 damage, 15 m radius |
+
+- An explosion goes off 1 s after the vehicle is destroyed, with a red ring showing its radius. It hurts everyone, the player and civilians included.
 
 ## Valuables
 Generic money bags. They do nothing on their own and don't affect mission rewards. Some factions use them (`factions.md`).
@@ -63,5 +70,4 @@ See `missions.md` for the goal itself.
 - Once the Leader holds enough Valuables to fail the goal, the Leader tries to flee the map with them.
 
 ## Open
-- Does a thrown prop's damage scale with its size?
-- Does an exploding vehicle hurt the player and civilians?
+- (none)
