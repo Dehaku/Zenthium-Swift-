@@ -1,14 +1,14 @@
 # World
 
 ## Walls
-- Every wall has HP. Materials, weakest to strongest: **Wood**, **Stone**, **Metal**, **Crystalline**.
+- Every wall has HP. Materials, weakest to strongest: **Glass**, **Wood**, **Stone**, **Metal**, **Crystalline**.
 - Entities knocked back into a wall deal heavy damage to it.
 - Buildings and props block line of sight (`stats.md`).
-
-- **Windows:** wall sections you can see through. They block movement.
+- Broken walls leave a gap you can walk and see through.
+- **Windows** are small, fragile Glass walls you can see through.
 
 ## Doors
-- Same four materials and HP as walls.
+- Same materials and HP as walls.
 - Unlocked doors open when touched and close when you step away.
 - Locked doors must be broken, with modules or knockback.
 - Enemies plan their paths as if doors weren't there. But locked doors are solid: an enemy collides with one and can't pass through it. It stops and attacks the door until it breaks, then walks on.
@@ -17,8 +17,16 @@
 - Cars, dumpsters, lampposts, trees, benches and so on.
 - Props block movement and line of sight.
 - Like walls, each prop has HP and a material.
-- Small and medium props can be Dragged and Power Thrown (`modules.md`).
-- Vehicles can catch fire and explode.
+- Any prop can be Dragged and Power Thrown (`modules.md`), if you're strong enough:
+
+| Size | Examples | Strength needed |
+|---|---|---|
+| Small | Trash cans, benches | Any |
+| Medium | Dumpsters, motorcycles | 50 |
+| Large | Cars, trucks, trees | 250 |
+
+- Pressing Kick while dragging a prop throws it, the same way as launching Valuables. It deals a Kick's worth of damage, and takes the same amount of damage itself.
+- **Vehicles:** 100 HP, 20 Armor, 50% Damage Reduction. They're tough, but when they blow up they deal 500 damage in a 15 m radius.
 
 ## Valuables
 Generic money bags. They do nothing on their own and don't affect mission rewards. Some factions use them (`factions.md`).
@@ -55,6 +63,5 @@ See `missions.md` for the goal itself.
 - Once the Leader holds enough Valuables to fail the goal, the Leader tries to flee the map with them.
 
 ## Open
-- Can windows be broken, and does breaking one let entities through?
-- Which props are small, medium and large?
-- How much damage does an exploding vehicle do, and over what radius?
+- Does a thrown prop's damage scale with its size?
+- Does an exploding vehicle hurt the player and civilians?

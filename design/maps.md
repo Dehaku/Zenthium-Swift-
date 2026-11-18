@@ -11,6 +11,8 @@
 | Medium | 250 x 250 m (roughly 3 x 3 blocks) | Default |
 | Large | 400 x 400 m | |
 
+- Difficulty sets the size. The mission creator can override it (`hq.md`).
+
 ## Blazithion
 - Every mission takes place in the city of Blazithion (`lore.md`).
 - The HQ mission map shows Blazithion's real districts (`hq.md`). Each mission's map is built from its district's blocks.
@@ -18,9 +20,9 @@
 ## Districts
 | District | Blocks include |
 |---|---|
-| Downtown | Banks, stores, clubs |
+| Downtown | Banks, stores, clubs, hospitals, museums |
 | Industrial | Labs, armories, warehouses |
-| Residential | Houses, small shops, parks (trees, benches, ponds) |
+| Residential | Houses, small shops, antique shops, mansions (such as a collector's vault), parks (trees, benches, ponds) |
 
 - A mission's location decides its district.
 
@@ -34,5 +36,4 @@
 - Implementation note: if the game is built in Unity, there's already a fog of war asset for this.
 
 ## Open
-- What decides a mission's map size: random, mission type, difficulty, or the mission creator?
-- Which districts hold hospitals, museums, antique shops and collectors' vaults?
+- (none)
