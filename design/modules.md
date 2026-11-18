@@ -74,6 +74,9 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Fire Spell Tome | Gear (passive) | Hero | `Debuff`, `Resist:Toughness` | +10 Magic damage on your magic hits, plus a fire DoT of 12 damage over 4 s |
 | Electric Spell Tome | Gear (passive) | Hero | | +10 Magic damage on your magic hits, plus a chain that jumps to up to 5 more enemies within 5 m for 5 damage each |
 | First Aid Spray | Gear (active) | Hero | | Heals you for 25% of max HP; 20 s cooldown. Used on an Incapacitated citizen, it costs nothing, has no cooldown, and gets them up as Scared |
+| Water Cannon | Gear (active) | Hero | `Ranged`, `Extinguish` | A 12 m water jet with intense knockback. Uses Ammo |
+| Gel Coat | Active | Hero | `Extinguish` | Coat yourself, an ally, a citizen or a building in goo. Removes Burn and blocks new Burns for a few seconds; a coated building's fire goes out |
+| Fireproof Body | Passive | Hero | `Extinguish` | You can't be Burned. Anything you're dragging is put out and can't be Burned |
 | Smoke Bomb | Gear (active) | Hero | `Debuff`, `Resist:Toughness` | A smoke cloud that blocks line of sight and resets nearby enemies' awareness bars. Enemies inside are stunned for as long as they stay in it |
 | Repulsor Blast | Gear (active) | Hero | `Ranged` | Energy beam that costs Charge, scales with Intelligence, and knocks targets back |
 | Grappling Hook | Gear (active) | Hero | | 30 m range. Zip to a wall, or yank an enemy to you |
@@ -120,6 +123,6 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Fire Wand | Active | Acolyte | `Ranged`, `Ignites` | Magic fire attack |
 
 ## Open
-- Numbers for Dash (Stamina cost), Shockwave Stomp, Six-Shooter, Smoke Bomb, Repulsor Blast, Bandolier, Breaching Charge (damage), Barrier Shield (duration, Mana), Stealth Suit (Detectability) and Taunt (cooldown).
+- Numbers for Dash (Stamina cost), Shockwave Stomp, Six-Shooter, Smoke Bomb, Repulsor Blast, Bandolier, Breaching Charge (damage), Barrier Shield (duration, Mana), Stealth Suit (Detectability), Taunt (cooldown), Water Cannon (Ammo, knockback) and Gel Coat (duration).
 - Numbers for Ink Beast, Glyph Trap, Spectrum Bolt, Card Throw and Mirage.
 - Card Throw's list of random card effects.

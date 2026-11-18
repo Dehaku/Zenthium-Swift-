@@ -1,7 +1,7 @@
 # Heroes and Create-a-Hero (CAH)
 
 ## Preset heroes
-- The roster isn't capped at six. Archetypes still to design: speedster, telekinetic, gunslinger, mechanist (powered armor), goo person. Designed so far: the magic heroes below.
+- The roster isn't capped at six. Archetypes still to design: speedster, telekinetic, gunslinger, mechanist (powered armor), goo person (planned modules: Ooze Through, Gel Coat, Fireproof Body). Designed so far: the magic heroes below.
 - Built from the same modules as the CAH (`modules.md`).
 - Designers set each preset's starting stats and slots. Their slots come pre-filled, and some stay locked until Zenny is spent.
 - Most are unlocked with Zenny. Some unlock through milestones, achievements or story beats.
