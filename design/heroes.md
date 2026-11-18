@@ -11,7 +11,7 @@
 | Hero | Concept | Plays as | Stats | Modules | Quirk |
 |---|---|---|---|---|---|
 | Rune | Street tattoo artist whose ink comes alive | Melee brawler-caster with ink beasts and glyph traps | High Will and Strength | Ink Beast, Glyph Trap, Deathly Rage (his tattoos flare when he refuses to die) | Offers every rescued citizen a tattoo discount |
-| Prism | Crystal mage who survived falling into a Fissure and now channels raw Zenny | Ranged caster cycling Zenny colors | High Intelligence and Toughness | Spectrum Bolt, Reaper Battery (Zenthium's creatures feed on the fallen) | Glows brighter when nervous |
+| Prism | Crystal mage who survived falling into a Fissure and now channels raw Zenny | Ranged caster cycling Zenny colors | High Intelligence and Toughness | Spectrum Bolt, Reaper Battery (fits Zenthium's hunger for blood and souls, `lore.md`) | Glows brighter when nervous |
 | Madame Tarot | Fortune teller who fights with thrown cards | Luck-based trickster with decoy illusions | High Finesse and Will | Card Throw, Mirage, Super Lucky | Her predictions are always confidently wrong |
 
 ## Create-a-Hero (CAH)
