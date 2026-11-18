@@ -13,6 +13,13 @@
 - Locked doors must be broken, with modules or knockback.
 - Enemies plan their paths as if doors weren't there. But locked doors are solid: an enemy collides with one and can't pass through it. It stops and attacks the door until it breaks, then walks on.
 
+## Heavy Turrets
+- Building defenses that appear from rank B (`difficulty.md`).
+- Neutral: they attack heroes and enemies, never civilians.
+- Follow Champion rules and scaling. Can be destroyed.
+- `Hackable`: Reprogram can take one over (`modules.md`).
+- Module: Heavy Gun.
+
 ## Props
 - Cars, dumpsters, lampposts, trees, benches and so on.
 - Props block movement and line of sight.

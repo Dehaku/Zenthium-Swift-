@@ -12,9 +12,8 @@
 - Skip: hold any button for 1 s. "Skipping" shows centered in the bottom third of the screen, with a circle that grows until it skips.
 
 ## Difficulty
-- Payday 2-style tiers. Higher tiers give bigger rewards.
-- For now, difficulty only raises enemy health and damage. Enemies scale with difficulty, not with the player's stats.
-- Some mission rules also scale with difficulty (below).
+- Letter ranks from D to S and beyond (`difficulty.md`). Enemies scale with rank, not with the player's stats.
+- Some mission rules also scale with rank (below).
 
 ## Types
 | Type | Goal | Fail |

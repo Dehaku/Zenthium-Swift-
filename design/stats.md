@@ -11,7 +11,7 @@ Upgradable and uncapped. Bought with Zenny in the HQ Training Room. Every entity
 | **F**inesse | Ranged damage; precision; passive dodge chance. Does not affect move speed |
 | **T**oughness | HP; resisting some debuffs, such as Infected and Broken Limb |
 
-- Percentage stat boosts multiply. Example: Chad's 10 Strength x3 (innate +200%, `factions.md`) x3 (Super Stats, `modules.md`) = 90.
+- Percentage stat boosts multiply, except the difficulty bonus, which adds to the innate rank boost (`difficulty.md`). Example: Chad's 10 Strength x3 (innate +200%, `factions.md`) x3 (Super Stats, `modules.md`) = 90.
 - These roles are general. Each module defines exactly how it uses stats (`modules.md`).
 - Which stat resists a debuff is set by a tag on the module that applies it (`statuses.md`).
 

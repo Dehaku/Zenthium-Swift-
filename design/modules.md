@@ -23,7 +23,7 @@
 - Every module takes 1 slot.
 - Gear can have actives, passives or both. Gear actives have their own buttons (`controls.md`).
 - Magic modules and items generally use Intelligence and Will; each module decides how.
-- **Tags (examples):** `Melee`, `Ranged`, `Time`, `Buff`, `Debuff`, `Summon`, `Resist:<Stat>`, `KnockbackResistant`, `CannotBeDisabled`. Shared tags let modules change secondary stats without hard-coded pairings.
+- **Tags (examples):** `Melee`, `Ranged`, `Time`, `Buff`, `Debuff`, `Summon`, `Resist:<Stat>`, `KnockbackResistant`, `CannotBeDisabled`, `Hackable`. Shared tags let modules change secondary stats without hard-coded pairings.
 - **Triggers (examples):** always-on, on hit, on damage taken, on Defiance proc, on timer, on activation, on approach.
 - **Presentation:** every module needs an icon, a visual flash, a sound cue and optional comic callout text ("POW!").
 
@@ -99,6 +99,8 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Treads | Passive | Tank | | Mobility |
 | Cannons | Active | Tank | `Ranged` | Ranged attack |
 | Turrets | Active | Hacker | `Summon` | Summons turret entities |
+| Reprogram | Active | Hacker | `Resist:Intelligence` | Takes over a target with the `Hackable` tag, such as a Heavy Turret, which then fights for the Hacker's side. Any entity with Reprogram uses it first on a Hackable target in view |
+| Heavy Gun | Active | Heavy Turret | `Ranged` | Ranged attack |
 | Slot Disable | On hit | Hacker | `Debuff`, `Resist:Intelligence` | Disables a random gear slot for 5 s. Hits from the Hacker's turrets don't count |
 | Chrome Body | Passive | Kingping | | 25% Damage Reduction |
 | Gold-Plated Chrome | Passive | Kingping | `Buff` | +5% Toughness and +1% Damage Reduction for each Valuable he holds. Each bonus is one source that adds up per Valuable (40 Valuables = +200% Toughness and 40% Damage Reduction) and multiplies with his other sources. The extra HP from Toughness is added to current HP too |

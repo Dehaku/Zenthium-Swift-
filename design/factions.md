@@ -5,9 +5,9 @@ Each faction has three ranks:
 - **Champions:** strong entities with unique capabilities. Innate +100% to all SWIFT stats.
 - **Goons:** weak minions, easy to beat in small numbers. No innate boost.
 
-Innate boosts apply before modules.
+Innate boosts apply before modules. Difficulty adds to them (`difficulty.md`), and each entity has a minimum rank to spawn.
 
-Entity abilities are modules; mechanics live in `modules.md`. A faction can run any Story Arc it lists (`story.md`). Entities scale with mission difficulty (`missions.md`).
+Entity abilities are modules; mechanics live in `modules.md`. A faction can run any Story Arc it lists (`story.md`). Entities scale with mission difficulty (`difficulty.md`).
 
 ## Weights
 - Any faction can run any mission type.
@@ -31,7 +31,7 @@ Cyberpunk criminal organization with implants.
 |---|---|---|---|
 | Leader | Kingping | "King Ping": mafia don with a chrome body and experimental tech implants. Loots Valuables like a goon, and his goons bring theirs to him | Chrome Body, Gold-Plated Chrome |
 | Champion | Tank | Tank treads for a lower body, cannons for arms | Treads, Cannons |
-| Champion | Hacker | Deploys turrets; each of its own hits disables a random gear slot | Turrets, Slot Disable |
+| Champion | Hacker | Deploys turrets; each of its own hits disables a random gear slot. Takes over Heavy Turrets | Turrets, Slot Disable, Reprogram |
 | Goon | Mafioso | Every Mafioso has both a machine gun and blade arms | Machine Gun, Blade Arms |
 
 ## Infinity Anarchous

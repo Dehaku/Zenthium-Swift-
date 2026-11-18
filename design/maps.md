@@ -11,7 +11,7 @@
 | Medium | 250 x 250 m (roughly 3 x 3 blocks) | Default |
 | Large | 400 x 400 m | |
 
-- Difficulty sets the size. The mission creator can override it (`hq.md`).
+- Difficulty sets the size (`difficulty.md`). The mission creator can override it (`hq.md`).
 
 ## Blazithion
 - Every mission takes place in the city of Blazithion (`lore.md`).
