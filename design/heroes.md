@@ -1,22 +1,41 @@
 # Heroes and Create-a-Hero (CAH)
 
 ## Preset heroes
-- The roster isn't capped at six. Archetypes still to design: speedster, telekinetic, gunslinger, mechanist (powered armor), goo person (planned modules: Ooze Through, Gel Coat, Fireproof Body). Designed so far: the magic heroes below.
-- Built from the same modules as the CAH (`modules.md`).
-- Designers set each preset's starting stats and slots. Their slots come pre-filled, and some stay locked until Zenny is spent.
-- Most are unlocked with Zenny. Some unlock through milestones, achievements or story beats.
+- The roster isn't capped.
+- Each preset has a full, fixed kit: 4 active, 4 passive and 4 gear modules (`modules.md`). Players can't swap them.
+- Only the first slot of each type is unlocked at the start. The rest unlock with Zenny (`economy.md`), in the order listed below.
+- Most presets are unlocked with Zenny. Some unlock through milestones, achievements or story beats.
 - Stat shorthand: high = 20, low = 6, unlisted = 10 (the base, `stats.md`).
 
-### Magic heroes
-| Hero | Concept | Plays as | Stats | Modules | Quirk |
-|---|---|---|---|---|---|
-| Rune | Street tattoo artist whose ink comes alive | Melee brawler-caster with ink beasts and glyph traps | High Will and Strength | Ink Beast, Glyph Trap, Deathly Rage (his tattoos flare when he refuses to die) | Offers every rescued citizen a tattoo discount |
-| Prism | Crystal mage who survived falling into a Fissure and now channels raw Zenny | Ranged caster cycling Zenny colors | High Intelligence and Toughness | Spectrum Bolt, Reaper Battery (fits Zenthium's hunger for blood and souls, `lore.md`) | Glows brighter when nervous |
-| Madame Tarot | Fortune teller who fights with thrown cards | Luck-based trickster with decoy illusions | High Finesse and Will | Card Throw, Mirage, Super Lucky | Her predictions are always confidently wrong |
+### Roster
+| Hero | Concept | Role | Stats | Quirk |
+|---|---|---|---|---|
+| Rush Hour | Speedster: a bike courier who got too fast | Fast melee, rescue runner | High Finesse and Strength | Always early, and impatient about it |
+| Heave | Telekinetic who moves furniture for cash | Control and throwing | High Intelligence and Will | Charges rescued citizens a moving fee |
+| Sundown Sal | Retired cowgirl gunslinger | Ranged damage | High Finesse and Will | Insists every fight happens at high noon |
+| Major Overclock | Mechanist in powered armor | Tank, tech | High Intelligence and Toughness | Overclocks everything, including the HQ coffee machine |
+| (goo hero, name TBD) | Living goo | Firefighter, tank | High Toughness and Will | Leaves sticky puddles all over HQ |
+| Rune | Street tattoo artist whose ink comes alive | Melee brawler-caster, summoner | High Will and Strength | Offers every rescued citizen a tattoo discount |
+| Prism | Crystal mage who survived falling into a Fissure and now channels raw Zenny | Ranged caster | High Intelligence and Toughness | Glows brighter when nervous |
+| Madame Tarot | Fortune teller who fights with thrown cards | Trickster, stealth | High Finesse and Will | Her predictions are always confidently wrong |
+
+### Kits
+Listed in unlock order; the first of each type is unlocked at the start.
+
+| Hero | Active | Passive | Gear |
+|---|---|---|---|
+| Rush Hour | Speed Punch, Dash, Time Slow, Uppercut | Sprinter, Weather the Storm, Second Wind, Charming | First Aid Spray, Evac Balloon, Padded Suit, Megaphone |
+| Heave | Telekinetic Grab, Telekinetic Throw, Shockwave Stomp, Barrier Shield | Soulful, Immovable, Second Wind, Regeneration | Stasis Cuffs, Megaphone, Evac Balloon, Padded Suit |
+| Sundown Sal | Dash, Taunt ("DRAW!"), Uppercut, Power Throw | Sprinter, Super Lucky, Weather the Storm, Second Wind | Six-Shooter, Bandolier, Grappling Hook (a lasso), Smoke Bomb |
+| Major Overclock | Taunt, Shockwave Stomp, Power Throw, Barrier Shield | High-Capacity Battery, Immovable, Regeneration (auto-repair), Second Wind | Repulsor Blast, Padded Suit, Breaching Charge, Stasis Cuffs |
+| (goo hero) | Goo Punch, Gel Coat, Taunt, Shockwave Stomp | Fireproof Body, Ooze Through, Regeneration, Second Wind | Water Cannon, First Aid Spray, Evac Balloon, Megaphone |
+| Rune | Ink Beast, Glyph Trap, Speed Punch (inked fists), Shockwave Stomp | Deathly Rage, Second Wind, Soulful, Regeneration | Force Spell Tome, Padded Suit, Smoke Bomb, First Aid Spray |
+| Prism | Spectrum Bolt, Barrier Shield, Mirage (refraction), Shockwave Stomp | Reaper Battery, Soulful, Second Wind, Regeneration | Electric Spell Tome, Fire Spell Tome, Force Spell Tome, First Aid Spray |
+| Madame Tarot | Card Throw, Mirage, Glyph Trap (a trap card), Barrier Shield (a wall of cards) | Super Lucky, Soulful, Charming, Second Wind | Stealth Suit, Smoke Bomb, Electric Spell Tome, Evac Balloon |
 
 ## Create-a-Hero (CAH)
 - Each CAH is called a **Recruit**. Players can make multiple Recruits (extra ones cost Metallic Zenny, `economy.md`). Story-wise they're all the same character, one SWIFT recruit; having several lets players try builds without resetting.
-- CAH slots start empty and can take any module.
+- CAH slots start empty and can take any module the player has unlocked.
 
 ## Slots
 | Slot | Start | Max | Holds |
@@ -32,5 +51,7 @@
 - Stats, slots and upgrades are tracked per hero.
 
 ## Open
-- Design the five remaining archetype heroes.
+- Name for the goo hero.
+- Major Overclock's Barrier Shield costs Mana, which he has no source for.
+- Passives are the thinnest module pool, so Second Wind and Regeneration repeat across many kits.
 - Saved loadout options for CAHs?

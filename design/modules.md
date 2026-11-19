@@ -48,7 +48,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Speed Punch | Active | Hero | `Melee` | Attacks 3x faster than Kick, full Kick damage per hit, no knockback. Meant to be stronger than Kick. Pairs well with time powers |
 | Power Throw | Active | Hero | | Uses Strength. Throw anything and anyone you're dragging |
 | Time Slow | Active | Hero | `Time` | See `time.md` |
-| Time Stop | Active | Hero | `Time` | See `time.md` |
+| Time Stop | Active | Recruits only (for now) | `Time` | See `time.md` |
 | Super Lucky | Passive | Hero | | Large Luck boost (`luck.md`). Inspired by Domino |
 | Deathly Rage | Passive | Any | `Buff` | On Defiance proc, grants the Deathly Rage buff: triples Strength and Toughness; the extra HP is added to current HP too. Does not stack. Lasts until the mission ends |
 | Soulful | Passive | Hero | `CannotBeDisabled` | +50% spell damage, 150 Mana, +5 Mana/s |
@@ -64,6 +64,8 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Card Throw | Active | Madame Tarot | `Ranged` | Homing cards that deal Magic damage. Each card has a random effect |
 | Mirage | Active | Madame Tarot | | Creates decoys that draw enemy attention, and lowers her Detectability while they last |
 | Dash | Active | Hero | | A quick burst of movement in your facing direction. Costs Stamina. Invulnerable during the dash |
+| Telekinetic Throw | Active | Hero | | Throw what you're dragging with telekinesis. Uses Will in place of Strength, both for damage and for the prop size you can throw (`world.md`) |
+| Goo Punch | Active | Hero | `Melee`, `Debuff`, `Resist:Strength` | A goo punch that splashes, applying Gooed (a slow) to enemies within 3 m |
 | Telekinetic Grab | Active | Hero | | Instant Drag at range: grabs a citizen, Valuable, prop or Incapacitated enemy from a distance |
 | Shockwave Stomp | Active | Hero | | Knocks back everything around you, sending enemies into walls |
 | Ooze Through | Passive | Hero | | Slip through locked doors as a puddle instead of breaking them (`world.md`) |
