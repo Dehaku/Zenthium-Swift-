@@ -20,7 +20,8 @@ Keep Metallic useful after every slot and hero is unlocked:
 - **Hiring Recruits:** the first Recruit is free; each extra one costs Metallic.
 
 ## Hero reward bonus
-- Multiplies all mission rewards: Zenny, XP (if added), anything gained. Tracked per hero.
+- Multiplies all mission rewards. Tracked per hero.
+- There is no XP. All progression comes from Zenny.
 - +10% for each mission played without that hero. No cap.
 - When the hero completes a mission, their bonus drops by 30 points, to a floor of 100%. Example: 360% → 330%.
 - A failed mission doesn't change any bonus.
