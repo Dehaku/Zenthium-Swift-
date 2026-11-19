@@ -8,7 +8,7 @@ Pure flavor only. Nothing here affects gameplay; mechanics live in the other fil
 ### HQ cast
 The three main voices from HQ in plot sequences (`story.md`). Unplayable for now.
 - **Shera, Director of SWIFT:** a rich, powerful vampire with glowing blue eyes and hair. She decided the best way to protect her assets is to prevent regular disasters. Nonchalant most of the time, but easily irritated by the others, whom she calls "Brats" when they act up. Hands-off and Machiavellian: she feels like a villain, but has only ever done "good" things. Heroes who can sense evil or danger always get a ping from her, and she leans into it to intimidate them for her own amusement. She's never been seen hurting anyone.
-- **Tia:** one of Shera's two advisors. A beautiful elven lich who maintained her body. Cold and calculating.
+- **Tia:** one of Shera's two advisors. An elven lich who maintained her own body: instead of bones, she looks like a beautiful, pale elf. Cold and calculating.
 - **Seria:** Shera's other advisor. An eccentric catgirl witch. Upbeat and passionate.
 
 ## Blazithion
@@ -67,6 +67,5 @@ Background for now. They're meant to tie into the factions later.
 | Millenniumworks Energies | Warp, power and Zenthium | CEO: Gwen Linkovich | In cooperation with Letupan Beku |
 
 ## Open
-- Tia "maintained her body": her own body as a lich, or Shera's?
 - The lore meaning of each Zenny color.
 - Who or what are Tuhan Yang Jatuh, Mogok Mati and Letupan Beku?
