@@ -61,7 +61,7 @@ Alien bureaucrats repossessing Earth, one item at a time. Crop circles are place
 - A citizen inside a crop circle is abducted: they disappear for good.
 - A hero pulled into a crop circle isn't abducted. It's only an annoyance.
 - A crop circle takes all Valuables (`world.md`) off any entity that enters it, the player included. They count as stolen.
-- Story Arcs: Relic Fever (`story.md`).
+- Story Arcs: Relic Fever (`StoryArcs/RelicFever.md`).
 
 | Rank | Entity | Description | Modules |
 |---|---|---|---|
@@ -93,7 +93,7 @@ An overly enthusiastic magic cult that treats every crime as a ritual. Valuables
 
 - While Vex holds Valuables, every Coven entity deals +5% damage per Valuable she holds.
 - With no Leader on the mission, there's no power-up. The bonus never carries past the mission.
-- Story Arcs: Relic Fever (`story.md`).
+- Story Arcs: Relic Fever (`StoryArcs/RelicFever.md`).
 
 | Rank | Entity | Description | Modules |
 |---|---|---|---|

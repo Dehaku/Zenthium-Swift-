@@ -27,7 +27,8 @@ Status: design. No build plan yet.
 | `world.md` | Walls, doors, windows, props, Valuables |
 | `economy.md` | Zenny currencies, hero reward bonus, dev options |
 | `hq.md` | HQ between missions and its tabs |
-| `story.md` | Story Arcs |
+| `story.md` | Story Arc rules |
+| `StoryArcs/` | One file per Story Arc |
 | `lore.md` | Pure flavor: world lore, megacorporations |
 | `hud.md` | HUD layout, indicators, end-of-mission screen, options |
 | `controls.md` | Default bindings |

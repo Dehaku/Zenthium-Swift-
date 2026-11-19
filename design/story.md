@@ -11,7 +11,7 @@
 |---|---|
 | **Arc** | A set of stages linked by branches |
 | **Stage** | One Story Arc mission: a mission setup plus its plot sequences, checkpoints and branches. Designers can fix any mission field (type, location, map size, secondary goal, hazards, Leader present, faction); unset fields roll normally. A stage can also place designer-made named entities, such as a VIP or a named villain, in sockets, built from normal modules |
-| **Plot Sequence** | A visual-novel style conversation. Characters appear on the left and right of the screen, and their lines show up as they talk. Skippable like mission cutscenes (`missions.md`). The cast and lines are fixed by designers; characters who aren't on the field talk "from HQ". The regulars are the HQ cast (`lore.md`). No dialogue choices |
+| **Plot Sequence** | A visual-novel style conversation. Characters appear on the left and right of the screen, and their lines show up as they talk. Skippable like mission cutscenes (`missions.md`). The cast and lines are fixed by designers; characters who aren't on the field talk "from HQ". The regulars are the HQ cast (`lore.md`). No dialogue choices. Lines are faction-neutral by default; designers can add faction-specific lines that play when that faction is running the stage |
 | **Checkpoint** | A trigger during a mission and the actions it causes, such as playing a plot sequence, adding a new goal, sending reinforcements or making the Leader try to flee |
 | **Branch** | Which stage comes next on success, and which on failure |
 
@@ -48,44 +48,8 @@ Designers combine any trigger with any actions. Both lists can grow.
 
 
 ## Arcs
-
-### Relic Fever
-A faction steals increasingly powerful magic relics.
-
-- **Factions:** Hexbound Coven or Galactic Repo Agency.
-- **Minimum rank:** C.
-- **Relics** are named Valuables placed by the stage: carried, dropped and stolen like any Valuable (`world.md`).
-
-| # | Stage | Mission | Location | Fixed fields | Checkpoints | Success | Failure |
-|---|---|---|---|---|---|---|---|
-| 1 | The Paw | Invasion | Antique shop | Secondary goal: Prevent 50% of Valuables from being stolen. Relic: the Monkey's Paw | An enemy picks up the Paw: plot sequence, and a new goal: recover the Paw | Stage 2 | Stage 2, with Night Time ("They wished for endless night") |
-| 2 | Don't Open It | Countdown: the thieves are prying the box open | Museum | Relic: Pandora's Box. Leader present | Timer at 50%: the Leader arrives early, with a plot sequence | Stage 3 | Stage 3, with a Zenthium Fissure ("Something crawled out of the box") |
-| 3 | The Collector | Rescue. Named VIP: Lord Pemberton, the collector | Collector's vault (a mansion) | Secondary goal: Prevent 50% of Valuables from being stolen | Pemberton rescued: plot sequence ("They already have the Grail!"), and a named courier carrying the Grail spawns and runs for the map edge. New goal: stop the courier | Stage 4 | Stage 3b |
-| 3b | Ransom | Rescue: Pemberton has been kidnapped | Warehouse | Leader present | Pemberton rescued: plot sequence | Stage 4 | Stage 4, with Night Time |
-| 4 | The Ark (finale) | Invasion | Warehouse ("government storage, don't ask") | Leader present. Map size: Large | The Leader drops to 50% HP: plot sequence, and the Leader flees with the Ark. If the Leader escapes, the mission fails | Arc complete (+50% rewards) | Arc ends |
-
-#### Sample plot sequences
-**Stage 1 briefing**
-> **Seria:** Ooh, an antique shop break-in! Somebody's after the Monkey's Paw!
-> **Tia:** A cursed relic. It grants wishes, at a cost. No one should use it.
-> **Shera:** Then go keep it in its dusty little box. Quietly, Brats.
-
-**Stage 1 success**
-> **Seria:** Paw secured! ...Can I make just one tiny wish?
-> **Tia:** No.
-> **Shera:** They'll go for the museum next, I expect. Pandora's box. Try not to open it.
-
-**Stage 1 failure**
-> **Tia:** They used the Paw. Their wish: endless night over the museum district.
-> **Shera:** How dramatic. Bring a flashlight.
-
-**Finale success**
-> **Shera:** The Ark stays where it is. Good. I'd hate to redecorate.
-
-**Finale failure**
-> **Seria:** They got away with the Ark!
-> **Shera:** Then they'll be back. Thieves always come back for more.
+Each arc has its own file in `StoryArcs/`:
+- `StoryArcs/RelicFever.md`
 
 ## Open
-- Relic Fever can be run by two factions. Do its plot sequences need a version per faction, or should the lines stay faction-neutral like the samples?
 - How the story is told overall, and whether arcs build toward anything bigger.
