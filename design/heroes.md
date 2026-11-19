@@ -24,14 +24,14 @@ Listed in unlock order; the first of each type is unlocked at the start.
 
 | Hero | Active | Passive | Gear |
 |---|---|---|---|
-| Rush Hour | Speed Punch, Dash, Time Slow, Uppercut | Sprinter, Weather the Storm, Second Wind, Charming | First Aid Spray, Evac Balloon, Padded Suit, Megaphone |
-| Heave | Telekinetic Grab, Telekinetic Throw, Shockwave Stomp, Barrier Shield | Soulful, Immovable, Second Wind, Regeneration | Stasis Cuffs, Megaphone, Evac Balloon, Padded Suit |
-| Sundown Sal | Dash, Taunt ("DRAW!"), Uppercut, Power Throw | Sprinter, Super Lucky, Weather the Storm, Second Wind | Six-Shooter, Bandolier, Grappling Hook (a lasso), Smoke Bomb |
-| Major Overclock | Taunt, Shockwave Stomp, Power Throw, Energy Shield | High-Capacity Battery, Immovable, Regeneration (auto-repair), Second Wind | Repulsor Blast, Padded Suit, Breaching Charge, Stasis Cuffs |
-| Gelatina | Goo Punch, Gel Coat, Taunt, Shockwave Stomp | Fireproof Body, Ooze Through, Regeneration, Second Wind | Water Cannon, First Aid Spray, Evac Balloon, Megaphone |
-| Rune | Ink Beast, Glyph Trap, Speed Punch (inked fists), Shockwave Stomp | Deathly Rage, Second Wind, Soulful, Regeneration | Force Spell Tome, Padded Suit, Smoke Bomb, First Aid Spray |
+| Rush Hour | Speed Punch, Dash, Time Slow, Uppercut | Sprinter, Weather the Storm, Express Delivery, Charming | First Aid Spray, Evac Balloon, Padded Suit, Megaphone |
+| Heave | Telekinetic Grab, Telekinetic Throw, Shockwave Stomp, Barrier Shield | Soulful, Immovable, Mind over Matter, Regeneration | Stasis Cuffs, Megaphone, Evac Balloon, Padded Suit |
+| Sundown Sal | Dash, Taunt ("DRAW!"), Uppercut, Power Throw | Sprinter, Super Lucky, Quick Draw, Ricochet | Six-Shooter, Bandolier, Grappling Hook (a lasso), Smoke Bomb |
+| Major Overclock | Taunt, Shockwave Stomp, Power Throw, Energy Shield | High-Capacity Battery, Immovable, Reactive Plating, Overclocked | Repulsor Blast, Padded Suit, Breaching Charge, Stasis Cuffs |
+| Gelatina | Goo Punch, Gel Coat, Taunt, Shockwave Stomp | Fireproof Body, Ooze Through, Sticky Body, Absorbent | Water Cannon, First Aid Spray, Evac Balloon, Megaphone |
+| Rune | Ink Beast, Glyph Trap, Speed Punch (inked fists), Shockwave Stomp | Deathly Rage, Living Ink, Soulful, Fresh Ink | Force Spell Tome, Padded Suit, Smoke Bomb, First Aid Spray |
 | Prism | Spectrum Bolt, Barrier Shield, Mirage (refraction), Shockwave Stomp | Reaper Battery, Soulful, Second Wind, Regeneration | Electric Spell Tome, Fire Spell Tome, Force Spell Tome, First Aid Spray |
-| Madame Tarot | Card Throw, Mirage, Glyph Trap (a trap card), Barrier Shield (a wall of cards) | Super Lucky, Soulful, Charming, Second Wind | Stealth Suit, Smoke Bomb, Electric Spell Tome, Evac Balloon |
+| Madame Tarot | Card Throw, Mirage, Glyph Trap (a trap card), Barrier Shield (a wall of cards) | Super Lucky, Soulful, Charming, Stacked Deck | Stealth Suit, Smoke Bomb, Electric Spell Tome, Evac Balloon |
 
 ## Create-a-Hero (CAH)
 - Each CAH is called a **Recruit**. Players can make multiple Recruits (extra ones cost Metallic Zenny, `economy.md`). Story-wise they're all the same character, one SWIFT recruit; having several lets players try builds without resetting.
@@ -51,5 +51,5 @@ Listed in unlock order; the first of each type is unlocked at the start.
 - Stats, slots and upgrades are tracked per hero.
 
 ## Open
-- Passives are the thinnest module pool, so Second Wind and Regeneration repeat across many kits.
+- Two new passives for Prism.
 - Saved loadout options for CAHs?

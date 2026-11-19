@@ -90,6 +90,17 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Stealth Suit | Gear (passive) | Hero | | Lowers Detectability, plus a flat +10% dodge chance |
 | Energy Shield | Active | Hero | | Like Barrier Shield, but costs Charge instead of Mana |
 | Taunt | Active | Hero | `Debuff`, `Resist:Will` | "COME AT ME!" Every enemy that can see you must target you for 4 s and are Marked: they deal 30% less damage and take 25% more damage from you. While taunting, you take 50% less damage, and every enemy that hits you is knocked back with Kick's force. Long cooldown |
+| Express Delivery | Passive | Hero | | +1 Drag capacity for citizens |
+| Mind over Matter | Passive | Hero | | Anything you throw or kick (props, Valuables) deals +50% damage. Thrown props take half damage |
+| Quick Draw | Passive | Hero | | The first shot after reloading deals double damage |
+| Ricochet | Passive | Hero | | Your shots bounce to one more enemy within 5 m for half damage |
+| Overclocked | Passive | Hero | | +50% damage while Charge is above 80% |
+| Reactive Plating | Passive | Hero | | +5 Armor each time you're hit, up to +50. Resets after 5 s without being hit |
+| Sticky Body | Passive | Hero | `Debuff`, `Resist:Strength` | Enemies who hit you in melee get Gooed (`statuses.md`) |
+| Absorbent | Passive | Hero | | 25% chance a ranged hit is absorbed: you take the damage, then heal 110% of it |
+| Living Ink | Passive | Hero | | Ink Beast summons a second beast |
+| Fresh Ink | Passive | Hero | | Each enemy you defeat heals you for 5% of your HP |
+| Stacked Deck | Passive | Hero | | Card Throw's random effects are twice as likely to be good ones |
 | Second Wind | Passive | Hero | | When Defiance triggers, heals 25% of HP |
 | Hex | Active | Hexer | `Debuff`, `Resist:Will` | Spell. Disables a random active power slot for 5 s |
 | Numbing Toxin | On hit | Unassigned | `Debuff`, `Resist:Toughness` | Poison. Disables a random passive power slot for 5 s |

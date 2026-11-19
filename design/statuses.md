@@ -28,7 +28,7 @@ Buffs, debuffs, hidden markers and states. Module durations and amounts live wit
 | Burn | DoT | Fire damage over time. Lasts 10x longer on props | Independent | Fire Spell Tome, Spectrum Bolt, burning buildings, exploding vehicles (`world.md`) |
 | Infected | DoT | Damage over time. Any entity reduced to 0 HP while Infected rises as a zombie on the spot | Refresh | Infectious Bite |
 | Broken Limb | Slow | Slower movement | Refresh | Broken Limb |
-| Gooed | Slow | Slower movement | Refresh | Goo Punch |
+| Gooed | Slow | Slower movement | Refresh | Goo Punch, Sticky Body |
 | Carrying Treasure | Slow | See `world.md` | Intensity (per Valuable) | Valuables |
 | Slot Disable | Disable | A random gear slot stops working | Independent: each hit disables another slot | Slot Disable |
 | Hex | Disable | A random active power slot stops working | Independent: each hit disables another slot | Hex |
