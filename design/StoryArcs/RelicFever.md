@@ -16,25 +16,37 @@ A faction steals increasingly powerful magic relics.
 | 4 | The Ark (finale) | Invasion | Warehouse ("government storage, don't ask") | Leader present. Map size: Large | The Leader drops to 50% HP: plot sequence, and the Leader flees with the Ark. If the Leader escapes, the mission fails | Arc complete (+50% rewards) | Arc ends |
 
 ## Sample plot sequences
+Lines marked with a faction only play when that faction is running the stage (`../story.md`).
+
 **Stage 1 briefing**
 > **Seria:** Ooh, an antique shop break-in! Somebody's after the Monkey's Paw!
 > **Tia:** A cursed relic. It grants wishes, at a cost. No one should use it.
+> **Tia** *(Hexbound Coven)*: The Coven. They believe every relic they steal makes their spells stronger. They're right.
+> **Seria** *(Galactic Repo Agency)*: It's the Repo Agency! They say Earth's six thousand years behind on its payments!
 > **Shera:** Then go keep it in its dusty little box. Quietly.
 
 **Stage 1 success**
 > **Seria:** Paw secured! ...Can I make just one tiny wish?
 > **Tia:** No.
+> **Seria** *(Hexbound Coven)*: Vex is gonna be sooo mad. Overdue fines for everyone!
+> **Shera** *(Galactic Repo Agency)*: GleebPeep is welcome to file a complaint.
 > **Shera:** They'll go for the museum next, I expect. Pandora's box. Try not to open it.
 
 **Stage 1 failure**
 > **Tia:** They used the Paw. Their wish: endless night over the museum district.
+> **Tia** *(Hexbound Coven)*: The Coven has already begun a ritual to keep it that way.
+> **Seria** *(Galactic Repo Agency)*: A Grey wrote the wish on a clipboard! Apparently that counts!
 > **Shera:** How dramatic. Bring a flashlight.
 
 **Finale success**
 > **Shera:** The Ark stays where it is. Good. I'd hate to redecorate.
+> **Shera** *(Hexbound Coven)*: Tell the Librarian her overdue book is staying on my shelf.
+> **Shera** *(Galactic Repo Agency)*: Inform GleebPeep the Ark has been declared non-repossessable.
 
 **Finale failure**
 > **Seria:** They got away with the Ark!
+> **Tia** *(Hexbound Coven)*: With the Ark in Vex's hands, the Coven's spells will be... considerable.
+> **Seria** *(Galactic Repo Agency)*: It's going on their mothership! Do they even have a shelf big enough?!
 > **Shera:** Then they'll be back. Thieves always come back for more.
 
 ## Open
