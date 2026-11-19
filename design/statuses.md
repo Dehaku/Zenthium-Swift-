@@ -37,6 +37,7 @@ Buffs, debuffs, hidden markers and states. Module durations and amounts live wit
 | Deathly Rage | Buff | Triples Strength and Toughness | Doesn't stack | Deathly Rage |
 | Spotlight | Buff | All stats boosted while inside the spotlight | Lasts while inside | Spotlight |
 | Gold-Plated Chrome | Buff | Toughness and Damage Reduction per Valuable held | Intensity (per Valuable) | Gold-Plated Chrome |
+| Fissure Kin buff (placeholder name) | Buff | +5 max Charge per stack | Intensity (per defeat) | Fissure Kin |
 | Defiance Roll | Hidden marker | Lowers the Defiance proc chance (`stats.md`) | Intensity (per proc) | Defiance |
 | Charmed | Hidden marker | Charming has already rolled on this target | Permanent | Charming |
 | Incapacitated | State | At 0 HP. Can't act. Enemies can be Dragged and captured; civilians are only downed, and can be Dragged out to safety | | 0 HP |

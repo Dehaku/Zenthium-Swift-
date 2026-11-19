@@ -101,8 +101,9 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Living Ink | Passive | Hero | | Ink Beast summons a second beast |
 | Fresh Ink | Passive | Hero | | Each enemy you defeat heals you for 5% of your HP |
 | Stacked Deck | Passive | Hero | | Card Throw's random effects are twice as likely to be good ones |
+| Fissure Kin (placeholder name) | Passive | Hero | | Zenthium creatures ignore you until you attack them. Each entity defeated within 10 m of you gives a stack of a buff: +5 max Charge per stack, for the rest of the mission |
 | Glow Up | Passive | Hero | | Below 50% HP: +50% Magic damage, and Night Time doesn't halve your vision (`difficulty.md`) |
-| Second Wind | Passive | Hero | | When Defiance triggers, heals 25% of HP |
+| Second Wind | Passive | Hero | | When Defiance triggers, fully heals you |
 | Hex | Active | Hexer | `Debuff`, `Resist:Will` | Spell. Disables a random active power slot for 5 s |
 | Numbing Toxin | On hit | Unassigned | `Debuff`, `Resist:Toughness` | Poison. Disables a random passive power slot for 5 s |
 | Meat Slap | Active | Dr. Edd | `Ranged` | Ranged attack |

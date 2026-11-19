@@ -29,8 +29,8 @@ Listed in unlock order; the first of each type is unlocked at the start.
 | Sundown Sal | Dash, Taunt ("DRAW!"), Uppercut, Power Throw | Sprinter, Super Lucky, Quick Draw, Ricochet | Six-Shooter, Bandolier, Grappling Hook (a lasso), Smoke Bomb |
 | Major Overclock | Taunt, Shockwave Stomp, Power Throw, Energy Shield | High-Capacity Battery, Immovable, Reactive Plating, Overclocked | Repulsor Blast, Padded Suit, Breaching Charge, Stasis Cuffs |
 | Gelatina | Goo Punch, Gel Coat, Taunt, Shockwave Stomp | Fireproof Body, Ooze Through, Sticky Body, Absorbent | Water Cannon, First Aid Spray, Evac Balloon, Megaphone |
-| Rune | Ink Beast, Glyph Trap, Speed Punch (inked fists), Shockwave Stomp | Deathly Rage, Living Ink, Soulful, Fresh Ink | Force Spell Tome, Padded Suit, Smoke Bomb, First Aid Spray |
-| Prism | Spectrum Bolt, Barrier Shield, Mirage (refraction), Shockwave Stomp | Reaper Battery, Soulful, Glow Up, Regeneration | Electric Spell Tome, Fire Spell Tome, Force Spell Tome, First Aid Spray |
+| Rune | Ink Beast, Glyph Trap, Speed Punch (inked fists), Shockwave Stomp | Deathly Rage, Living Ink, Second Wind, Fresh Ink | Force Spell Tome, Padded Suit, Smoke Bomb, First Aid Spray |
+| Prism | Spectrum Bolt, Barrier Shield, Mirage (refraction), Shockwave Stomp | Reaper Battery, Soulful, Glow Up, Fissure Kin (placeholder name) | Electric Spell Tome, Fire Spell Tome, Force Spell Tome, First Aid Spray |
 | Madame Tarot | Card Throw, Mirage, Glyph Trap (a trap card), Barrier Shield (a wall of cards) | Super Lucky, Soulful, Charming, Stacked Deck | Stealth Suit, Smoke Bomb, Electric Spell Tome, Evac Balloon |
 
 ## Create-a-Hero (CAH)
@@ -51,5 +51,5 @@ Listed in unlock order; the first of each type is unlocked at the start.
 - Stats, slots and upgrades are tracked per hero.
 
 ## Open
-- Two new passives for Prism.
+- Final name for Prism's Fissure Kin and its buff.
 - Saved loadout options for CAHs?
