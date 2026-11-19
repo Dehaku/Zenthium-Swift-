@@ -30,7 +30,7 @@ Listed in unlock order; the first of each type is unlocked at the start.
 | Major Overclock | Taunt, Shockwave Stomp, Power Throw, Energy Shield | High-Capacity Battery, Immovable, Reactive Plating, Overclocked | Repulsor Blast, Padded Suit, Breaching Charge, Stasis Cuffs |
 | Gelatina | Goo Punch, Gel Coat, Taunt, Shockwave Stomp | Fireproof Body, Ooze Through, Sticky Body, Absorbent | Water Cannon, First Aid Spray, Evac Balloon, Megaphone |
 | Rune | Ink Beast, Glyph Trap, Speed Punch (inked fists), Shockwave Stomp | Deathly Rage, Living Ink, Soulful, Fresh Ink | Force Spell Tome, Padded Suit, Smoke Bomb, First Aid Spray |
-| Prism | Spectrum Bolt, Barrier Shield, Mirage (refraction), Shockwave Stomp | Reaper Battery, Soulful, Second Wind, Regeneration | Electric Spell Tome, Fire Spell Tome, Force Spell Tome, First Aid Spray |
+| Prism | Spectrum Bolt, Barrier Shield, Mirage (refraction), Shockwave Stomp | Reaper Battery, Soulful, Glow Up, Regeneration | Electric Spell Tome, Fire Spell Tome, Force Spell Tome, First Aid Spray |
 | Madame Tarot | Card Throw, Mirage, Glyph Trap (a trap card), Barrier Shield (a wall of cards) | Super Lucky, Soulful, Charming, Stacked Deck | Stealth Suit, Smoke Bomb, Electric Spell Tome, Evac Balloon |
 
 ## Create-a-Hero (CAH)

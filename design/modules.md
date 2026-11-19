@@ -101,6 +101,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Living Ink | Passive | Hero | | Ink Beast summons a second beast |
 | Fresh Ink | Passive | Hero | | Each enemy you defeat heals you for 5% of your HP |
 | Stacked Deck | Passive | Hero | | Card Throw's random effects are twice as likely to be good ones |
+| Glow Up | Passive | Hero | | Below 50% HP: +50% Magic damage, and Night Time doesn't halve your vision (`difficulty.md`) |
 | Second Wind | Passive | Hero | | When Defiance triggers, heals 25% of HP |
 | Hex | Active | Hexer | `Debuff`, `Resist:Will` | Spell. Disables a random active power slot for 5 s |
 | Numbing Toxin | On hit | Unassigned | `Debuff`, `Resist:Toughness` | Poison. Disables a random passive power slot for 5 s |
