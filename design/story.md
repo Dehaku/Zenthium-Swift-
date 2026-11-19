@@ -11,7 +11,7 @@
 |---|---|
 | **Arc** | A set of stages linked by branches |
 | **Stage** | One Story Arc mission: a mission setup plus its plot sequences, checkpoints and branches. Designers can fix any mission field (type, location, map size, secondary goal, hazards, Leader present, faction); unset fields roll normally. A stage can also place designer-made named entities, such as a VIP or a named villain, in sockets, built from normal modules |
-| **Plot Sequence** | A visual-novel style conversation. Characters appear on the left and right of the screen, and their lines show up as they talk. Skippable like mission cutscenes (`missions.md`). The cast and lines are fixed by designers; characters who aren't on the field talk "from HQ". The regulars are the HQ cast (`lore.md`). No dialogue choices. Lines are faction-neutral by default; designers can add faction-specific lines that play when that faction is running the stage |
+| **Plot Sequence** | A visual-novel style conversation. Characters appear on the left and right of the screen, and their lines show up as they talk. Skippable like mission cutscenes (`missions.md`). The cast and lines are fixed by designers; characters who aren't on the field talk "from HQ". The regulars are the HQ cast (`lore.md`). No dialogue choices. Lines are faction-neutral by default. Designers can mark a line *(Neutral)* and follow it with faction-specific versions; when that faction is running the stage, its version replaces the neutral line |
 | **Checkpoint** | A trigger during a mission and the actions it causes, such as playing a plot sequence, adding a new goal, sending reinforcements or making the Leader try to flee |
 | **Branch** | Which stage comes next on success, and which on failure |
 
