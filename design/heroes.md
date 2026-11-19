@@ -4,7 +4,8 @@
 - The roster isn't capped.
 - Each preset has a full, fixed kit: 4 active, 4 passive and 4 gear modules (`modules.md`). Players can't swap them.
 - Only the first slot of each type is unlocked at the start. The rest unlock with Zenny (`economy.md`), in the order listed below.
-- Most presets are unlocked with Zenny. Some unlock through milestones, achievements or story beats.
+- Unlocked at the start: Rush Hour, Major Overclock and Rune.
+- The rest are unlocked with Zenny, or through milestones, achievements or story beats.
 - Stat shorthand: high = 20, low = 6, unlisted = 10 (the base, `stats.md`).
 
 ### Roster
