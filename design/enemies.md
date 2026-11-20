@@ -63,6 +63,7 @@ Idle (patrol, `## Squads`), Combat, Searching, Looting (`world.md`), Objective (
 - Enemies attack anyone not on their side, civilians included. Outside Invasion, they only attack civilians once they're in Combat (aware of the player or an ally).
 - They attack the nearest valid target. Exceptions: Taunt overrides it, and an entity that just took damage turns on whoever hit it, unless it was an ally.
 - Enemies prefer the player and the player's allies. They fight neutrals only when attacked by them, or when nothing better is in view.
+- **Dragging citizens:** entities with Drag and a `LootDestination` drag citizens there at any time, even while Idle (`world.md`). It doesn't count as attacking.
 - Neutral creatures (Zenthium) have no preference: they attack anything not on their own team. Heavy Turrets never attack civilians (`world.md`).
 
 ### Becoming aware

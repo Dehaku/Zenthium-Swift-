@@ -1,7 +1,7 @@
 # Missions
 
 - Average length: about 5 minutes.
-- One faction per mission (`factions.md` decides which).
+- One faction per mission, picked by faction weights (`factions.md`).
 - Failing a mission loses its rewards. No other penalty (`economy.md`).
 
 ## Start sequence
