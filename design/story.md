@@ -3,7 +3,7 @@
 - Chains of Story Arc missions that appear on the mission map (`hq.md`).
 - An arc can be run by any faction that lists it in `factions.md`. When an arc starts, it picks one of those factions and keeps it until the arc ends. The next time the arc starts, the faction can differ.
 - **Starting arcs:** after each mission there's a 10% chance a new arc starts. At most 2 arcs run at once. The arc is picked at random among eligible ones: its minimum rank is unlocked (`difficulty.md`) and it isn't already running. Each arc can have an optional weight to make it more or less likely.
-- **First mission of the game:** the first stage of the Hostile Takeover arc (`StoryArcs/HostileTakeover.md`). No other missions appear until it's resolved.
+- **First mission of the game:** the first stage of the Hostile Takeover arc (`StoryArcs/HostileTakeover.md`). Until the player completes Hostile Takeover for the first time, no normal missions appear and no other arcs start.
 - Everything is designer-authored data: arcs, stages, plot sequences, checkpoints and branches. New arcs need no new code.
 
 ## Building blocks

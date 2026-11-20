@@ -6,6 +6,7 @@ Story Arc rules are in `../story.md`.
 
 - **Factions:** Galactic Repo Agency only.
 - **Minimum rank:** D. Starts automatically as the game's first mission. After that, it can come back through the normal arc roll (`../story.md`).
+- **Tutorial tips** only show on the first run.
 - **Completion unlock:** Sundown Sal (`../heroes.md`).
 - **Named entities:** GleebPeep (the Leader, `../factions.md`), Seria (VIP in stage 4b).
 
@@ -34,7 +35,7 @@ Story Arc rules are in `../story.md`.
 
 **Stage 4 briefing**
 > **Tia:** They've landed in our lobby.
-> **Shera:** In my lobby. Brats, the lot of them. Throw them out.
+> **Shera:** In my lobby. Brats, the lot of them. They must be punished.
 
 **Finale success**
 > **Seria:** The mothership's leaving! And someone's waving a hat at it?
@@ -46,4 +47,4 @@ Story Arc rules are in `../story.md`.
 > **Shera:** We'll be getting it back. I keep my receipts.
 
 ## Open
-- (none)
+- If the first run's finale fails, the arc ends. Does it restart right away, since the mission map is still locked?

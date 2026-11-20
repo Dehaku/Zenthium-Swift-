@@ -2,6 +2,7 @@
 
 ## Zenny
 - Crystals in many colors. Their lore is in `lore.md`.
+- Players start with no Zenny. All of it is earned from missions.
 - Three currencies, one per family. Colors within a family are looks only.
 
 | Family | Rarity | Colors | Buys |
