@@ -21,7 +21,8 @@ Status: design. No build plan yet.
 | `modules.md` | Module schema, tags, module info, full module catalog |
 | `difficulty.md` | Difficulty ranks, per-rank scaling, mission modifiers |
 | `missions.md` | Mission flow, difficulty, types, secondary goals, citizens, extraction |
-| `factions.md` | Villain factions, their entities and weights |
+| `factions.md` | Shared faction rules: ranks, weights, minimum ranks |
+| `Factions/` | One file per faction, from `Factions/_Template.md` |
 | `maps.md` | Map generation, size, Blazithion's districts, sockets, fog of war |
 | `enemies.md` | Enemy spawning (threat budget, squads, reinforcements, arrival tags, population cap) and AI |
 | `world.md` | Walls, doors, windows, props, Valuables |

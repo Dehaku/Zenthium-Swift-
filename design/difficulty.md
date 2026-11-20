@@ -35,7 +35,7 @@ D (lowest), C, B, A, S, then S2, S3, S4 and so on, forever.
 - From rank C, every mission has a 50% chance to get a modifier. If it does, it rolls another 50% for a second one, and so on until a roll fails. Each modifier can appear only once; the rolls stop when none are left.
 - Modifiers show as intel in one "Hazards" field (`hq.md`).
 - **Night Time:** all vision ranges are halved, for everyone.
-- **Zenthium Fissure:** a fissure opens on the map and now and then spawns hostile neutral creatures from Zenthium (`factions.md`, timing in `enemies.md`) that attack everyone.
+- **Zenthium Fissure:** a fissure opens on the map and now and then spawns hostile neutral creatures from Zenthium (`Factions/Zenthium.md`, timing in `enemies.md`) that attack everyone.
 
 ## Open
 - (none)

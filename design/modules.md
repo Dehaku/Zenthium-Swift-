@@ -37,7 +37,7 @@
 - Owned modules can be upgraded.
 
 ## Catalog
-Defiance is a core Will rule, not a module (`stats.md`). Faction entities are described in `factions.md`. Owner says who carries a module now; any module can also go on presets and Recruits. "Unassigned" modules have no owner yet but are in the pool (for example, for Infinity Anarchous).
+Defiance is a core Will rule, not a module (`stats.md`). Faction entities are described in `Factions/`. Owner says who carries a module now; any module can also go on presets and Recruits. "Unassigned" modules have no owner yet but are in the pool (for example, for Infinity Anarchous).
 
 | Module | Category | Owner | Tags | Mechanics |
 |---|---|---|---|---|
@@ -89,7 +89,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Barrier Shield | Active | Hero | | A 180-degree crescent shield in front of you that blocks projectiles for a few seconds. Costs Mana. Enemies that touch it are knocked back with Kick's force |
 | Stealth Suit | Gear (passive) | Hero | | Lowers Detectability, plus a flat +10% dodge chance |
 | Energy Shield | Active | Hero | | Like Barrier Shield, but costs Charge instead of Mana |
-| Taunt | Active | Hero | `Debuff`, `Resist:Will` | "COME AT ME!" Every enemy that can see you must target you for 4 s and are Marked: they deal 30% less damage and take 25% more damage from you. While taunting, you take 50% less damage, and every enemy that hits you is knocked back with Kick's force. Long cooldown |
+| Taunt | Active | Hero | `Debuff`, `Resist:Will` | "COME AT ME!" Every enemy that can see you must target you for 4 s and are Marked: they deal 30% less damage and take 25% more damage. While taunting, you take 50% less damage, and every enemy that hits you is knocked back with Kick's force. Long cooldown |
 | Express Delivery | Passive | Hero | | +1 Drag capacity for citizens |
 | Mind over Matter | Passive | Hero | | Anything you throw or kick (props, Valuables) deals +50% damage. Thrown props take half damage |
 | Quick Draw | Passive | Hero | | The first shot after reloading deals double damage |
@@ -119,7 +119,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Cannons | Active | Tank | `Ranged`, `Telegraph` | Ranged attack |
 | Turrets | Active | Hacker | `Summon` | Summons turret entities |
 | Repossess | Active | GleebPeep, Auditor | `Debuff`, `Resist:Intelligence` | "REPOSSESSED!" Takes a random gear slot for 5 s, applying Slot Disable (`statuses.md`) |
-| Final Notice | Active | GleebPeep | `Debuff`, `Resist:Will` | Applies Marked to the target (`statuses.md`) |
+| Final Notice | Active | GleebPeep | `Debuff`, `Resist:Will` | Applies Marked for 6 s: the target deals 30% less damage and takes 25% more damage (`statuses.md`) |
 | Tablet Slap | Active | GleebPeep | `Melee` | A melee attack with knockback |
 | Call for Backup | Active | GleebPeep | `Summon` | 30 s cooldown. Summons 3-5 goons and 2 Champions, using the faction's arrival tag (`enemies.md`) |
 | Audit | Active | Auditor | | Reveals the player to every enemy within 30 m, making them aware at once |
@@ -136,7 +136,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Super Speed | Passive | Chad | | +200% base move speed |
 | Chad Adjacent | Passive | Infinity Anarchous Champions | | +50% to all SWIFT stats |
 | Tractor Beam | Active | GleebPeep | | Beam that pulls in every entity and prop in its path |
-| Tractor Pull | Active | Tractor Drone | | Pulls a hero or citizen toward the nearest Repo Agency crop circle (`factions.md`) |
+| Tractor Pull | Active | Tractor Drone | | Pulls a hero or citizen toward the nearest Repo Agency crop circle (`Factions/GalacticRepoAgency.md`) |
 | Immovable | Passive | Shield Bearer, Strongman | `KnockbackResistant` | Can't be knocked back |
 | Energy Blaster | Active | Shield Bearer, Grey | `Ranged` | Ranged attack, Energy damage |
 | Spotlight | Active | The Ringmaster | `Buff` | A spotlight with a 20 m radius, centered on him. Circus entities inside get +50% to all stats |

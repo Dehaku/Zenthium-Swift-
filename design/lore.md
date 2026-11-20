@@ -48,7 +48,7 @@ Crystals leaking in from Zenthium. All shiny.
 | Gold | Metallic | Unlimited growth | Consuming it lets one grow past their limits. Found only inside dead Titans |
 
 ## Galactic Repo Agency
-- Their UFO sits in orbit and beams things up through the crop circles (`factions.md`).
+- Their UFO sits in orbit and beams things up through the crop circles (`Factions/GalacticRepoAgency.md`).
 
 ## Megacorporations
 Background for now. They're meant to tie into the factions later.

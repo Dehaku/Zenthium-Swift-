@@ -4,7 +4,7 @@ One or two sentences: what this arc is about.
 
 Story Arc rules are in `../story.md`.
 
-- **Factions:** which factions can run it (list this arc under each one in `../factions.md`).
+- **Factions:** which factions can run it (list this arc under each one in `../Factions/`).
 - **Minimum rank:** D, C, B, A or S.
 - **Weight:** optional; leave blank for normal.
 - **Completion unlock:** optional; a hero or an extra Recruit slot.

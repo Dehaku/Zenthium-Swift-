@@ -40,6 +40,7 @@ Hybrid layout: vitals and resources stay near the character; abilities and objec
 | Pied screen smear | `modules.md` |
 | "Skipping" with a growing circle | `missions.md` |
 | Module formula breakdown while holding "more info" | `modules.md` |
+| Hackable icon on `Hackable` entities, shown only if the player has a module that can hack (such as Reprogram) | `modules.md` |
 
 ## End-of-mission screen
 - A comic-panel results page: success or failure, Zenny earned by family, multipliers (hero bonus, rank, hidden intel), secondary goal results, and Valuables recovered or stolen.

@@ -80,7 +80,7 @@ Generic money bags. They do nothing on their own and don't affect mission reward
 
 ### Valuables secondary goal
 See `missions.md` for the goal itself.
-- A Valuable counts as stolen once it leaves the map.
+- A Valuable counts as stolen once it leaves the map, or reaches a loot destination that counts as stolen, such as a Repo Agency crop circle (`Factions/GalacticRepoAgency.md`).
 - The HUD shows a counter, such as "Stolen 2 / Fail at 5".
 - With no Leader, goons try to leave the map with their Valuables.
 - Once the Leader holds enough Valuables to fail the goal, the Leader tries to flee the map with them.

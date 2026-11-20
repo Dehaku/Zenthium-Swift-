@@ -24,7 +24,7 @@ Buffs, debuffs, hidden markers and states. Module durations and amounts live wit
 | Root | Crowd control | Can't move, but can attack and use powers. Can still be knocked back | Refresh | Glyph Trap |
 | Taunted | Crowd control | Must target the taunter | Refresh | Taunt |
 | Engulfed | Crowd control | Grabbed and held | Refresh | Engulf |
-| Marked | Debuff | Deals less damage, and takes more damage from whoever marked it | Refresh | Taunt, Final Notice |
+| Marked | Debuff | Deals less damage, and takes more damage from all sources | Refresh | Taunt, Final Notice |
 | Burn | DoT | Fire damage over time. Lasts 10x longer on props | Independent | Fire Spell Tome, Spectrum Bolt, burning buildings, exploding vehicles (`world.md`) |
 | Infected | DoT | Damage over time. Any entity reduced to 0 HP while Infected rises as a zombie on the spot | Refresh | Infectious Bite |
 | Broken Limb | Slow | Slower movement | Refresh | Broken Limb |

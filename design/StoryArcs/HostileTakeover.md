@@ -8,7 +8,7 @@ Story Arc rules are in `../story.md`.
 - **Minimum rank:** D. Starts automatically as the game's first mission. After that, it can come back through the normal arc roll (`../story.md`).
 - **Tutorial tips** only show on the first run.
 - **Completion unlock:** Sundown Sal (`../heroes.md`).
-- **Named entities:** GleebPeep (the Leader, `../factions.md`), Seria (VIP in stage 4b).
+- **Named entities:** GleebPeep (the Leader, `../Factions/GalacticRepoAgency.md`), Seria (VIP in stage 4b).
 
 | # | Stage | Mission | Location | Fixed fields | Checkpoints | Success | Failure |
 |---|---|---|---|---|---|---|---|
