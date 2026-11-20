@@ -13,11 +13,11 @@ Mechanics only this faction has: its signature twist, faction-wide effects, spec
 ## Entities
 | Rank | Entity | Min rank | Description | Modules | Tags |
 |---|---|---|---|---|---|
-| Leader | | D | | Module, Module (C), Module (B) | |
+| Leader | | D | | Modules in unlock order | |
 | Champion | | D | | | |
 | Goon | | D | | | `Coward` |
 
-- A rank in brackets after a module is that slot's minimum rank; below it, the slot is empty.
+- Modules are listed in unlock order. How many an entity can use depends on its rank tier and the difficulty (`../factions.md`).
 - New modules go in `../modules.md`; new statuses in `../statuses.md`.
 
 ## Spawning

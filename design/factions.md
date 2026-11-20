@@ -15,7 +15,16 @@ Entity abilities are modules; mechanics live in `modules.md`. A faction can run 
 - **Location Weight:** how likely a faction is to hit each kind of location.
 
 ## Shared rules
-- **Minimum ranks:** every entity has a minimum rank to spawn. Each module slot on an entity can also have its own minimum rank; below it, that slot is empty.
+- **Minimum ranks:** every entity has a minimum rank to spawn.
+- **Module slots by rank:** an entity's modules are listed in unlock order, and how many of them it can use depends on its rank tier and the difficulty. Locked slots are simply empty. Modules themselves never have a rank, so any module works anywhere (Recruits, Infinity Anarchous' random draws).
+
+| Difficulty | Goon | Champion | Leader |
+|---|---|---|---|
+| D | 2 | 2 | 2 |
+| C | 2 | 3 | 4 |
+| B | 3 | 4 | 5 |
+| A | 3 | 4 | 6 |
+| S and up | 4 | 5 | 6, plus the extra random modules (`difficulty.md`) |
 - **Flying** is only a look. Drones and saucers use normal movement and hit rules.
 - **Entity tags** such as `Hackable`, `Coward` and `LootDestination:<place>` are listed per entity.
 
