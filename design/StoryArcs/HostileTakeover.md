@@ -47,4 +47,4 @@ Story Arc rules are in `../story.md`.
 > **Shera:** We'll be getting it back. I keep my receipts.
 
 ## Open
-- If the first run's finale fails, the arc ends. Does it restart right away, since the mission map is still locked?
+- (none)
