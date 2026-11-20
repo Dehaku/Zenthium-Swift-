@@ -63,7 +63,7 @@ Alien bureaucrats repossessing Earth, one item at a time. Crop circles are place
 - A crop circle takes all Valuables (`world.md`) off any entity that enters it, the player included. They count as stolen.
 - **Crop circles per mission:** 1 at rank D, plus 1 per rank above D.
 - **Loot:** Repo entities have `LootDestination:CropCircle`, so they take Valuables to the nearest crop circle instead of to their Leader (`world.md`).
-- **Mothership Strike** (from rank S): every 30 s, an orbital beam targets the player's position. A red ring and a countdown from 5 show where it will hit, like Breaching Charge (`modules.md`).
+- **Mothership Strike** (from rank S): every 30 s, an orbital beam targets the player's position. A red ring and a countdown from 5 show where it will hit, like Breaching Charge (`modules.md`). It deals 300 damage in a 5 m radius.
 - **Comic callouts:** "PAST DUE!", "REPOSSESSED!", "SIGN HERE!".
 - Story Arcs: Relic Fever (`StoryArcs/RelicFever.md`), Hostile Takeover (`StoryArcs/HostileTakeover.md`).
 

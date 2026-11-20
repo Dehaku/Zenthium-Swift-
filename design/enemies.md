@@ -42,7 +42,7 @@ Where each mission type spends its budget:
 ## Limits
 - Defeated enemies never respawn. New enemies only come from reinforcements, Invasion waves and Zenthium Fissures.
 - Enemies that escape off the map count as defeated. Valuables they carry off count as stolen (`world.md`).
-- **Population cap:** at most 60 enemies alive at once by default, adjustable in the options menu. Only goons, Champions and Leaders from the spawner count; Heavy Turrets, allies and Fissure creatures don't. Reinforcements wait while the cap is reached.
+- **Population cap:** at most 60 enemies alive at once by default, adjustable in the options menu. Only goons, Champions and Leaders from the standard spawner count. Summons (such as Call for Backup), Heavy Turrets, allies and Fissure creatures don't, and summons don't count toward wave limits either. Reinforcements wait while the cap is reached.
 
 ## Neutral spawns
 - **Heavy Turrets:** from rank B, each building has a 15% chance to have one (`world.md`).
