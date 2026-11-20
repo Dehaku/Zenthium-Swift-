@@ -3,7 +3,7 @@
 - Chains of Story Arc missions that appear on the mission map (`hq.md`).
 - An arc can be run by any faction that lists it in `factions.md`. When an arc starts, it picks one of those factions and keeps it until the arc ends. The next time the arc starts, the faction can differ.
 - **Starting arcs:** after each mission there's a 10% chance a new arc starts. At most 2 arcs run at once. The arc is picked at random among eligible ones: its minimum rank is unlocked (`difficulty.md`) and it isn't already running. Each arc can have an optional weight to make it more or less likely.
-- **First mission of the game:** a Story Arc stage. No other missions appear until it's resolved.
+- **First mission of the game:** the first stage of the Hostile Takeover arc (`StoryArcs/HostileTakeover.md`). No other missions appear until it's resolved.
 - Everything is designer-authored data: arcs, stages, plot sequences, checkpoints and branches. New arcs need no new code.
 
 ## Building blocks
@@ -48,7 +48,8 @@ Designers combine any trigger with any actions. Both lists can grow.
 | The player enters a tagged area (`maps.md`) | Make the Leader flee |
 | A Valuable count is reached (`world.md`) | Apply a mission modifier (`difficulty.md`) |
 | A number of citizens are rescued | Add a Meeting Room line (`hq.md`) |
-| A secondary goal is completed or failed | End the mission, as success or failure |
+| A secondary goal is completed or failed | Show a tutorial tip |
+| | End the mission, as success or failure |
 | The Leader escapes | |
 
 ### Goals
@@ -65,8 +66,8 @@ Each added goal is either **required** (failing it fails the mission) or **optio
 
 ## Arcs
 Each arc has its own file in `StoryArcs/`. Start new arcs from `StoryArcs/_Template.md`.
+- `StoryArcs/HostileTakeover.md` (the opening arc)
 - `StoryArcs/RelicFever.md`
 
 ## Open
-- The opening arc: the game's first mission, at rank D (the first hour).
 - How the story is told overall, and whether arcs build toward anything bigger.
