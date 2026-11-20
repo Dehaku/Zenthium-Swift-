@@ -36,4 +36,5 @@
 - Implementation note: if the game is built in Unity, there's already a fog of war asset for this.
 
 ## Open
-- (none)
+- One master list of location names, for Location Weight and arc stages. It needs apartment buildings, a records office and SWIFT Tower (from Hostile Takeover).
+- "Default: Medium" size: when does the default apply, since difficulty always sets the size?

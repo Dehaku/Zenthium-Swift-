@@ -70,4 +70,6 @@ Each arc has its own file in `StoryArcs/`. Start new arcs from `StoryArcs/_Templ
 - `StoryArcs/RelicFever.md`
 
 ## Open
+- Write the arc that unlocks Recruits (`heroes.md`).
+- Can a stage override faction settings such as Champion share? Hostile Takeover's stage 4b does.
 - How the story is told overall, and whether arcs build toward anything bigger.

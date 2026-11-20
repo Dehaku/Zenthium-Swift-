@@ -16,5 +16,6 @@ Cyberpunk criminal organization with implants.
 - **Higher-rank entities:** open (`../difficulty.md`).
 
 ## Open
+- The Hacker's module order is now its AI priority, so Reprogram should come first (`../enemies.md`).
 - Design pass, following `_Template.md`.
 - Kingping's attacks.

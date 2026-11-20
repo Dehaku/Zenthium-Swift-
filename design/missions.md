@@ -53,4 +53,8 @@
 - **Capture:** an Incapacitated enemy inside an exit zone is captured. How it got there doesn't matter (Drag, Power Throw, knockback).
 
 ## Open
-- (none)
+- Exits: are map edges always exits, or only marked zones? `difficulty.md` says higher ranks have fewer exit zones.
+- Secondary goals about the Leader (Defeat, Capture) can roll on missions with no Leader.
+- Do Scared citizens flee only goons, or any enemy (Champions, Leaders, Zenthium creatures)?
+- In Arson Riot, when a goon could both loot and ignite, which comes first?
+- Numbers: Rescue target counts, Countdown timers, Invasion loss timer and radius, and how each scales per rank.

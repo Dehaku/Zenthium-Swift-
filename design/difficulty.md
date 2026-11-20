@@ -39,4 +39,4 @@ D (lowest), C, B, A, S, then S2, S3, S4 and so on, forever.
 - **Zenthium Fissure:** a fissure opens on the map and now and then spawns hostile neutral creatures from Zenthium (`Factions/Zenthium.md`, timing in `enemies.md`) that attack everyone.
 
 ## Open
-- (none)
+- Hidden-intel chance has no cap, so very high S ranks hide everything. Cap it?

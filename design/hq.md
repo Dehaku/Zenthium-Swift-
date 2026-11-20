@@ -35,4 +35,6 @@
 - It arrives with all intel revealed, so it never gets the hidden-intel bonus.
 
 ## Open
-- (none)
+- Mission generation: what rank is a normal mission, how many missions are on the map at once, and how often new ones appear?
+- How long a tip mission stays on the map.
+- How big the hidden-intel reward bonus is.

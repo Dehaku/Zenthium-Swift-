@@ -32,4 +32,5 @@ Keep Metallic useful after every slot and hero is unlocked:
 - Toggle: the bonus resets to 100% whenever the hero completes a mission.
 
 ## Open
-- (none)
+- How reward bonuses combine: hero bonus, rank, hidden intel, secondary goals and Story Arcs. Do they add or multiply?
+- Prices: stats, modules and tiers, slots, heroes and Recruits. Reward mix per mission type.

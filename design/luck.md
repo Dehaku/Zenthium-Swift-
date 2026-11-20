@@ -11,6 +11,10 @@
 | Defiance proc | `stats.md` | TBD |
 | Debuff resist | `statuses.md` | TBD |
 | Charming conversions | `modules.md` | TBD |
+| Absorbent | `modules.md` | TBD |
+| Card Throw effects, Stacked Deck | `modules.md` | TBD |
+| Spectrum Bolt stun chance | `modules.md` | TBD |
+| Cowardice | `enemies.md` | TBD |
 
 ## Open
 - Reevaluate Luck and other possible systems for it.

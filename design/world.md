@@ -86,4 +86,6 @@ See `missions.md` for the goal itself.
 - Once the Leader holds enough Valuables to fail the goal, the Leader tries to flee the map with them.
 
 ## Open
-- (none)
+- Does an entity knocked into a wall also take damage, or only the wall?
+- Pressing Kick while dragging a prop and carrying Valuables: which gets thrown?
+- Do the player's own explosions (Breaching Charge) hurt the player and civilians?

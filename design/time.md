@@ -11,4 +11,4 @@
 | Time Stop | The game freezes. The player is unaffected. Damage to frozen entities lands immediately. Projectiles freeze and have no collision while frozen, so the player can walk through bullets. Countdown mission timers pause too (intended). Lasts 5 real seconds; 30 s cooldown |
 
 ## Open
-- (none)
+- Time Slow's cooldown.
