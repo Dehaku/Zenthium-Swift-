@@ -7,7 +7,7 @@
 - Unlocked at the start: Rush Hour, Major Overclock and Rune.
 - Unplayable for now: the HQ cast, Shera, Tia and Seria (`lore.md`).
 - The rest are unlocked with Zenny, or through milestones, achievements or story beats.
-- Sundown Sal unlocks by finishing the Hostile Takeover arc (`StoryArcs/HostileTakeover.md`).
+- Sundown Sal only unlocks by finishing the Hostile Takeover arc (`StoryArcs/HostileTakeover.md`). She can't be bought.
 - Madame Tarot only unlocks by finishing the Relic Fever arc (`StoryArcs/RelicFever.md`). She can't be bought.
 - Stat shorthand: high = 20, low = 6, unlisted = 10 (the base, `stats.md`).
 

@@ -5,7 +5,7 @@ The opening arc. On the heroes' first day at SWIFT, Shera's orientation tour is 
 Story Arc rules are in `../story.md`.
 
 - **Factions:** Galactic Repo Agency only.
-- **Minimum rank:** D. Starts automatically as the game's first mission.
+- **Minimum rank:** D. Starts automatically as the game's first mission. After that, it can come back through the normal arc roll (`../story.md`).
 - **Completion unlock:** Sundown Sal (`../heroes.md`).
 - **Named entities:** GleebPeep (the Leader, `../factions.md`), Seria (VIP in stage 4b).
 
@@ -46,4 +46,4 @@ Story Arc rules are in `../story.md`.
 > **Shera:** We'll be getting it back. I keep my receipts.
 
 ## Open
-- Can Hostile Takeover come back later through the normal arc roll, or does it only run once?
+- (none)
