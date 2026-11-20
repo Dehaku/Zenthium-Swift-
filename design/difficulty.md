@@ -25,7 +25,7 @@ D (lowest), C, B, A, S, then S2, S3, S4 and so on, forever.
 - **Leader-led missions:** 0% at D, +20% per rank (C 20%, B 40%, A 60%), and guaranteed from S.
 
 ## Enemy types by rank
-- Enemies unlock more of their module slots as the rank rises (`factions.md`).
+- Some entities have modules locked until a higher rank (`factions.md`).
 - Every enemy entity has a **minimum rank** to spawn, so factions gain new entity types as the rank rises. Each faction's higher-rank entities are designed in their faction file (`Factions/`).
 
 ## Leaders' extra modules

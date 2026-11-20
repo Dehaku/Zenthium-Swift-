@@ -15,17 +15,17 @@ Shared faction rules are in `../factions.md`.
 - **Story Arcs:** Relic Fever (`../StoryArcs/RelicFever.md`), Hostile Takeover (`../StoryArcs/HostileTakeover.md`).
 
 ## Entities
-| Rank | Entity | Min rank | Description | Modules | Tags |
-|---|---|---|---|---|---|
-| Leader | GleebPeep | D | Tired repo officer with a tablet and a ship's tractor beam | Tractor Beam, Tablet Slap, Final Notice, Repossess, Call for Backup | |
-| Champion | Tractor Drone | D | Hovering drone that pulls heroes and citizens toward the crop circles | Tractor Pull | `Hackable` |
-| Champion | Shield Bearer | D | Armored; can't be knocked back, and blocks shots from the front | Immovable, Energy Blaster, High-Capacity Battery, Energy Shield | |
-| Champion | Auditor | C | Anti-stealth: exposes the player to everyone nearby | Audit, Repossess | |
-| Champion | Notary | A | Support: notarizes nearby allies, making them tougher | Notarized | |
-| Goon | Grey | D | Energy blasters; drags citizens away | Energy Blaster, Drag | `Coward` |
-| Goon | Tow Saucer | B | A small saucer that steals props, citizens and Valuables from range and flies them to a crop circle. Crashes when destroyed: 50 damage in a 5 m radius | Tow Beam | `Coward`, `Hackable` |
+| Rank | Entity | Min rank | Description | Modules | Locked until | Tags |
+|---|---|---|---|---|---|---|
+| Leader | GleebPeep | D | Tired repo officer with a tablet and a ship's tractor beam | Tractor Beam, Tablet Slap, Final Notice, Repossess, Call for Backup | Final Notice (C), Repossess (C), Call for Backup (B) | |
+| Champion | Tractor Drone | D | Hovering drone that pulls heroes and citizens toward the crop circles | Tractor Pull | | `Hackable` |
+| Champion | Shield Bearer | D | Armored; can't be knocked back, and blocks shots from the front | Immovable, Energy Blaster, High-Capacity Battery, Energy Shield | | |
+| Champion | Auditor | C | Anti-stealth: exposes the player to everyone nearby | Audit, Repossess | | |
+| Champion | Notary | A | Support: notarizes nearby allies, making them tougher | Notarized | | |
+| Goon | Grey | D | Energy blasters; drags citizens away | Energy Blaster, Drag | | `Coward` |
+| Goon | Tow Saucer | B | A small saucer that steals props, citizens and Valuables from range and flies them to a crop circle. Crashes when destroyed: 50 damage in a 5 m radius | Tow Beam | | `Coward`, `Hackable` |
 
-- Modules are in unlock order (`../factions.md`).
+- Modules are in AI priority order. Locked modules are skipped below their rank (`../factions.md`).
 - At rank D on Small maps, the Champion share can't afford any Champions. That's intended.
 
 ## Spawning
