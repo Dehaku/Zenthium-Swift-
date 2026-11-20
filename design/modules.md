@@ -23,7 +23,7 @@
 - Every module takes 1 slot.
 - Gear can have actives, passives or both. Gear actives have their own buttons (`controls.md`).
 - Magic modules and items generally use Intelligence and Will; each module decides how.
-- **Tags (examples):** `Melee`, `Ranged`, `Time`, `Buff`, `Debuff`, `Summon`, `Resist:<Stat>`, `KnockbackResistant`, `CannotBeDisabled`, `Hackable`, `Telegraph`, `Coward`, `Ignites`, `Extinguish` (`world.md`). Shared tags let modules change secondary stats without hard-coded pairings.
+- **Tags (examples):** `Melee`, `Ranged`, `Time`, `Buff`, `Debuff`, `Summon`, `Resist:<Stat>`, `KnockbackResistant`, `CannotBeDisabled`, `Hackable`, `Telegraph`, `Coward`, `Ignites`, `Extinguish` (`world.md`), `LootDestination:<place>` (`world.md`). Shared tags let modules change secondary stats without hard-coded pairings.
 - **Triggers (examples):** always-on, on hit, on damage taken, on Defiance proc, on timer, on activation, on approach.
 - **Presentation:** every module needs an icon, a visual flash, a sound cue and optional comic callout text ("POW!").
 
@@ -118,6 +118,13 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Treads | Passive | Tank | | Mobility |
 | Cannons | Active | Tank | `Ranged`, `Telegraph` | Ranged attack |
 | Turrets | Active | Hacker | `Summon` | Summons turret entities |
+| Repossess | Active | GleebPeep, Auditor | `Debuff`, `Resist:Intelligence` | "REPOSSESSED!" Takes a random gear slot for 5 s, applying Slot Disable (`statuses.md`) |
+| Final Notice | Active | GleebPeep | `Debuff`, `Resist:Will` | Applies Marked to the target (`statuses.md`) |
+| Tablet Slap | Active | GleebPeep | `Melee` | A melee attack with knockback |
+| Call for Backup | Active | GleebPeep | `Summon` | 30 s cooldown. Summons 3-5 goons and 2 Champions, using the faction's arrival tag (`enemies.md`) |
+| Audit | Active | Auditor | | Reveals the player to every enemy within 30 m, making them aware at once |
+| Notarized | Passive | Notary | `Buff` | Allies within 10 m get +25% Damage Reduction |
+| Tow Beam | Active | Tow Saucer | | Grabs a prop, citizen or Valuable from range and flies it to the nearest crop circle |
 | Reprogram | Active | Hacker | `Resist:Intelligence` | Takes over a target with the `Hackable` tag, such as a Heavy Turret, which then fights for the Hacker's side. Any entity with Reprogram uses it first on a Hackable target in view |
 | Heavy Gun | Active | Heavy Turret | `Ranged` | Ranged attack |
 | Slot Disable | On hit | Hacker | `Debuff`, `Resist:Intelligence` | Disables a random gear slot for 5 s. Hits from the Hacker's turrets don't count |

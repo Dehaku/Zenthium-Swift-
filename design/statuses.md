@@ -24,13 +24,13 @@ Buffs, debuffs, hidden markers and states. Module durations and amounts live wit
 | Root | Crowd control | Can't move, but can attack and use powers. Can still be knocked back | Refresh | Glyph Trap |
 | Taunted | Crowd control | Must target the taunter | Refresh | Taunt |
 | Engulfed | Crowd control | Grabbed and held | Refresh | Engulf |
-| Marked | Debuff | Deals less damage, and takes more damage from whoever marked it | Refresh | Taunt |
+| Marked | Debuff | Deals less damage, and takes more damage from whoever marked it | Refresh | Taunt, Final Notice |
 | Burn | DoT | Fire damage over time. Lasts 10x longer on props | Independent | Fire Spell Tome, Spectrum Bolt, burning buildings, exploding vehicles (`world.md`) |
 | Infected | DoT | Damage over time. Any entity reduced to 0 HP while Infected rises as a zombie on the spot | Refresh | Infectious Bite |
 | Broken Limb | Slow | Slower movement | Refresh | Broken Limb |
 | Gooed | Slow | Slower movement | Refresh | Goo Punch, Sticky Body |
 | Carrying Treasure | Slow | See `world.md` | Intensity (per Valuable) | Valuables |
-| Slot Disable | Disable | A random gear slot stops working | Independent: each hit disables another slot | Slot Disable |
+| Slot Disable | Disable | A random gear slot stops working | Independent: each hit disables another slot | Slot Disable, Repossess |
 | Hex | Disable | A random active power slot stops working | Independent: each hit disables another slot | Hex |
 | Numbing Toxin | Disable | A random passive power slot stops working | Independent: each hit disables another slot | Numbing Toxin |
 | Pied | Screen effect (player only) | Smears part of the screen, fading out over its duration | Intensity (each pie adds a smear) | Cream Pie |
