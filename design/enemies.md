@@ -4,7 +4,7 @@
 - Each enemy entity has a budget cost. Example: goon 1, Champion 5.
 - Each mission gets a budget from its map size: Small 30, Medium 60, Large 100. The budget doesn't grow with rank; enemy stats already do (`difficulty.md`).
 - The spawner spends the budget on entities the mission's faction can field at that rank (minimum ranks, `factions.md`).
-- Champions can use at most part of the budget. Each faction sets its own share (`factions.md`), so designers can tune it, for example tilting Zombies toward goons. Default for every faction for now: D 10%, C 30%, B 40%, A and up 50%.
+- Champions can use at most part of the budget. Each faction sets its own share (`Factions/`), so designers can tune it, for example tilting Zombies toward goons. Default for every faction for now: D 10%, C 30%, B 40%, A and up 50%.
 - Leaders are outside the budget. When the Leader roll succeeds, the Leader makes a dramatic entrance 30 s into the mission, using the faction's arrival tag (below).
 
 ## Squads
@@ -28,7 +28,7 @@ Where each mission type spends its budget:
 - At most 3 waves at B, plus 1 more per rank above B.
 - Waves enter from a map edge at least 50 m from the player, or drop in at a random socket at least 20 m from the player: a visible landing area shows a 10 s countdown before they land.
 - Waves arrive aware. They head for, in order of priority and availability: the objective, their Leader, the player's last known position, the map center.
-- **Arrival tags:** each faction has an arrival tag that sets how its waves show up (`factions.md`). Tags are reusable by any faction:
+- **Arrival tags:** each faction has an arrival tag that sets how its waves show up (`Factions/`). Tags are reusable by any faction:
 
 | Tag | Arrival |
 |---|---|

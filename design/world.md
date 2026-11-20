@@ -52,7 +52,7 @@
 - **Damage type:** set by the source, like any module (Fire Wand and Fire Spell Tome deal Magic).
 
 ## Valuables
-Generic money bags. They do nothing on their own and don't affect mission rewards. Some factions use them (`factions.md`).
+Generic money bags. They do nothing on their own and don't affect mission rewards. Some factions use them (`Factions/`).
 
 ### Placement
 - Banks have a vault holding 20-40 Valuables.
