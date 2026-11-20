@@ -10,6 +10,8 @@ Ideas board. We won't build these now, and nothing else in the design depends on
 - **Sharper eyes:** enemies' awareness bars fill faster at higher ranks, making stealth harder.
 - **Mixed factions:** missions with several factions that also fight each other.
 - **Map screen:** a full map you hold a button to see, showing explored areas and exits.
+- **Story Arc map themes:** while an arc runs, its district on the mission map gets a themed look, such as purple mist for the Coven or crop circles for the Repo Agency.
+- **Comic archive:** a shelf at HQ for replaying the plot sequences of finished arcs, like comic issues.
 - **Control rebinding:** including combos such as Shift+1 or Ctrl+RMB.
 - **Multiplayer.**
 - **Returning Valuables:** bring a civilian's dropped Valuable back to them for a small reward and a Meeting Room line such as "returned my wallet, a true hero".
