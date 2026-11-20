@@ -61,7 +61,7 @@ Alien bureaucrats repossessing Earth, one item at a time. Crop circles are place
 - A citizen inside a crop circle is abducted: they disappear for good.
 - A hero pulled into a crop circle isn't abducted. It's only an annoyance.
 - A crop circle takes all Valuables (`world.md`) off any entity that enters it, the player included. They count as stolen.
-- Story Arcs: Relic Fever (`StoryArcs/RelicFever.md`).
+- Story Arcs: Relic Fever (`StoryArcs/RelicFever.md`), Hostile Takeover (`StoryArcs/HostileTakeover.md`).
 
 | Rank | Entity | Description | Modules |
 |---|---|---|---|
