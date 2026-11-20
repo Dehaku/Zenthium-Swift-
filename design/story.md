@@ -33,7 +33,7 @@
 
 ## Rewards
 - Every arc stage gives +100% rewards, on top of all other bonuses.
-- An arc can name an unlock for finishing its final stage: a hero, or a Recruit slot.
+- An arc can name an unlock for finishing its final stage: a hero, or an extra Recruit slot (room for one more Recruit, `heroes.md`).
 - If the final stage fails, the arc ends without its unlock. Arcs can come back later.
 
 ## Checkpoints

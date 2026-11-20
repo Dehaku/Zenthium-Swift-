@@ -7,7 +7,7 @@ Story Arc rules are in `../story.md`.
 - **Factions:** which factions can run it (list this arc under each one in `../factions.md`).
 - **Minimum rank:** D, C, B, A or S.
 - **Weight:** optional; leave blank for normal.
-- **Completion unlock:** optional; a hero or a Recruit slot.
+- **Completion unlock:** optional; a hero or an extra Recruit slot.
 - **Named entities and items:** VIPs, named villains, relics and so on.
 
 | # | Stage | Mission | Location | Fixed fields | Checkpoints | Success | Failure |
