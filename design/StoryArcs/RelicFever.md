@@ -1,12 +1,13 @@
 # Relic Fever
 
-Story Arc rules are in `../story.md`.
 A faction steals increasingly powerful magic relics.
+
+Story Arc rules are in `../story.md`.
 
 - **Factions:** Hexbound Coven or Galactic Repo Agency.
 - **Minimum rank:** C.
 - **Completion unlock:** Madame Tarot (`../heroes.md`). Her magic deck fits right in.
-- **Relics** are named Valuables placed by the stage: carried, dropped and stolen like any Valuable (`world.md`).
+- **Relics** are named Valuables placed by the stage: carried, dropped and stolen like any Valuable (`../world.md`).
 
 | # | Stage | Mission | Location | Fixed fields | Checkpoints | Success | Failure |
 |---|---|---|---|---|---|---|---|

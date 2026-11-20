@@ -37,6 +37,9 @@ Buffs, debuffs, hidden markers and states. Module durations and amounts live wit
 | Deathly Rage | Buff | Triples Strength and Toughness | Doesn't stack | Deathly Rage |
 | Spotlight | Buff | All stats boosted while inside the spotlight | Lasts while inside | Spotlight |
 | Gold-Plated Chrome | Buff | Toughness and Damage Reduction per Valuable held | Intensity (per Valuable) | Gold-Plated Chrome |
+| Notarized | Buff | +25% Damage Reduction while near a Notary | Lasts while in range | Notarized |
+| Gel Coated | Buff | Can't be Burned | Refresh | Gel Coat |
+| Reactive Plating | Buff | +5 Armor per stack, up to +50. Ends after 5 s without being hit | Intensity (per hit) | Reactive Plating |
 | Soul Shard | Buff | +5 max Charge per stack | Intensity (per defeat) | Crystal Hunger |
 | Defiance Roll | Hidden marker | Lowers the Defiance proc chance (`stats.md`) | Intensity (per proc) | Defiance |
 | Charmed | Hidden marker | Charming has already rolled on this target | Permanent | Charming |

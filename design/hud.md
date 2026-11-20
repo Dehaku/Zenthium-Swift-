@@ -52,6 +52,7 @@ Hybrid layout: vitals and resources stay near the character; abilities and objec
 - Pied smear intensity.
 - Screen shake intensity.
 - Damage numbers on or off.
+- Population cap (`enemies.md`).
 
 ## Open
 - (none)

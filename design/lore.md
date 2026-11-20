@@ -67,5 +67,4 @@ Background for now. They're meant to tie into the factions later.
 | Millenniumworks Energies | Warp, power and Zenthium | CEO: Gwen Linkovich | In cooperation with Letupan Beku |
 
 ## Open
-- The lore meaning of each Zenny color.
 - Who or what are Tuhan Yang Jatuh, Mogok Mati and Letupan Beku?

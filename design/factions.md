@@ -5,7 +5,7 @@ Each faction has three ranks:
 - **Champions:** strong entities with unique capabilities. Innate +100% to all SWIFT stats.
 - **Goons:** weak minions, easy to beat in small numbers. No innate boost.
 
-Innate boosts apply before modules. Difficulty adds to them (`difficulty.md`), and each entity has a minimum rank to spawn.
+Innate boosts apply before modules. Difficulty adds to them (`difficulty.md`).
 
 Entity abilities are modules; mechanics live in `modules.md`. A faction can run any Story Arc it lists (`story.md`). Entities scale with mission difficulty (`difficulty.md`).
 

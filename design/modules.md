@@ -11,7 +11,7 @@
 | Field | Notes |
 |---|---|
 | ID | Unique |
-| Category | Active, Passive, Gear |
+| Category | Base action, Active, Passive, Gear (active or passive). On-hit effects are Passives with an on-hit trigger |
 | Tags | See below |
 | Triggers | See below |
 | Effects | |
@@ -23,7 +23,8 @@
 - Every module takes 1 slot.
 - Gear can have actives, passives or both. Gear actives have their own buttons (`controls.md`).
 - Magic modules and items generally use Intelligence and Will; each module decides how.
-- **Tags (examples):** `Melee`, `Ranged`, `Time`, `Buff`, `Debuff`, `Summon`, `Resist:<Stat>`, `KnockbackResistant`, `CannotBeDisabled`, `Hackable`, `Telegraph`, `Coward`, `Ignites`, `Extinguish` (`world.md`), `LootDestination:<place>` (`world.md`). Shared tags let modules change secondary stats without hard-coded pairings.
+- **Module tags (examples):** `Melee`, `Ranged`, `Time`, `Buff`, `Debuff`, `Summon`, `Resist:<Stat>`, `KnockbackResistant`, `CannotBeDisabled`, `Telegraph`, `Ignites`, `Extinguish` (`world.md`). Shared tags let modules change secondary stats without hard-coded pairings.
+- **Entity tags** go on entities, not modules: `Hackable`, `Coward` (`enemies.md`), `LootDestination:<place>` (`world.md`). See `factions.md`.
 - **Triggers (examples):** always-on, on hit, on damage taken, on Defiance proc, on timer, on activation, on approach.
 - **Presentation:** every module needs an icon, a visual flash, a sound cue and optional comic callout text ("POW!").
 
@@ -54,7 +55,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Soulful | Passive | Hero | `CannotBeDisabled` | +50% spell damage, 150 Mana, +5 Mana/s |
 | High-Capacity Battery | Passive | Hero | `CannotBeDisabled` | 200 Charge, +5 Charge/s |
 | Quick-Charge Battery | Passive | Hero | `CannotBeDisabled` | 50 Charge, +20 Charge/s |
-| Reaper Battery | Passive | Hero | `CannotBeDisabled` | 100 Charge, no regen. Defeating a creature refills it to full |
+| Reaper Battery | Passive | Hero | `CannotBeDisabled` | 100 Charge, no regen. Defeating an enemy refills it to full |
 | Sprinter | Passive | Hero | | 100 Stamina, +10 Stamina/s regen. Doubles Sprint's bonus to +100% move speed. Sprinting never costs Stamina; Stamina is spent by other modules |
 | Weather the Storm | Passive | Hero | | When hit, spends 5 Stamina (if you have it) for no knockback and 25% less damage from that hit |
 | Charming | Passive | Hero | | On approach: 50% chance to turn a Stubborn citizen Scared, 5% chance to convert a goon to your side. A converted goon hands you its Valuables. Each target rolls once; a hidden Charmed debuff marks it |
@@ -73,7 +74,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Six-Shooter | Gear (active) | Hero | `Ranged` | Physical damage. Uses 6 Ammo, then reloads |
 | Padded Suit | Gear (passive) | Hero | | +30 Armor. A lot early on, not much later |
 | Force Spell Tome | Gear (passive) | Hero | | +15 Magic damage on your magic hits |
-| Fire Spell Tome | Gear (passive) | Hero | `Debuff`, `Resist:Toughness` | +10 Magic damage on your magic hits, plus a fire DoT of 12 damage over 4 s |
+| Fire Spell Tome | Gear (passive) | Hero | `Debuff`, `Resist:Toughness` | +10 Magic damage on your magic hits, plus Burn: 12 damage over 4 s (`statuses.md`) |
 | Electric Spell Tome | Gear (passive) | Hero | | +10 Magic damage on your magic hits, plus a chain that jumps to up to 5 more enemies within 5 m for 5 damage each |
 | First Aid Spray | Gear (active) | Hero | | Heals you for 25% of max HP; 20 s cooldown. Used on an Incapacitated citizen, it costs nothing, has no cooldown, and gets them up as Scared |
 | Water Cannon | Gear (active) | Hero | `Ranged`, `Extinguish` | A 12 m water jet with intense knockback. Uses Ammo |
@@ -105,15 +106,15 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Glow Up | Passive | Hero | | Below 50% HP: +50% Magic damage, and Night Time doesn't halve your vision (`difficulty.md`) |
 | Second Wind | Passive | Hero | | When Defiance triggers, fully heals you |
 | Hex | Active | Hexer | `Debuff`, `Resist:Will` | Spell. Disables a random active power slot for 5 s |
-| Numbing Toxin | On hit | Unassigned | `Debuff`, `Resist:Toughness` | Poison. Disables a random passive power slot for 5 s |
+| Numbing Toxin | Passive | Unassigned | `Debuff`, `Resist:Toughness` | On hit: poison. Disables a random passive power slot for 5 s |
 | Meat Slap | Active | Dr. Edd | `Ranged` | Ranged attack |
 | Regeneration | Passive | Dr. Edd | | HP regen |
 | Engulf | Active | Dr. Edd | `Telegraph` | Grabs and holds the target |
 | Bone Spike | Active | Stalker | `Ranged` | Ranged attack |
 | Half-Invisible | Passive | Stalker | | 50% transparent. Uses Detectability rules |
 | Durability | Passive | Breaker | | 50% Damage Reduction |
-| Broken Limb | On hit | Breaker | `Debuff`, `Resist:Toughness` | Slowing debuff |
-| Infectious Bite | On hit | Zombie | `Debuff`, `Resist:Toughness` | "Infected" DoT debuff |
+| Broken Limb | Passive | Breaker | `Debuff`, `Resist:Toughness` | On hit: applies Broken Limb, a slow |
+| Infectious Bite | Passive | Zombie | `Debuff`, `Resist:Toughness` | On hit: applies Infected, a DoT |
 | Turn on Death | Passive | Zombie | | Any entity reduced to 0 HP while Infected rises as a zombie on the spot, civilians included (`statuses.md`) |
 | Treads | Passive | Tank | | Mobility |
 | Cannons | Active | Tank | `Ranged`, `Telegraph` | Ranged attack |
@@ -127,7 +128,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Tow Beam | Active | Tow Saucer | | Grabs a prop, citizen or Valuable from range and flies it to the nearest crop circle |
 | Reprogram | Active | Hacker | `Resist:Intelligence` | Takes over a target with the `Hackable` tag, such as a Heavy Turret, which then fights for the Hacker's side. Any entity with Reprogram uses it first on a Hackable target in view |
 | Heavy Gun | Active | Heavy Turret | `Ranged` | Ranged attack |
-| Slot Disable | On hit | Hacker | `Debuff`, `Resist:Intelligence` | Disables a random gear slot for 5 s. Hits from the Hacker's turrets don't count |
+| Slot Disable | Passive | Hacker | `Debuff`, `Resist:Intelligence` | On hit: disables a random gear slot for 5 s. Hits from the Hacker's turrets don't count |
 | Chrome Body | Passive | Kingping | | 25% Damage Reduction |
 | Gold-Plated Chrome | Passive | Kingping | `Buff` | +5% Toughness and +1% Damage Reduction for each Valuable he holds. Each bonus is one source that adds up per Valuable (40 Valuables = +200% Toughness and 40% Damage Reduction) and multiplies with his other sources. The extra HP from Toughness is added to current HP too |
 | Machine Gun | Active | Mafioso | `Ranged` | Ranged attack |

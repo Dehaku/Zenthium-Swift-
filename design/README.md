@@ -20,7 +20,7 @@ Status: design. No build plan yet.
 | `time.md` | Timescale and time powers |
 | `modules.md` | Module schema, tags, module info, full module catalog |
 | `difficulty.md` | Difficulty ranks, per-rank scaling, mission modifiers |
-| `missions.md` | Mission flow, difficulty, types, secondary goals, citizens, extraction |
+| `missions.md` | Mission flow, types, secondary goals, citizens, extraction |
 | `factions.md` | Shared faction rules: ranks, weights, minimum ranks |
 | `Factions/` | One file per faction, from `Factions/_Template.md` |
 | `maps.md` | Map generation, size, Blazithion's districts, sockets, fog of war |

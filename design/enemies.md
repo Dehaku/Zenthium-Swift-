@@ -86,4 +86,4 @@ Idle (patrol, `## Squads`), Combat, Searching, Looting (`world.md`), Objective (
 - **Cowardice:** entities with the `Coward` tag roll once when they drop below 20% HP: a 25% chance to panic and run for the map edge until they escape. Goons get it by default. Zombies, Zenthium creatures and summons don't.
 
 ## Open
-- Budget costs for every entity.
+- (none)
