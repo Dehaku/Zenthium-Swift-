@@ -38,7 +38,7 @@ Listed in unlock order; the first of each type is unlocked at the start.
 | Madame Tarot | Card Throw, Mirage, Glyph Trap (a trap card), Barrier Shield (a wall of cards) | Super Lucky, Soulful, Charming, Stacked Deck | Stealth Suit, Smoke Bomb, Electric Spell Tome, Evac Balloon |
 
 ## Create-a-Hero (CAH)
-- Recruits aren't available at the start. They're unlocked by a Story Arc (`story.md`).
+- Recruits aren't available at the start. They're unlocked by the Headhunted arc, which triggers the first time the player unlocks rank S2 (`StoryArcs/Headhunted.md`).
 - Each CAH is called a **Recruit**. Players can make multiple Recruits (extra ones cost Metallic Zenny, `economy.md`). Story-wise they're all the same character, one SWIFT recruit; having several lets players try builds without resetting.
 - CAH slots start empty and can take any module the player has unlocked.
 

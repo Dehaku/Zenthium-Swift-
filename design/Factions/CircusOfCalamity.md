@@ -11,7 +11,7 @@ Shared faction rules are in `../factions.md`.
 - **Leader behavior:** standard looting. Encore! only works while he's alive. He announces each reinforcement wave like a show (flavor only).
 - **Countdown target:** a giant jack-in-the-box. It's a bomb.
 - **Comic callouts:** "HONK!", "TA-DA!", "SHOWTIME!"
-- **Story Arcs:** none yet.
+- **Story Arcs:** Headhunted (`../StoryArcs/Headhunted.md`).
 
 ## Entities
 | Rank | Entity | Min rank | Description | Modules | Locked until | Tags |

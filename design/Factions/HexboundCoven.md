@@ -11,7 +11,7 @@ Shared faction rules are in `../factions.md`.
 - **Leader behavior:** Vex loots Valuables like a goon, and her goons bring theirs to her. The Coven's power-up only works while she holds Valuables.
 - **Countdown target:** a ritual circle.
 - **Comic callouts:** "SHHH!", "BY THE BOOK!", "CHECKED OUT!"
-- **Story Arcs:** Relic Fever (`../StoryArcs/RelicFever.md`).
+- **Story Arcs:** Relic Fever (`../StoryArcs/RelicFever.md`), Headhunted (`../StoryArcs/Headhunted.md`).
 
 ## Entities
 | Rank | Entity | Min rank | Description | Modules | Locked until | Tags |

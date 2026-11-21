@@ -14,7 +14,7 @@ Shared faction rules are in `../factions.md`.
 - **Mothership Strike** (from rank S): every 30 s, an orbital beam targets the player's position. A red ring and a countdown from 5 show where it will hit, like Breaching Charge (`../modules.md`). It deals 300 damage in a 5 m radius.
 - **Countdown target:** a repossession beacon.
 - **Comic callouts:** "PAST DUE!", "REPOSSESSED!", "SIGN HERE!".
-- **Story Arcs:** Relic Fever (`../StoryArcs/RelicFever.md`), Hostile Takeover (`../StoryArcs/HostileTakeover.md`).
+- **Story Arcs:** Relic Fever (`../StoryArcs/RelicFever.md`), Hostile Takeover (`../StoryArcs/HostileTakeover.md`), Headhunted (`../StoryArcs/Headhunted.md`).
 
 ## Entities
 | Rank | Entity | Min rank | Description | Modules | Locked until | Tags |

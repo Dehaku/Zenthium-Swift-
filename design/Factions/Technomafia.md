@@ -11,7 +11,7 @@ Shared faction rules are in `../factions.md`.
 - **Leader behavior:** Kingping loots Valuables like a goon, and his goons bring theirs to him. Gold-Plated Chrome makes him tougher the more he holds.
 - **Countdown target:** a bomb.
 - **Comic callouts:** "BADA-PING!", "NOTHING PERSONAL.", "CONNECTION TERMINATED."
-- **Story Arcs:** none yet.
+- **Story Arcs:** Headhunted (`../StoryArcs/Headhunted.md`).
 
 ## Entities
 | Rank | Entity | Min rank | Description | Modules | Locked until | Tags |

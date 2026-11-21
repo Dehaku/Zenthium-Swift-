@@ -13,7 +13,7 @@ Shared faction rules are in `../factions.md`.
 - **Leader behavior:** standard. His goons bring him their loot. Why does he want it? Research.
 - **Countdown target:** a horror egg.
 - **Comic callouts:** "BRAAAINS!", "GRRAAAH!", "FOR SCIENCE!" (Dr. Edd).
-- **Story Arcs:** none yet.
+- **Story Arcs:** Headhunted (`../StoryArcs/Headhunted.md`).
 
 ## Entities
 | Rank | Entity | Min rank | Description | Modules | Locked until | Tags |

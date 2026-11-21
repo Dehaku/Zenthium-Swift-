@@ -14,7 +14,7 @@ Shared faction rules are in `../factions.md`.
 - **Leader behavior:** Chad doesn't loot. He wanders between sockets for the whole mission, checking out buildings. He fights back anything within reach but never chases: less a proper threat, more a wandering map hazard.
 - **Countdown target:** a bomb spray-painted with "NO MASTERS".
 - **Comic callouts:** "NO MASTERS!", "RULES ARE FAKE!", "IT'S ALL GOOD." (Chad).
-- **Story Arcs:** none yet.
+- **Story Arcs:** Headhunted (`../StoryArcs/Headhunted.md`).
 
 ## Entities
 | Rank | Entity | Min rank | Description | Modules | Locked until | Tags |

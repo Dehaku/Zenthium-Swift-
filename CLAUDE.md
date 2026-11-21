@@ -8,3 +8,4 @@
 - Pure flavor goes in `design/lore.md`; keep mechanics out of it.
 - Each Story Arc gets its own file in `design/StoryArcs/`; the rules stay in `design/story.md`.
 - Each faction gets its own file in `design/Factions/`, from `design/Factions/_Template.md`; shared faction rules stay in `design/factions.md`.
+- When asking the user questions, number them Q1, Q2, Q3 and so on.

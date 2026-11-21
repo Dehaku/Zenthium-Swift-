@@ -2,7 +2,8 @@
 
 - Chains of Story Arc missions that appear on the mission map (`hq.md`).
 - An arc can be run by any faction that lists it in its file in `Factions/`. When an arc starts, it picks one of those factions and keeps it until the arc ends. The next time the arc starts, the faction can differ.
-- **Starting arcs:** after each mission there's a 10% chance a new arc starts. At most 2 arcs run at once. The arc is picked at random among eligible ones: its minimum rank is unlocked (`difficulty.md`) and it isn't already running. Each arc can have an optional weight to make it more or less likely.
+- **Arc triggers:** *Random* (the default) or *Milestone*. A milestone arc starts as soon as its condition is met, such as unlocking a rank, and ignores the limit of 2 arcs. If it fails, it comes back with the next mission, guaranteed, until it's been completed once.
+- **Starting arcs:** after each mission there's a 10% chance a new random arc starts. At most 2 arcs run at once. The arc is picked at random among eligible ones: its minimum rank is unlocked (`difficulty.md`) and it isn't already running. Each arc can have an optional weight to make it more or less likely.
 - **First mission of the game:** the first stage of the Hostile Takeover arc (`StoryArcs/HostileTakeover.md`). Until the first run of Hostile Takeover is finished, win or lose, no normal missions appear and no other arcs start.
 - Everything is designer-authored data: arcs, stages, plot sequences, checkpoints and branches. New arcs need no new code.
 
@@ -33,7 +34,7 @@
 
 ## Rewards
 - Every arc stage gives +100% rewards, on top of all other bonuses.
-- An arc can name an unlock for finishing its final stage: a hero, or an extra Recruit slot (room for one more Recruit, `heroes.md`).
+- An arc can name an unlock for finishing its final stage: a hero, an extra Recruit slot (room for one more Recruit), or Recruits themselves, the Create-a-Hero system (`heroes.md`).
 - If the final stage fails, the arc ends without its unlock. Arcs can come back later.
 
 ## Checkpoints
@@ -67,8 +68,8 @@ Each added goal is either **required** (failing it fails the mission) or **optio
 ## Arcs
 Each arc has its own file in `StoryArcs/`. Start new arcs from `StoryArcs/_Template.md`.
 - `StoryArcs/HostileTakeover.md` (the opening arc)
+- `StoryArcs/Headhunted.md` (unlocks Recruits)
 - `StoryArcs/RelicFever.md`
 
 ## Open
-- Write the arc that unlocks Recruits (`heroes.md`).
 - How the story is told overall, and whether arcs build toward anything bigger.
