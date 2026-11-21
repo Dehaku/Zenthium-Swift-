@@ -1,1 +1,6 @@
-name,size,hp,thrown_multiplier,armor,damage_reduction,explosion_damage,explosion_radius,notes
+name,size,strength_needed,hp,thrown_x_kick,armor,damage_reduction,explosion_damage,explosion_radius_m,notes
+Small prop,Small,0,1,1,,,,,Always breaks when thrown
+Medium prop,Medium,50,50,2,,,,,
+Large prop,Large,250,100,3,,,,,
+"Car, truck",Large,250,100,3,20,0.5,500,15,Vehicle
+Motorcycle,Medium,50,50,2,10,0.5,250,15,Vehicle

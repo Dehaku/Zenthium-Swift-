@@ -31,7 +31,7 @@ Shared faction rules are in `../factions.md`.
 ## Spawning
 - **Arrival:** `Arrival:OnFoot` (`../enemies.md`).
 - **Champion share:** default (`../enemies.md`).
-- **Budget costs:** Rogue 1, Wildcard 2, Anarchist 5, Chaos Agent 6, Prodigy 7. Chad is outside the budget.
+- **Budget costs:** in `../data/entities.csv`. Chad is outside the budget.
 - **Mission Weight:** every type 1.
 - **Location Weight:** clubs 2, parks 2; everything else 1.
 

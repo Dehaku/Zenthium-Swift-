@@ -25,7 +25,7 @@ Shared faction rules are in `../factions.md`.
 | Champion | Auditor | C | Anti-stealth: exposes the player to everyone nearby | Audit, Repossess | | |
 | Champion | Notary | A | Support: notarizes nearby allies, making them tougher | Notarized | | |
 | Goon | Grey | D | Energy blasters; drags citizens away | Energy Blaster, Drag | | `Coward` |
-| Goon | Tow Saucer | B | A small saucer that steals props, citizens and Valuables from range and flies them to a crop circle. Crashes when destroyed: 50 damage in a 5 m radius | Tow Beam | | `Coward`, `Hackable` |
+| Goon | Tow Saucer | B | A small saucer that steals props, citizens and Valuables from range and flies them to a crop circle. Crashes when destroyed, damaging everything nearby | Tow Beam | | `Coward`, `Hackable` |
 
 - Modules are in AI priority order. Locked modules are skipped below their rank (`../factions.md`).
 - At rank D on Small maps, the Champion share can't afford any Champions. That's intended.
@@ -33,7 +33,7 @@ Shared faction rules are in `../factions.md`.
 ## Spawning
 - **Arrival:** `Arrival:Beam` (`../enemies.md`).
 - **Champion share:** default (`../enemies.md`).
-- **Budget costs:** Grey 1, Tow Saucer 2, Tractor Drone 4, Shield Bearer 5, Auditor 5, Notary 6. GleebPeep is outside the budget.
+- **Budget costs:** in `../data/entities.csv`. GleebPeep is outside the budget.
 - **Mission Weight:** Rescue 3, Invasion 2, Countdown 1, Arson Riot 1.
 - **Location Weight:** banks 2, museums 2, parks 2; everything else 1.
 

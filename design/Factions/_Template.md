@@ -29,7 +29,7 @@ Neutral factions that don't spawn normally (such as Zenthium) skip this section.
 
 - **Arrival:** `Arrival:<tag>` (`../enemies.md`).
 - **Champion share:** default, or per rank (`../enemies.md`).
-- **Budget costs:** a cost per entity. The Leader is outside the budget.
+- **Budget costs:** in `../data/entities.csv`, one per entity. The Leader is outside the budget.
 - **Mission Weight:** a relative weight per mission type; 1 if unlisted (`../factions.md`).
 - **Location Weight:** a relative weight per location; 1 if unlisted.
 

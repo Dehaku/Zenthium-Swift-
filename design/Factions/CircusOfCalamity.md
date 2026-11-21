@@ -30,7 +30,7 @@ Shared faction rules are in `../factions.md`.
 ## Spawning
 - **Arrival:** `Arrival:ClownCar` (`../enemies.md`).
 - **Champion share:** default (`../enemies.md`).
-- **Budget costs:** Clown 1, Juggler 2, Human Cannonball 4, Strongman 5, Acrobat 5, Lion Tamer 6. The Ringmaster is outside the budget; Lions are summons.
+- **Budget costs:** in `../data/entities.csv`. The Ringmaster is outside the budget; Lions are summons.
 - **Mission Weight:** Invasion 3, Rescue 2, Countdown 1, Arson Riot 1.
 - **Location Weight:** parks 3, clubs 3, stores 2; everything else 1.
 

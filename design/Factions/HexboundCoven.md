@@ -30,7 +30,7 @@ Shared faction rules are in `../factions.md`.
 ## Spawning
 - **Arrival:** `Arrival:Portal` (`../enemies.md`).
 - **Champion share:** default (`../enemies.md`).
-- **Budget costs:** Acolyte 1, Familiar 2, Hexer 4, Summoner 5, Pyromancer 5, Archivist 6. Vex is outside the budget; Imps are summons.
+- **Budget costs:** in `../data/entities.csv`. Vex is outside the budget; Imps are summons.
 - **Mission Weight:** Arson Riot 3, Countdown 2, Invasion 1, Rescue 1.
 - **Location Weight:** museums 3, antique shops 3, libraries 3, mansions 2; everything else 1.
 

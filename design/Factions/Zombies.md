@@ -32,7 +32,7 @@ Shared faction rules are in `../factions.md`.
 ## Spawning
 - **Arrival:** `Arrival:Sewer` (`../enemies.md`).
 - **Champion share:** D 10%, C 20%, B 30%, A and up 40% (tilted toward goons).
-- **Budget costs:** Zombie 1, Spitter 2, Stalker 4, Breaker 5, Brood Mother 6, Abomination 8. Dr. Edd is outside the budget.
+- **Budget costs:** in `../data/entities.csv`. Dr. Edd is outside the budget.
 - **Mission Weight:** Rescue 3, Countdown 2, Invasion 2, Arson Riot 1.
 - **Location Weight:** hospitals 3, labs 3, houses 2; everything else 1.
 

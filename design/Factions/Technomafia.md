@@ -30,7 +30,7 @@ Shared faction rules are in `../factions.md`.
 ## Spawning
 - **Arrival:** `Arrival:Van` (`../enemies.md`).
 - **Champion share:** default (`../enemies.md`).
-- **Budget costs:** Mafioso 1, Drone Courier 2, Hacker 4, Kneecapper 5, Tank 6, Cyberdoc 6. Kingping is outside the budget.
+- **Budget costs:** in `../data/entities.csv`. Kingping is outside the budget.
 - **Mission Weight:** Invasion 3, Countdown 2, Rescue 1, Arson Riot 1.
 - **Location Weight:** banks 3, clubs 2, warehouses 2, stores 2; everything else 1.
 

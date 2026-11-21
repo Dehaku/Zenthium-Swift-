@@ -26,20 +26,15 @@
 - Like walls, each prop has HP and a material.
 - Any prop can be Dragged and Power Thrown (`modules.md`), if you're strong enough:
 
-| Size | Examples | Strength needed | HP | Thrown damage |
-|---|---|---|---|---|
-| Small | Trash cans, benches | Any | 1 (always breaks when thrown) | 1x Kick |
-| Medium | Dumpsters, motorcycles, light poles | 50 | 50 | 2x Kick |
-| Large | Cars, trucks, trees | 250 | 100 | 3x Kick |
+| Size | Examples |
+|---|---|
+| Small | Trash cans, benches. Always breaks when thrown |
+| Medium | Dumpsters, motorcycles, light poles |
+| Large | Cars, trucks, trees |
 
+- Bigger props need more Strength to Drag, have more HP and hit harder when thrown. Values per size are in `data/props.csv`.
 - Pressing Kick while dragging a prop throws it, the same way as launching Valuables. It takes the same damage it deals.
-- **Vehicles** have Armor and explode when destroyed:
-
-| Vehicle | Armor | Damage Reduction | Explosion |
-|---|---|---|---|
-| Car, truck | 20 | 50% | 500 damage, 15 m radius |
-| Motorcycle | 10 | 50% | 250 damage, 15 m radius |
-
+- **Vehicles** (cars, trucks, motorcycles) have Armor and Damage Reduction, and explode when destroyed. Values in `data/props.csv`.
 - An explosion goes off 1 s after the vehicle is destroyed, with a red ring showing its radius. It hurts everyone, the player and civilians included.
 
 ## Fire
