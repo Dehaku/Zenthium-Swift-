@@ -50,7 +50,12 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Power Throw | Active | Hero | `NotRandom` | Uses Strength. Throw anything and anyone you're dragging |
 | Time Slow | Active | Hero | `Time` | See `time.md` |
 | Time Stop | Active | Recruits only (for now) | `Time` | See `time.md` |
-| Phase Shift | Active | Recruits (starter) | `NotRandom` | Intangible for 2 s: walk through walls, doors and enemies, but you can't attack |
+| Phase Shift | Active | Recruits (starter) | `NotRandom` | Intangible for 2 s: walk through walls, doors, props and entities |
+| Scorch Gaze | Active | Recruits (starter) | `Ranged`, `Ignites` | A beam from your eyes that deals Energy damage and sets things on fire |
+| Shadow Step | Active | Recruits (starter) | | Teleports you behind the nearest enemy within 30 m. No line of sight needed |
+| Hypnotic Gaze | Active | Recruits (starter) | `Debuff`, `Resist:Will` | One enemy is Hypnotized: it fights on your side for 30 s. 30 s cooldown |
+| Anchor | Passive | Recruits (starter) | | While you stand still, you can't be knocked back and take 50% less damage |
+| Last Laugh | Passive | Recruits (starter) | | When Defiance triggers, you explode, damaging and knocking back everything around you |
 | Super Lucky | Passive | Hero | | Large Luck boost (`luck.md`). Inspired by Domino |
 | Deathly Rage | Passive | Any | `Buff` | On Defiance proc, grants the Deathly Rage buff: triples Strength and Toughness; the extra HP is added to current HP too. Does not stack. Lasts until the mission ends |
 | Soulful | Passive | Hero | `CannotBeDisabled` | +50% spell damage, 150 Mana, +5 Mana/s |

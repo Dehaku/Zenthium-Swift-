@@ -6,7 +6,7 @@ Buffs, debuffs, hidden markers and states. Module durations and amounts live wit
 - **Stacking:** reapplying a status refreshes its timer by default. A status can set its own rule instead, such as Intensity (each application adds a layer) or Independent (each application runs separately).
 - **Slows** multiply together, so they never reach 100%.
 - **Timescale:** status durations and DoT ticks follow the timescale, so Time Slow stretches them and Time Stop freezes them (`time.md`).
-- **Crowd control** (Stun, Root, Taunted, Engulfed) can be chained without limit. Leaders and the player take half-length crowd control. Effects that last "while inside" an area, like Smoke Bomb's stun, pulse on them instead: 0.5 s on, 0.5 s off.
+- **Crowd control** (Stun, Root, Taunted, Engulfed, Hypnotized) can be chained without limit. Leaders and the player take half-length crowd control. Effects that last "while inside" an area, like Smoke Bomb's stun, pulse on them instead: 0.5 s on, 0.5 s off.
 - **Invulnerable** entities take no damage and no new debuffs.
 - **Dragged targets:** their statuses keep running, but DoTs deal no damage while they're dragged.
 - **Display:** small icons above the head, plus a comic callout when a status lands ("STUNNED!", "ROOTED!").
@@ -23,6 +23,7 @@ Buffs, debuffs, hidden markers and states. Module durations and amounts live wit
 | Stun | Crowd control | Can't move, attack or use powers. Can still be knocked back. Carriers keep their Valuables | Refresh | Spectrum Bolt, Smoke Bomb, Megaphone |
 | Root | Crowd control | Can't move, but can attack and use powers. Can still be knocked back | Refresh | Glyph Trap |
 | Taunted | Crowd control | Must target the taunter | Refresh | Taunt |
+| Hypnotized | Crowd control | Fights on the side of whoever hypnotized it | Refresh | Hypnotic Gaze |
 | Engulfed | Crowd control | Grabbed and held | Refresh | Engulf |
 | Marked | Debuff | Deals less damage, and takes more damage from all sources | Refresh | Taunt, Final Notice |
 | Burn | DoT | Fire damage over time. Lasts 10x longer on props | Independent | Fire Spell Tome, Spectrum Bolt, Hoop of Fire, Fire Ring, burning buildings, exploding vehicles (`world.md`) |
@@ -48,7 +49,7 @@ Buffs, debuffs, hidden markers and states. Module durations and amounts live wit
 | Charmed | Hidden marker | Charming has already rolled on this target | Permanent | Charming |
 | Incapacitated | State | At 0 HP. Can't act. Enemies can be Dragged and captured; civilians are only downed, and can be Dragged out to safety | | 0 HP |
 | Dragged | State | Can't be hurt | | Drag |
-| Intangible | State | Passes through walls, doors and entities. Can't attack | | Phase Shift |
+| Intangible | State | Passes through walls, doors, props and entities | | Phase Shift |
 | Invulnerable | State | Takes no damage | | Defiance, Dash, No Big Deal |
 
 - Modules with the `CannotBeDisabled` tag are immune to Disable statuses.
