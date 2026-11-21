@@ -7,6 +7,7 @@ Shared faction rules are in `../factions.md`.
 ## Faction rules
 - **Infection:** anything reduced to 0 HP while Infected rises as a zombie on the spot, civilians included (`../statuses.md`).
 - **Pandemic** (from rank S): anything reduced to 0 HP rises as a zombie, Infected or not.
+- **Downed zombies** count as defeated while Incapacitated, so a mission that needs every enemy defeated ends the moment they're all down at once. To keep one down for good, Burn it, capture it, or use Stasis Cuffs before Undying gets it back up.
 - **Risen and hatched zombies** are new Zombie goons. They don't count toward the population cap (`../enemies.md`).
 - **Faction tags:** none. Loot goes to Dr. Edd (`../world.md`).
 - **Leader behavior:** standard. His goons bring him their loot. Why does he want it? Research.
