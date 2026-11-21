@@ -9,15 +9,15 @@ Shared faction rules are in `../factions.md`.
 - **No Bosses:** everyone's in it for themselves. They grab Valuables and run off the map with them.
 - **(Rank S effect):** TBD (Open).
 - **Faction tags:** `LootDestination:MapEdge` (`../world.md`).
-- **Leader behavior:** Chad doesn't loot. He wanders between sockets for the whole mission, checking out buildings.
-- **Countdown target:** TBD (Open).
-- **Comic callouts:** TBD (Open).
+- **Leader behavior:** Chad doesn't loot. He wanders between sockets for the whole mission, checking out buildings. He fights back anything within reach but never chases: less a proper threat, more a wandering map hazard.
+- **Countdown target:** a bomb spray-painted with "NO MASTERS".
+- **Comic callouts:** "NO MASTERS!", "RULES ARE FAKE!", "IT'S ALL GOOD." (Chad).
 - **Story Arcs:** none yet.
 
 ## Entities
 | Rank | Entity | Min rank | Description | Modules | Locked until | Tags |
 |---|---|---|---|---|---|---|
-| Leader | Chad | D | Superhuman "chill guy" who goes along with his crazed friends | Chill Punch, Vibe Check, (TBD), Super Stats, Super Speed, (TBD) | Vibe Check (C), first TBD (B), second TBD (A) | |
+| Leader | Chad | D | Superhuman "chill guy" who goes along with his crazed friends | Chill Punch, Vibe Check, Lean Back, Super Stats, Super Speed, No Big Deal | Vibe Check (C), Lean Back (B), No Big Deal (A) | |
 | Champion | Anarchist | D | Random powers and gear, super stats | Chad Adjacent, 2 random | | |
 | Champion | Chaos Agent | B | Even more random | Chad Adjacent, 3 random | | |
 | Champion | Prodigy | A | Draws only from hero modules | Chad Adjacent, 2 random (hero modules only) | | |
@@ -34,8 +34,6 @@ Shared faction rules are in `../factions.md`.
 - **Location Weight:** clubs 2, parks 2; everything else 1.
 
 ## Open
-- Chad's two remaining modules (replacing Go With the Flow and Power Nap).
 - The rank S faction effect.
-- Countdown target and comic callouts.
 - Story Arc idea: "Chad's Block Party", Chad throws a party that gets wildly out of hand.
-- Numbers for Chill Punch and Vibe Check, for the numbers pass.
+- Numbers for Chill Punch, Vibe Check and No Big Deal, for the numbers pass.

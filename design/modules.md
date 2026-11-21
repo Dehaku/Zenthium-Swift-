@@ -150,6 +150,8 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Blade Arms | Active | Mafioso | `Melee` | Melee attack |
 | Chill Punch | Active | Chad | `Melee` | A lazy, heavy melee hit with big knockback |
 | Vibe Check | Active | Chad | | An area shove that knocks back everyone around him |
+| Lean Back | Passive | Chad | | Every third hit he takes deals no damage. "Eh." |
+| No Big Deal | Passive | Chad | | The first time he drops below 50% HP, he cleanses all debuffs and becomes Invulnerable for 3 s |
 | Super Stats | Passive | Chad | | +200% to all SWIFT stats |
 | Super Speed | Passive | Chad | | +200% base move speed |
 | Chad Adjacent | Passive | Infinity Anarchous Champions | | +50% to all SWIFT stats |

@@ -48,7 +48,7 @@ Buffs, debuffs, hidden markers and states. Module durations and amounts live wit
 | Charmed | Hidden marker | Charming has already rolled on this target | Permanent | Charming |
 | Incapacitated | State | At 0 HP. Can't act. Enemies can be Dragged and captured; civilians are only downed, and can be Dragged out to safety | | 0 HP |
 | Dragged | State | Can't be hurt | | Drag |
-| Invulnerable | State | Takes no damage | | Defiance, Dash |
+| Invulnerable | State | Takes no damage | | Defiance, Dash, No Big Deal |
 
 - Modules with the `CannotBeDisabled` tag are immune to Disable statuses.
 
