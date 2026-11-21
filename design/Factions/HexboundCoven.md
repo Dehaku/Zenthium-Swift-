@@ -9,6 +9,7 @@ Shared faction rules are in `../factions.md`.
 - **Portal Storm** (from rank S): every 30 s, a portal opens near the player and releases 2 Imps.
 - **Faction tags:** none. Loot goes to Vex (`../world.md`).
 - **Leader behavior:** Vex loots Valuables like a goon, and her goons bring theirs to her. The Coven's power-up only works while she holds Valuables.
+- **Countdown target:** a ritual circle.
 - **Comic callouts:** "SHHH!", "BY THE BOOK!", "CHECKED OUT!"
 - **Story Arcs:** Relic Fever (`../StoryArcs/RelicFever.md`).
 

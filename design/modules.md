@@ -107,12 +107,21 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Second Wind | Passive | Hero | | When Defiance triggers, fully heals you |
 | Hex | Active | Hexer, Cyberdoc | `Debuff`, `Resist:Will` | Spell. Disables a random active power slot for 5 s |
 | Numbing Toxin | Passive | Cyberdoc | `Debuff`, `Resist:Toughness` | On hit: poison. Disables a random passive power slot for 5 s |
+| Outbreak | Active | Dr. Edd | `Debuff`, `Resist:Toughness`, `Telegraph` | An area burst that applies Infected to everyone nearby |
+| Tentacle Sweep | Active | Dr. Edd | `Melee` | A melee area attack with knockback |
+| Mutate | Passive | Dr. Edd | `Buff`, `KnockbackResistant` | Below 50% HP he grows bigger: +50% to all stats, and can't be knocked back |
+| Bite | Active | Zombie | `Melee` | A melee attack. Triggers Infectious Bite |
+| Shamble | Passive | Zombie | | -40% move speed |
+| Undying | Passive | Zombie | | When Incapacitated, gets back up at 25% HP after a random 30-60 s. Can't get back up if Burn defeated it |
+| Smash | Active | Breaker | `Melee` | A melee attack. Triggers Broken Limb |
+| Acid Spit | Active | Spitter | `Ranged`, `Debuff`, `Resist:Toughness` | A ranged spit that applies Infected |
+| Lay Egg | Active | Brood Mother | | Places a horror egg, a small prop that hatches a Zombie after 10 s unless smashed |
 | Meat Slap | Active | Dr. Edd | `Ranged` | Ranged attack |
 | Regeneration | Passive | Dr. Edd | | HP regen |
-| Engulf | Active | Dr. Edd | `Telegraph` | Grabs and holds the target |
+| Engulf | Active | Dr. Edd, Brood Mother | `Telegraph` | Grabs and holds the target |
 | Bone Spike | Active | Stalker | `Ranged` | Ranged attack |
 | Half-Invisible | Passive | Stalker | | 50% transparent. Uses Detectability rules |
-| Durability | Passive | Breaker | | 50% Damage Reduction |
+| Durability | Passive | Breaker, Abomination | | 50% Damage Reduction |
 | Broken Limb | Passive | Breaker, Kneecapper | `Debuff`, `Resist:Toughness` | On hit: applies Broken Limb, a slow |
 | Infectious Bite | Passive | Zombie | `Debuff`, `Resist:Toughness` | On hit: applies Infected, a DoT |
 | Turn on Death | Passive | Zombie | | Any entity reduced to 0 HP while Infected rises as a zombie on the spot, civilians included (`statuses.md`) |
@@ -135,7 +144,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Hush Money | Active | Kingping | | Bribes nearby Scared citizens into becoming Stubborn (`missions.md`) |
 | Chrome Fist | Active | Kingping | `Melee` | A melee hit with heavy knockback |
 | Overdrive | Passive | Kingping | `Buff` | Below 50% HP: +50% damage and move speed |
-| Ram | Active | Tank | `Melee`, `Telegraph` | Charges at a target, slamming it into walls |
+| Ram | Active | Tank, Abomination | `Melee`, `Telegraph` | Charges at a target, slamming it into walls |
 | Chrome Pipe | Active | Kneecapper | `Melee` | A melee swing with knockback |
 | Machine Gun | Active | Mafioso | `Ranged` | Ranged attack |
 | Blade Arms | Active | Mafioso | `Melee` | Melee attack |
@@ -144,7 +153,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Chad Adjacent | Passive | Infinity Anarchous Champions | | +50% to all SWIFT stats |
 | Tractor Beam | Active | GleebPeep | | Beam that pulls in every entity and prop in its path |
 | Tractor Pull | Active | Tractor Drone | | Pulls a hero or citizen toward the nearest Repo Agency crop circle (`Factions/GalacticRepoAgency.md`) |
-| Immovable | Passive | Shield Bearer, Strongman, Tank | `KnockbackResistant` | Can't be knocked back |
+| Immovable | Passive | Shield Bearer, Strongman, Tank, Abomination | `KnockbackResistant` | Can't be knocked back |
 | Energy Blaster | Active | Shield Bearer, Grey | `Ranged` | Ranged attack, Energy damage |
 | Spotlight | Active | The Ringmaster | `Buff` | A spotlight with a 20 m radius, centered on him. Circus entities inside get +50% to all stats |
 | Cannonball Launch | Active | Human Cannonball | `Melee`, `Telegraph` | Launches at a target for huge knockback |

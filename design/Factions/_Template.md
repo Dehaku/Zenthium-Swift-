@@ -9,6 +9,7 @@ Mechanics only this faction has: its signature twist, faction-wide effects, spec
 
 - **Faction tags:** tags every entity in the faction has, such as `LootDestination:<place>`. Optional.
 - **Leader behavior:** anything special the Leader does beyond its modules, such as looting or fleeing. "Standard" if nothing.
+- **Countdown target:** what the Countdown mission's target looks like for this faction, such as a bomb or a horror egg. Flavor only.
 - **Comic callouts:** a few lines shown when they act ("POW!").
 - **Story Arcs:** arcs this faction can run (`../StoryArcs/`).
 
@@ -20,6 +21,7 @@ Mechanics only this faction has: its signature twist, faction-wide effects, spec
 | Goon | | D | | | | `Coward` |
 
 - Modules are listed in AI priority order. "Locked until" is optional; leave it empty to unlock everything at every rank (`../factions.md`).
+- Every combat entity needs at least one attack module; on-hit passives need something to hit with. Non-combatants (such as looters) are the exception.
 - New modules go in `../modules.md`; new statuses in `../statuses.md`.
 
 ## Spawning

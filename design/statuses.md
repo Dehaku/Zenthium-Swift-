@@ -26,7 +26,7 @@ Buffs, debuffs, hidden markers and states. Module durations and amounts live wit
 | Engulfed | Crowd control | Grabbed and held | Refresh | Engulf |
 | Marked | Debuff | Deals less damage, and takes more damage from all sources | Refresh | Taunt, Final Notice |
 | Burn | DoT | Fire damage over time. Lasts 10x longer on props | Independent | Fire Spell Tome, Spectrum Bolt, burning buildings, exploding vehicles (`world.md`) |
-| Infected | DoT | Damage over time. Any entity reduced to 0 HP while Infected rises as a zombie on the spot | Refresh | Infectious Bite |
+| Infected | DoT | Damage over time. Any entity reduced to 0 HP while Infected rises as a zombie on the spot | Refresh | Infectious Bite, Outbreak, Acid Spit |
 | Broken Limb | Slow | Slower movement | Refresh | Broken Limb |
 | Gooed | Slow | Slower movement | Refresh | Goo Punch, Sticky Body |
 | Carrying Treasure | Slow | See `world.md` | Intensity (per Valuable) | Valuables |
@@ -42,6 +42,7 @@ Buffs, debuffs, hidden markers and states. Module durations and amounts live wit
 | Gel Coated | Buff | Can't be Burned | Refresh | Gel Coat |
 | Reactive Plating | Buff | +5 Armor per stack, up to +50. Ends after 5 s without being hit | Intensity (per hit) | Reactive Plating |
 | Overdrive | Buff | +50% damage and move speed | Lasts while below 50% HP | Overdrive |
+| Mutate | Buff | +50% to all stats, can't be knocked back | Lasts while below 50% HP | Mutate |
 | Soul Shard | Buff | +5 max Charge per stack | Intensity (per defeat) | Crystal Hunger |
 | Defiance Roll | Hidden marker | Lowers the Defiance proc chance (`stats.md`) | Intensity (per proc) | Defiance |
 | Charmed | Hidden marker | Charming has already rolled on this target | Permanent | Charming |

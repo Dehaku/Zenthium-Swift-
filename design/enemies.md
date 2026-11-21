@@ -40,7 +40,7 @@ Where each mission type spends its budget:
 | `Arrival:Portal` | Drop in: step out of a magic portal |
 
 ## Limits
-- Defeated enemies never respawn. New enemies only come from reinforcements, Invasion waves and Zenthium Fissures.
+- Defeated enemies never respawn. New enemies only come from reinforcements, Invasion waves, Zenthium Fissures, summons, and faction rules such as risen and hatched zombies (`Factions/Zombies.md`).
 - Enemies that escape off the map count as defeated. Valuables they carry off count as stolen (`world.md`).
 - **Population cap:** at most 60 enemies alive at once by default, adjustable in the options menu. Only goons, Champions and Leaders from the standard spawner count. Summons (such as Call for Backup), Heavy Turrets, allies and Fissure creatures don't, and summons don't count toward wave limits either. Reinforcements wait while the cap is reached.
 

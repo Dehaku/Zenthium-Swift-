@@ -12,6 +12,7 @@ Shared faction rules are in `../factions.md`.
 - **Faction tags:** `LootDestination:CropCircle`. Repo entities take Valuables, and citizens they drag, to the nearest crop circle instead of to their Leader (`../world.md`, `../enemies.md`).
 - **Leader behavior:** standard. GleebPeep's loot goes to crop circles like everyone else's.
 - **Mothership Strike** (from rank S): every 30 s, an orbital beam targets the player's position. A red ring and a countdown from 5 show where it will hit, like Breaching Charge (`../modules.md`). It deals 300 damage in a 5 m radius.
+- **Countdown target:** a repossession beacon.
 - **Comic callouts:** "PAST DUE!", "REPOSSESSED!", "SIGN HERE!".
 - **Story Arcs:** Relic Fever (`../StoryArcs/RelicFever.md`), Hostile Takeover (`../StoryArcs/HostileTakeover.md`).
 

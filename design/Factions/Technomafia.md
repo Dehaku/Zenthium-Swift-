@@ -9,6 +9,7 @@ Shared faction rules are in `../factions.md`.
 - **Hit Contract** (from rank S): every 60 s, a van drops 3 Mafiosos who head straight for the player.
 - **Faction tags:** none. Loot goes to Kingping (`../world.md`).
 - **Leader behavior:** Kingping loots Valuables like a goon, and his goons bring theirs to him. Gold-Plated Chrome makes him tougher the more he holds.
+- **Countdown target:** a bomb.
 - **Comic callouts:** "BADA-PING!", "NOTHING PERSONAL.", "CONNECTION TERMINATED."
 - **Story Arcs:** none yet.
 
