@@ -33,6 +33,7 @@ Hybrid layout: vitals and resources stay near the character; abilities and objec
 | Indicator | Defined in |
 |---|---|
 | Status icons and comic callouts above heads | `statuses.md` |
+| Card Throw's card name, in small text above the target for 1 s | `modules.md` |
 | Awareness bar, "!" and grey alert circle over enemies | `stats.md`, `enemies.md` |
 | Money bag icon and count under carriers | `world.md` |
 | Red rings and countdowns: Breaching Charge, vehicle explosions, drop-in areas | `modules.md`, `world.md`, `enemies.md` |
