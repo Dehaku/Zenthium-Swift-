@@ -27,4 +27,4 @@ Shared faction rules are in `../factions.md`.
 - Minimum rank C matches the Zenthium Fissure modifier.
 
 ## Open
-- Story Arc idea: "The Breach", a permanent Fissure opens in Blazithion. Ties into Zenny's origin and Prism's backstory.
+- (none)

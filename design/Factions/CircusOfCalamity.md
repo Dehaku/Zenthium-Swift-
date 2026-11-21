@@ -35,4 +35,4 @@ Shared faction rules are in `../factions.md`.
 - **Location Weight:** parks 3, clubs 3, stores 2; everything else 1.
 
 ## Open
-- Story Arc idea: "Opening Night", the Circus comes to Blazithion and each stage is one of their shows.
+- (none)

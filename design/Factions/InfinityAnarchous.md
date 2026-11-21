@@ -36,4 +36,4 @@ Shared faction rules are in `../factions.md`.
 - **Location Weight:** clubs 2, parks 2; everything else 1.
 
 ## Open
-- Story Arc idea: "Chad's Block Party", Chad throws a party that gets wildly out of hand.
+- (none)

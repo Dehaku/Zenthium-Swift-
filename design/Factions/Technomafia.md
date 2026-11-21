@@ -35,4 +35,4 @@ Shared faction rules are in `../factions.md`.
 - **Location Weight:** banks 3, clubs 2, warehouses 2, stores 2; everything else 1.
 
 ## Open
-- Story Arc idea: "Protection Racket", shaking down Blazithion's shops district by district.
+- (none)

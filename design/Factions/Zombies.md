@@ -37,4 +37,4 @@ Shared faction rules are in `../factions.md`.
 - **Location Weight:** hospitals 3, labs 3, houses 2; everything else 1.
 
 ## Open
-- Story Arc idea: "Patient Zero", the first outbreak at Blazithion General, ending with Dr. Edd's reveal.
+- (none)

@@ -35,4 +35,4 @@ Shared faction rules are in `../factions.md`.
 - **Location Weight:** museums 3, antique shops 3, libraries 3, mansions 2; everything else 1.
 
 ## Open
-- Story Arc idea: "The Forbidden Stacks", Vex tries to seize Blazithion's library and its sealed books.
+- (none)
