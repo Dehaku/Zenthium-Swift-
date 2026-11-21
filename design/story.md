@@ -10,7 +10,7 @@
 | Block | What it is |
 |---|---|
 | **Arc** | A set of stages linked by branches |
-| **Stage** | One Story Arc mission: a mission setup plus its plot sequences, checkpoints and branches. Designers can fix any mission field (type, location, map size, secondary goal, hazards, Leader present, faction); unset fields roll normally. A stage can also place designer-made named entities, such as a VIP or a named villain, in sockets, built from normal modules |
+| **Stage** | One Story Arc mission: a mission setup plus its plot sequences, checkpoints and branches. Designers can fix any mission field (type, location, map size, secondary goal, hazards, Leader present, faction); unset fields roll normally. Stages can also override faction settings, such as Champion share. A stage can also place designer-made named entities, such as a VIP or a named villain, in sockets, built from normal modules |
 | **Plot Sequence** | A visual-novel style conversation. Characters appear on the left and right of the screen, and their lines show up as they talk. Skippable like mission cutscenes (`missions.md`). The cast and lines are fixed by designers; characters who aren't on the field talk "from HQ". The regulars are the HQ cast (`lore.md`). No dialogue choices. Portraits have a few expressions each, with name plates. Click to advance, or auto-advance as an option. The background is HQ or the field, depending on where the speaker is. Gibberish voice blips instead of voice acting. Lines are faction-neutral by default. Designers can mark a line *(Neutral)* and follow it with faction-specific versions; when that faction is running the stage, its version replaces the neutral line |
 | **Checkpoint** | A trigger during a mission and the actions it causes, such as playing a plot sequence, adding a new goal, sending reinforcements or making the Leader try to flee |
 | **Branch** | Which stage comes next on success, and which on failure |
@@ -71,5 +71,4 @@ Each arc has its own file in `StoryArcs/`. Start new arcs from `StoryArcs/_Templ
 
 ## Open
 - Write the arc that unlocks Recruits (`heroes.md`).
-- Can a stage override faction settings such as Champion share? Hostile Takeover's stage 4b does.
 - How the story is told overall, and whether arcs build toward anything bigger.

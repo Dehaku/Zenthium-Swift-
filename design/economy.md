@@ -22,6 +22,7 @@ Keep Metallic useful after every slot and hero is unlocked:
 
 ## Hero reward bonus
 - Multiplies all mission rewards. Tracked per hero.
+- **All reward bonuses add together:** hero bonus, rank, hidden intel, secondary goals and Story Arcs. Example: a hero at 130% (+30%) on a rank B mission (+50%) in a Story Arc (+100%) earns 100% + 30% + 50% + 100% = 280%.
 - There is no XP. All progression comes from Zenny.
 - +10% for each mission played without that hero. No cap.
 - When the hero completes a mission, their bonus drops by 30 points, to a floor of 100%. Example: 360% → 330%.
@@ -32,5 +33,4 @@ Keep Metallic useful after every slot and hero is unlocked:
 - Toggle: the bonus resets to 100% whenever the hero completes a mission.
 
 ## Open
-- How reward bonuses combine: hero bonus, rank, hidden intel, secondary goals and Story Arcs. Do they add or multiply?
 - Prices: stats, modules and tiers, slots, heroes and Recruits. Reward mix per mission type.

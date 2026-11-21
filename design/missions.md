@@ -32,15 +32,15 @@
   - Smash an egg nest.
   - Rescue a scientist.
   - Show off for a news reporter (use a power or gear in front of them).
-  - Defeat the Leader.
-  - Capture the Leader, Champions or Goons.
+  - Defeat the Leader (only when a Leader is present).
+  - Capture the Leader (only when a Leader is present), Champions or Goons.
   - Prevent 50% of Valuables from being stolen (`world.md`). The % changes with difficulty.
 - Secondary goals reward, at random, extra Zenny or a percentage reward bonus (`economy.md`).
 
 ## Citizens
 | Type | Behavior |
 |---|---|
-| Scared | Panics and flees from any goon inside their 20 m fear range |
+| Scared | Panics and flees from any enemy inside their 20 m fear range |
 | Incapacitated | Cannot move on their own |
 | Stubborn | Won't move. Much slower to grab, and dragging one slows you by 25% |
 
@@ -49,12 +49,9 @@
 ## Extraction
 - **Drag** citizens out by hand (`modules.md`).
 - **Extraction gear:** special equipment, such as a Metal Gear-style balloon or a teleportation device.
-- **Exits:** any map edge and/or a marked zone, such as an evac vehicle.
+- **Exits:** marked zones on the map's edges, such as an evac vehicle. Fewer at higher ranks, always at least 1 (`difficulty.md`). Fleeing enemies can leave from any edge.
 - **Capture:** an Incapacitated enemy inside an exit zone is captured. How it got there doesn't matter (Drag, Power Throw, knockback).
 
 ## Open
-- Exits: are map edges always exits, or only marked zones? `difficulty.md` says higher ranks have fewer exit zones.
-- Secondary goals about the Leader (Defeat, Capture) can roll on missions with no Leader.
-- Do Scared citizens flee only goons, or any enemy (Champions, Leaders, Zenthium creatures)?
 - In Arson Riot, when a goon could both loot and ignite, which comes first?
 - Numbers: Rescue target counts, Countdown timers, Invasion loss timer and radius, and how each scales per rank.

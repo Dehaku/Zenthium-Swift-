@@ -72,7 +72,7 @@ Generic money bags. They do nothing on their own and don't affect mission reward
 - A carrier drops all its Valuables when defeated, with a "KA-CHING!" comic callout.
 - The player can press Kick to launch all their Valuables forward instead of kicking. Each bag is a projectile that deals a Kick's worth of damage. Bags fly like knocked-back entities, with a small random spread in distance and direction so they scatter. Luck doesn't affect the spread.
 - Valuables don't take up Drag capacity.
-- Civilians drop theirs when Incapacitated, or while fleeing a goon that came within their fear range (`missions.md`). Incapacitated citizens start with theirs already dropped beside them.
+- Civilians drop theirs when Incapacitated, or while fleeing an enemy that came within their fear range (`missions.md`). Incapacitated citizens start with theirs already dropped beside them.
 
 ### Goon behavior
 - A goon carrying Valuables that sees no more Valuables takes them to its Leader and hands them over. Entities with a `LootDestination:<place>` tag take them there instead, such as the Repo Agency's crop circles (`Factions/GalacticRepoAgency.md`).

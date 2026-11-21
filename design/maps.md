@@ -5,11 +5,11 @@
 - Single ground floor only.
 
 ## Size
-| Size | About | Notes |
-|---|---|---|
-| Small | 150 x 150 m | |
-| Medium | 250 x 250 m (roughly 3 x 3 blocks) | Default |
-| Large | 400 x 400 m | |
+| Size | About |
+|---|---|
+| Small | 150 x 150 m |
+| Medium | 250 x 250 m (roughly 3 x 3 blocks) |
+| Large | 400 x 400 m |
 
 - Difficulty sets the size (`difficulty.md`). The mission creator can override it (`hq.md`).
 
@@ -37,4 +37,3 @@
 
 ## Open
 - One master list of location names, for Location Weight and arc stages. It needs apartment buildings, a records office and SWIFT Tower (from Hostile Takeover).
-- "Default: Medium" size: when does the default apply, since difficulty always sets the size?
