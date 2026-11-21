@@ -60,7 +60,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Sonic Scream | Active | Hero | | A cone that knocks enemies back and instantly shatters Glass and Wood walls and doors |
 | Adaptive Skin | Passive | Hero | | After taking Physical, Magic or Energy damage, you take less of that type for a while |
 | Mirror Skin | Passive | Hero | | Part of the ranged damage you take is reflected back at the shooter |
-| Super Lucky | Passive | Hero | | TBD: powerful luck-themed benefits (Open). Inspired by Domino |
+| Super Lucky | Passive | Hero | `Debuff`, `Resist:Toughness` | Things just go your way. **Fortunate Accidents:** every so often, something falls on the nearest enemy (a flowerpot, a sign, an anvil): Heavy damage and a Short Stun, with a "BONK!" callout. **Charmed Life:** part of the incoming hits simply miss, on top of your dodge chance. Inspired by Domino. Implementation note: Fortunate Accidents is a timed auto-attack on the nearest enemy, using the existing timer trigger, targeting, damage and Stun. The falling object is only an effect (a sprite dropping onto the target, with a shadow), never a real prop, and ignores the surroundings. It can share the drop effect with Mothership Strike |
 | Deathly Rage | Passive | Any | `Buff` | On Defiance proc, grants the Deathly Rage buff: greatly boosts Strength and Toughness; the extra HP is added to current HP too. Does not stack. Lasts until the mission ends. Also raises your Defiance chance enough to guarantee one proc |
 | Soulful | Passive | Hero | `CannotBeDisabled` | Boosts spell damage, and grants a large Mana pool with good regen |
 | High-Capacity Battery | Passive | Hero | `CannotBeDisabled` | A large Charge pool with slow regen |
@@ -202,5 +202,4 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Reanimate | Active | Archivist | `NotRandom` | Brings one Incapacitated Coven entity back to its feet. Once per target |
 
 ## Open
-- Super Lucky's new effect, now that the Luck stat is gone.
 - Card Throw's list of random card effects.

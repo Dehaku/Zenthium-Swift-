@@ -20,7 +20,7 @@ Buffs, debuffs, hidden markers and states. Module durations and amounts live wit
 ## Catalog
 | Status | Kind | Effect | Stacking | Sources |
 |---|---|---|---|---|
-| Stun | Crowd control | Can't move, attack or use powers. Can still be knocked back. Carriers keep their Valuables | Refresh | Spectrum Bolt, Smoke Bomb, Megaphone |
+| Stun | Crowd control | Can't move, attack or use powers. Can still be knocked back. Carriers keep their Valuables | Refresh | Spectrum Bolt, Smoke Bomb, Megaphone, Super Lucky |
 | Root | Crowd control | Can't move, but can attack and use powers. Can still be knocked back | Refresh | Glyph Trap |
 | Taunted | Crowd control | Must target the taunter | Refresh | Taunt |
 | Hypnotized | Crowd control | Fights on the side of whoever hypnotized it. Leaders take half-length, like other crowd control | Refresh | Hypnotic Gaze |
