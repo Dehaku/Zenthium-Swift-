@@ -16,6 +16,7 @@ The final numbers will live in a spreadsheet with formulas, so changing an ancho
 | Resource value | 1 point of resource is worth 1 s of cooldown, matching the +1 regen (`combat.md`) | |
 
 - **Enemy attacks** default to the Light damage tier (section 4), so heroes survive the anchor below.
+- **Provisional:** Leaders' x2 HP and Light-tier enemy attacks were added to hit the anchors. Expect playtesting to change them.
 
 ## 2. Stacking rules
 Where each rule lives, in one place:
