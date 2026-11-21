@@ -27,6 +27,7 @@
 
 ## Shared rules
 - Goons are scattered around every mission and fight the player once aware of them (`stats.md`).
+- Neutral entities (Zenthium creatures, Heavy Turrets) never count toward "defeat every enemy".
 - A mission has a chance to be led by a super villain (a faction Leader). Beating them isn't required.
 - Each mission gets one random **optional secondary goal**, such as:
   - Smash an egg nest.
@@ -36,6 +37,7 @@
   - Capture the Leader (only when a Leader is present), Champions or Goons.
   - Prevent 50% of Valuables from being stolen (`world.md`). The % changes with difficulty.
 - Secondary goals reward, at random, extra Zenny or a percentage reward bonus (`economy.md`).
+- Destroying a Zenthium Fissure counts as a completed bonus secondary goal: +25% rewards (`Factions/Zenthium.md`).
 
 ## Citizens
 | Type | Behavior |

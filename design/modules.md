@@ -148,6 +148,14 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Chrome Pipe | Active | Kneecapper | `Melee` | A melee swing with knockback |
 | Machine Gun | Active | Mafioso | `Ranged` | Ranged attack |
 | Blade Arms | Active | Mafioso | `Melee` | Melee attack |
+| Shard Bite | Active | Zen Creature | `Melee` | A crystal bite |
+| Blood Thirst | Passive | Zen Creature | | Heals 25% of the damage it deals |
+| Crystal Lance | Active | Zen Soldier | `Ranged` | A volley of crystal shards |
+| Red Pulse | Active | Zen Soldier | | An implosion that pulls nearby targets in, like Spectrum Bolt's red cast |
+| Gravity Well | Active | Zen Commander | `Telegraph` | Pulls everything nearby toward it |
+| Soul Drain | Active | Zen Commander | | Drains 25% of the target's resources and heals itself |
+| Shard Storm | Active | Zen Commander | `Ranged` | A ranged area attack |
+| Crystal Carapace | Passive | Zen Commander | | 50% Damage Reduction |
 | Chill Punch | Active | Chad | `Melee` | A lazy, heavy melee hit with big knockback |
 | Vibe Check | Active | Chad | | An area shove that knocks back everyone around him |
 | Lean Back | Passive | Chad | | Every third hit he takes deals no damage. "Eh." |

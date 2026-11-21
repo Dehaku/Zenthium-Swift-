@@ -64,7 +64,7 @@ Generic money bags. They do nothing on their own and don't affect mission reward
 - The player picks up Valuables instantly with the Drag button (`modules.md`).
 - Other entities take about 5 s per pickup, and any damage taken resets it.
 - Goons go after Valuables they have line of sight to, but only while the player is outside their attack range. Attack range is the longest range among their attack modules, so melee goons often loot while ranged goons fight.
-- Every faction loots, Zombies included.
+- Every faction loots, Zombies included. Zenthium creatures are the exception (`Factions/Zenthium.md`).
 
 ### Carrying
 - **Carrying Treasure:** a debuff on every entity holding Valuables, the player included. -5% move speed per Valuable, capped at -50%.

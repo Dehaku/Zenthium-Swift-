@@ -38,5 +38,4 @@ Each faction has its own file in `Factions/`. Start new factions from `Factions/
 - `Factions/Zenthium.md` (neutral)
 
 ## Open
-- Design pass on every faction except the Galactic Repo Agency, the Technomafia, the Hexbound Coven, the Zombies, the Circus of Calamity and Infinity Anarchous, following `Factions/_Template.md`.
 - More factions.
