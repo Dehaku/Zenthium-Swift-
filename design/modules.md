@@ -206,4 +206,3 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 - Tractor Beam: does it pull toward GleebPeep or toward a crop circle?
 - The Owner column misses heroes using faction modules (Immovable, Regeneration). Keep it for factions only?
 - Card Throw's list of random card effects.
-- Numbers pass (`data/modules.csv`): done for every module. Next: entities and heroes, props and world values, then prices.

@@ -98,6 +98,6 @@ Scenarios to sanity-check the numbers. If one feels wrong, fix the anchor or the
 | `../tools/balance.py` | `report` prints the calculated numbers and flags; `xlsx` writes a spreadsheet view to `build/` (not committed) |
 
 ## Open
-- The numbers pass, in this order: modules, entities and heroes, props and world values, then prices and income. Each step moves that area's existing numbers out of the markdown files into its CSV.
+- Income mix per mission type (`economy.md`).
+- Do stat point prices rise as stats grow, or stay flat?
 - Knockback scaling with stats.
-- Income mix per mission type.

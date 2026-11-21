@@ -25,13 +25,13 @@
 - Missions fade in and out in real time. Each stays on the map for 60 s, so one can disappear before you pick it. Mission timers pause while the player is in a mission.
 - Each mission shows its faction, difficulty, rewards, whether a Leader is present, and its Hazards (mission modifiers, `difficulty.md`).
 - Any of these can be hidden ("We couldn't gather this intel."). The chance depends on rank (`difficulty.md`). Each hidden field gives +10% rewards (`economy.md`).
-- **Reveal intel:** spend Metallic Zenny to reveal a mission's hidden intel. The mission keeps its bonus.
+- **Reveal intel:** spend Metallic Zenny to reveal a mission's hidden intel, priced per field (`data/prices.csv`). The mission keeps its bonus.
 - **Call in a tip:** a mission creator (below).
 
 ### Call in a tip
 - Opens a menu of mission fields. Any field left untouched is random.
 - Fields: mission type, faction, location, difficulty, map size (`maps.md`), Leader present ("Most Wanted"), secondary goal, hazards. Setting hazards costs one field, however many modifiers you add.
-- Cost (rough): 10 Metallic Zenny for the custom mission, plus 10 per field set.
+- Cost: a base price in Metallic Zenny, plus more per field set (`data/prices.csv`).
 - A tip mission stays on the map 10x longer than a normal one (600 s), like a Story Arc stage.
 - It arrives with all intel revealed, so it never gets the hidden-intel bonus.
 
