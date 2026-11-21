@@ -7,7 +7,9 @@ Shared faction rules are in `../factions.md`.
 ## Faction rules
 - **Wildcards:** most Anarchous entities draw random modules at spawn (`../factions.md`). Goons draw 1, Champions draw 2 on top of Chad Adjacent.
 - **No Bosses:** everyone's in it for themselves. They grab Valuables and run off the map with them.
-- **(Rank S effect):** TBD (Open).
+- **Rules Are Fake** (from rank S):
+  - Anarchous entities have a 50% chance to ignore any debuff, on top of normal resists (`../statuses.md`).
+  - 25% of citizens are disguised Rogues. They reveal themselves when the player gets close or tries to Drag them. Each reveal lowers the mission's citizen count by 1, so it never counts against Rescue goals (`../missions.md`).
 - **Faction tags:** `LootDestination:MapEdge` (`../world.md`).
 - **Leader behavior:** Chad doesn't loot. He wanders between sockets for the whole mission, checking out buildings. He fights back anything within reach but never chases: less a proper threat, more a wandering map hazard.
 - **Countdown target:** a bomb spray-painted with "NO MASTERS".
@@ -34,6 +36,5 @@ Shared faction rules are in `../factions.md`.
 - **Location Weight:** clubs 2, parks 2; everything else 1.
 
 ## Open
-- The rank S faction effect.
 - Story Arc idea: "Chad's Block Party", Chad throws a party that gets wildly out of hand.
 - Numbers for Chill Punch, Vibe Check and No Big Deal, for the numbers pass.
