@@ -46,6 +46,7 @@ The master list. Location Weight (`factions.md`), arc stages (`story.md`) and th
 - Designers place sockets on blocks and buildings.
 - Each socket has tags with weights for what can spawn in it. Example: a vault socket might spawn Valuables or citizens, at whatever odds the designer sets.
 - Each mission fills the sockets by its own rules: citizens, Valuables, goons, exit zones, Countdown targets, crop circles.
+- **Arson sockets:** every building has sockets just outside its doors and windows. Goons stand there to ignite it, so they never set a fire while inside.
 
 ## Visibility
 - Fog of war: the player's line of sight reveals the map. They can see inside buildings through windows, doors and broken walls as they pass.

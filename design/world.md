@@ -40,6 +40,7 @@
 ## Fire
 - **Buildings** burn as a whole. Each is unburned, burning or burned out.
 - **A burning building:** every 5 s, everyone inside gains a Burn of 20 damage over 4 s (`statuses.md`), and a random wall or door of the building is instantly destroyed. After 60 s it's burned out: blackened, and no longer burning.
+- **Valuables in a burning building** survive until it burns out, then melt. Until then, the player can go in after them. Melted Valuables don't count as stolen.
 - **Props** burn through the Burn status, which lasts 10x longer on them. A burning vehicle explodes only when its HP reaches 0, but Burn ignores Armor and Damage Reduction (`combat.md`), so it gets there fast.
 - **Starting fires:** modules with the `Ignites` tag set buildings and vehicles on fire when they hit them. Burn alone doesn't light buildings. An exploding vehicle sets the vehicles in its blast on fire, but not buildings.
 - **Putting fires out:** modules with the `Extinguish` tag put out burning buildings and props, and remove Burn from entities. Examples: Water Cannon, Gel Coat, Fireproof Body (`modules.md`).

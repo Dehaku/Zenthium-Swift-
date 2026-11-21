@@ -20,7 +20,7 @@
 |---|---|---|
 | Rescue | Enter a location and extract citizens. Target citizens: Small map 6, Medium 10, Large 15 | Fewer than 25% of the target citizens rescued. The % rises with difficulty |
 | Countdown | Find and break the faction's Countdown target (a bomb, horror egg, beacon and so on, set in its faction file) before it goes off. The timer is 180 s at rank D, 10 s shorter per rank, never under 90 s. Difficulty also sets how hard the target is to reach (locked doors, wall and door materials) | It goes off |
-| Arson Riot | Goons set buildings and vehicles on fire (`world.md`). Defeat every enemy. Every goon gets an Ignite action: 5 s at a building, reset by any damage, used only while the player is outside its attack range | Too many buildings burning or burned out: 50% at D, 5% lower per rank, never below 20% |
+| Arson Riot | Goons set buildings and vehicles on fire (`world.md`). Defeat every enemy. Every goon gets an Ignite action: 5 s at one of a building's arson sockets, outside a door or window (`maps.md`), reset by any damage, used only while the player is outside its attack range | Too many buildings burning or burned out: 50% at D, 5% lower per rank, never below 20% |
 | Invasion | King of the hill. Enemies head for a location (armory, bank, hospital, lab, etc.) to take it. Defeat them all | The 120 s loss timer runs out. Each enemy inside the location's Huge radius speeds it up by 10%; the player's presence doesn't block it |
 
 - Each Invasion location has random flavor text, such as "They're trying to steal the money!" or "They're trying to release a deadly pathogen!"
@@ -55,4 +55,4 @@
 - **Capture:** an Incapacitated enemy inside an exit zone is captured. How it got there doesn't matter (Drag, Power Throw, knockback).
 
 ## Open
-- In Arson Riot, when a goon could both loot and ignite, which comes first?
+- (none)

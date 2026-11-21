@@ -75,6 +75,7 @@ Idle (patrol, `## Squads`), Combat, Searching, Looting (`world.md`), Objective (
 - When line of sight breaks, the entity goes to the target's last known position and searches for about 10 s. Then its awareness drains over 3 s and it returns to Idle.
 
 ### Movement
+- Enemies never enter burning buildings (`world.md`).
 - Melee: chase and attack.
 - Ranged: move until the target is in range, stop and fire. Back off a little if the target comes within 3 m.
 - Allies (converted goons, summons): outside combat, follow the player and stay within about 10 m.
