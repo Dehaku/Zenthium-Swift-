@@ -7,10 +7,10 @@ Story Arc rules are in `../story.md`.
 - **Factions:** any faction except Zenthium (neutral). Listed in every faction file.
 - **Trigger:** milestone. Starts the first time the player unlocks rank S2 (`../difficulty.md`). If it fails, it comes back with the next mission until it's completed once (`../story.md`).
 - **Minimum rank:** S2.
-- **Completion unlock:** Recruits, the Create-a-Hero system (`../heroes.md`).
+- **Completion unlock:** the first time, Recruits, the Create-a-Hero system (`../heroes.md`). After that it can come back through the normal arc roll, and each later completion unlocks an extra Recruit slot.
 - **Named entities:** the Newcomer. The player names them later, when they create their first Recruit.
   - As a VIP in stages 1 and 2b.
-  - As an ally in stages 2 and 3, fighting with 3 random hero modules, drawn like a Prodigy's (`../factions.md`). A preview of Create-a-Hero's "any module" freedom.
+  - As an ally in stages 2 and 3, fighting with random hero modules: 2 active, 2 passive and 2 gear, matching a new Recruit's slots. Drawn like a Prodigy's, with an attack first (`../factions.md`). A preview of Create-a-Hero's "any module" freedom.
 
 | # | Stage | Mission | Location | Fixed fields | Checkpoints | Success | Failure |
 |---|---|---|---|---|---|---|---|
@@ -33,7 +33,7 @@ Story Arc rules are in `../story.md`.
 **Finale success**
 > **Seria:** They said yes! We have a new recruit!
 > **Tia:** I'll be watching them.
-> **Shera:** Of course you will. Welcome to SWIFT. Don't make me regret it, Brat.
+> **Shera:** Of course you will. Welcome to SWIFT. Don't make me regret it.
 
 **Finale failure**
 > **Shera:** Not yet, then. They'll come around. Everyone does.

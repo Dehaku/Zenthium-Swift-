@@ -50,6 +50,7 @@ Listed in unlock order; the first of each type is unlocked at the start.
 | Gear | 1 | 4 | Items, armor, weapons, spellcasting items, utility belt, iconic gear (Thor's hammer, a power ring) |
 
 - Most slots start locked. They are unlocked with Zenny (`economy.md`).
+- Presets start with 1 slot of each type unlocked. Recruits start with 2 of each.
 - Every module takes 1 slot. A hero can't equip two copies of the same module.
 - Kick, Drag and Sprint are always available outside the slots (`modules.md`).
 - Loadouts change only at HQ (`hq.md`).
