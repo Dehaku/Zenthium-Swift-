@@ -42,7 +42,7 @@ Listed in unlock order; the first of each type is unlocked at the start.
 - Each CAH is called a **Recruit**. Players can make multiple Recruits (extra ones cost Metallic Zenny, `economy.md`). Story-wise they're all the same character, one SWIFT recruit; having several lets players try builds without resetting.
 - A new Recruit starts at 10 in every stat (`stats.md`), with empty slots.
 - Recruits can use any module the player has bought. Every module must be bought separately with Gem Zenny (`economy.md`); unlocking a preset hero doesn't unlock its modules for Recruits.
-- Recruits start with Time Stop unlocked, plus a few starter modules (Open).
+- Recruits start with Time Stop and Phase Shift unlocked, plus more starter modules (Open).
 
 ## Slots
 | Slot | Start | Max | Holds |

@@ -50,6 +50,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Power Throw | Active | Hero | `NotRandom` | Uses Strength. Throw anything and anyone you're dragging |
 | Time Slow | Active | Hero | `Time` | See `time.md` |
 | Time Stop | Active | Recruits only (for now) | `Time` | See `time.md` |
+| Phase Shift | Active | Recruits (starter) | `NotRandom` | Intangible for 2 s: walk through walls, doors and enemies, but you can't attack |
 | Super Lucky | Passive | Hero | | Large Luck boost (`luck.md`). Inspired by Domino |
 | Deathly Rage | Passive | Any | `Buff` | On Defiance proc, grants the Deathly Rage buff: triples Strength and Toughness; the extra HP is added to current HP too. Does not stack. Lasts until the mission ends |
 | Soulful | Passive | Hero | `CannotBeDisabled` | +50% spell damage, 150 Mana, +5 Mana/s |
