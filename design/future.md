@@ -14,6 +14,7 @@ Ideas board. We won't build these now, and nothing else in the design depends on
 - **Comic archive:** a shelf at HQ for replaying the plot sequences of finished arcs, like comic issues.
 - **Control rebinding:** including combos such as Shift+1 or Ctrl+RMB.
 - **Multiplayer.**
+- **Clown hero:** a playable clown who joins from the Circus's "Opening Night" arc (`Factions/CircusOfCalamity.md`).
 - **Returning Valuables:** bring a civilian's dropped Valuable back to them for a small reward and a Meeting Room line such as "returned my wallet, a true hero".
 - **Zenny-themed modules:** module ideas based on the Zenny colors' lore (`lore.md`):
   - Crimson Ruby: immune to damage for a few seconds, then the stored damage is applied over time.

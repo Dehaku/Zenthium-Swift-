@@ -64,7 +64,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Spectrum Bolt | Active | Prism | `Ranged`, `Debuff`, `Resist:Toughness`, `Resist:Will` | Magic bolt that costs Charge. Each cast cycles color: Red implodes, pulling nearby enemies toward the impact and then bursting outward to knock them back; Blue burns (DoT, resisted by Toughness), Purple may stun (resisted by Will) |
 | Card Throw | Active | Madame Tarot | `Ranged` | Homing cards that deal Magic damage. Each card has a random effect |
 | Mirage | Active | Madame Tarot | | Creates decoys that draw enemy attention, and lowers her Detectability while they last |
-| Dash | Active | Hero | | A quick burst of movement in your facing direction. Costs Stamina. Invulnerable during the dash |
+| Dash | Active | Hero, Acrobat | | A quick burst of movement in your facing direction. Costs Stamina. Invulnerable during the dash |
 | Telekinetic Throw | Active | Hero | | Throw what you're dragging with telekinesis. Uses Will in place of Strength, both for damage and for the prop size you can throw (`world.md`) |
 | Goo Punch | Active | Hero | `Melee`, `Debuff`, `Resist:Strength` | A goo punch that splashes, applying Gooed (a slow) to enemies within 3 m |
 | Telekinetic Grab | Active | Hero | | Instant Drag at range: grabs a citizen, Valuable, prop or Incapacitated enemy from a distance |
@@ -156,6 +156,14 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Immovable | Passive | Shield Bearer, Strongman, Tank, Abomination | `KnockbackResistant` | Can't be knocked back |
 | Energy Blaster | Active | Shield Bearer, Grey | `Ranged` | Ranged attack, Energy damage |
 | Spotlight | Active | The Ringmaster | `Buff` | A spotlight with a 20 m radius, centered on him. Circus entities inside get +50% to all stats |
+| Whip Crack | Active | The Ringmaster, Lion Tamer | `Melee` | A short-range whip with knockback |
+| Grand Finale | Passive | The Ringmaster | `Buff` | Below 25% HP, Spotlight's radius doubles |
+| Haymaker | Active | Strongman | `Melee` | A heavy punch |
+| Flying Kick | Active | Acrobat | `Melee` | A leaping kick with knockback |
+| Summon Lion | Active | Lion Tamer | `Summon` | Summons a Lion: a melee beast with Lion Maul |
+| Lion Maul | Active | Lion | `Melee` | A melee attack |
+| Bowling Ball | Active | Juggler | `Ranged` | A thrown bowling ball with heavy knockback |
+| Torch Toss | Active | Juggler | `Ranged`, `Ignites` | A thrown flaming torch |
 | Cannonball Launch | Active | Human Cannonball | `Melee`, `Telegraph` | Launches at a target for huge knockback |
 | Cream Pie | Active | Clown | `Ranged`, `Debuff`, `Resist:Will` | Thrown pie. On hit, applies "Pied": smears part of the player's screen, fading out over 3 s. Pies stack, so many can cover the screen quickly (`statuses.md`) |
 | Summon Imps | Active | Summoner | `Summon` | Summons Imps: small melee entities with Imp Claw |
