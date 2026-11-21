@@ -39,11 +39,11 @@ Buffs, debuffs, hidden markers and states. Module durations and amounts live wit
 | Deathly Rage | Buff | Greatly boosts Strength and Toughness | Doesn't stack | Deathly Rage |
 | Spotlight | Buff | All stats boosted while inside the spotlight | Lasts while inside | Spotlight |
 | Gold-Plated Chrome | Buff | Toughness and Damage Reduction per Valuable held | Intensity (per Valuable) | Gold-Plated Chrome |
-| Notarized | Buff | +25% Damage Reduction while near a Notary | Lasts while in range | Notarized |
+| Notarized | Buff | Damage Reduction while near a Notary | Lasts while in range | Notarized |
 | Gel Coated | Buff | Can't be Burned | Refresh | Gel Coat |
 | Reactive Plating | Buff | Armor per stack, up to a cap. Ends after a few seconds without being hit | Intensity (per hit) | Reactive Plating |
-| Overdrive | Buff | +50% damage and move speed | Lasts while below 50% HP | Overdrive |
-| Mutate | Buff | +50% to all stats, can't be knocked back | Lasts while below 50% HP | Mutate |
+| Overdrive | Buff | Bonus damage and move speed | Lasts while at low HP | Overdrive |
+| Mutate | Buff | Stronger in every stat, can't be knocked back | Lasts while at low HP | Mutate |
 | Soul Shard | Buff | More max Charge per stack | Intensity (per defeat) | Crystal Hunger |
 | Defiance Roll | Hidden marker | Lowers the Defiance proc chance (`stats.md`) | Intensity (per proc) | Defiance |
 | Charmed | Hidden marker | Charming has already rolled on this target | Permanent | Charming |

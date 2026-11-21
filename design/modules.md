@@ -115,72 +115,72 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Crystal Hunger | Passive | Hero | `NotRandom` | Zenthium creatures ignore you until you attack them. Each entity defeated near you gives a stack of Soul Shard: more max Charge per stack, for the rest of the mission |
 | Glow Up | Passive | Hero | | At low HP: bonus Magic damage, and Night Time doesn't halve your vision (`difficulty.md`) |
 | Second Wind | Passive | Hero | | When Defiance triggers, fully heals you |
-| Hex | Active | Hexer, Cyberdoc | `Debuff`, `Resist:Will` | Spell. Disables a random active power slot for 5 s |
-| Numbing Toxin | Passive | Cyberdoc | `Debuff`, `Resist:Toughness` | On hit: poison. Disables a random passive power slot for 5 s |
+| Hex | Active | Hexer, Cyberdoc | `Debuff`, `Resist:Will` | Spell. Disables a random active power slot for a while |
+| Numbing Toxin | Passive | Cyberdoc | `Debuff`, `Resist:Toughness` | On hit: poison. Disables a random passive power slot for a while |
 | Outbreak | Active | Dr. Edd | `Debuff`, `Resist:Toughness`, `Telegraph` | An area burst that applies Infected to everyone nearby |
 | Tentacle Sweep | Active | Dr. Edd | `Melee` | A melee area attack with knockback |
-| Mutate | Passive | Dr. Edd | `Buff`, `KnockbackResistant` | Below 50% HP he grows bigger: +50% to all stats, and can't be knocked back |
+| Mutate | Passive | Dr. Edd | `Buff`, `KnockbackResistant` | At low HP he grows bigger: stronger in every stat, and can't be knocked back |
 | Bite | Active | Zombie | `Melee` | A melee attack. Triggers Infectious Bite |
-| Shamble | Passive | Zombie | `NotRandom` | -40% move speed |
-| Undying | Passive | Zombie | | When Incapacitated, gets back up at 25% HP after a random 30-60 s. Can't get back up if Burn defeated it |
+| Shamble | Passive | Zombie | `NotRandom` | Slower movement |
+| Undying | Passive | Zombie | | When Incapacitated, gets back up with some HP after a random delay. Can't get back up if Burn defeated it |
 | Smash | Active | Breaker | `Melee` | A melee attack. Triggers Broken Limb |
 | Acid Spit | Active | Spitter | `Ranged`, `Debuff`, `Resist:Toughness` | A ranged spit that applies Infected |
-| Lay Egg | Active | Brood Mother | `NotRandom` | Places a horror egg, a small prop that hatches a Zombie after 10 s unless smashed |
+| Lay Egg | Active | Brood Mother | `NotRandom` | Places a horror egg, a small prop that hatches a Zombie after a short delay unless smashed |
 | Meat Slap | Active | Dr. Edd | `Ranged` | Ranged attack |
 | Regeneration | Passive | Dr. Edd | | HP regen |
 | Engulf | Active | Dr. Edd, Brood Mother | `Telegraph` | Grabs and holds the target |
 | Bone Spike | Active | Stalker | `Ranged` | Ranged attack |
-| Half-Invisible | Passive | Stalker | | 50% transparent. Uses Detectability rules |
-| Durability | Passive | Breaker, Abomination | | 50% Damage Reduction |
+| Half-Invisible | Passive | Stalker | | Partly transparent. Uses Detectability rules |
+| Durability | Passive | Breaker, Abomination | | Damage Reduction |
 | Broken Limb | Passive | Breaker, Kneecapper | `Debuff`, `Resist:Toughness` | On hit: applies Broken Limb, a slow |
 | Infectious Bite | Passive | Zombie | `Debuff`, `Resist:Toughness` | On hit: applies Infected, a DoT |
 | Turn on Death | Passive | Zombie | `NotRandom` | Any entity reduced to 0 HP while Infected rises as a zombie on the spot, civilians included (`statuses.md`) |
-| Treads | Passive | Tank | | -10% move speed, +50% HP |
+| Treads | Passive | Tank | | Slower movement, more HP |
 | Cannons | Active | Tank | `Ranged`, `Telegraph` | Ranged attack |
 | Turrets | Active | Hacker | `Summon` | Summons Mini Turrets, which are `Hackable` |
-| Repossess | Active | GleebPeep, Auditor | `Debuff`, `Resist:Intelligence` | "REPOSSESSED!" Takes a random gear slot for 5 s, applying Slot Disable (`statuses.md`) |
-| Final Notice | Active | GleebPeep | `Debuff`, `Resist:Will` | Applies Marked for 6 s: the target deals 30% less damage and takes 25% more damage (`statuses.md`) |
+| Repossess | Active | GleebPeep, Auditor | `Debuff`, `Resist:Intelligence` | "REPOSSESSED!" Takes a random gear slot for a while, applying Slot Disable (`statuses.md`) |
+| Final Notice | Active | GleebPeep | `Debuff`, `Resist:Will` | Applies Marked for a while: the target deals less damage and takes more (`statuses.md`) |
 | Tablet Slap | Active | GleebPeep | `Melee` | A melee attack with knockback |
-| Call for Backup | Active | GleebPeep | `Summon` | 30 s cooldown. Summons 3-5 goons and 2 Champions, using the faction's arrival tag (`enemies.md`) |
-| Audit | Active | Auditor | | Reveals the player to every enemy within 30 m, making them aware at once |
-| Notarized | Passive | Notary | `Buff` | Allies within 10 m get +25% Damage Reduction |
+| Call for Backup | Active | GleebPeep | `Summon` | Summons a few goons and Champions, using the faction's arrival tag (`enemies.md`) |
+| Audit | Active | Auditor | | Reveals the player to every enemy within Long range, making them aware at once |
+| Notarized | Passive | Notary | `Buff` | Allies in a Large radius get Damage Reduction |
 | Tow Beam | Active | Tow Saucer, Drone Courier, Familiar | | Grabs a prop, citizen or Valuable from range and flies it to the entity's loot destination (`world.md`) |
 | Reprogram | Active | Hacker | `Resist:Intelligence` | Takes over a target with the `Hackable` tag, such as a Heavy Turret, which then fights for the Hacker's side. Any entity with Reprogram uses it first on a Hackable target in view |
 | Heavy Gun | Active | Heavy Turret | `Ranged` | Ranged attack |
-| Slot Disable | Passive | Hacker | `Debuff`, `Resist:Intelligence` | On hit: disables a random gear slot for 5 s. Hits from the Hacker's turrets don't count |
-| Chrome Body | Passive | Kingping | | 25% Damage Reduction |
-| Gold-Plated Chrome | Passive | Kingping | `Buff` | +5% Toughness and +1% Damage Reduction for each Valuable he holds. Each bonus is one source that adds up per Valuable (40 Valuables = +200% Toughness and 40% Damage Reduction) and multiplies with his other sources. The extra HP from Toughness is added to current HP too |
+| Slot Disable | Passive | Hacker | `Debuff`, `Resist:Intelligence` | On hit: disables a random gear slot for a while. Hits from the Hacker's turrets don't count |
+| Chrome Body | Passive | Kingping | | Damage Reduction |
+| Gold-Plated Chrome | Passive | Kingping | `Buff` | Toughness and Damage Reduction for each Valuable he holds. Each bonus is one source that adds up per Valuable and multiplies with his other sources. The extra HP from Toughness is added to current HP too |
 | Gatling Arm | Active | Kingping | `Ranged`, `Telegraph` | A ranged spray |
 | Hush Money | Active | Kingping | | Bribes nearby Scared citizens into becoming Stubborn (`missions.md`) |
 | Chrome Fist | Active | Kingping | `Melee` | A melee hit with heavy knockback |
-| Overdrive | Passive | Kingping | `Buff` | Below 50% HP: +50% damage and move speed |
+| Overdrive | Passive | Kingping | `Buff` | At low HP: bonus damage and move speed |
 | Ram | Active | Tank, Abomination | `Melee`, `Telegraph` | Charges at a target, slamming it into walls |
 | Chrome Pipe | Active | Kneecapper | `Melee` | A melee swing with knockback |
 | Machine Gun | Active | Mafioso | `Ranged` | Ranged attack |
 | Blade Arms | Active | Mafioso | `Melee` | Melee attack |
 | Shard Bite | Active | Zen Creature | `Melee` | A crystal bite |
-| Blood Thirst | Passive | Zen Creature | | Heals 25% of the damage it deals |
+| Blood Thirst | Passive | Zen Creature | | Heals part of the damage it deals |
 | Crystal Lance | Active | Zen Soldier | `Ranged` | A volley of crystal shards |
 | Red Pulse | Active | Zen Soldier | | An implosion that pulls nearby targets in, like Spectrum Bolt's red cast |
 | Gravity Well | Active | Zen Commander | `Telegraph` | Pulls everything nearby toward it |
-| Soul Drain | Active | Zen Commander | | Drains 25% of the target's resources and heals itself |
+| Soul Drain | Active | Zen Commander | | Drains part of the target's resources and heals itself |
 | Shard Storm | Active | Zen Commander | `Ranged` | A ranged area attack |
-| Crystal Carapace | Passive | Zen Commander | | 50% Damage Reduction |
+| Crystal Carapace | Passive | Zen Commander | | Damage Reduction |
 | Chill Punch | Active | Chad | `Melee` | A lazy, heavy melee hit with big knockback |
 | Vibe Check | Active | Chad | | An area shove that knocks back everyone around him |
 | Lean Back | Passive | Chad | | Every third hit he takes deals no damage. "Eh." |
-| No Big Deal | Passive | Chad | | The first time he drops below 50% HP, he cleanses all debuffs and becomes Invulnerable for 3 s |
-| Super Stats | Passive | Chad | | +200% to all SWIFT stats |
-| Super Speed | Passive | Chad | | +200% base move speed |
-| Chad Adjacent | Passive | Infinity Anarchous Champions | | +50% to all SWIFT stats |
+| No Big Deal | Passive | Chad | | The first time he drops to low HP, he cleanses all debuffs and becomes Invulnerable for a moment |
+| Super Stats | Passive | Chad | | A huge boost to all SWIFT stats |
+| Super Speed | Passive | Chad | | A huge boost to base move speed |
+| Chad Adjacent | Passive | Infinity Anarchous Champions | | A boost to all SWIFT stats |
 | Tractor Beam | Active | GleebPeep | | Beam that pulls in every entity and prop in its path |
 | Tractor Pull | Active | Tractor Drone | | Pulls a hero or citizen toward the nearest Repo Agency crop circle (`Factions/GalacticRepoAgency.md`) |
 | Immovable | Passive | Shield Bearer, Strongman, Tank, Abomination | `KnockbackResistant` | Can't be knocked back |
 | Energy Blaster | Active | Shield Bearer, Grey | `Ranged` | Ranged attack, Energy damage |
-| Spotlight | Active | The Ringmaster | `Buff`, `NotRandom` | A spotlight with a 20 m radius, centered on him. Circus entities inside get +50% to all stats |
+| Spotlight | Active | The Ringmaster | `Buff`, `NotRandom` | A large spotlight centered on him. Circus entities inside get a boost to all stats |
 | Hoop of Fire | Active | The Ringmaster | `Debuff`, `Resist:Toughness` | A flaming hoop lands around the player. Anyone crossing it gains Burn (`statuses.md`) |
 | Whip Crack | Active | The Ringmaster, Lion Tamer | `Melee` | A short-range whip with knockback |
-| Grand Finale | Passive | The Ringmaster | `Buff`, `NotRandom` | Below 25% HP, Spotlight's radius doubles |
+| Grand Finale | Passive | The Ringmaster | `Buff`, `NotRandom` | At very low HP, Spotlight's radius grows |
 | Haymaker | Active | Strongman | `Melee` | A heavy punch |
 | Flying Kick | Active | Acrobat | `Melee` | A leaping kick with knockback |
 | Summon Lion | Active | Lion Tamer | `Summon` | Summons a Lion: a melee beast with Lion Maul |
@@ -188,13 +188,13 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Bowling Ball | Active | Juggler | `Ranged` | A thrown bowling ball with heavy knockback |
 | Torch Toss | Active | Juggler | `Ranged`, `Ignites` | A thrown flaming torch |
 | Cannonball Launch | Active | Human Cannonball | `Melee`, `Telegraph` | Launches at a target for huge knockback |
-| Cream Pie | Active | Clown | `Ranged`, `Debuff`, `Resist:Will` | Thrown pie. On hit, applies "Pied": smears part of the player's screen, fading out over 3 s. Pies stack, so many can cover the screen quickly (`statuses.md`) |
+| Cream Pie | Active | Clown | `Ranged`, `Debuff`, `Resist:Will` | Thrown pie. On hit, applies "Pied": smears part of the player's screen, fading out over a few seconds. Pies stack, so many can cover the screen quickly (`statuses.md`) |
 | Summon Imps | Active | Summoner | `Summon` | Summons Imps: small melee entities with Imp Claw |
 | Fire Wand | Active | Acolyte, Pyromancer | `Ranged`, `Ignites` | Magic fire attack |
 | Shush! | Active | Vex | `Debuff`, `Resist:Will` | "SHHH!" Heroes nearby are Silenced: all their active power slots stop working for a few seconds (`statuses.md`) |
 | Book Barrage | Active | Vex | `Ranged`, `Telegraph` | Flying books: a ranged Magic attack |
-| Late Fee | Active | Vex | | Pulls Valuables off the player and onto Vex. If the player carries none, it drains 75% of their resources (Stamina, Mana, Charge, Ammo) instead |
-| Portal Step | Active | Vex | `Telegraph` | When badly hurt: a portal opens under her with a clear 1 s windup, then she steps through to a random socket. Makes it obvious she escaped, not died |
+| Late Fee | Active | Vex | | Pulls Valuables off the player and onto Vex. If the player carries none, it drains most of their resources (Stamina, Mana, Charge, Ammo) instead |
+| Portal Step | Active | Vex | `Telegraph` | When badly hurt: a portal opens under her with a clear windup, then she steps through to a random socket. Makes it obvious she escaped, not died |
 | Hex Bolt | Active | Hexer, Summoner, Archivist | `Ranged` | A basic ranged Magic attack |
 | Imp Claw | Active | Imp | `Melee` | A small melee attack |
 | Fire Ring | Active | Pyromancer | `Debuff`, `Resist:Toughness`, `Ignites` | A ring of fire around the target area: applies Burn and lights buildings |
@@ -205,4 +205,4 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 - Tractor Beam: does it pull toward GleebPeep or toward a crop circle?
 - The Owner column misses heroes using faction modules (Immovable, Regeneration). Keep it for factions only?
 - Card Throw's list of random card effects.
-- Numbers pass (`data/modules.csv`): base actions, hero actives, hero passives and gear done; next faction modules.
+- Numbers pass (`data/modules.csv`): done for every module. Next: entities and heroes, props and world values, then prices.
