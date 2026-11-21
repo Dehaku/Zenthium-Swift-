@@ -20,19 +20,19 @@ Buffs, debuffs, hidden markers and states. Module durations and amounts live wit
 ## Catalog
 | Status | Kind | Effect | Stacking | Sources |
 |---|---|---|---|---|
-| Stun | Crowd control | Can't move, attack or use powers. Can still be knocked back. Carriers keep their Valuables | Refresh | Spectrum Bolt, Smoke Bomb, Megaphone, Super Lucky |
-| Root | Crowd control | Can't move, but can attack and use powers. Can still be knocked back | Refresh | Glyph Trap |
+| Stun | Crowd control | Can't move, attack or use powers. Can still be knocked back. Carriers keep their Valuables | Refresh | Spectrum Bolt, Smoke Bomb, Megaphone, Super Lucky, Card Throw |
+| Root | Crowd control | Can't move, but can attack and use powers. Can still be knocked back | Refresh | Glyph Trap, Card Throw |
 | Taunted | Crowd control | Must target the taunter | Refresh | Taunt |
-| Hypnotized | Crowd control | Fights on the side of whoever hypnotized it. Leaders take half-length, like other crowd control | Refresh | Hypnotic Gaze |
+| Hypnotized | Crowd control | Fights on the side of whoever hypnotized it. Leaders take half-length, like other crowd control | Refresh | Hypnotic Gaze, Card Throw |
 | Engulfed | Crowd control | Grabbed and held | Refresh | Engulf |
 | Marked | Debuff | Deals less damage, and takes more damage from all sources | Refresh | Taunt, Final Notice |
-| Burn | DoT | Fire damage over time. Lasts 10x longer on props | Independent | Fire Spell Tome, Spectrum Bolt, Hoop of Fire, Fire Ring, burning buildings, exploding vehicles (`world.md`) |
+| Burn | DoT | Fire damage over time. Lasts 10x longer on props | Independent | Fire Spell Tome, Spectrum Bolt, Card Throw, Hoop of Fire, Fire Ring, burning buildings, exploding vehicles (`world.md`) |
 | Infected | DoT | Damage over time. Any entity reduced to 0 HP while Infected rises as a zombie on the spot | Refresh | Infectious Bite, Outbreak, Acid Spit |
 | Broken Limb | Slow | Slower movement | Refresh | Broken Limb |
 | Gooed | Slow | Slower movement | Refresh | Goo Punch, Sticky Body |
 | Carrying Treasure | Slow | See `world.md` | Intensity (per Valuable) | Valuables |
 | Slot Disable | Disable | A random gear slot stops working | Independent: each hit disables another slot | Slot Disable, Repossess |
-| Hex | Disable | A random active power slot stops working | Independent: each hit disables another slot | Hex |
+| Hex | Disable | A random active power slot stops working | Independent: each hit disables another slot | Hex, Card Throw |
 | Silenced | Disable | All active power slots stop working | Refresh | Shush! |
 | Numbing Toxin | Disable | A random passive power slot stops working | Independent: each hit disables another slot | Numbing Toxin |
 | Pied | Screen effect (player only) | Smears part of the screen, fading out over its duration | Intensity (each pie adds a smear) | Cream Pie |

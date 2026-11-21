@@ -30,7 +30,7 @@ Ink Beast,Active,Will,,30,,,Strong,,,,,summon_lifetime_s=20; summon_attack=Ink L
 Ink Lash,Active,Will,Light,1.5,,,None,,,,Melee,,,Uses the summoner's Will
 Glyph Trap,Active,Will,,15,,,Strong,Short,Small,,Medium,,,Root lasts the duration
 Spectrum Bolt,Active,Intelligence,Heavy,,Charge,10,Some,,Small,,Medium,burn_damage=12; burn_s=4; stun_chance=0.25; stun_s=1,,
-Card Throw,Active,Finesse,Light,2,,,None,,,,Medium,,,Homing. Random effects listed later
+Card Throw,Active,Finesse,Light,2,,,None,,,,Medium,cards=10; tower_stun=Brief; lovers_hypnotize=Short; hanged_man_root=Short; death_below_hp=0.25; death_bonus=Heavy; hermit_heal=0.05; joker_effects=2,,Homing. Card name pops up above the target for 1 s
 Mirage,Active,,,15,,,Strong,Medium,,,,decoys=2; detectability=-0.5,,
 Dash,Active,,,,Stamina,20,Strong,,,,Short,,,Invulnerable during the dash
 Telekinetic Throw,Active,Will,,5,,,Some,,,,Long,,,Damage comes from what is thrown (props.csv)
@@ -69,7 +69,7 @@ Sticky Body,Passive,,,,,,,Short,,,,gooed_slow=0.3,,
 Absorbent,Passive,,,,,,,,,,,chance=0.25; heal_x=1.1,,
 Living Ink,Passive,,,,,,,,,,,extra_beasts=1,,
 Fresh Ink,Passive,,,,,,,,,,,heal_per_defeat=0.05,,
-Stacked Deck,Passive,,,,,,,,,,,good_effect_x=2,,
+Stacked Deck,Passive,,,,,,,,,,,every_nth_throw=4; fan_cards=3,,Ace up the Sleeve
 Crystal Hunger,Passive,,,,,,,,Large,,,charge_per_stack=5,,Radius for defeats
 Glow Up,Passive,,,,,,,,,,,below_hp=0.5; magic_damage=0.5,,
 Second Wind,Passive,,,,,,,,,,,heal=1.0,,On Defiance

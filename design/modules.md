@@ -73,7 +73,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Ink Lash | Active | Ink Beast | `Melee` | A melee lash. Scales with Rune's Will |
 | Glyph Trap | Active | Rune | `Debuff`, `Resist:Will` | Places a glyph. Enemies who step on it are rooted in place |
 | Spectrum Bolt | Active | Prism | `Ranged`, `Debuff`, `Resist:Toughness`, `Resist:Will` | Magic bolt that costs Charge. Each cast cycles color: Red implodes, pulling nearby enemies toward the impact and then bursting outward to knock them back; Blue burns (DoT, resisted by Toughness), Purple may stun (resisted by Will) |
-| Card Throw | Active | Madame Tarot | `Ranged` | Homing cards that deal Magic damage. Each card has a random effect |
+| Card Throw | Active | Madame Tarot | `Ranged`, `Debuff`, `Resist:Will` | Homing cards that deal Magic damage. Each card draws one of 10 tarot effects at random, all good, and shows its name in small text above the target for a second: **The Tower** (Brief Stun), **The Magician** (Hex), **The Sun** (Burn), **Death** (Heavy bonus damage on a target at low HP), **The Fool** (bounces to a second nearby enemy), **The Lovers** (Hypnotized for a Short time), **The Moon** (the target loses track of you), **The Hermit** (Tarot heals a little), **The Hanged Man** (Short Root), **The Joker** (two other random effects at once) |
 | Mirage | Active | Madame Tarot | | Creates decoys that draw enemy attention, and lowers her Detectability while they last |
 | Dash | Active | Hero, Acrobat | | A quick burst of movement in your facing direction. Costs Stamina. Invulnerable during the dash |
 | Telekinetic Throw | Active | Hero | `NotRandom` | Throw what you're dragging with telekinesis. Uses Will in place of Strength, both for damage and for the prop size you can throw (`world.md`) |
@@ -112,7 +112,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Absorbent | Passive | Hero | | A chance that a ranged hit is absorbed: you take the damage, then heal more than it dealt |
 | Living Ink | Passive | Hero | `NotRandom` | Ink Beast summons a second beast |
 | Fresh Ink | Passive | Hero | | Each enemy you defeat heals you a little |
-| Stacked Deck | Passive | Hero | `NotRandom` | Card Throw's random effects are twice as likely to be good ones |
+| Stacked Deck | Passive | Hero | `NotRandom` | Ace up the Sleeve: every few Card Throws, you throw a fan of cards, each drawing its own effect |
 | Crystal Hunger | Passive | Hero | `NotRandom` | Zenthium creatures ignore you until you attack them. Each entity defeated near you gives a stack of Soul Shard: more max Charge per stack, for the rest of the mission |
 | Glow Up | Passive | Hero | | At low HP: bonus Magic damage, and Night Time doesn't halve your vision (`difficulty.md`) |
 | Second Wind | Passive | Hero | | When Defiance triggers, fully heals you |
@@ -202,4 +202,4 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Reanimate | Active | Archivist | `NotRandom` | Brings one Incapacitated Coven entity back to its feet. Once per target |
 
 ## Open
-- Card Throw's list of random card effects.
+- (none)
