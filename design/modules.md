@@ -156,6 +156,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Immovable | Passive | Shield Bearer, Strongman, Tank, Abomination | `KnockbackResistant` | Can't be knocked back |
 | Energy Blaster | Active | Shield Bearer, Grey | `Ranged` | Ranged attack, Energy damage |
 | Spotlight | Active | The Ringmaster | `Buff` | A spotlight with a 20 m radius, centered on him. Circus entities inside get +50% to all stats |
+| Hoop of Fire | Active | The Ringmaster | `Debuff`, `Resist:Toughness` | A flaming hoop lands around the player. Anyone crossing it gains Burn (`statuses.md`) |
 | Whip Crack | Active | The Ringmaster, Lion Tamer | `Melee` | A short-range whip with knockback |
 | Grand Finale | Passive | The Ringmaster | `Buff` | Below 25% HP, Spotlight's radius doubles |
 | Haymaker | Active | Strongman | `Melee` | A heavy punch |

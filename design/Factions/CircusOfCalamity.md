@@ -10,13 +10,13 @@ Shared faction rules are in `../factions.md`.
 - **Faction tags:** none. Loot goes to the Ringmaster (`../world.md`).
 - **Leader behavior:** standard looting. Encore! only works while he's alive. He announces each reinforcement wave like a show (flavor only).
 - **Countdown target:** a giant jack-in-the-box. It's a bomb.
-- **Comic callouts:** "HONK!", "TA-DA!", plus one more (Open).
+- **Comic callouts:** "HONK!", "TA-DA!", "SHOWTIME!"
 - **Story Arcs:** none yet.
 
 ## Entities
 | Rank | Entity | Min rank | Description | Modules | Locked until | Tags |
 |---|---|---|---|---|---|---|
-| Leader | The Ringmaster | D | Runs the show. His spotlight buffs every performer near him | Spotlight, (TBD, Open), Whip Crack, Grand Finale | (TBD) (C), Grand Finale (A) | |
+| Leader | The Ringmaster | D | Runs the show. His spotlight buffs every performer near him | Spotlight, Hoop of Fire, Whip Crack, Grand Finale | Hoop of Fire (C), Grand Finale (A) | |
 | Champion | Strongman | D | Grabs citizens, props and goons and throws them at you; punches when there's nothing to grab | Power Throw, Drag, Haymaker, Immovable | | |
 | Champion | Human Cannonball | D | Launches into you for huge knockback, often into walls | Cannonball Launch | | |
 | Champion | Acrobat | B | Fast flanker | Dash, Flying Kick | | |
@@ -35,7 +35,5 @@ Shared faction rules are in `../factions.md`.
 - **Location Weight:** parks 3, clubs 3, stores 2; everything else 1.
 
 ## Open
-- The Ringmaster's second module (replacing Hat Trick).
-- A third comic callout.
 - Story Arc idea: "Opening Night", the Circus comes to Blazithion and each stage is one of their shows.
-- Numbers for Whip Crack, Grand Finale, Haymaker, Flying Kick, Summon Lion, Lion Maul, Bowling Ball and Torch Toss, for the numbers pass.
+- Numbers for Hoop of Fire, Whip Crack, Grand Finale, Haymaker, Flying Kick, Summon Lion, Lion Maul, Bowling Ball and Torch Toss, for the numbers pass.
