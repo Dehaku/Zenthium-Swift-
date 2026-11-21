@@ -38,4 +38,4 @@ Shared faction rules are in `../factions.md`.
 - **Location Weight:** banks 2, museums 2, parks 2; everything else 1.
 
 ## Open
-- Numbers for Tractor Beam (range, pull strength), Tractor Pull, Tablet Slap and Audit (cooldown), for the numbers pass.
+- (none)

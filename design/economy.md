@@ -33,4 +33,4 @@ Keep Metallic useful after every slot and hero is unlocked:
 - Toggle: the bonus resets to 100% whenever the hero completes a mission.
 
 ## Open
-- Prices: stats, modules and tiers, slots, heroes and Recruits. Reward mix per mission type.
+- (none)

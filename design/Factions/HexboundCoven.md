@@ -36,4 +36,3 @@ Shared faction rules are in `../factions.md`.
 
 ## Open
 - Story Arc idea: "The Forbidden Stacks", Vex tries to seize Blazithion's library and its sealed books.
-- Numbers for Shush!, Book Barrage, Late Fee, Portal Step, Hex Bolt, Imp Claw, Fire Ring and Reanimate, for the numbers pass.

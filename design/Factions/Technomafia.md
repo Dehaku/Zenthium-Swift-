@@ -36,4 +36,3 @@ Shared faction rules are in `../factions.md`.
 
 ## Open
 - Story Arc idea: "Protection Racket", shaking down Blazithion's shops district by district.
-- Numbers for Gatling Arm, Hush Money (radius), Chrome Fist, Overdrive, Ram, Chrome Pipe and Mini Turrets, for the numbers pass.

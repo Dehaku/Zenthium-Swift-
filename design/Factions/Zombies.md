@@ -38,4 +38,3 @@ Shared faction rules are in `../factions.md`.
 
 ## Open
 - Story Arc idea: "Patient Zero", the first outbreak at Blazithion General, ending with Dr. Edd's reveal.
-- Numbers for Outbreak, Tentacle Sweep, Meat Slap, Engulf, Regeneration, Bite, Smash, Acid Spit, Lay Egg and Bone Spike, for the numbers pass.

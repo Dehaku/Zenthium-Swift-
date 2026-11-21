@@ -44,4 +44,4 @@ Applies to every entity.
 - The player's slowdown is a plain timescale change. Cooldowns always run in real seconds (`time.md`), so it needs no special rules.
 
 ## Open
-- Vision range for enemies and the player's fog of war (Night Time halves it).
+- (none)

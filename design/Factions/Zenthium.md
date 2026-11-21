@@ -28,4 +28,3 @@ Shared faction rules are in `../factions.md`.
 
 ## Open
 - Story Arc idea: "The Breach", a permanent Fissure opens in Blazithion. Ties into Zenny's origin and Prism's backstory.
-- Numbers for every module above, and the Fissure's HP, for the numbers pass.

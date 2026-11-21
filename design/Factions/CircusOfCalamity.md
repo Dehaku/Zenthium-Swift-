@@ -36,4 +36,3 @@ Shared faction rules are in `../factions.md`.
 
 ## Open
 - Story Arc idea: "Opening Night", the Circus comes to Blazithion and each stage is one of their shows.
-- Numbers for Hoop of Fire, Whip Crack, Grand Finale, Haymaker, Flying Kick, Summon Lion, Lion Maul, Bowling Ball and Torch Toss, for the numbers pass.

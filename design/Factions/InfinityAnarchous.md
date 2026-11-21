@@ -37,4 +37,3 @@ Shared faction rules are in `../factions.md`.
 
 ## Open
 - Story Arc idea: "Chad's Block Party", Chad throws a party that gets wildly out of hand.
-- Numbers for Chill Punch, Vibe Check and No Big Deal, for the numbers pass.

@@ -59,6 +59,5 @@ Listed in unlock order; the first of each type is unlocked at the start.
 - Stats, slots and upgrades are tracked per hero.
 
 ## Open
-- Unlock costs for Heave, Gelatina and Prism, and slot unlock costs (`economy.md`).
 - Can a preset's fixed modules be upgraded or moved to higher tiers (`modules.md`)?
 - Saved loadout options for CAHs?
