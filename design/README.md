@@ -33,6 +33,7 @@ Status: design. No build plan yet.
 | `lore.md` | Pure flavor: world lore, megacorporations |
 | `hud.md` | HUD layout, indicators, end-of-mission screen, options |
 | `controls.md` | Default bindings |
+| `balance.md` | Balance foundation: formulas, anchors, standard tiers, power budget, progression and price targets |
 | `future.md` | Ideas board: features we won't build now |
 
 Each file ends with an `## Open` section for its unresolved questions.
