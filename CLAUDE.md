@@ -9,3 +9,4 @@
 - Each Story Arc gets its own file in `design/StoryArcs/`; the rules stay in `design/story.md`.
 - Each faction gets its own file in `design/Factions/`, from `design/Factions/_Template.md`; shared faction rules stay in `design/factions.md`.
 - When asking the user questions, number them Q1, Q2, Q3 and so on.
+- Per-item numbers (modules, entities, heroes, props, prices) live only in `design/data/*.csv`; markdown keeps behavior and tier words. Check them with `python3 tools/balance.py report`.

@@ -4,19 +4,19 @@ The shared formulas, anchors and standard values that every number is measured a
 Numbers live in plain-text CSV files in `data/`, their only home. A check script reads them, applies the formulas here, and reports the real numbers with over- and under-budget flags. On request, it can also generate a spreadsheet view for exploring; that view is never where numbers are stored. This file holds the rules.
 
 ## 1. Core formulas
-| Value | Formula | Examples |
-|---|---|---|
-| HP | 10 x Toughness | Civilian 100. Toughness 20 hero: 200 |
-| Leader HP | x2 on top of the above | A rank D Leader (Toughness 30): 600 |
-| Armor | 50% of Toughness (`combat.md`) | Toughness 10: 5 Armor |
-| Kick damage | 10 + 2 x Strength | Strength 10: 30. Strength 20: 50 |
-| Normal damage | Like Kick: 10 + 2 x the module's stat (Strength for melee, Finesse for ranged, or the module's own) | |
-| Dodge chance | 0.5% per point of Finesse, capped at 75% | Finesse 10: 5%. Finesse 20: 10% |
-| Vision range | 100 m. Awareness fills instantly at 10 m and takes 10 s at 100 m, scaling linearly between (`stats.md`) | |
-| Resource value | 1 point of resource is worth 1 s of cooldown, matching the +1 regen (`combat.md`) | |
+Constant names refer to `data/constants.csv`, where every value lives.
 
-- **Enemy attacks** default to the Light damage tier (section 4), so heroes survive the anchor below.
-- **Provisional:** Leaders' x2 HP and Light-tier enemy attacks were added to hit the anchors. Expect playtesting to change them.
+| Value | Formula |
+|---|---|
+| HP | Toughness x `hp_per_toughness`. Leaders also x `leader_hp_multiplier` |
+| Armor | Toughness x `armor_per_toughness` (`combat.md`) |
+| Normal damage | `normal_damage_base` + `normal_damage_per_stat` x the module's stat (Strength for melee, Finesse for ranged, or the module's own). Kick is Normal damage with Strength |
+| Dodge chance | Finesse x `dodge_per_finesse`, capped at `dodge_cap` |
+| Awareness | Fills instantly within `awareness_instant_range`, and takes `awareness_max_time` at `vision_range`, scaling linearly between (`stats.md`) |
+| Resource value | 1 point is worth `resource_seconds_per_point` of cooldown, matching the +1 regen (`combat.md`) |
+
+- **Enemy attacks** default to the `enemy_default_damage_tier` (section 4), so heroes survive the anchor below.
+- **Provisional:** Leaders' extra HP and the enemy default damage tier were added to hit the anchors. Expect playtesting to change them.
 
 ## 2. Stacking rules
 Where each rule lives, in one place:
@@ -33,28 +33,31 @@ Where each rule lives, in one place:
 ## 3. Anchors
 Target outcomes at rank D for a starting hero (Strength 10-20, Toughness 10-20):
 
-| Anchor | Target | Check with the formulas |
-|---|---|---|
-| Kicks to defeat a goon | About 3 | Goon: 100 HP, 5 Armor. Kick does 25-45 → 3-4 hits |
-| Kicks to defeat a Champion | About 10 | Champion (stats 20): 200 HP, 10 Armor. Kick does 20-40 → 5-10 hits |
-| Kicks to defeat a Leader | About 40 | Leader (stats 30): 600 HP, 15 Armor. Kick does 15-35 → 17-40 hits |
-| Goon hits a hero survives | About 15 | Goon Light hit: 15 damage. Hero takes 5-10 → 10-40 hits |
-| Mission pace | About 5 minutes, about 30 enemies on a Medium map | One fight every 20-30 s |
+| Anchor | Target |
+|---|---|
+| Kicks to defeat a goon | About 3 |
+| Kicks to defeat a Champion | About 10 |
+| Kicks to defeat a Leader | About 40 |
+| Goon hits a hero survives | About 15 |
+| Mission pace | About 5 minutes, about 30 enemies on a Medium map: one fight every 20-30 s |
+
+- `python3 tools/balance.py report` calculates the actual values to compare.
 
 ## 4. Standard tiers
-Modules use these words; each word means a standard value.
+Modules use these words; each word means a standard value, set in `data/constants.csv` (the `tier` rows).
 
 | Scale | Tiers |
 |---|---|
-| Damage (x Normal damage) | Light 0.5x, Normal 1x, Heavy 2x, Massive 4x |
-| Duration | Brief 1 s, Short 3 s, Medium 5 s, Long 10 s |
-| Radius | Small 3 m, Medium 6 m, Large 10 m, Huge 15 m |
-| Knockback | Light 2 m, Normal 4 m, Heavy 8 m, Huge 15 m |
-| Cooldown | Spammable 1 s, Short 5 s, Medium 15 s, Long 30 s, Ultimate 60 s |
-| Range | Melee 2 m, Short 8 m, Medium 15 m, Long 30 m |
+| Damage (x Normal damage) | Light, Normal, Heavy, Massive |
+| Duration | Brief, Short, Medium, Long |
+| Radius | Small, Medium, Large, Huge |
+| Knockback | Light, Normal, Heavy, Huge |
+| Cooldown | Spammable, Short, Medium, Long, Ultimate |
+| Range | Melee, Short, Medium, Long |
 
 ## 5. Power budget
-- **Longer cooldown or bigger cost, stronger effect.** Base rule: a damage module's damage = Normal damage x (cooldown / 3 s). Kick (3 s) is the 1x reference.
+- **Longer cooldown or bigger cost, stronger effect.** Base rule: a damage module's damage = Normal damage x (cooldown / `kick_cooldown`). Kick is the 1x reference.
+- The check script flags a module as OVER or UNDER budget when its damage is more than 1.5x or less than 0.5x its budget.
 - A resource cost counts as that many seconds of cooldown (section 1).
 - Utility (crowd control, mobility, healing) trades against damage: a module with strong utility gets a lower damage tier for the same cooldown.
 
@@ -73,18 +76,7 @@ How strong the player should be at each rank, against the enemies there. Enemy f
 - Target: a hero's two key stats are about twice a same-rank goon's.
 
 ## 7. Economy in missions of work
-Prices are set in how many missions' worth of rewards they cost, then converted to Zenny.
-
-| Purchase | Cost | Currency |
-|---|---|---|
-| 1 stat point | 1 mission | Basic |
-| A module | 3 missions | Gem |
-| A module tier upgrade | 3 missions per tier | Gem |
-| A slot | 10 missions | Metallic |
-| A preset hero | 25 missions | Metallic |
-| An extra Recruit | 25 missions | Metallic |
-
-- First pass income at rank D, before bonuses: about 100 Basic, 20 Gem and 2 Metallic per mission. Each mission type shifts the mix (`economy.md`).
+Prices are set in how many missions' worth of rewards they cost, then converted to Zenny using the first-pass income per mission (`economy` rows in `data/constants.csv`). The prices themselves live in `data/prices.csv`. Each mission type shifts the income mix (`economy.md`).
 
 ## 8. Benchmarks
 Scenarios to sanity-check the numbers. If one feels wrong, fix the anchor or the formula, not one module.
@@ -93,7 +85,18 @@ Scenarios to sanity-check the numbers. If one feels wrong, fix the anchor or the
 - A Leader fight at rank S.
 - A Recruit just after Headhunted (rank S2), with starter modules only.
 
+## Data and tools
+| File | Holds |
+|---|---|
+| `data/constants.csv` | Formula constants, standard tier values, income. `mirror` rows copy a few rules from other files for the script; keep them in sync |
+| `data/modules.csv` | Per-module inputs: stat, damage tier, cooldown or resource cost, and other tiers |
+| `data/entities.csv` | Per-entity inputs: rank tier, minimum rank, budget cost |
+| `data/heroes.csv` | Preset hero stats |
+| `data/props.csv` | Prop and vehicle values |
+| `data/prices.csv` | Prices in missions of work |
+| `../tools/balance.py` | `report` prints the calculated numbers and flags; `xlsx` writes a spreadsheet view to `build/` (not committed) |
+
 ## Open
-- Build the CSV files and the check script.
+- The numbers pass, in this order: modules, entities and heroes, props and world values, then prices and income. Each step moves that area's existing numbers out of the markdown files into its CSV.
 - Knockback scaling with stats.
 - Income mix per mission type.

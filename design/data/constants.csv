@@ -1,0 +1,51 @@
+group,name,value,notes
+formula,hp_per_toughness,10,HP = Toughness x this
+formula,leader_hp_multiplier,2,Provisional (balance.md)
+formula,armor_per_toughness,0.5,Armor = Toughness x this
+formula,normal_damage_base,10,Normal damage = base + per_stat x stat
+formula,normal_damage_per_stat,2,
+formula,kick_cooldown,3,Seconds. The 1x reference for the power budget
+formula,min_damage_fraction,0.05,Every hit deals at least this fraction
+formula,dodge_per_finesse,0.005,Dodge chance per point of Finesse
+formula,dodge_cap,0.75,
+formula,vision_range,100,Meters
+formula,awareness_instant_range,10,Meters
+formula,awareness_max_time,10,Seconds to fill at vision_range
+formula,resource_seconds_per_point,1,1 resource point = this many seconds of cooldown
+formula,enemy_default_damage_tier,Light,Provisional (balance.md)
+mirror,innate_boost_goon,0,Mirror of factions.md. Keep in sync
+mirror,innate_boost_champion,1,Mirror of factions.md. Keep in sync
+mirror,innate_boost_leader,2,Mirror of factions.md. Keep in sync
+mirror,stat_bonus_per_rank,0.2,Mirror of difficulty.md. Keep in sync
+mirror,hp_damage_bonus_per_rank,0.1,Mirror of difficulty.md. Keep in sync
+reference,hero_stat_low,10,Starting hero stat range for checks
+reference,hero_stat_high,20,
+reference,goon_stat,10,Rank D goon
+economy,income_basic,100,Per rank D mission before bonuses. First pass
+economy,income_gem,20,
+economy,income_metallic,2,
+tier,damage.Light,0.5,x Normal damage
+tier,damage.Normal,1,
+tier,damage.Heavy,2,
+tier,damage.Massive,4,
+tier,duration.Brief,1,Seconds
+tier,duration.Short,3,
+tier,duration.Medium,5,
+tier,duration.Long,10,
+tier,radius.Small,3,Meters
+tier,radius.Medium,6,
+tier,radius.Large,10,
+tier,radius.Huge,15,
+tier,knockback.Light,2,Meters
+tier,knockback.Normal,4,
+tier,knockback.Heavy,8,
+tier,knockback.Huge,15,
+tier,cooldown.Spammable,1,Seconds
+tier,cooldown.Short,5,
+tier,cooldown.Medium,15,
+tier,cooldown.Long,30,
+tier,cooldown.Ultimate,60,
+tier,range.Melee,2,Meters
+tier,range.Short,8,
+tier,range.Medium,15,
+tier,range.Long,30,
