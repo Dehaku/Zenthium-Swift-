@@ -11,21 +11,21 @@ Phase Shift,Active,,,15,,,Strong,,,,,duration_s=2,,
 Scorch Gaze,Active,Intelligence,Normal,5,,,Some,,,,Medium,,,Ignites
 Shadow Step,Active,,,15,,,Strong,,,,Long,,,No line of sight needed
 Hypnotic Gaze,Active,Will,,30,,,Strong,,,,Medium,duration_s=30,,
-Anchor,Passive,,,,,,,,,,,,,
-Last Laugh,Passive,,,,,,,,,,,,,
+Anchor,Passive,,,,,,,,,,,damage_reduction=0.5,,While standing still
+Last Laugh,Passive,Will,Massive,,,,,,Medium,Heavy,,,,On Defiance; no cooldown
 Size Shift,Active,,,30,,,Strong,,,,,duration_s=8; strength_bonus=1.0,,Slower while giant
 Sonic Scream,Active,Will,Normal,15,,,Strong,,Medium,Heavy,Short,,,Cone. Shatters Glass and Wood
-Adaptive Skin,Passive,,,,,,,,,,,,,
-Mirror Skin,Passive,,,,,,,,,,,,,
-Super Lucky,Passive,,,,,,,,,,,,,
-Deathly Rage,Passive,,,,,,,,,,,,,
-Soulful,Passive,,,,,,,,,,,,,
-High-Capacity Battery,Passive,,,,,,,,,,,,,
-Quick-Charge Battery,Passive,,,,,,,,,,,,,
-Reaper Battery,Passive,,,,,,,,,,,,,
-Sprinter,Passive,,,,,,,,,,,,,
-Weather the Storm,Passive,,,,,,,,,,,,,
-Charming,Passive,,,,,,,,,,,,,
+Adaptive Skin,Passive,,,,,,,Medium,,,,damage_reduction=0.3,,
+Mirror Skin,Passive,,,,,,,,,,,reflect=0.2,,Ranged damage only
+Super Lucky,Passive,,,,,,,,,,,luck_multiplier=10,,Aims for ~10x better outcomes (luck.md)
+Deathly Rage,Passive,,,,,,,,,,,strength_x=3; toughness_x=3,,
+Soulful,Passive,,,,,,,,,,,spell_damage=0.5; mana=150; mana_regen=5,,
+High-Capacity Battery,Passive,,,,,,,,,,,charge=200; charge_regen=5,,
+Quick-Charge Battery,Passive,,,,,,,,,,,charge=50; charge_regen=20,,
+Reaper Battery,Passive,,,,,,,,,,,charge=100; charge_regen=0,,
+Sprinter,Passive,,,,,,,,,,,stamina=100; stamina_regen=10; sprint_bonus=1.0,,
+Weather the Storm,Passive,,,,Stamina,5,,,,,,damage_reduction=0.25,,Per hit
+Charming,Passive,,,,,,,,,,Short,stubborn_to_scared=0.5; goon_convert=0.05,,Approach range
 Ink Beast,Active,Will,,30,,,Strong,,,,,summon_lifetime_s=20,,The beast is a goon-tier summon
 Glyph Trap,Active,Will,,15,,,Strong,Short,Small,,Medium,,,Root lasts the duration
 Spectrum Bolt,Active,Intelligence,Heavy,,Charge,10,Some,,Small,,Medium,burn_damage=12; burn_s=4; stun_chance=0.25; stun_s=1,,
@@ -37,41 +37,41 @@ Goo Punch,Active,Will,Light,3,,,Some,,Small,,Melee,gooed_slow=0.3; gooed_s=3,,
 Telekinetic Grab,Active,,,5,,,Strong,,,,Long,,,
 Shockwave Stomp,Active,Strength,Heavy,15,,,Some,,Medium,Heavy,,,,
 Ooze Through,Passive,,,,,,,,,,,,,
-Evac Balloon,Gear (active),,,,,,,,,,,,,
-Six-Shooter,Gear (active),,,,,,,,,,,,,
-Padded Suit,Gear (passive),,,,,,,,,,,,,
-Force Spell Tome,Gear (passive),,,,,,,,,,,,,
-Fire Spell Tome,Gear (passive),,,,,,,,,,,,,
-Electric Spell Tome,Gear (passive),,,,,,,,,,,,,
-First Aid Spray,Gear (active),,,,,,,,,,,,,
-Water Cannon,Gear (active),,,,,,,,,,,,,
+Evac Balloon,Gear (active),,,30,,,Strong,,,,Melee,,,
+Six-Shooter,Gear (active),Finesse,Light,1,,,None,,,,Medium,ammo=6; fire_interval_s=0.5; reload_s=2,,"Cooldown is the effective time per shot, including reloads"
+Padded Suit,Gear (passive),,,,,,,,,,,armor=30,,
+Force Spell Tome,Gear (passive),,,,,,,,,,,magic_hit_damage=15,,
+Fire Spell Tome,Gear (passive),,,,,,,,,,,magic_hit_damage=10; burn_damage=12; burn_s=4,,
+Electric Spell Tome,Gear (passive),,,,,,,,,,,magic_hit_damage=10; chain_targets=5; chain_range_m=5; chain_damage=5,,
+First Aid Spray,Gear (active),,,20,,,Strong,,,,Melee,heal=0.25,,Free and no cooldown on Incapacitated citizens
+Water Cannon,Gear (active),Strength,Light,,Ammo,5,Strong,,,Huge,Medium,,,Range 12 m. Extinguish
 Gel Coat,Active,,,15,,,Strong,Medium,,,Short,,,
 Fireproof Body,Passive,,,,,,,,,,,,,
-Smoke Bomb,Gear (active),,,,,,,,,,,,,
-Repulsor Blast,Gear (active),,,,,,,,,,,,,
-Grappling Hook,Gear (active),,,,,,,,,,,,,
-Bandolier,Gear (passive),,,,,,,,,,,,,
-Breaching Charge,Gear (active),,,,,,,,,,,,,
-Stasis Cuffs,Gear (active),,,,,,,,,,,,,
-Megaphone,Gear (active),,,,,,,,,,,,,
+Smoke Bomb,Gear (active),,,30,,,Strong,Medium,Medium,,Short,,,Stun lasts while inside
+Repulsor Blast,Gear (active),Intelligence,Heavy,,Charge,15,Some,,,Normal,Medium,,,
+Grappling Hook,Gear (active),,,5,,,Strong,,,,Long,,,
+Bandolier,Gear (passive),,,,,,,,,,,ammo_bonus=0.5; reload_speed=0.3,,
+Breaching Charge,Gear (active),Intelligence,Massive,30,,,Some,,Huge,Heavy,Melee,fuse_s=5,,Blows open locked doors and walls
+Stasis Cuffs,Gear (active),,,15,,,Strong,,,,Melee,,,
+Megaphone,Gear (active),,,30,,,Strong,Short,Large,,,,,Stun duration; radius for citizens and stun
 Barrier Shield,Active,,,,Mana,30,Strong,Short,,Normal,,arc_degrees=180,,
-Stealth Suit,Gear (passive),,,,,,,,,,,,,
+Stealth Suit,Gear (passive),,,,,,,,,,,detectability=-0.5; dodge=0.1,,
 Energy Shield,Active,,,,Charge,30,Strong,Short,,Normal,,arc_degrees=180,,
 Taunt,Active,,,30,,,Strong,,,Normal,,duration_s=4; marked_damage_dealt=-0.3; marked_damage_taken=0.25; self_damage_reduction=0.5,,Affects every enemy that can see you
-Express Delivery,Passive,,,,,,,,,,,,,
-Mind over Matter,Passive,,,,,,,,,,,,,
-Quick Draw,Passive,,,,,,,,,,,,,
-Ricochet,Passive,,,,,,,,,,,,,
-Overclocked,Passive,,,,,,,,,,,,,
-Reactive Plating,Passive,,,,,,,,,,,,,
-Sticky Body,Passive,,,,,,,,,,,,,
-Absorbent,Passive,,,,,,,,,,,,,
-Living Ink,Passive,,,,,,,,,,,,,
-Fresh Ink,Passive,,,,,,,,,,,,,
-Stacked Deck,Passive,,,,,,,,,,,,,
-Crystal Hunger,Passive,,,,,,,,,,,,,
-Glow Up,Passive,,,,,,,,,,,,,
-Second Wind,Passive,,,,,,,,,,,,,
+Express Delivery,Passive,,,,,,,,,,,citizen_capacity=1,,
+Mind over Matter,Passive,,,,,,,,,,,thrown_damage=0.5; thrown_damage_taken=-0.5,,
+Quick Draw,Passive,,,,,,,,,,,first_shot_x=2,,
+Ricochet,Passive,,,,,,,,,,,bounces=1; bounce_range_m=5; bounce_damage=0.5,,
+Overclocked,Passive,,,,,,,,,,,damage=0.5; charge_above=0.8,,
+Reactive Plating,Passive,,,,,,,,,,,armor_per_hit=5; armor_max=50; reset_s=5,,
+Sticky Body,Passive,,,,,,,Short,,,,gooed_slow=0.3,,
+Absorbent,Passive,,,,,,,,,,,chance=0.25; heal_x=1.1,,
+Living Ink,Passive,,,,,,,,,,,extra_beasts=1,,
+Fresh Ink,Passive,,,,,,,,,,,heal_per_defeat=0.05,,
+Stacked Deck,Passive,,,,,,,,,,,good_effect_x=2,,
+Crystal Hunger,Passive,,,,,,,,Large,,,charge_per_stack=5,,Radius for defeats
+Glow Up,Passive,,,,,,,,,,,below_hp=0.5; magic_damage=0.5,,
+Second Wind,Passive,,,,,,,,,,,heal=1.0,,On Defiance
 Hex,Active,,,,,,,,,,,,,
 Numbing Toxin,Passive,,,,,,,,,,,,,
 Outbreak,Active,,,,,,,,,,,,,
