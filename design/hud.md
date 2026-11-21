@@ -15,7 +15,7 @@ Hybrid layout: vitals and resources stay near the character; abilities and objec
 
 ## Objective tracker (top right)
 - Mission type and goal, with its live number: a timer for Countdown, "Rescued 4 / 12 (need 3)" for Rescue, a loss timer bar for Invasion, "% burned / fail at" for Arson Riot (`missions.md`).
-- Below it: the secondary goal, including the Valuables counter ("Stolen 2 / Fail at 5", `world.md`), and icons for active Hazards (`difficulty.md`).
+- Below it: the secondary goal, including the Valuables counter ("Lost 2 / Fail at 5", `world.md`), and icons for active Hazards (`difficulty.md`).
 
 ## Screen edges
 - **Edge arrows:** icons at the screen edge point to off-screen things: the objective, the nearest exit, the Leader, incoming reinforcements. No distances.
@@ -44,7 +44,7 @@ Hybrid layout: vitals and resources stay near the character; abilities and objec
 | Hackable icon on `Hackable` entities, shown only if the player has a module that can hack (such as Reprogram) | `modules.md` |
 
 ## End-of-mission screen
-- A comic-panel results page: success or failure, Zenny earned by family, multipliers (hero bonus, rank, hidden intel), secondary goal results, and Valuables recovered or stolen.
+- A comic-panel results page: success or failure, Zenny earned by family, multipliers (hero bonus, rank, hidden intel), secondary goal results, and Valuables recovered or lost.
 - Zenny is only awarded here, never picked up mid-mission. Crystals fly in from the screen edges into each family's Zenny count, making it grow. Bigger rewards show as bigger crystals (`economy.md`).
 
 ## Options menu

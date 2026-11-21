@@ -35,7 +35,7 @@
   - Show off for a news reporter (use a power or gear in front of them).
   - Defeat the Leader (only when a Leader is present).
   - Capture the Leader (only when a Leader is present), Champions or Goons.
-  - Prevent 50% of Valuables from being stolen (`world.md`). The % changes with difficulty.
+  - Prevent 50% of Valuables from being lost (`world.md`). The % changes with difficulty.
 - Secondary goals reward, at random, extra Zenny or a percentage reward bonus (`economy.md`).
 - Destroying a Zenthium Fissure counts as a completed bonus secondary goal: +25% rewards (`Factions/Zenthium.md`).
 

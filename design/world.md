@@ -37,10 +37,36 @@
 - **Vehicles** (cars, trucks, motorcycles) have Armor and Damage Reduction, and explode when destroyed. Values in `data/props.csv`.
 - An explosion goes off 1 s after the vehicle is destroyed, with a red ring showing its radius. It hurts everyone, the player and civilians included.
 
+## Buildings
+Every building is one object that owns everything in it, so fire, loot and arson rules never have to work anything out from geometry.
+
+| Part | What it is |
+|---|---|
+| **Building** | The root of a handmade building. Has an ID, its location type (`maps.md`) and its state: unburned, burning or burned out |
+| **Interior zones** | One or more boxes, drawn by the designer, that define "inside". An L-shaped building uses two |
+| **Walls, doors and windows** | Children of the building. Each belongs to exactly one building |
+| **Sockets** | Children of the building: arson, Valuables, citizens, Heavy Turret, Countdown target and so on (`maps.md`) |
+
+- **No shared walls:** neighboring buildings each have their own walls, even where they touch.
+- **The building registry:** when a mission's map is assembled from blocks, every building registers with an ID, its location type, its sockets, and its neighbors within 20 m. Mission rules, such as Arson Riot's percentage of burning buildings, count from the registry.
+
+**How the rules use it:**
+
+| Rule | Handled by |
+|---|---|
+| Burn for everyone and every prop inside | The interior zones keep a live list of who and what is inside, updated as things enter and leave |
+| A random wall or door destroyed | The building's own list of walls and doors |
+| Enemies never enter burning buildings | Interior zones mark their floor area as part of the building; while it burns, enemy pathfinding treats that area as blocked |
+| Arson | Goons ignite from the building's arson sockets |
+| Valuables melting at burn-out | One check of the interior zones at burn-out; Valuables are never "owned" by a building, since they move around |
+| Fire spreading | The neighbor list built once at assembly; no searching at runtime |
+
+- Implementation note: this is the intended code structure; exact components and names are for the build.
+
 ## Fire
 - **Buildings** burn as a whole. Each is unburned, burning or burned out.
-- **A burning building:** every 5 s, everyone inside gains a Burn of 20 damage over 4 s (`statuses.md`), and a random wall or door of the building is instantly destroyed. After 60 s it's burned out: blackened, and no longer burning.
-- **Valuables in a burning building** survive until it burns out, then melt. Until then, the player can go in after them. Melted Valuables don't count as stolen.
+- **A burning building:** every 5 s, everyone and every prop inside gains a Burn of 20 damage over 4 s (`statuses.md`), and a random wall or door of the building is instantly destroyed. After 60 s it's burned out: blackened, and no longer burning.
+- **Valuables in a burning building** survive until it burns out, then melt. Until then, the player can go in after them. Melted Valuables count as lost.
 - **Props** burn through the Burn status, which lasts 10x longer on them. A burning vehicle explodes only when its HP reaches 0, but Burn ignores Armor and Damage Reduction (`combat.md`), so it gets there fast.
 - **Starting fires:** modules with the `Ignites` tag set buildings and vehicles on fire when they hit them. Burn alone doesn't light buildings. An exploding vehicle sets the vehicles in its blast on fire, but not buildings.
 - **Putting fires out:** modules with the `Extinguish` tag put out burning buildings and props, and remove Burn from entities. Examples: Water Cannon, Gel Coat, Fireproof Body (`modules.md`).
@@ -76,8 +102,8 @@ Generic money bags. They do nothing on their own and don't affect mission reward
 
 ### Valuables secondary goal
 See `missions.md` for the goal itself.
-- A Valuable counts as stolen once it leaves the map, or reaches a loot destination that counts as stolen, such as a Repo Agency crop circle (`Factions/GalacticRepoAgency.md`).
-- The HUD shows a counter, such as "Stolen 2 / Fail at 5".
+- A Valuable counts as lost once it leaves the map, melts in a burned-out building, or reaches a loot destination that counts as lost, such as a Repo Agency crop circle (`Factions/GalacticRepoAgency.md`).
+- The HUD shows a counter, such as "Lost 2 / Fail at 5".
 - With no Leader, goons try to leave the map with their Valuables.
 - Once the Leader holds enough Valuables to fail the goal, the Leader tries to flee the map with them.
 

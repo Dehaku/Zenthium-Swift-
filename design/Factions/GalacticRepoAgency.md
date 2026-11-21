@@ -8,7 +8,7 @@ Shared faction rules are in `../factions.md`.
 - **Crop circles:** placed at random around the map (their source: `../lore.md`). 1 at rank D, plus 1 per rank, up to 5 at S; no more after that.
   - A citizen inside a crop circle is abducted: they disappear for good. Citizens the player is dragging are abducted too, so stay clear of crop circles.
   - A hero pulled into a crop circle isn't abducted. It's only an annoyance.
-  - A crop circle takes all Valuables (`../world.md`) off any entity that enters it, the player included. They count as stolen.
+  - A crop circle takes all Valuables (`../world.md`) off any entity that enters it, the player included. They count as lost.
 - **Faction tags:** `LootDestination:CropCircle`. Repo entities take Valuables, and citizens they drag, to the nearest crop circle instead of to their Leader (`../world.md`, `../enemies.md`).
 - **Leader behavior:** standard. GleebPeep's loot goes to crop circles like everyone else's.
 - **Mothership Strike** (from rank S): every 30 s, an orbital beam targets the player's position. A red ring and a countdown from 5 show where it will hit, like Breaching Charge (`../modules.md`). It deals 300 damage in a 5 m radius.

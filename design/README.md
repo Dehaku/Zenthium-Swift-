@@ -25,7 +25,7 @@ Status: design. No build plan yet.
 | `Factions/` | One file per faction, from `Factions/_Template.md` |
 | `maps.md` | Map generation, size, Blazithion's districts, sockets, fog of war |
 | `enemies.md` | Enemy spawning (threat budget, squads, reinforcements, arrival tags, population cap) and AI |
-| `world.md` | Walls, doors, windows, props, Valuables |
+| `world.md` | Buildings, walls, doors, windows, props, fire, Valuables |
 | `economy.md` | Zenny currencies, hero reward bonus, dev options |
 | `hq.md` | HQ between missions and its tabs |
 | `story.md` | Story Arc rules |
