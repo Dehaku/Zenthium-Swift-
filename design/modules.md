@@ -35,10 +35,10 @@
 ## Buying, tiers and upgrades
 - Bought with Zenny at HQ: powers in the Zen Garden, gear in the Research Lab (`hq.md`).
 - Tiers are separate modules shown as one, with up and down arrows to cycle through the versions. Higher tiers cost more Gem Zenny (`economy.md`).
-- Owned modules can be upgraded.
+- Upgrading a module means buying its next tier.
 
 ## Catalog
-Defiance is a core Will rule, not a module (`stats.md`). Faction entities are described in `Factions/`. Owner says who carries a module now; any module can also go on presets and Recruits. "Unassigned" modules have no owner yet but are in the pool (for example, for Infinity Anarchous).
+Defiance is a core Will rule, not a module (`stats.md`). Faction entities are described in `Factions/`. Owner lists the factions and Recruit starters that carry a module; preset hero kits are in `heroes.md`. Any module can also go on presets and Recruits. "Unassigned" modules have no owner yet but are in the pool (for example, for Infinity Anarchous).
 
 | Module | Category | Owner | Tags | Mechanics |
 |---|---|---|---|---|
@@ -174,7 +174,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Super Stats | Passive | Chad | | A huge boost to all SWIFT stats |
 | Super Speed | Passive | Chad | | A huge boost to base move speed |
 | Chad Adjacent | Passive | Infinity Anarchous Champions | | A boost to all SWIFT stats |
-| Tractor Beam | Active | GleebPeep | | Beam that pulls in every entity and prop in its path |
+| Tractor Beam | Active | GleebPeep | | Beam that pulls every entity and prop in its path toward GleebPeep |
 | Tractor Pull | Active | Tractor Drone | | Pulls a hero or citizen toward the nearest Repo Agency crop circle (`Factions/GalacticRepoAgency.md`) |
 | Immovable | Passive | Shield Bearer, Strongman, Tank, Abomination | `KnockbackResistant` | Can't be knocked back |
 | Energy Blaster | Active | Shield Bearer, Grey | `Ranged` | Ranged attack, Energy damage |
@@ -202,7 +202,4 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Reanimate | Active | Archivist | `NotRandom` | Brings one Incapacitated Coven entity back to its feet. Once per target |
 
 ## Open
-- How tiers and upgrades relate: is upgrading a module the same as buying its next tier?
-- Tractor Beam: does it pull toward GleebPeep or toward a crop circle?
-- The Owner column misses heroes using faction modules (Immovable, Regeneration). Keep it for factions only?
 - Card Throw's list of random card effects.

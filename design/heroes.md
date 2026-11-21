@@ -2,7 +2,7 @@
 
 ## Preset heroes
 - The roster isn't capped.
-- Each preset has a full, fixed kit: 4 active, 4 passive and 4 gear modules (`modules.md`). Players can't swap them.
+- Each preset has a full, fixed kit: 4 active, 4 passive and 4 gear modules (`modules.md`). Players can't swap them, but each module can be upgraded to higher tiers with Gem Zenny (`modules.md`).
 - Only the first slot of each type is unlocked at the start. The rest unlock with Zenny (`economy.md`), in the order listed below.
 - Unlocked at the start: Rush Hour, Major Overclock and Rune.
 - Unplayable for now: the HQ cast, Shera, Tia and Seria (`lore.md`).
@@ -41,6 +41,7 @@ Listed in unlock order; the first of each type is unlocked at the start.
 - Recruits aren't available at the start. They're unlocked by the Headhunted arc, which triggers the first time the player unlocks rank S2 (`StoryArcs/Headhunted.md`).
 - Each CAH is called a **Recruit**. Players can make multiple Recruits (extra ones cost Metallic Zenny, `economy.md`). Story-wise they're all the same character, one SWIFT recruit; having several lets players try builds without resetting.
 - A new Recruit starts at 10 in every stat (`stats.md`), with empty slots.
+- Each Recruit has 3 saved loadouts, free to switch between at HQ.
 - Recruits can use any module the player has bought. Every module must be bought separately with Gem Zenny (`economy.md`); unlocking a preset hero doesn't unlock its modules for Recruits.
 - Recruits start with these modules unlocked: Time Stop, Phase Shift, Scorch Gaze, Shadow Step, Hypnotic Gaze, Anchor and Last Laugh (`modules.md`).
 
@@ -59,5 +60,4 @@ Listed in unlock order; the first of each type is unlocked at the start.
 - Stats, slots and upgrades are tracked per hero.
 
 ## Open
-- Can a preset's fixed modules be upgraded or moved to higher tiers (`modules.md`)?
-- Saved loadout options for CAHs?
+- (none)

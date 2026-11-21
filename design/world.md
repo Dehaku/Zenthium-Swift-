@@ -2,7 +2,7 @@
 
 ## Walls
 - Every wall has HP. Materials, weakest to strongest: **Glass**, **Wood**, **Stone**, **Metal**, **Crystalline**.
-- Entities knocked back into a wall deal heavy damage to it.
+- Entities knocked back into a wall deal heavy damage to it, and take Light damage themselves, using the stat of whoever knocked them (`balance.md`).
 - Buildings and props block line of sight (`stats.md`).
 - Broken walls leave a gap you can walk and see through.
 - **Windows** are small, fragile Glass walls you can see through.
@@ -33,7 +33,7 @@
 | Large | Cars, trucks, trees |
 
 - Bigger props need more Strength to Drag, have more HP and hit harder when thrown. Values per size are in `data/props.csv`.
-- Pressing Kick while dragging a prop throws it, the same way as launching Valuables. It takes the same damage it deals.
+- Pressing Kick while dragging a prop throws it, the same way as launching Valuables. It takes the same damage it deals. If you're also carrying Valuables, the prop goes first; the next Kick launches the Valuables.
 - **Vehicles** (cars, trucks, motorcycles) have Armor and Damage Reduction, and explode when destroyed. Values in `data/props.csv`.
 - An explosion goes off 1 s after the vehicle is destroyed, with a red ring showing its radius. It hurts everyone, the player and civilians included.
 
@@ -81,6 +81,4 @@ See `missions.md` for the goal itself.
 - Once the Leader holds enough Valuables to fail the goal, the Leader tries to flee the map with them.
 
 ## Open
-- Does an entity knocked into a wall also take damage, or only the wall?
-- Pressing Kick while dragging a prop and carrying Valuables: which gets thrown?
-- Do the player's own explosions (Breaching Charge) hurt the player and civilians?
+- (none)

@@ -20,7 +20,7 @@ D (lowest), C, B, A, S, then S2, S3, S4 and so on, forever.
 - **Enemy stats:** +20% to all SWIFT stats. This adds to the innate rank boost (`factions.md`) as one source. Example at B: goons +40%, Champions +140%, Leaders +240%.
 - **Rewards:** +25%, adding up the same way.
 - **Mission goals:** harder timers, rescue counts and other number goals (`missions.md`).
-- **Hidden intel:** each intel field on the mission map has +5% chance to be hidden (C: 5%, B: 10%, and so on). Rank D always reveals everything.
+- **Hidden intel:** each intel field on the mission map has +5% chance to be hidden (C: 5%, B: 10%, and so on), up to 50%. Rank D always reveals everything.
 - **Exits:** fewer exit zones, placed farther away. Always at least 1.
 - **Leader-led missions:** 0% at D, +20% per rank (C 20%, B 40%, A 60%), and guaranteed from S.
 
@@ -39,4 +39,4 @@ D (lowest), C, B, A, S, then S2, S3, S4 and so on, forever.
 - **Zenthium Fissure:** a fissure opens on the map and now and then spawns hostile neutral creatures from Zenthium (`Factions/Zenthium.md`, timing in `enemies.md`) that attack everyone.
 
 ## Open
-- Hidden-intel chance has no cap, so very high S ranks hide everything. Cap it?
+- (none)

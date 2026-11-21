@@ -5,6 +5,7 @@
 - Toughness gives HP.
 - Damage types: **Physical**, **Magic**, **Energy**.
 - Friendly fire is off by default. It is on only while the player holds the friendly fire button (`controls.md`).
+- The player's own explosions, such as Breaching Charge, never hurt the player, and only hurt civilians while friendly fire is held. Vehicle explosions are environmental and hurt everyone (`world.md`).
 
 ## Movement
 - Base move speed: 6 m/s. A starting value; expect lots of tuning.
