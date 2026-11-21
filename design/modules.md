@@ -153,7 +153,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Fire Wand | Active | Acolyte, Pyromancer | `Ranged`, `Ignites` | Magic fire attack |
 | Shush! | Active | Vex | `Debuff`, `Resist:Will` | "SHHH!" Heroes nearby are Silenced: all their active power slots stop working for a few seconds (`statuses.md`) |
 | Book Barrage | Active | Vex | `Ranged`, `Telegraph` | Flying books: a ranged Magic attack |
-| Late Fee | Active | Vex | | Pulls Valuables off the player and onto Vex |
+| Late Fee | Active | Vex | | Pulls Valuables off the player and onto Vex. If the player carries none, it drains 75% of their resources (Stamina, Mana, Charge, Ammo) instead |
 | Portal Step | Active | Vex | `Telegraph` | When badly hurt: a portal opens under her with a clear 1 s windup, then she steps through to a random socket. Makes it obvious she escaped, not died |
 | Hex Bolt | Active | Hexer, Summoner, Archivist | `Ranged` | A basic ranged Magic attack |
 | Imp Claw | Active | Imp | `Melee` | A small melee attack |

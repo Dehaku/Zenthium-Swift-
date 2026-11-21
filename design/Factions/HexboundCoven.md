@@ -9,7 +9,7 @@ Shared faction rules are in `../factions.md`.
 - **Portal Storm** (from rank S): every 30 s, a portal opens near the player and releases 2 Imps.
 - **Faction tags:** none. Loot goes to Vex (`../world.md`).
 - **Leader behavior:** Vex loots Valuables like a goon, and her goons bring theirs to her. The Coven's power-up only works while she holds Valuables.
-- **Comic callouts:** "SHHH!", plus two more (Open).
+- **Comic callouts:** "SHHH!", "BY THE BOOK!", "CHECKED OUT!"
 - **Story Arcs:** Relic Fever (`../StoryArcs/RelicFever.md`).
 
 ## Entities
@@ -34,7 +34,5 @@ Shared faction rules are in `../factions.md`.
 - **Location Weight:** museums 3, antique shops 3, libraries 3, mansions 2; everything else 1.
 
 ## Open
-- Late Fee needs more to it.
-- Two more comic callouts.
 - Story Arc idea: "The Forbidden Stacks", Vex tries to seize Blazithion's library and its sealed books.
 - Numbers for Shush!, Book Barrage, Late Fee, Portal Step, Hex Bolt, Imp Claw, Fire Ring and Reanimate, for the numbers pass.
