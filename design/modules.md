@@ -204,7 +204,5 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 - How tiers and upgrades relate: is upgrading a module the same as buying its next tier?
 - Tractor Beam: does it pull toward GleebPeep or toward a crop circle?
 - The Owner column misses heroes using faction modules (Immovable, Regeneration). Keep it for factions only?
-- More numbers: Kick's Strength scaling, Telekinetic Grab range, Evac Balloon and Stasis Cuffs cooldowns, Megaphone radius and stun length, Regeneration rate.
-- Numbers for Dash (Stamina cost), Shockwave Stomp, Six-Shooter, Smoke Bomb, Repulsor Blast, Bandolier, Breaching Charge (damage), Barrier Shield (duration, Mana), Stealth Suit (Detectability), Taunt (cooldown), Water Cannon (Ammo, knockback) and Gel Coat (duration).
-- Numbers for Ink Beast, Glyph Trap, Spectrum Bolt, Card Throw and Mirage.
 - Card Throw's list of random card effects.
+- Numbers pass (`data/modules.csv`): base actions and hero actives done; next hero passives and gear, then faction modules.
