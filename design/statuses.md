@@ -36,15 +36,15 @@ Buffs, debuffs, hidden markers and states. Module durations and amounts live wit
 | Silenced | Disable | All active power slots stop working | Refresh | Shush! |
 | Numbing Toxin | Disable | A random passive power slot stops working | Independent: each hit disables another slot | Numbing Toxin |
 | Pied | Screen effect (player only) | Smears part of the screen, fading out over its duration | Intensity (each pie adds a smear) | Cream Pie |
-| Deathly Rage | Buff | Triples Strength and Toughness | Doesn't stack | Deathly Rage |
+| Deathly Rage | Buff | Greatly boosts Strength and Toughness | Doesn't stack | Deathly Rage |
 | Spotlight | Buff | All stats boosted while inside the spotlight | Lasts while inside | Spotlight |
 | Gold-Plated Chrome | Buff | Toughness and Damage Reduction per Valuable held | Intensity (per Valuable) | Gold-Plated Chrome |
 | Notarized | Buff | +25% Damage Reduction while near a Notary | Lasts while in range | Notarized |
 | Gel Coated | Buff | Can't be Burned | Refresh | Gel Coat |
-| Reactive Plating | Buff | +5 Armor per stack, up to +50. Ends after 5 s without being hit | Intensity (per hit) | Reactive Plating |
+| Reactive Plating | Buff | Armor per stack, up to a cap. Ends after a few seconds without being hit | Intensity (per hit) | Reactive Plating |
 | Overdrive | Buff | +50% damage and move speed | Lasts while below 50% HP | Overdrive |
 | Mutate | Buff | +50% to all stats, can't be knocked back | Lasts while below 50% HP | Mutate |
-| Soul Shard | Buff | +5 max Charge per stack | Intensity (per defeat) | Crystal Hunger |
+| Soul Shard | Buff | More max Charge per stack | Intensity (per defeat) | Crystal Hunger |
 | Defiance Roll | Hidden marker | Lowers the Defiance proc chance (`stats.md`) | Intensity (per proc) | Defiance |
 | Charmed | Hidden marker | Charming has already rolled on this target | Permanent | Charming |
 | Incapacitated | State | At 0 HP. Can't act. Enemies can be Dragged and captured; civilians are only downed, and can be Dragged out to safety | | 0 HP |

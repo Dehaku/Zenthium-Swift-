@@ -54,21 +54,21 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Scorch Gaze | Active | Recruits (starter) | `Ranged`, `Ignites` | A beam from your eyes that deals Energy damage and sets things on fire |
 | Shadow Step | Active | Recruits (starter) | | Teleports you behind the nearest enemy within Long range. No line of sight needed |
 | Hypnotic Gaze | Active | Recruits (starter) | `Debuff`, `Resist:Will`, `NotRandom` | One enemy is Hypnotized: it fights on your side for a while |
-| Anchor | Passive | Recruits (starter) | | While you stand still, you can't be knocked back and take 50% less damage |
+| Anchor | Passive | Recruits (starter) | | While you stand still, you can't be knocked back and take less damage |
 | Last Laugh | Passive | Recruits (starter) | | When Defiance triggers, you explode, damaging and knocking back everything around you |
 | Size Shift | Active | Hero | `KnockbackResistant` | Grow giant for a while: much stronger and immune to knockback, but slower |
 | Sonic Scream | Active | Hero | | A cone that knocks enemies back and instantly shatters Glass and Wood walls and doors |
-| Adaptive Skin | Passive | Hero | | After taking Physical, Magic or Energy damage, you take 30% less of that type for 5 s |
-| Mirror Skin | Passive | Hero | | 20% of the ranged damage you take is reflected back at the shooter |
+| Adaptive Skin | Passive | Hero | | After taking Physical, Magic or Energy damage, you take less of that type for a while |
+| Mirror Skin | Passive | Hero | | Part of the ranged damage you take is reflected back at the shooter |
 | Super Lucky | Passive | Hero | | Large Luck boost (`luck.md`). Inspired by Domino |
-| Deathly Rage | Passive | Any | `Buff` | On Defiance proc, grants the Deathly Rage buff: triples Strength and Toughness; the extra HP is added to current HP too. Does not stack. Lasts until the mission ends |
-| Soulful | Passive | Hero | `CannotBeDisabled` | +50% spell damage, 150 Mana, +5 Mana/s |
-| High-Capacity Battery | Passive | Hero | `CannotBeDisabled` | 200 Charge, +5 Charge/s |
-| Quick-Charge Battery | Passive | Hero | `CannotBeDisabled` | 50 Charge, +20 Charge/s |
-| Reaper Battery | Passive | Hero | `CannotBeDisabled`, `NoRegen:Charge`, `NotRandom` | 100 Charge, no regen. Defeating an enemy refills it to full |
-| Sprinter | Passive | Hero | | 100 Stamina, +10 Stamina/s regen. Doubles Sprint's bonus to +100% move speed. Sprinting never costs Stamina; Stamina is spent by other modules |
-| Weather the Storm | Passive | Hero | | When hit, spends 5 Stamina (if you have it) for no knockback and 25% less damage from that hit |
-| Charming | Passive | Hero | `NotRandom` | On approach: 50% chance to turn a Stubborn citizen Scared, 5% chance to convert a goon to your side. A converted goon hands you its Valuables. Each target rolls once; a hidden Charmed debuff marks it |
+| Deathly Rage | Passive | Any | `Buff` | On Defiance proc, grants the Deathly Rage buff: greatly boosts Strength and Toughness; the extra HP is added to current HP too. Does not stack. Lasts until the mission ends |
+| Soulful | Passive | Hero | `CannotBeDisabled` | Boosts spell damage, and grants a large Mana pool with good regen |
+| High-Capacity Battery | Passive | Hero | `CannotBeDisabled` | A large Charge pool with slow regen |
+| Quick-Charge Battery | Passive | Hero | `CannotBeDisabled` | A small Charge pool with fast regen |
+| Reaper Battery | Passive | Hero | `CannotBeDisabled`, `NoRegen:Charge`, `NotRandom` | A medium Charge pool with no regen. Defeating an enemy refills it to full |
+| Sprinter | Passive | Hero | | A Stamina pool with regen, and a bigger Sprint bonus. Sprinting never costs Stamina; Stamina is spent by other modules |
+| Weather the Storm | Passive | Hero | | When hit, spends a little Stamina (if you have it) for no knockback and less damage from that hit |
+| Charming | Passive | Hero | `NotRandom` | On approach: a chance to turn a Stubborn citizen Scared, and a small chance to convert a goon to your side. A converted goon hands you its Valuables. Each target rolls once; a hidden Charmed debuff marks it |
 | Ink Beast | Active | Rune | `Summon` | Summons an ink beast that fights alongside him |
 | Glyph Trap | Active | Rune | `Debuff`, `Resist:Will` | Places a glyph. Enemies who step on it are rooted in place |
 | Spectrum Bolt | Active | Prism | `Ranged`, `Debuff`, `Resist:Toughness`, `Resist:Will` | Magic bolt that costs Charge. Each cast cycles color: Red implodes, pulling nearby enemies toward the impact and then bursting outward to knock them back; Blue burns (DoT, resisted by Toughness), Purple may stun (resisted by Will) |
@@ -81,39 +81,39 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Shockwave Stomp | Active | Hero | | Knocks back everything around you, sending enemies into walls |
 | Ooze Through | Passive | Hero | | Slip through locked doors as a puddle instead of breaking them (`world.md`) |
 | Evac Balloon | Gear (active) | Hero | `NotRandom` | Attach to a citizen or Incapacitated enemy and it floats them away. Counts as rescued or captured |
-| Six-Shooter | Gear (active) | Hero | `Ranged` | Physical damage. Uses 6 Ammo, then reloads |
-| Padded Suit | Gear (passive) | Hero | | +30 Armor. A lot early on, not much later |
-| Force Spell Tome | Gear (passive) | Hero | | +15 Magic damage on your magic hits |
-| Fire Spell Tome | Gear (passive) | Hero | `Debuff`, `Resist:Toughness` | +10 Magic damage on your magic hits, plus Burn: 12 damage over 4 s (`statuses.md`) |
-| Electric Spell Tome | Gear (passive) | Hero | | +10 Magic damage on your magic hits, plus a chain that jumps to up to 5 more enemies within 5 m for 5 damage each |
-| First Aid Spray | Gear (active) | Hero | | Heals you for 25% of max HP; 20 s cooldown. Used on an Incapacitated citizen, it costs nothing, has no cooldown, and gets them up as Scared |
-| Water Cannon | Gear (active) | Hero | `Ranged`, `Extinguish` | A 12 m water jet with intense knockback. Uses Ammo |
+| Six-Shooter | Gear (active) | Hero | `Ranged` | Physical damage. A few shots, then reloads |
+| Padded Suit | Gear (passive) | Hero | | Flat Armor. A lot early on, not much later |
+| Force Spell Tome | Gear (passive) | Hero | | Extra Magic damage on your magic hits |
+| Fire Spell Tome | Gear (passive) | Hero | `Debuff`, `Resist:Toughness` | Extra Magic damage on your magic hits, plus Burn (`statuses.md`) |
+| Electric Spell Tome | Gear (passive) | Hero | | Extra Magic damage on your magic hits, plus a chain that jumps to several nearby enemies |
+| First Aid Spray | Gear (active) | Hero | | Heals you for part of your max HP. Used on an Incapacitated citizen, it costs nothing, has no cooldown, and gets them up as Scared |
+| Water Cannon | Gear (active) | Hero | `Ranged`, `Extinguish` | A Medium-range water jet with intense knockback. Uses Ammo |
 | Gel Coat | Active | Hero | `Extinguish` | Coat yourself, an ally, a citizen or a building in goo. Removes Burn and blocks new Burns for a few seconds; a coated building's fire goes out |
 | Fireproof Body | Passive | Hero | `Extinguish` | You can't be Burned. Anything you're dragging is put out and can't be Burned |
 | Smoke Bomb | Gear (active) | Hero | `Debuff`, `Resist:Toughness` | A smoke cloud that blocks line of sight and resets nearby enemies' awareness bars. Enemies inside are stunned for as long as they stay in it |
 | Repulsor Blast | Gear (active) | Hero | `Ranged` | Energy beam that costs Charge, scales with Intelligence, and knocks targets back |
-| Grappling Hook | Gear (active) | Hero | | 30 m range. Zip to a wall, or yank an enemy to you |
+| Grappling Hook | Gear (active) | Hero | | Long range. Zip to a wall, or yank an enemy to you |
 | Bandolier | Gear (passive) | Hero | `NotRandom` | More Ammo capacity and faster reloads for every gun |
-| Breaching Charge | Gear (active) | Hero | | Place a charge. A red circle shows its 15 m blast radius and a small red number counts down from 5. Then it explodes for high damage in the area and blows open locked doors and walls |
+| Breaching Charge | Gear (active) | Hero | | Place a charge. A red circle shows its blast radius and a small red number counts down. Then it explodes for high damage in the area and blows open locked doors and walls |
 | Stasis Cuffs | Gear (active) | Hero | `NotRandom` | Captures an Incapacitated enemy on the spot, no exit needed |
-| Megaphone | Gear (active) | Hero | `Debuff`, `Resist:Toughness`, `NotRandom` | Turns nearby Stubborn citizens Scared, sends Scared citizens running for the nearest exit, and stuns enemies within 10 m |
+| Megaphone | Gear (active) | Hero | `Debuff`, `Resist:Toughness`, `NotRandom` | Turns nearby Stubborn citizens Scared, sends Scared citizens running for the nearest exit, and stuns nearby enemies |
 | Barrier Shield | Active | Hero | | A crescent shield in front of you that blocks projectiles for a Short time. Costs Mana. Enemies that touch it are knocked back with Kick's force |
-| Stealth Suit | Gear (passive) | Hero | | Lowers Detectability, plus a flat +10% dodge chance |
+| Stealth Suit | Gear (passive) | Hero | | Lowers Detectability, plus a flat dodge chance bonus |
 | Energy Shield | Active | Hero | | Like Barrier Shield, but costs Charge instead of Mana |
 | Taunt | Active | Hero | `Debuff`, `Resist:Will` | "COME AT ME!" Every enemy that can see you must target you for a while, and is Marked: it deals less damage and takes more. While taunting, you take less damage, and every enemy that hits you is knocked back with Kick's force. Long cooldown |
-| Express Delivery | Passive | Hero | `NotRandom` | +1 Drag capacity for citizens |
-| Mind over Matter | Passive | Hero | `NotRandom` | Anything you throw or kick (props, Valuables) deals +50% damage. Thrown props take half damage |
-| Quick Draw | Passive | Hero | `NotRandom` | The first shot after reloading deals double damage |
-| Ricochet | Passive | Hero | `NotRandom` | Your shots bounce to one more enemy within 5 m for half damage |
-| Overclocked | Passive | Hero | `NotRandom` | +50% damage while Charge is above 80% |
-| Reactive Plating | Passive | Hero | | +5 Armor each time you're hit, up to +50. Resets after 5 s without being hit |
+| Express Delivery | Passive | Hero | `NotRandom` | Extra Drag capacity for citizens |
+| Mind over Matter | Passive | Hero | `NotRandom` | Anything you throw or kick (props, Valuables) deals more damage. Thrown props take less damage |
+| Quick Draw | Passive | Hero | `NotRandom` | The first shot after reloading deals bonus damage |
+| Ricochet | Passive | Hero | `NotRandom` | Your shots bounce to a nearby enemy for reduced damage |
+| Overclocked | Passive | Hero | `NotRandom` | Bonus damage while your Charge is nearly full |
+| Reactive Plating | Passive | Hero | | Gain Armor each time you're hit, up to a cap. Resets after a few seconds without being hit |
 | Sticky Body | Passive | Hero | `Debuff`, `Resist:Strength` | Enemies who hit you in melee get Gooed (`statuses.md`) |
-| Absorbent | Passive | Hero | | 25% chance a ranged hit is absorbed: you take the damage, then heal 110% of it |
+| Absorbent | Passive | Hero | | A chance that a ranged hit is absorbed: you take the damage, then heal more than it dealt |
 | Living Ink | Passive | Hero | `NotRandom` | Ink Beast summons a second beast |
-| Fresh Ink | Passive | Hero | | Each enemy you defeat heals you for 5% of your HP |
+| Fresh Ink | Passive | Hero | | Each enemy you defeat heals you a little |
 | Stacked Deck | Passive | Hero | `NotRandom` | Card Throw's random effects are twice as likely to be good ones |
-| Crystal Hunger | Passive | Hero | `NotRandom` | Zenthium creatures ignore you until you attack them. Each entity defeated within 10 m of you gives a stack of Soul Shard: +5 max Charge per stack, for the rest of the mission |
-| Glow Up | Passive | Hero | | Below 50% HP: +50% Magic damage, and Night Time doesn't halve your vision (`difficulty.md`) |
+| Crystal Hunger | Passive | Hero | `NotRandom` | Zenthium creatures ignore you until you attack them. Each entity defeated near you gives a stack of Soul Shard: more max Charge per stack, for the rest of the mission |
+| Glow Up | Passive | Hero | | At low HP: bonus Magic damage, and Night Time doesn't halve your vision (`difficulty.md`) |
 | Second Wind | Passive | Hero | | When Defiance triggers, fully heals you |
 | Hex | Active | Hexer, Cyberdoc | `Debuff`, `Resist:Will` | Spell. Disables a random active power slot for 5 s |
 | Numbing Toxin | Passive | Cyberdoc | `Debuff`, `Resist:Toughness` | On hit: poison. Disables a random passive power slot for 5 s |
@@ -205,4 +205,4 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 - Tractor Beam: does it pull toward GleebPeep or toward a crop circle?
 - The Owner column misses heroes using faction modules (Immovable, Regeneration). Keep it for factions only?
 - Card Throw's list of random card effects.
-- Numbers pass (`data/modules.csv`): base actions and hero actives done; next hero passives and gear, then faction modules.
+- Numbers pass (`data/modules.csv`): base actions, hero actives, hero passives and gear done; next faction modules.
