@@ -23,7 +23,7 @@
 - Every module takes 1 slot.
 - Gear can have actives, passives or both. Gear actives have their own buttons (`controls.md`).
 - Magic modules and items generally use Intelligence and Will; each module decides how.
-- **Module tags (examples):** `Melee`, `Ranged`, `Time`, `Buff`, `Debuff`, `Summon`, `Resist:<Stat>`, `KnockbackResistant`, `CannotBeDisabled`, `Telegraph`, `Ignites`, `Extinguish` (`world.md`), `NoRegen:<Resource>` (`combat.md`). Shared tags let modules change secondary stats without hard-coded pairings.
+- **Module tags (examples):** `Melee`, `Ranged`, `Time`, `Buff`, `Debuff`, `Summon`, `Resist:<Stat>`, `KnockbackResistant`, `CannotBeDisabled`, `Telegraph`, `Ignites`, `Extinguish` (`world.md`), `NoRegen:<Resource>` (`combat.md`), `NotRandom` (never drawn at random: modules that need another module, or only make sense for heroes, `factions.md`). Shared tags let modules change secondary stats without hard-coded pairings.
 - **Entity tags** go on entities, not modules: `Hackable`, `Coward` (`enemies.md`), `LootDestination:<place>` (`world.md`). See `factions.md`.
 - **Triggers (examples):** always-on, on hit, on damage taken, on Defiance proc, on timer, on activation, on approach.
 - **Presentation:** every module needs an icon, a visual flash, a sound cue and optional comic callout text ("POW!").
@@ -148,6 +148,8 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Chrome Pipe | Active | Kneecapper | `Melee` | A melee swing with knockback |
 | Machine Gun | Active | Mafioso | `Ranged` | Ranged attack |
 | Blade Arms | Active | Mafioso | `Melee` | Melee attack |
+| Chill Punch | Active | Chad | `Melee` | A lazy, heavy melee hit with big knockback |
+| Vibe Check | Active | Chad | | An area shove that knocks back everyone around him |
 | Super Stats | Passive | Chad | | +200% to all SWIFT stats |
 | Super Speed | Passive | Chad | | +200% base move speed |
 | Chad Adjacent | Passive | Infinity Anarchous Champions | | +50% to all SWIFT stats |
@@ -179,6 +181,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Reanimate | Active | Archivist | | Brings one Incapacitated Coven entity back to its feet. Once per target |
 
 ## Open
+- Tag modules `NotRandom`: at least Living Ink, Stacked Deck, Quick Draw, Express Delivery, Evac Balloon, Stasis Cuffs, Megaphone, Charming and Shamble.
 - How tiers and upgrades relate: is upgrading a module the same as buying its next tier?
 - Tractor Beam: does it pull toward GleebPeep or toward a crop circle?
 - The Owner column misses heroes using faction modules (Immovable, Regeneration). Keep it for factions only?
