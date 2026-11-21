@@ -105,32 +105,38 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Crystal Hunger | Passive | Hero | | Zenthium creatures ignore you until you attack them. Each entity defeated within 10 m of you gives a stack of Soul Shard: +5 max Charge per stack, for the rest of the mission |
 | Glow Up | Passive | Hero | | Below 50% HP: +50% Magic damage, and Night Time doesn't halve your vision (`difficulty.md`) |
 | Second Wind | Passive | Hero | | When Defiance triggers, fully heals you |
-| Hex | Active | Hexer | `Debuff`, `Resist:Will` | Spell. Disables a random active power slot for 5 s |
-| Numbing Toxin | Passive | Unassigned | `Debuff`, `Resist:Toughness` | On hit: poison. Disables a random passive power slot for 5 s |
+| Hex | Active | Hexer, Cyberdoc | `Debuff`, `Resist:Will` | Spell. Disables a random active power slot for 5 s |
+| Numbing Toxin | Passive | Cyberdoc | `Debuff`, `Resist:Toughness` | On hit: poison. Disables a random passive power slot for 5 s |
 | Meat Slap | Active | Dr. Edd | `Ranged` | Ranged attack |
 | Regeneration | Passive | Dr. Edd | | HP regen |
 | Engulf | Active | Dr. Edd | `Telegraph` | Grabs and holds the target |
 | Bone Spike | Active | Stalker | `Ranged` | Ranged attack |
 | Half-Invisible | Passive | Stalker | | 50% transparent. Uses Detectability rules |
 | Durability | Passive | Breaker | | 50% Damage Reduction |
-| Broken Limb | Passive | Breaker | `Debuff`, `Resist:Toughness` | On hit: applies Broken Limb, a slow |
+| Broken Limb | Passive | Breaker, Kneecapper | `Debuff`, `Resist:Toughness` | On hit: applies Broken Limb, a slow |
 | Infectious Bite | Passive | Zombie | `Debuff`, `Resist:Toughness` | On hit: applies Infected, a DoT |
 | Turn on Death | Passive | Zombie | | Any entity reduced to 0 HP while Infected rises as a zombie on the spot, civilians included (`statuses.md`) |
-| Treads | Passive | Tank | | Mobility |
+| Treads | Passive | Tank | | -10% move speed, +50% HP |
 | Cannons | Active | Tank | `Ranged`, `Telegraph` | Ranged attack |
-| Turrets | Active | Hacker | `Summon` | Summons turret entities |
+| Turrets | Active | Hacker | `Summon` | Summons Mini Turrets, which are `Hackable` |
 | Repossess | Active | GleebPeep, Auditor | `Debuff`, `Resist:Intelligence` | "REPOSSESSED!" Takes a random gear slot for 5 s, applying Slot Disable (`statuses.md`) |
 | Final Notice | Active | GleebPeep | `Debuff`, `Resist:Will` | Applies Marked for 6 s: the target deals 30% less damage and takes 25% more damage (`statuses.md`) |
 | Tablet Slap | Active | GleebPeep | `Melee` | A melee attack with knockback |
 | Call for Backup | Active | GleebPeep | `Summon` | 30 s cooldown. Summons 3-5 goons and 2 Champions, using the faction's arrival tag (`enemies.md`) |
 | Audit | Active | Auditor | | Reveals the player to every enemy within 30 m, making them aware at once |
 | Notarized | Passive | Notary | `Buff` | Allies within 10 m get +25% Damage Reduction |
-| Tow Beam | Active | Tow Saucer | | Grabs a prop, citizen or Valuable from range and flies it to the nearest crop circle |
+| Tow Beam | Active | Tow Saucer, Drone Courier | | Grabs a prop, citizen or Valuable from range and flies it to the entity's loot destination (`world.md`) |
 | Reprogram | Active | Hacker | `Resist:Intelligence` | Takes over a target with the `Hackable` tag, such as a Heavy Turret, which then fights for the Hacker's side. Any entity with Reprogram uses it first on a Hackable target in view |
 | Heavy Gun | Active | Heavy Turret | `Ranged` | Ranged attack |
 | Slot Disable | Passive | Hacker | `Debuff`, `Resist:Intelligence` | On hit: disables a random gear slot for 5 s. Hits from the Hacker's turrets don't count |
 | Chrome Body | Passive | Kingping | | 25% Damage Reduction |
 | Gold-Plated Chrome | Passive | Kingping | `Buff` | +5% Toughness and +1% Damage Reduction for each Valuable he holds. Each bonus is one source that adds up per Valuable (40 Valuables = +200% Toughness and 40% Damage Reduction) and multiplies with his other sources. The extra HP from Toughness is added to current HP too |
+| Gatling Arm | Active | Kingping | `Ranged`, `Telegraph` | A ranged spray |
+| Hush Money | Active | Kingping | | Bribes nearby Scared citizens into becoming Stubborn (`missions.md`) |
+| Chrome Fist | Active | Kingping | `Melee` | A melee hit with heavy knockback |
+| Overdrive | Passive | Kingping | `Buff` | Below 50% HP: +50% damage and move speed |
+| Ram | Active | Tank | `Melee`, `Telegraph` | Charges at a target, slamming it into walls |
+| Chrome Pipe | Active | Kneecapper | `Melee` | A melee swing with knockback |
 | Machine Gun | Active | Mafioso | `Ranged` | Ranged attack |
 | Blade Arms | Active | Mafioso | `Melee` | Melee attack |
 | Super Stats | Passive | Chad | | +200% to all SWIFT stats |
@@ -138,7 +144,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Chad Adjacent | Passive | Infinity Anarchous Champions | | +50% to all SWIFT stats |
 | Tractor Beam | Active | GleebPeep | | Beam that pulls in every entity and prop in its path |
 | Tractor Pull | Active | Tractor Drone | | Pulls a hero or citizen toward the nearest Repo Agency crop circle (`Factions/GalacticRepoAgency.md`) |
-| Immovable | Passive | Shield Bearer, Strongman | `KnockbackResistant` | Can't be knocked back |
+| Immovable | Passive | Shield Bearer, Strongman, Tank | `KnockbackResistant` | Can't be knocked back |
 | Energy Blaster | Active | Shield Bearer, Grey | `Ranged` | Ranged attack, Energy damage |
 | Spotlight | Active | The Ringmaster | `Buff` | A spotlight with a 20 m radius, centered on him. Circus entities inside get +50% to all stats |
 | Cannonball Launch | Active | Human Cannonball | `Melee`, `Telegraph` | Launches at a target for huge knockback |

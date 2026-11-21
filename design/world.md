@@ -75,7 +75,7 @@ Generic money bags. They do nothing on their own and don't affect mission reward
 - Civilians drop theirs when Incapacitated, or while fleeing an enemy that came within their fear range (`missions.md`). Incapacitated citizens start with theirs already dropped beside them.
 
 ### Goon behavior
-- A goon carrying Valuables that sees no more Valuables takes them to its Leader and hands them over. Entities with a `LootDestination:<place>` tag take them there instead, such as the Repo Agency's crop circles (`Factions/GalacticRepoAgency.md`).
+- A goon carrying Valuables that sees no more Valuables takes them to its Leader and hands them over. Entities with a `LootDestination:<place>` tag take them there instead: `CropCircle` (the Repo Agency's, `Factions/GalacticRepoAgency.md`) or `MapEdge`. An entity's loot destination is its tag's place; otherwise its Leader; otherwise the map edge.
 - With no Leader on the mission, goons keep their normal behavior while carrying Valuables.
 
 ### Valuables secondary goal

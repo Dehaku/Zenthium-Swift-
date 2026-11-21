@@ -32,7 +32,9 @@ Buffs, debuffs, crowd control and resists are in `statuses.md`.
 ## Resources
 - **Stamina**, **Mana**, **Charge** and **Ammo**.
 - Shown as bars under the player.
-- Capacity and recharge rate come from modules, such as Soulful, the Battery modules and Sprinter (`modules.md`).
+- Every module that spends a resource also grants just enough of it to be used once, plus +1 regen per second. Grants from several modules add to the same pool.
+- Passive resource modules, such as Soulful, the Battery modules and Sprinter, add extra reserves and regen on top (`modules.md`).
+- So any entity, hero or enemy, can always use the modules it has, and modules don't need balancing against each other.
 - Modules can use a cooldown, a resource, or both.
 
 ## Open
