@@ -18,7 +18,7 @@ Sonic Scream,Active,Will,Normal,15,,,Strong,,Medium,Heavy,Short,,,Cone. Shatters
 Adaptive Skin,Passive,,,,,,,Medium,,,,damage_reduction=0.3,,
 Mirror Skin,Passive,,,,,,,,,,,reflect=0.2,,Ranged damage only
 Super Lucky,Passive,,,,,,,,,,,luck_multiplier=10,,Aims for ~10x better outcomes (luck.md)
-Deathly Rage,Passive,,,,,,,,,,,strength_x=3; toughness_x=3,,
+Deathly Rage,Passive,,,,,,,,,,,strength_x=3; toughness_x=3; defiance_chance_bonus=1.0,,
 Soulful,Passive,,,,,,,,,,,spell_damage=0.5; mana=150; mana_regen=5,,
 High-Capacity Battery,Passive,,,,,,,,,,,charge=200; charge_regen=5,,
 Quick-Charge Battery,Passive,,,,,,,,,,,charge=50; charge_regen=20,,
@@ -26,7 +26,8 @@ Reaper Battery,Passive,,,,,,,,,,,charge=100; charge_regen=0,,
 Sprinter,Passive,,,,,,,,,,,stamina=100; stamina_regen=10; sprint_bonus=1.0,,
 Weather the Storm,Passive,,,,Stamina,5,,,,,,damage_reduction=0.25,,Per hit
 Charming,Passive,,,,,,,,,,Short,stubborn_to_scared=0.5; goon_convert=0.05,,Approach range
-Ink Beast,Active,Will,,30,,,Strong,,,,,summon_lifetime_s=20,,The beast is a goon-tier summon
+Ink Beast,Active,Will,,30,,,Strong,,,,,summon_lifetime_s=20; summon_attack=Ink Lash,,Goon-tier summon
+Ink Lash,Active,Will,Light,1.5,,,None,,,,Melee,,,Uses the summoner's Will
 Glyph Trap,Active,Will,,15,,,Strong,Short,Small,,Medium,,,Root lasts the duration
 Spectrum Bolt,Active,Intelligence,Heavy,,Charge,10,Some,,Small,,Medium,burn_damage=12; burn_s=4; stun_chance=0.25; stun_s=1,,
 Card Throw,Active,Finesse,Light,2,,,None,,,,Medium,,,Homing. Random effects listed later
@@ -40,15 +41,15 @@ Ooze Through,Passive,,,,,,,,,,,,,
 Evac Balloon,Gear (active),,,30,,,Strong,,,,Melee,,,
 Six-Shooter,Gear (active),Finesse,Light,1,,,None,,,,Medium,ammo=6; fire_interval_s=0.5; reload_s=2,,"Cooldown is the effective time per shot, including reloads"
 Padded Suit,Gear (passive),,,,,,,,,,,armor=30,,
-Force Spell Tome,Gear (passive),,,,,,,,,,,magic_hit_damage=15,,
-Fire Spell Tome,Gear (passive),,,,,,,,,,,magic_hit_damage=10; burn_damage=12; burn_s=4,,
-Electric Spell Tome,Gear (passive),,,,,,,,,,,magic_hit_damage=10; chain_targets=5; chain_range_m=5; chain_damage=5,,
+Force Spell Tome,Gear (passive),,,,,,,,,,,magic_hit_damage=15,,Also applies to your summons' hits
+Fire Spell Tome,Gear (passive),,,,,,,,,,,magic_hit_damage=10; burn_damage=12; burn_s=4,,Also applies to your summons' hits
+Electric Spell Tome,Gear (passive),,,,,,,,,,,magic_hit_damage=10; chain_targets=5; chain_range_m=5; chain_damage=5,,Also applies to your summons' hits
 First Aid Spray,Gear (active),,,20,,,Strong,,,,Melee,heal=0.25,,Free and no cooldown on Incapacitated citizens
 Water Cannon,Gear (active),Strength,Light,,Ammo,5,Strong,,,Huge,Medium,,,Extinguish
 Gel Coat,Active,,,15,,,Strong,Medium,,,Short,,,
 Fireproof Body,Passive,,,,,,,,,,,,,
 Smoke Bomb,Gear (active),,,30,,,Strong,Medium,Medium,,Short,,,Stun lasts while inside
-Repulsor Blast,Gear (active),Intelligence,Heavy,,Charge,15,Some,,,Normal,Medium,,,
+Repulsor Blast,Gear (active),Intelligence,Normal,,Charge,15,Some,,,Normal,Medium,,Checked,Kept under budget on purpose: Overclock was the strongest starter
 Grappling Hook,Gear (active),,,5,,,Strong,,,,Long,,,
 Bandolier,Gear (passive),,,,,,,,,,,ammo_bonus=0.5; reload_speed=0.3,,
 Breaching Charge,Gear (active),Intelligence,Massive,30,,,Some,,Huge,Heavy,Melee,fuse_s=5,,Blows open locked doors and walls

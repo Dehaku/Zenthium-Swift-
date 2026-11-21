@@ -9,7 +9,7 @@
 - The rest are unlocked with Zenny, or through milestones, achievements or story beats.
 - Sundown Sal only unlocks by finishing the Hostile Takeover arc (`StoryArcs/HostileTakeover.md`). She can't be bought.
 - Madame Tarot only unlocks by finishing the Relic Fever arc (`StoryArcs/RelicFever.md`). She can't be bought.
-- Stat shorthand: high = 20, low = 6, unlisted = 10 (the base, `stats.md`).
+- Exact stats are in `data/heroes.csv`; the roster describes them in words.
 
 ### Roster
 | Hero | Concept | Role | Stats | Quirk |

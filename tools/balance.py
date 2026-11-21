@@ -104,6 +104,95 @@ def anchors():
     return rows
 
 
+def parse_values(text):
+    out = {}
+    for part in (text or "").split(";"):
+        if "=" in part:
+            k, v = part.split("=", 1)
+            v = v.strip()
+            try:
+                v = float(v)
+            except ValueError:
+                pass
+            out[k.strip()] = v
+    return out
+
+
+def starting_kits():
+    """First module of each type for every preset, read from the Kits table in design/heroes.md."""
+    kits = {}
+    path = os.path.join(ROOT, "design", "heroes.md")
+    in_kits = False
+    for line in open(path):
+        if line.startswith("### Kits"):
+            in_kits = True
+            continue
+        if in_kits and line.startswith("## "):
+            break
+        if in_kits and line.startswith("| ") and not line.startswith("| Hero") and not line.startswith("|---"):
+            cells = [c.strip() for c in line.strip().strip("|").split("|")]
+            first = [c.split(",")[0].split("(")[0].strip() for c in cells[1:4]]
+            kits[cells[0]] = first
+    return kits
+
+
+def benchmark(goons=4):
+    mods = {m["module"]: m for m in read_csv("modules.csv")}
+    kits = starting_kits()
+    goon = C["goon_stat"]
+    goon_hp = hp(goon)
+    goon_hit = normal_damage(goon) * tier("damage", C["enemy_default_damage_tier"])
+    goon_interval = 1.5
+    results = []
+    for h in read_csv("heroes.csv"):
+        if h["starter"] != "yes":
+            continue
+        stat = {k: float(h[k]) for k in ("strength", "will", "intelligence", "finesse", "toughness")}
+        active, passive, gear = kits[h["hero"]]
+        notes = []
+        # The hero's best attack among Kick and their starting active and gear.
+        best = (0, "Kick")
+        for name in ("Kick", active, gear):
+            m = mods.get(name)
+            if not m or not m["damage_tier"]:
+                continue
+            per_hit = hit(normal_damage(stat[m["stat"].lower()]) * tier("damage", m["damage_tier"]), goon)
+            if m["cooldown_s"]:
+                interval = float(m["cooldown_s"])
+            else:
+                interval = 1.0
+                pool = float(m["cost"]) + parse_values(mods[passive]["values"]).get(m["resource"].lower(), 0)
+                notes.append(f"{name}: {int(pool // float(m['cost']))} shots per full {m['resource']}")
+            dps = per_hit / interval
+            if dps > best[0]:
+                best = (dps, name)
+        dps, attack = best
+        # Summons fight alongside the hero, and Spell Tomes add to their hits.
+        summon = parse_values(mods[active]["values"]).get("summon_attack") if active in mods else None
+        if summon:
+            sm = mods[summon]
+            bonus = parse_values(mods[gear]["values"]).get("magic_hit_damage", 0) if gear in mods else 0
+            s_hit = hit(normal_damage(stat[sm["stat"].lower()]) * tier("damage", sm["damage_tier"]) + bonus, goon)
+            dps += s_hit / float(sm["cooldown_s"])
+            attack += f" + {active}"
+        per_goon = goon_hp / dps
+        total = per_goon * goons
+        dodge = min(stat["finesse"] * C["dodge_per_finesse"], C["dodge_cap"])
+        taken_per_s = hit(goon_hit, stat["toughness"]) / goon_interval * (1 - dodge)
+        goon_seconds = per_goon * sum(range(1, goons + 1))
+        taken = taken_per_s * goon_seconds
+        max_hp = hp(stat["toughness"])
+        saved = parse_values(mods[passive]["values"]).get("defiance_chance_bonus", 0) >= 1 if passive in mods else False
+        if taken < max_hp:
+            outcome = "survives"
+        elif saved:
+            outcome = "survives thanks to a guaranteed Defiance"
+        else:
+            outcome = "goes down"
+        results.append((h["hero"], attack, total, taken, max_hp, outcome, notes))
+    return results
+
+
 def prices():
     income = {"basic": C["income_basic"], "gem": C["income_gem"], "metallic": C["income_metallic"]}
     out = []
@@ -135,6 +224,13 @@ def report():
         d10 = normal_damage(10) * mult if mult is not None else None
         d20 = normal_damage(20) * mult if mult is not None else None
         print(f"  {m['module']:24} {m['damage_tier'] or '-':8} {m.get('utility') or 'None':8} {fmt(cd):>8} {fmt(d10):>7} {fmt(d20):>7} {fmt(budget):>7} {fmt(ratio):>6}  {flag}")
+
+    print("\n== Benchmark: starting heroes, starting slots only, against 4 rank D goons at once ==")
+    print("  (No positioning, kiting or healing; real fights are gentler.)")
+    for name, attack, total, taken, max_hp, outcome, notes in benchmark():
+        print(f"  {name:16} {attack:30} clears in {total:5.1f} s, takes {taken:5.0f} of {max_hp:g} HP: {outcome}")
+        for n in notes:
+            print(f"  {'':16} {n}")
 
     print("\n== Prices ==")
     for purchase, missions, cur, price in prices():

@@ -81,7 +81,7 @@ Prices are set in how many missions' worth of rewards they cost, then converted 
 
 ## 8. Benchmarks
 Scenarios to sanity-check the numbers. If one feels wrong, fix the anchor or the formula, not one module.
-- Rush Hour at rank D, starting slots only, against a squad of 4 Greys.
+- The three starting heroes (Rush Hour, Major Overclock, Rune) at rank D, starting slots only, against 4 goons at once. Calculated by `report`.
 - A full preset kit at rank B against a Champion.
 - A Leader fight at rank S.
 - A Recruit just after Headhunted (rank S2), with starter modules only.

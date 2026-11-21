@@ -61,7 +61,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Adaptive Skin | Passive | Hero | | After taking Physical, Magic or Energy damage, you take less of that type for a while |
 | Mirror Skin | Passive | Hero | | Part of the ranged damage you take is reflected back at the shooter |
 | Super Lucky | Passive | Hero | | Large Luck boost (`luck.md`). Inspired by Domino |
-| Deathly Rage | Passive | Any | `Buff` | On Defiance proc, grants the Deathly Rage buff: greatly boosts Strength and Toughness; the extra HP is added to current HP too. Does not stack. Lasts until the mission ends |
+| Deathly Rage | Passive | Any | `Buff` | On Defiance proc, grants the Deathly Rage buff: greatly boosts Strength and Toughness; the extra HP is added to current HP too. Does not stack. Lasts until the mission ends. Also raises your Defiance chance enough to guarantee one proc |
 | Soulful | Passive | Hero | `CannotBeDisabled` | Boosts spell damage, and grants a large Mana pool with good regen |
 | High-Capacity Battery | Passive | Hero | `CannotBeDisabled` | A large Charge pool with slow regen |
 | Quick-Charge Battery | Passive | Hero | `CannotBeDisabled` | A small Charge pool with fast regen |
@@ -69,7 +69,8 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Sprinter | Passive | Hero | | A Stamina pool with regen, and a bigger Sprint bonus. Sprinting never costs Stamina; Stamina is spent by other modules |
 | Weather the Storm | Passive | Hero | | When hit, spends a little Stamina (if you have it) for no knockback and less damage from that hit |
 | Charming | Passive | Hero | `NotRandom` | On approach: a chance to turn a Stubborn citizen Scared, and a small chance to convert a goon to your side. A converted goon hands you its Valuables. Each target rolls once; a hidden Charmed debuff marks it |
-| Ink Beast | Active | Rune | `Summon` | Summons an ink beast that fights alongside him |
+| Ink Beast | Active | Rune | `Summon` | Summons an Ink Beast: a goon-tier summon that fights alongside him with Ink Lash |
+| Ink Lash | Active | Ink Beast | `Melee` | A melee lash. Scales with Rune's Will |
 | Glyph Trap | Active | Rune | `Debuff`, `Resist:Will` | Places a glyph. Enemies who step on it are rooted in place |
 | Spectrum Bolt | Active | Prism | `Ranged`, `Debuff`, `Resist:Toughness`, `Resist:Will` | Magic bolt that costs Charge. Each cast cycles color: Red implodes, pulling nearby enemies toward the impact and then bursting outward to knock them back; Blue burns (DoT, resisted by Toughness), Purple may stun (resisted by Will) |
 | Card Throw | Active | Madame Tarot | `Ranged` | Homing cards that deal Magic damage. Each card has a random effect |
@@ -83,9 +84,9 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Evac Balloon | Gear (active) | Hero | `NotRandom` | Attach to a citizen or Incapacitated enemy and it floats them away. Counts as rescued or captured |
 | Six-Shooter | Gear (active) | Hero | `Ranged` | Physical damage. A few shots, then reloads |
 | Padded Suit | Gear (passive) | Hero | | Flat Armor. A lot early on, not much later |
-| Force Spell Tome | Gear (passive) | Hero | | Extra Magic damage on your magic hits |
-| Fire Spell Tome | Gear (passive) | Hero | `Debuff`, `Resist:Toughness` | Extra Magic damage on your magic hits, plus Burn (`statuses.md`) |
-| Electric Spell Tome | Gear (passive) | Hero | | Extra Magic damage on your magic hits, plus a chain that jumps to several nearby enemies |
+| Force Spell Tome | Gear (passive) | Hero | | Extra Magic damage on your magic hits and your summons' hits |
+| Fire Spell Tome | Gear (passive) | Hero | `Debuff`, `Resist:Toughness` | Extra Magic damage on your magic hits and your summons' hits, plus Burn (`statuses.md`) |
+| Electric Spell Tome | Gear (passive) | Hero | | Extra Magic damage on your magic hits and your summons' hits, plus a chain that jumps to several nearby enemies |
 | First Aid Spray | Gear (active) | Hero | | Heals you for part of your max HP. Used on an Incapacitated citizen, it costs nothing, has no cooldown, and gets them up as Scared |
 | Water Cannon | Gear (active) | Hero | `Ranged`, `Extinguish` | A Medium-range water jet with intense knockback. Uses Ammo |
 | Gel Coat | Active | Hero | `Extinguish` | Coat yourself, an ally, a citizen or a building in goo. Removes Burn and blocks new Burns for a few seconds; a coated building's fire goes out |
