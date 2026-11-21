@@ -42,21 +42,21 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 
 | Module | Category | Owner | Tags | Mechanics |
 |---|---|---|---|---|
-| Kick | Base action | All heroes | `Melee` | 10 damage, 3 s cooldown. Strength scaling, scaling knockback |
-| Drag | Base action | All heroes, Grey, Strongman | | Grab a target and pull it behind you. Checks for citizens first, then Valuables (the player picks these up instantly; `world.md`), then Incapacitated (0 HP) enemies, then props (Strength limits in `world.md`). Carries 1 target, +1 per 100 Strength (150 Strength carries 2). You can fight while dragging and aren't slowed, except by Stubborn citizens (`missions.md`). Dragged targets can't be hurt |
-| Sprint | Base action | All heroes | | Toggle. +50% move speed, no stamina cost. Enemies and civilians don't sprint |
-| Uppercut | Active | Hero | `Melee` | Like Kick, with 5x knockback. Costs 50 Stamina |
-| Speed Punch | Active | Hero | `Melee` | Attacks 3x faster than Kick, full Kick damage per hit, no knockback. Meant to be stronger than Kick. Pairs well with time powers |
+| Kick | Base action | All heroes | `Melee` | Normal damage and knockback, scaling with Strength. The reference module (`balance.md`) |
+| Drag | Base action | All heroes, Grey, Strongman | | Grab a target and pull it behind you. Checks for citizens first, then Valuables (the player picks these up instantly; `world.md`), then Incapacitated (0 HP) enemies, then props (Strength limits in `world.md`). Carry capacity grows with Strength. You can fight while dragging and aren't slowed, except by Stubborn citizens (`missions.md`). Dragged targets can't be hurt |
+| Sprint | Base action | All heroes | | Toggle. Faster movement, no stamina cost. Enemies and civilians don't sprint |
+| Uppercut | Active | Hero | `Melee` | Like Kick, with Huge knockback. Costs Stamina |
+| Speed Punch | Active | Hero | `Melee` | Attacks much faster than Kick, with full Kick damage per hit and no knockback. Meant to be stronger than Kick. Pairs well with time powers |
 | Power Throw | Active | Hero | `NotRandom` | Uses Strength. Throw anything and anyone you're dragging |
 | Time Slow | Active | Hero | `Time` | See `time.md` |
 | Time Stop | Active | Recruits only (for now) | `Time` | See `time.md` |
-| Phase Shift | Active | Recruits (starter) | `NotRandom` | Intangible for 2 s: walk through walls, doors, props and entities |
+| Phase Shift | Active | Recruits (starter) | `NotRandom` | Briefly Intangible: walk through walls, doors, props and entities |
 | Scorch Gaze | Active | Recruits (starter) | `Ranged`, `Ignites` | A beam from your eyes that deals Energy damage and sets things on fire |
-| Shadow Step | Active | Recruits (starter) | | Teleports you behind the nearest enemy within 30 m. No line of sight needed |
-| Hypnotic Gaze | Active | Recruits (starter) | `Debuff`, `Resist:Will`, `NotRandom` | One enemy is Hypnotized: it fights on your side for 30 s. 30 s cooldown |
+| Shadow Step | Active | Recruits (starter) | | Teleports you behind the nearest enemy within Long range. No line of sight needed |
+| Hypnotic Gaze | Active | Recruits (starter) | `Debuff`, `Resist:Will`, `NotRandom` | One enemy is Hypnotized: it fights on your side for a while |
 | Anchor | Passive | Recruits (starter) | | While you stand still, you can't be knocked back and take 50% less damage |
 | Last Laugh | Passive | Recruits (starter) | | When Defiance triggers, you explode, damaging and knocking back everything around you |
-| Size Shift | Active | Hero | `KnockbackResistant` | Grow giant for 8 s: +100% Strength and immune to knockback, but slower |
+| Size Shift | Active | Hero | `KnockbackResistant` | Grow giant for a while: much stronger and immune to knockback, but slower |
 | Sonic Scream | Active | Hero | | A cone that knocks enemies back and instantly shatters Glass and Wood walls and doors |
 | Adaptive Skin | Passive | Hero | | After taking Physical, Magic or Energy damage, you take 30% less of that type for 5 s |
 | Mirror Skin | Passive | Hero | | 20% of the ranged damage you take is reflected back at the shooter |
@@ -76,7 +76,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Mirage | Active | Madame Tarot | | Creates decoys that draw enemy attention, and lowers her Detectability while they last |
 | Dash | Active | Hero, Acrobat | | A quick burst of movement in your facing direction. Costs Stamina. Invulnerable during the dash |
 | Telekinetic Throw | Active | Hero | `NotRandom` | Throw what you're dragging with telekinesis. Uses Will in place of Strength, both for damage and for the prop size you can throw (`world.md`) |
-| Goo Punch | Active | Hero | `Melee`, `Debuff`, `Resist:Strength` | A goo punch that splashes, applying Gooed (a slow) to enemies within 3 m |
+| Goo Punch | Active | Hero | `Melee`, `Debuff`, `Resist:Strength` | A goo punch that splashes, applying Gooed (a slow) to enemies in a Small radius |
 | Telekinetic Grab | Active | Hero | `NotRandom` | Instant Drag at range: grabs a citizen, Valuable, prop or Incapacitated enemy from a distance |
 | Shockwave Stomp | Active | Hero | | Knocks back everything around you, sending enemies into walls |
 | Ooze Through | Passive | Hero | | Slip through locked doors as a puddle instead of breaking them (`world.md`) |
@@ -97,10 +97,10 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Breaching Charge | Gear (active) | Hero | | Place a charge. A red circle shows its 15 m blast radius and a small red number counts down from 5. Then it explodes for high damage in the area and blows open locked doors and walls |
 | Stasis Cuffs | Gear (active) | Hero | `NotRandom` | Captures an Incapacitated enemy on the spot, no exit needed |
 | Megaphone | Gear (active) | Hero | `Debuff`, `Resist:Toughness`, `NotRandom` | Turns nearby Stubborn citizens Scared, sends Scared citizens running for the nearest exit, and stuns enemies within 10 m |
-| Barrier Shield | Active | Hero | | A 180-degree crescent shield in front of you that blocks projectiles for a few seconds. Costs Mana. Enemies that touch it are knocked back with Kick's force |
+| Barrier Shield | Active | Hero | | A crescent shield in front of you that blocks projectiles for a Short time. Costs Mana. Enemies that touch it are knocked back with Kick's force |
 | Stealth Suit | Gear (passive) | Hero | | Lowers Detectability, plus a flat +10% dodge chance |
 | Energy Shield | Active | Hero | | Like Barrier Shield, but costs Charge instead of Mana |
-| Taunt | Active | Hero | `Debuff`, `Resist:Will` | "COME AT ME!" Every enemy that can see you must target you for 4 s and are Marked: they deal 30% less damage and take 25% more damage. While taunting, you take 50% less damage, and every enemy that hits you is knocked back with Kick's force. Long cooldown |
+| Taunt | Active | Hero | `Debuff`, `Resist:Will` | "COME AT ME!" Every enemy that can see you must target you for a while, and is Marked: it deals less damage and takes more. While taunting, you take less damage, and every enemy that hits you is knocked back with Kick's force. Long cooldown |
 | Express Delivery | Passive | Hero | `NotRandom` | +1 Drag capacity for citizens |
 | Mind over Matter | Passive | Hero | `NotRandom` | Anything you throw or kick (props, Valuables) deals +50% damage. Thrown props take half damage |
 | Quick Draw | Passive | Hero | `NotRandom` | The first shot after reloading deals double damage |

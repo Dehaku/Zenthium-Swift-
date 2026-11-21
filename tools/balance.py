@@ -83,6 +83,8 @@ def module_budget(row):
     budget = cd / C["kick_cooldown"] * (tier("utility", row.get("utility") or "None") or 1)
     ratio = mult / budget
     flag = "OVER" if ratio > FLAG_HIGH else "UNDER" if ratio < FLAG_LOW else ""
+    if flag and row.get("budget_ok") == "Checked":
+        flag = "ok (checked)"
     return mult, cd, budget, ratio, flag
 
 
@@ -166,7 +168,7 @@ def xlsx(path):
 
     ms = wb.create_sheet("Modules")
     head = ["module", "category", "stat", "damage_tier", "cooldown_s", "resource", "cost", "utility",
-            "cooldown used", "damage x", "damage @10", "damage @20", "budget x", "ratio"]
+            "cooldown used", "damage x", "damage @10", "damage @20", "budget x", "ratio", "budget_ok"]
     ms.append(head)
     for cell in ms[1]:
         cell.font = bold
@@ -181,6 +183,7 @@ def xlsx(path):
         ms[f"L{i}"] = f'=IF(J{i}="","",({const("normal_damage_base")}+{const("normal_damage_per_stat")}*20)*J{i})'
         ms[f"M{i}"] = f'=IF(I{i}="","",I{i}/{const("kick_cooldown")}*VLOOKUP("utility."&H{i},Constants!$A:$B,2,FALSE))'
         ms[f"N{i}"] = f'=IF(OR(J{i}="",M{i}=""),"",J{i}/M{i})'
+        ms[f"O{i}"] = m.get("budget_ok") or ""
     last = len(mods) + 1
     tiers = ",".join(n.split(".", 1)[1] for n in C if n.startswith("damage."))
     dv = DataValidation(type="list", formula1=f'"{tiers}"', allow_blank=True)
@@ -191,8 +194,8 @@ def xlsx(path):
     uv.add(f"H2:H{last}")
     red = PatternFill(start_color="FFC7CE", end_color="FFC7CE", fill_type="solid")
     ms.conditional_formatting.add(
-        f"A2:N{last}",
-        FormulaRule(formula=[f'AND($N2<>"",OR($N2>{FLAG_HIGH},$N2<{FLAG_LOW}))'], fill=red))
+        f"A2:O{last}",
+        FormulaRule(formula=[f'AND($N2<>"",$O2<>"Checked",OR($N2>{FLAG_HIGH},$N2<{FLAG_LOW}))'], fill=red))
 
     ps = wb.create_sheet("Prices")
     ps.append(["purchase", "missions", "currency", "price"])
