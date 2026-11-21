@@ -20,7 +20,7 @@
   - Red line between a hero and a named champion: "captured, rudely".
 
 ## Missions tab
-- A map with missions at random points. Up to 6 missions at once; while there are fewer, a new one appears every 5 s.
+- A map with missions at random points. Up to 6 normal missions at once; while there are fewer, a new one appears every 5 s. Story Arc stages and tip missions don't count toward the 6.
 - A normal mission's rank is picked at random, evenly, from the ranks the player has unlocked (`difficulty.md`).
 - Missions fade in and out in real time. Each stays on the map for 60 s, so one can disappear before you pick it. Mission timers pause while the player is in a mission.
 - Each mission shows its faction, difficulty, rewards, whether a Leader is present, and its Hazards (mission modifiers, `difficulty.md`).
