@@ -2,7 +2,7 @@ module,category,stat,damage_tier,cooldown_s,resource,cost,utility,duration_tier,
 Kick,Base action,Strength,Normal,3,,,None,,,Normal,Melee,,,The reference module
 Drag,Base action,,,,,,Strong,,,,Melee,capacity_base=1; capacity_per_strength=0.01,,
 Sprint,Base action,,,,,,Some,,,,,speed_bonus=0.5,,Toggle
-Uppercut,Active,Strength,Normal,,Stamina,15,Strong,,,Huge,Melee,knockback_x_kick=5,,
+Uppercut,Active,Strength,Normal,,Stamina,15,Strong,,,Huge,Melee,,,
 Speed Punch,Active,Strength,Normal,1,,,None,,,,Melee,,Checked,Intended: stronger than Kick
 Power Throw,Active,Strength,,5,,,Some,,,,Medium,,,Damage comes from what is thrown (props.csv)
 Time Slow,Active,,,30,,,Strong,,,,,duration_real_s=10; timescale=0.5,,
