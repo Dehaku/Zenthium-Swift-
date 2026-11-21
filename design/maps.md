@@ -52,3 +52,4 @@ The master list. Location Weight (`factions.md`), arc stages (`story.md`) and th
 - Implementation note: if the game is built in Unity, there's already a fog of war asset for this.
 
 ## Open
+- (none)
