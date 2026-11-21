@@ -80,7 +80,7 @@ def module_budget(row):
     cd = module_cooldown(row)
     if mult is None or cd is None:
         return mult, cd, None, None, ""
-    budget = cd / C["kick_cooldown"]
+    budget = cd / C["kick_cooldown"] * (tier("utility", row.get("utility") or "None") or 1)
     ratio = mult / budget
     flag = "OVER" if ratio > FLAG_HIGH else "UNDER" if ratio < FLAG_LOW else ""
     return mult, cd, budget, ratio, flag
@@ -125,14 +125,14 @@ def report():
         print(f"  {name}: {value}")
 
     mods = read_csv("modules.csv")
-    filled = [m for m in mods if m["damage_tier"] or m["cooldown_s"] or m["cost"]]
+    filled = [m for m in mods if m["damage_tier"] or m["cooldown_s"] or m["cost"] or m.get("values")]
     print(f"\n== Modules ({len(filled)} of {len(mods)} have numbers) ==")
-    print(f"  {'Module':24} {'Tier':8} {'Cooldown':>8} {'Dmg@10':>7} {'Dmg@20':>7} {'Budget':>7} {'Ratio':>6}  Flag")
+    print(f"  {'Module':24} {'Tier':8} {'Utility':8} {'Cooldown':>8} {'Dmg@10':>7} {'Dmg@20':>7} {'Budget':>7} {'Ratio':>6}  Flag")
     for m in filled:
         mult, cd, budget, ratio, flag = module_budget(m)
         d10 = normal_damage(10) * mult if mult is not None else None
         d20 = normal_damage(20) * mult if mult is not None else None
-        print(f"  {m['module']:24} {m['damage_tier'] or '-':8} {fmt(cd):>8} {fmt(d10):>7} {fmt(d20):>7} {fmt(budget):>7} {fmt(ratio):>6}  {flag}")
+        print(f"  {m['module']:24} {m['damage_tier'] or '-':8} {m.get('utility') or 'None':8} {fmt(cd):>8} {fmt(d10):>7} {fmt(d20):>7} {fmt(budget):>7} {fmt(ratio):>6}  {flag}")
 
     print("\n== Prices ==")
     for purchase, missions, cur, price in prices():
@@ -165,7 +165,7 @@ def xlsx(path):
         return f'VLOOKUP("{name}",Constants!$A:$B,2,FALSE)'
 
     ms = wb.create_sheet("Modules")
-    head = ["module", "category", "stat", "damage_tier", "cooldown_s", "resource", "cost",
+    head = ["module", "category", "stat", "damage_tier", "cooldown_s", "resource", "cost", "utility",
             "cooldown used", "damage x", "damage @10", "damage @20", "budget x", "ratio"]
     ms.append(head)
     for cell in ms[1]:
@@ -174,22 +174,25 @@ def xlsx(path):
     for i, m in enumerate(mods, start=2):
         ms.append([m["module"], m["category"], m["stat"], m["damage_tier"],
                    float(m["cooldown_s"]) if m["cooldown_s"] else None, m["resource"],
-                   float(m["cost"]) if m["cost"] else None])
-        ms[f"H{i}"] = f'=IF(E{i}<>"",E{i},IF(G{i}<>"",G{i}*{const("resource_seconds_per_point")},""))'
-        ms[f"I{i}"] = f'=IF(D{i}="","",VLOOKUP("damage."&D{i},Constants!$A:$B,2,FALSE))'
-        ms[f"J{i}"] = f'=IF(I{i}="","",({const("normal_damage_base")}+{const("normal_damage_per_stat")}*10)*I{i})'
-        ms[f"K{i}"] = f'=IF(I{i}="","",({const("normal_damage_base")}+{const("normal_damage_per_stat")}*20)*I{i})'
-        ms[f"L{i}"] = f'=IF(H{i}="","",H{i}/{const("kick_cooldown")})'
-        ms[f"M{i}"] = f'=IF(OR(I{i}="",L{i}=""),"",I{i}/L{i})'
+                   float(m["cost"]) if m["cost"] else None, m.get("utility") or "None"])
+        ms[f"I{i}"] = f'=IF(E{i}<>"",E{i},IF(G{i}<>"",G{i}*{const("resource_seconds_per_point")},""))'
+        ms[f"J{i}"] = f'=IF(D{i}="","",VLOOKUP("damage."&D{i},Constants!$A:$B,2,FALSE))'
+        ms[f"K{i}"] = f'=IF(J{i}="","",({const("normal_damage_base")}+{const("normal_damage_per_stat")}*10)*J{i})'
+        ms[f"L{i}"] = f'=IF(J{i}="","",({const("normal_damage_base")}+{const("normal_damage_per_stat")}*20)*J{i})'
+        ms[f"M{i}"] = f'=IF(I{i}="","",I{i}/{const("kick_cooldown")}*VLOOKUP("utility."&H{i},Constants!$A:$B,2,FALSE))'
+        ms[f"N{i}"] = f'=IF(OR(J{i}="",M{i}=""),"",J{i}/M{i})'
     last = len(mods) + 1
     tiers = ",".join(n.split(".", 1)[1] for n in C if n.startswith("damage."))
     dv = DataValidation(type="list", formula1=f'"{tiers}"', allow_blank=True)
     ms.add_data_validation(dv)
     dv.add(f"D2:D{last}")
+    uv = DataValidation(type="list", formula1='"None,Some,Strong"', allow_blank=True)
+    ms.add_data_validation(uv)
+    uv.add(f"H2:H{last}")
     red = PatternFill(start_color="FFC7CE", end_color="FFC7CE", fill_type="solid")
     ms.conditional_formatting.add(
-        f"A2:M{last}",
-        FormulaRule(formula=[f'AND($M2<>"",OR($M2>{FLAG_HIGH},$M2<{FLAG_LOW}))'], fill=red))
+        f"A2:N{last}",
+        FormulaRule(formula=[f'AND($N2<>"",OR($N2>{FLAG_HIGH},$N2<{FLAG_LOW}))'], fill=red))
 
     ps = wb.create_sheet("Prices")
     ps.append(["purchase", "missions", "currency", "price"])

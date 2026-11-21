@@ -49,3 +49,6 @@ tier,range.Melee,2,Meters
 tier,range.Short,8,
 tier,range.Medium,15,
 tier,range.Long,30,
+tier,utility.None,1,Damage budget multiplier: modules with more utility get less damage
+tier,utility.Some,0.5,
+tier,utility.Strong,0.25,

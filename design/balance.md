@@ -54,12 +54,13 @@ Modules use these words; each word means a standard value, set in `data/constant
 | Knockback | Light, Normal, Heavy, Huge |
 | Cooldown | Spammable, Short, Medium, Long, Ultimate |
 | Range | Melee, Short, Medium, Long |
+| Utility (damage budget multiplier) | None, Some, Strong |
 
 ## 5. Power budget
 - **Longer cooldown or bigger cost, stronger effect.** Base rule: a damage module's damage = Normal damage x (cooldown / `kick_cooldown`). Kick is the 1x reference.
 - The check script flags a module as OVER or UNDER budget when its damage is more than 1.5x or less than 0.5x its budget.
 - A resource cost counts as that many seconds of cooldown (section 1).
-- Utility (crowd control, mobility, healing) trades against damage: a module with strong utility gets a lower damage tier for the same cooldown.
+- Utility (crowd control, mobility, healing) trades against damage: each module has a Utility tier that shrinks its damage budget.
 
 ## 6. Progression targets
 How strong the player should be at each rank, against the enemies there. Enemy figures are for a goon.
