@@ -8,7 +8,7 @@ To do after the first playtests. Each arc gets its own file in `StoryArcs/`, fro
 - **Story Arc (Hexbound Coven):** "The Forbidden Stacks", Vex tries to seize Blazithion's library and its sealed books.
 - **Story Arc (Infinity Anarchous):** "Chad's Block Party", Chad throws a party that gets wildly out of hand.
 - **Story Arc (Technomafia):** "Protection Racket", shaking down Blazithion's shops district by district.
-- **Story Arc (Zenthium (neutral)):** "The Breach", a permanent Fissure opens in Blazithion. Ties into Zenny's origin and Prism's backstory.
+- **Story Arc (Zenthium):** "The Breach", a permanent Fissure opens in Blazithion. Ties into Zenny's origin and Prism's backstory.
 - **Story Arc (Zombies):** "Patient Zero", the first outbreak at Blazithion General, ending with Dr. Edd's reveal.
 
 ## Ideas
