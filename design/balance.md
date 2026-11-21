@@ -58,6 +58,7 @@ Modules use these words; each word means a standard value, set in `data/constant
 
 ## 5. Power budget
 - **Longer cooldown or bigger cost, stronger effect.** Base rule: a damage module's damage = Normal damage x (cooldown / `kick_cooldown`). Kick is the 1x reference.
+- **Knockback is fixed per tier** and never scales with stats, so distances stay small enough to avoid physics tunneling.
 - The check script flags a module as OVER or UNDER budget when its damage is more than 1.5x or less than 0.5x its budget.
 - A resource cost counts as that many seconds of cooldown (section 1).
 - Utility (crowd control, mobility, healing) trades against damage: each module has a Utility tier that shrinks its damage budget.
@@ -77,7 +78,8 @@ How strong the player should be at each rank, against the enemies there. Enemy f
 - Target: a hero's two key stats are about twice a same-rank goon's.
 
 ## 7. Economy in missions of work
-Prices are set in how many missions' worth of rewards they cost, then converted to Zenny using the first-pass income per mission (`economy` rows in `data/constants.csv`). The prices themselves live in `data/prices.csv`. Each mission type shifts the income mix (`economy.md`).
+Prices are set in how many missions' worth of rewards they cost, then converted to Zenny using the first-pass income per mission (`economy` rows in `data/constants.csv`). The prices themselves live in `data/prices.csv`. Each mission type shifts the income mix with multipliers in `data/constants.csv`: Rescue leans Basic, Countdown leans Gem, Invasion leans Metallic, Arson Riot is even.
+- **Stat points get pricier:** each point already bought in a stat raises that stat's next price by `stat_price_increase_per_point` of the base price (added, per hero).
 
 ## 8. Benchmarks
 Scenarios to sanity-check the numbers. If one feels wrong, fix the anchor or the formula, not one module.
@@ -98,6 +100,4 @@ Scenarios to sanity-check the numbers. If one feels wrong, fix the anchor or the
 | `../tools/balance.py` | `report` prints the calculated numbers and flags; `xlsx` writes a spreadsheet view to `build/` (not committed) |
 
 ## Open
-- Income mix per mission type (`economy.md`).
-- Do stat point prices rise as stats grow, or stay flat?
-- Knockback scaling with stats.
+- (none)

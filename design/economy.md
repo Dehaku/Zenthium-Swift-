@@ -11,7 +11,7 @@
 | Gem | Uncommon | Crimson Ruby, Sapphire, Amethyst, Diamond | Modules: buying and upgrading (Zen Garden, Research Lab). Higher tiers cost more |
 | Metallic | Rare | Gold, Silver | Slot unlocks and hero unlocks. Also cosmetics, melting down, and mission tips and intel reveals (`hq.md`) |
 
-- Each mission type rewards its own mix of families.
+- Each mission type rewards its own mix of families (`balance.md`).
 - Zenny is awarded on the end-of-mission screen (`hud.md`). Bigger rewards show as bigger crystals, since Zenny melds with its own kind.
 
 ### Metallic sinks

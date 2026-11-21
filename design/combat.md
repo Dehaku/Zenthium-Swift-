@@ -22,7 +22,7 @@ Every hit deals at least 5% of its original damage.
 Damage over time (DoT) ignores both Armor and Damage Reduction, so it stays dangerous.
 
 ## Knockback
-- Strength comes from the module (Kick scales with Strength).
+- Distance comes from the module's knockback tier, fixed and never scaled by stats (`balance.md`).
 - Knockback resistance is yes or no. It comes from modules with the `KnockbackResistant` tag.
 - Entities knocked into a wall deal heavy damage to it (`world.md`).
 

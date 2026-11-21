@@ -42,7 +42,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 
 | Module | Category | Owner | Tags | Mechanics |
 |---|---|---|---|---|
-| Kick | Base action | All heroes | `Melee` | Normal damage and knockback, scaling with Strength. The reference module (`balance.md`) |
+| Kick | Base action | All heroes | `Melee` | Normal damage, scaling with Strength, and Normal knockback. The reference module (`balance.md`) |
 | Drag | Base action | All heroes, Grey, Strongman | | Grab a target and pull it behind you. Checks for citizens first, then Valuables (the player picks these up instantly; `world.md`), then Incapacitated (0 HP) enemies, then props (Strength limits in `world.md`). Carry capacity grows with Strength. You can fight while dragging and aren't slowed, except by Stubborn citizens (`missions.md`). Dragged targets can't be hurt |
 | Sprint | Base action | All heroes | | Toggle. Faster movement, no stamina cost. Enemies and civilians don't sprint |
 | Uppercut | Active | Hero | `Melee` | Like Kick, with Huge knockback. Costs Stamina |
