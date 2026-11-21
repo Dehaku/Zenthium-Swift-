@@ -23,7 +23,7 @@
 - Every module takes 1 slot.
 - Gear can have actives, passives or both. Gear actives have their own buttons (`controls.md`).
 - Magic modules and items generally use Intelligence and Will; each module decides how.
-- **Module tags (examples):** `Melee`, `Ranged`, `Time`, `Buff`, `Debuff`, `Summon`, `Resist:<Stat>`, `KnockbackResistant`, `CannotBeDisabled`, `Telegraph`, `Ignites`, `Extinguish` (`world.md`). Shared tags let modules change secondary stats without hard-coded pairings.
+- **Module tags (examples):** `Melee`, `Ranged`, `Time`, `Buff`, `Debuff`, `Summon`, `Resist:<Stat>`, `KnockbackResistant`, `CannotBeDisabled`, `Telegraph`, `Ignites`, `Extinguish` (`world.md`), `NoRegen:<Resource>` (`combat.md`). Shared tags let modules change secondary stats without hard-coded pairings.
 - **Entity tags** go on entities, not modules: `Hackable`, `Coward` (`enemies.md`), `LootDestination:<place>` (`world.md`). See `factions.md`.
 - **Triggers (examples):** always-on, on hit, on damage taken, on Defiance proc, on timer, on activation, on approach.
 - **Presentation:** every module needs an icon, a visual flash, a sound cue and optional comic callout text ("POW!").
@@ -55,7 +55,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Soulful | Passive | Hero | `CannotBeDisabled` | +50% spell damage, 150 Mana, +5 Mana/s |
 | High-Capacity Battery | Passive | Hero | `CannotBeDisabled` | 200 Charge, +5 Charge/s |
 | Quick-Charge Battery | Passive | Hero | `CannotBeDisabled` | 50 Charge, +20 Charge/s |
-| Reaper Battery | Passive | Hero | `CannotBeDisabled` | 100 Charge, no regen. Defeating an enemy refills it to full |
+| Reaper Battery | Passive | Hero | `CannotBeDisabled`, `NoRegen:Charge` | 100 Charge, no regen. Defeating an enemy refills it to full |
 | Sprinter | Passive | Hero | | 100 Stamina, +10 Stamina/s regen. Doubles Sprint's bonus to +100% move speed. Sprinting never costs Stamina; Stamina is spent by other modules |
 | Weather the Storm | Passive | Hero | | When hit, spends 5 Stamina (if you have it) for no knockback and 25% less damage from that hit |
 | Charming | Passive | Hero | | On approach: 50% chance to turn a Stubborn citizen Scared, 5% chance to convert a goon to your side. A converted goon hands you its Valuables. Each target rolls once; a hidden Charmed debuff marks it |

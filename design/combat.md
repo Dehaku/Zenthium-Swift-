@@ -35,6 +35,8 @@ Buffs, debuffs, crowd control and resists are in `statuses.md`.
 - Every module that spends a resource also grants just enough of it to be used once, plus +1 regen per second. Grants from several modules add to the same pool.
 - Passive resource modules, such as Soulful, the Battery modules and Sprinter, add extra reserves and regen on top (`modules.md`).
 - So any entity, hero or enemy, can always use the modules it has, and modules don't need balancing against each other.
+- The +1 regen works as a baseline cooldown on big costs (Uppercut's 50 Stamina takes 50 s). Resource passives shorten it.
+- A module with `NoRegen:<Resource>` stops that resource regenerating at all, including the +1 (`modules.md`).
 - Modules can use a cooldown, a resource, or both.
 
 ## Open
