@@ -20,10 +20,11 @@
   - Red line between a hero and a named champion: "captured, rudely".
 
 ## Missions tab
-- A map with missions at random points.
+- A map with missions at random points. Up to 6 missions at once; while there are fewer, a new one appears every 5 s.
+- A normal mission's rank is picked at random, evenly, from the ranks the player has unlocked (`difficulty.md`).
 - Missions fade in and out in real time. Each stays on the map for 60 s, so one can disappear before you pick it. Mission timers pause while the player is in a mission.
 - Each mission shows its faction, difficulty, rewards, whether a Leader is present, and its Hazards (mission modifiers, `difficulty.md`).
-- Any of these can be hidden ("We couldn't gather this intel."). The chance depends on rank (`difficulty.md`). Hidden intel gives a reward bonus.
+- Any of these can be hidden ("We couldn't gather this intel."). The chance depends on rank (`difficulty.md`). Each hidden field gives +10% rewards (`economy.md`).
 - **Reveal intel:** spend Metallic Zenny to reveal a mission's hidden intel. The mission keeps its bonus.
 - **Call in a tip:** a mission creator (below).
 
@@ -31,10 +32,8 @@
 - Opens a menu of mission fields. Any field left untouched is random.
 - Fields: mission type, faction, location, difficulty, map size (`maps.md`), Leader present ("Most Wanted"), secondary goal, hazards. Setting hazards costs one field, however many modifiers you add.
 - Cost (rough): 10 Metallic Zenny for the custom mission, plus 10 per field set.
-- A tip mission stays on the map longer before fading out.
+- A tip mission stays on the map 10x longer than a normal one (600 s), like a Story Arc stage.
 - It arrives with all intel revealed, so it never gets the hidden-intel bonus.
 
 ## Open
-- Mission generation: what rank is a normal mission, how many missions are on the map at once, and how often new ones appear?
-- How long a tip mission stays on the map.
-- How big the hidden-intel reward bonus is.
+- (none)
