@@ -1,7 +1,7 @@
 # Balance Foundation
 
 The shared formulas, anchors and standard values that every number is measured against. First pass; expect tuning.
-The final numbers will live in a spreadsheet with formulas, so changing an anchor updates everything that depends on it. This file holds the rules.
+Numbers live in plain-text CSV files in `data/`, their only home. A check script reads them, applies the formulas here, and reports the real numbers with over- and under-budget flags. On request, it can also generate a spreadsheet view for exploring; that view is never where numbers are stored. This file holds the rules.
 
 ## 1. Core formulas
 | Value | Formula | Examples |
@@ -94,6 +94,6 @@ Scenarios to sanity-check the numbers. If one feels wrong, fix the anchor or the
 - A Recruit just after Headhunted (rank S2), with starter modules only.
 
 ## Open
-- Build the numbers spreadsheet from these formulas and tiers.
+- Build the CSV files and the check script.
 - Knockback scaling with stats.
 - Income mix per mission type.
