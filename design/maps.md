@@ -17,14 +17,30 @@
 - Every mission takes place in the city of Blazithion (`lore.md`).
 - The HQ mission map shows Blazithion's real districts (`hq.md`). Each mission's map is built from its district's blocks.
 
-## Districts
-| District | Blocks include |
-|---|---|
-| Downtown | Banks, stores, clubs, hospitals, museums, libraries |
-| Industrial | Labs, armories, warehouses |
-| Residential | Houses, small shops, antique shops, mansions (such as a collector's vault), parks (trees, benches, ponds) |
+## Locations
+The master list. Location Weight (`factions.md`), arc stages (`story.md`) and the mission creator (`hq.md`) all use these names.
 
-- A mission's location decides its district.
+| Location | District | Notes |
+|---|---|---|
+| Bank | Downtown | Vault with 20-40 Valuables (`world.md`) |
+| Store | Downtown | 5-10 Valuables |
+| Club | Downtown | |
+| Hospital | Downtown | |
+| Museum | Downtown | |
+| Library | Downtown | |
+| Records office | Downtown | |
+| SWIFT Tower | Downtown | Unique. Story Arcs only |
+| Lab | Industrial | |
+| Armory | Industrial | |
+| Warehouse | Industrial | |
+| House | Residential | |
+| Apartment building | Residential | |
+| Small shop | Residential | |
+| Antique shop | Residential | |
+| Mansion | Residential | Such as a collector's vault |
+| Park | Residential | Trees, benches, ponds |
+
+- A mission's location decides its district. Each district's blocks are built from its locations.
 
 ## Sockets
 - Designers place sockets on blocks and buildings.
@@ -36,4 +52,3 @@
 - Implementation note: if the game is built in Unity, there's already a fog of war asset for this.
 
 ## Open
-- One master list of location names, for Location Weight and arc stages. It needs apartment buildings, a records office and SWIFT Tower (from Hostile Takeover).
