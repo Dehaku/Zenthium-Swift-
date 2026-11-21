@@ -17,7 +17,7 @@ Size Shift,Active,,,30,,,Strong,,,,,duration_s=8; strength_bonus=1.0,,Slower whi
 Sonic Scream,Active,Will,Normal,15,,,Strong,,Medium,Heavy,Short,,,Cone. Shatters Glass and Wood
 Adaptive Skin,Passive,,,,,,,Medium,,,,damage_reduction=0.3,,
 Mirror Skin,Passive,,,,,,,,,,,reflect=0.2,,Ranged damage only
-Super Lucky,Passive,,,,,,,,,,,luck_multiplier=10,,Aims for ~10x better outcomes (luck.md)
+Super Lucky,Passive,,,,,,,,,,,,,Effect TBD
 Deathly Rage,Passive,,,,,,,,,,,strength_x=3; toughness_x=3; defiance_chance_bonus=1.0,,
 Soulful,Passive,,,,,,,,,,,spell_damage=0.5; mana=150; mana_regen=5,,
 High-Capacity Battery,Passive,,,,,,,,,,,charge=200; charge_regen=5,,

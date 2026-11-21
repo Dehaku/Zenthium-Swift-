@@ -14,7 +14,7 @@ Buffs, debuffs, hidden markers and states. Module durations and amounts live wit
 ## Resists
 - Every module that applies a debuff has a `Resist:<Stat>` tag naming the stat that resists it.
 - A successful resist ignores the debuff entirely.
-- Resist chance = defender's resist stat ÷ (defender's resist stat + attacker's stat). Equal stats give 50%. Luck modifies the roll (`luck.md`).
+- Resist chance = defender's resist stat ÷ (defender's resist stat + attacker's stat). Equal stats give 50%.
 - The attacker's stat is the one the applying module scales with. If it has none, use the attacker's value of the resist stat.
 
 ## Catalog

@@ -17,7 +17,6 @@ Upgradable and uncapped. Bought with Zenny in the HQ Training Room. Every entity
 
 ## Secondary stats
 Not directly upgradable. Modules change them through tags.
-- **Luck:** a modifier on every random roll the character makes. Base 100%, can go negative. Details in `luck.md`.
 - **Detectability:** how fast enemies notice the character (below).
 
 ## Detection

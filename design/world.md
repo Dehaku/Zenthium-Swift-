@@ -92,7 +92,7 @@ Generic money bags. They do nothing on their own and don't affect mission reward
 - **Carrying Treasure:** a debuff on every entity holding Valuables, the player included. -5% move speed per Valuable, capped at -50%.
 - A carrier shows a money bag icon under it, with the number held at the icon's bottom right. Hidden at 0. The icon grows 5% per Valuable, capped at +50%.
 - A carrier drops all its Valuables when defeated, with a "KA-CHING!" comic callout.
-- The player can press Kick to launch all their Valuables forward instead of kicking. Each bag is a projectile that deals a Kick's worth of damage. Bags fly like knocked-back entities, with a small random spread in distance and direction so they scatter. Luck doesn't affect the spread.
+- The player can press Kick to launch all their Valuables forward instead of kicking. Each bag is a projectile that deals a Kick's worth of damage. Bags fly like knocked-back entities, with a small random spread in distance and direction so they scatter.
 - Valuables don't take up Drag capacity.
 - Civilians drop theirs when Incapacitated, or while fleeing an enemy that came within their fear range (`missions.md`). Incapacitated citizens start with theirs already dropped beside them.
 

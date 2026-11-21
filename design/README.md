@@ -16,7 +16,6 @@ Status: design. No build plan yet.
 | `stats.md` | SWIFT stats, secondary stats, detection, Defiance |
 | `combat.md` | Damage, damage reduction, knockback, friendly fire, resources |
 | `statuses.md` | Status rules, resists, status catalog |
-| `luck.md` | Luck config: every roll it affects |
 | `time.md` | Timescale and time powers |
 | `modules.md` | Module schema, tags, module info, full module catalog |
 | `difficulty.md` | Difficulty ranks, per-rank scaling, mission modifiers |
