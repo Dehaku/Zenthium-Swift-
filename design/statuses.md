@@ -23,7 +23,7 @@ Buffs, debuffs, hidden markers and states. Module durations and amounts live wit
 | Stun | Crowd control | Can't move, attack or use powers. Can still be knocked back. Carriers keep their Valuables | Refresh | Spectrum Bolt, Smoke Bomb, Megaphone |
 | Root | Crowd control | Can't move, but can attack and use powers. Can still be knocked back | Refresh | Glyph Trap |
 | Taunted | Crowd control | Must target the taunter | Refresh | Taunt |
-| Hypnotized | Crowd control | Fights on the side of whoever hypnotized it | Refresh | Hypnotic Gaze |
+| Hypnotized | Crowd control | Fights on the side of whoever hypnotized it. Leaders take half-length, like other crowd control | Refresh | Hypnotic Gaze |
 | Engulfed | Crowd control | Grabbed and held | Refresh | Engulf |
 | Marked | Debuff | Deals less damage, and takes more damage from all sources | Refresh | Taunt, Final Notice |
 | Burn | DoT | Fire damage over time. Lasts 10x longer on props | Independent | Fire Spell Tome, Spectrum Bolt, Hoop of Fire, Fire Ring, burning buildings, exploding vehicles (`world.md`) |
