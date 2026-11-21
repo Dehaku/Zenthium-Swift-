@@ -20,7 +20,7 @@
 ## Districts
 | District | Blocks include |
 |---|---|
-| Downtown | Banks, stores, clubs, hospitals, museums |
+| Downtown | Banks, stores, clubs, hospitals, museums, libraries |
 | Industrial | Labs, armories, warehouses |
 | Residential | Houses, small shops, antique shops, mansions (such as a collector's vault), parks (trees, benches, ponds) |
 

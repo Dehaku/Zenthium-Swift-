@@ -125,7 +125,7 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Call for Backup | Active | GleebPeep | `Summon` | 30 s cooldown. Summons 3-5 goons and 2 Champions, using the faction's arrival tag (`enemies.md`) |
 | Audit | Active | Auditor | | Reveals the player to every enemy within 30 m, making them aware at once |
 | Notarized | Passive | Notary | `Buff` | Allies within 10 m get +25% Damage Reduction |
-| Tow Beam | Active | Tow Saucer, Drone Courier | | Grabs a prop, citizen or Valuable from range and flies it to the entity's loot destination (`world.md`) |
+| Tow Beam | Active | Tow Saucer, Drone Courier, Familiar | | Grabs a prop, citizen or Valuable from range and flies it to the entity's loot destination (`world.md`) |
 | Reprogram | Active | Hacker | `Resist:Intelligence` | Takes over a target with the `Hackable` tag, such as a Heavy Turret, which then fights for the Hacker's side. Any entity with Reprogram uses it first on a Hackable target in view |
 | Heavy Gun | Active | Heavy Turret | `Ranged` | Ranged attack |
 | Slot Disable | Passive | Hacker | `Debuff`, `Resist:Intelligence` | On hit: disables a random gear slot for 5 s. Hits from the Hacker's turrets don't count |
@@ -149,8 +149,16 @@ Defiance is a core Will rule, not a module (`stats.md`). Faction entities are de
 | Spotlight | Active | The Ringmaster | `Buff` | A spotlight with a 20 m radius, centered on him. Circus entities inside get +50% to all stats |
 | Cannonball Launch | Active | Human Cannonball | `Melee`, `Telegraph` | Launches at a target for huge knockback |
 | Cream Pie | Active | Clown | `Ranged`, `Debuff`, `Resist:Will` | Thrown pie. On hit, applies "Pied": smears part of the player's screen, fading out over 3 s. Pies stack, so many can cover the screen quickly (`statuses.md`) |
-| Summon Imps | Active | Summoner | `Summon` | Summons imp entities |
-| Fire Wand | Active | Acolyte | `Ranged`, `Ignites` | Magic fire attack |
+| Summon Imps | Active | Summoner | `Summon` | Summons Imps: small melee entities with Imp Claw |
+| Fire Wand | Active | Acolyte, Pyromancer | `Ranged`, `Ignites` | Magic fire attack |
+| Shush! | Active | Vex | `Debuff`, `Resist:Will` | "SHHH!" Heroes nearby are Silenced: all their active power slots stop working for a few seconds (`statuses.md`) |
+| Book Barrage | Active | Vex | `Ranged`, `Telegraph` | Flying books: a ranged Magic attack |
+| Late Fee | Active | Vex | | Pulls Valuables off the player and onto Vex |
+| Portal Step | Active | Vex | `Telegraph` | When badly hurt: a portal opens under her with a clear 1 s windup, then she steps through to a random socket. Makes it obvious she escaped, not died |
+| Hex Bolt | Active | Hexer, Summoner, Archivist | `Ranged` | A basic ranged Magic attack |
+| Imp Claw | Active | Imp | `Melee` | A small melee attack |
+| Fire Ring | Active | Pyromancer | `Debuff`, `Resist:Toughness`, `Ignites` | A ring of fire around the target area: applies Burn and lights buildings |
+| Reanimate | Active | Archivist | | Brings one Incapacitated Coven entity back to its feet. Once per target |
 
 ## Open
 - How tiers and upgrades relate: is upgrading a module the same as buying its next tier?

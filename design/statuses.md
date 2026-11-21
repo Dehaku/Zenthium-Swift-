@@ -32,6 +32,7 @@ Buffs, debuffs, hidden markers and states. Module durations and amounts live wit
 | Carrying Treasure | Slow | See `world.md` | Intensity (per Valuable) | Valuables |
 | Slot Disable | Disable | A random gear slot stops working | Independent: each hit disables another slot | Slot Disable, Repossess |
 | Hex | Disable | A random active power slot stops working | Independent: each hit disables another slot | Hex |
+| Silenced | Disable | All active power slots stop working | Refresh | Shush! |
 | Numbing Toxin | Disable | A random passive power slot stops working | Independent: each hit disables another slot | Numbing Toxin |
 | Pied | Screen effect (player only) | Smears part of the screen, fading out over its duration | Intensity (each pie adds a smear) | Cream Pie |
 | Deathly Rage | Buff | Triples Strength and Toughness | Doesn't stack | Deathly Rage |
